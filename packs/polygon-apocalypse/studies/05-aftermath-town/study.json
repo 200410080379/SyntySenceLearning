@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "05-aftermath-town",
+  "title": "从真实节点学习末日小城的区域搭建",
+  "date": "2026-09-14",
+  "pack": "polygon-apocalypse",
+  "status": "reproduced-and-reloaded/art-study",
+  "map": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/L_AftermathTown",
+  "layout": "Data/Layout.json",
+  "decals": "Data/Decals.json",
+  "cameras": "Data/Cameras.json",
+  "dependencies": "Data/Dependencies.json",
+  "historical_evidence": "Data/ReproductionValidation.json",
+  "reproduction_evidence": "Data/ReproductionValidation.json",
+  "evidence_relationship": "Both evidence fields reference the same final report covering the saved-and-reloaded primary map and an independent full build from an empty map. Instance validation completed with zero errors; this does not establish shipping readiness.",
+  "readme": "README.md",
+  "scripts": {
+    "dependencies": "Scripts/prepare_dependencies.py",
+    "materials": "Scripts/setup_materials.py",
+    "build": "Scripts/build_town.py",
+    "verify": "Scripts/verify_town.py",
+    "view": "Scripts/set_view.py",
+    "collision": "Scripts/check_routes.py"
+  },
+  "requires_source_demo_for_build": false,
+  "requires_studies": [],
+  "learning_references": [
+    "03-expanded-neighborhood",
+    "04-building-placement"
+  ],
+  "build_mode": "create-independent-map-from-final-authored-layout",
+  "expected_mesh_instances": 5053,
+  "expected_unique_meshes": 214,
+  "expected_decal_instances": 184,
+  "expected_cameras": 11,
+  "expected_main_buildings": 13,
+  "expected_canopies": 2,
+  "expected_existing_ground_instances": 1280,
+  "core_surface_size_m": [
+    200,
+    160
+  ],
+  "scope": "Scene art study with independent reference-based layout, node-derived local assemblies, reclaimed ground, weathering and exterior woodland. Commercial art quality is a goal; shipping readiness is not established.",
+  "routes": "Data/Routes.json"
+}

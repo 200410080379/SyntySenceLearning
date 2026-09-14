@@ -1,0 +1,994 @@
+{
+  "method": "Read actor/component hierarchy, transforms, material overrides, mesh geometry and projection volumes; screenshot validation follows.",
+  "apocalypse_demo": {
+    "static_mesh_components": 7218,
+    "unique_meshes": 951
+  },
+  "woodland_demo": {
+    "actors": 5697,
+    "class_counts": {
+      "PlayerStart": 1,
+      "StaticMeshActor": 5618,
+      "LightmassImportanceVolume": 1,
+      "ExponentialHeightFog": 1,
+      "SkyAtmosphere": 1,
+      "BP_Sky_Sphere_C": 1,
+      "SkyLight": 1,
+      "PostProcessVolume": 1,
+      "DirectionalLight": 1,
+      "BP_Water_Lake_C": 2,
+      "NiagaraActor": 19,
+      "DecalActor": 49,
+      "Landscape": 1
+    },
+    "mesh_instances": 5412,
+    "unique_meshes": 547,
+    "missing_mesh_components": 209,
+    "decal_components": 51
+  },
+  "diner_source_anchor": {
+    "node": "SM_Bld_Diner_01 (1)_GEN_VARIABLE",
+    "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_01.SM_Bld_Diner_01",
+    "location": [
+      0.4648666666680583,
+      43.43666857142859,
+      -192.3493180952381
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 180.0,
+      "roll": -0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "axis_compatibility_audit": {
+    "basis": "Nearest same-name positions of14 table/seat nodes in existing NW_Diner BuildingLayout.json",
+    "yaw_candidates": [
+      {
+        "shared_root_offset_rotation_degrees": 0,
+        "landmark_count": 14,
+        "nearest_same_mesh_position_error_median_cm": 27.913896199156298,
+        "maximum_cm": 27.91460823072606,
+        "mean_cm": 19.18495581878488
+      },
+      {
+        "shared_root_offset_rotation_degrees": 90,
+        "landmark_count": 14,
+        "nearest_same_mesh_position_error_median_cm": 464.7935297928262,
+        "maximum_cm": 979.6242181461515,
+        "mean_cm": 486.4418165739858
+      },
+      {
+        "shared_root_offset_rotation_degrees": 180,
+        "landmark_count": 14,
+        "nearest_same_mesh_position_error_median_cm": 664.8236120659303,
+        "maximum_cm": 1225.647206706073,
+        "mean_cm": 637.1965986735462
+      },
+      {
+        "shared_root_offset_rotation_degrees": 270,
+        "landmark_count": 14,
+        "nearest_same_mesh_position_error_median_cm": 502.8100233593434,
+        "maximum_cm": 792.3971307938282,
+        "mean_cm": 466.7517869479722
+      }
+    ],
+    "vegetation_pivot_footprint_check": [
+      {
+        "mapping": "nominal_body_rotation_mapping",
+        "vegetation_pivots_within_current_body_xy_bounds": 6,
+        "total_vegetation": 9,
+        "limitation": "Pivot-only XY test; does not prove foliage geometry intersection or roof surface contact."
+      },
+      {
+        "mapping": "registered_layout_candidate_transform",
+        "vegetation_pivots_within_current_body_xy_bounds": 9,
+        "total_vegetation": 9,
+        "limitation": "Pivot-only XY test; does not prove foliage geometry intersection or roof surface contact."
+      }
+    ]
+  },
+  "selected_roof_nodes": [
+    {
+      "source_node": "SM_Env_Moss_Lumps_02 (18)_GEN_VARIABLE",
+      "class": "StaticMeshComponent",
+      "source_root_relative_transform": {
+        "location": [
+          -603.0351333333319,
+          -54.66333142857141,
+          178.8506819047619
+        ],
+        "rotation": {
+          "pitch": -0.0,
+          "yaw": -125.02080499999994,
+          "roll": 0.0
+        },
+        "scale": [
+          1.3624,
+          1.3624,
+          1.3624
+        ]
+      },
+      "source_body_relative_transform": {
+        "location": [
+          603.5,
+          98.1,
+          371.2
+        ],
+        "rotation": {
+          "pitch": -0.0,
+          "yaw": 54.97919500000006,
+          "roll": 0.0
+        },
+        "scale": [
+          1.3624,
+          1.3624,
+          1.3624
+        ]
+      },
+      "surface_layer": "roof",
+      "selected_for_exterior_pass": true,
+      "registered_layout_candidate_transform": {
+        "location": [
+          -7053.5,
+          5001.9,
+          371.2
+        ],
+        "rotation": {
+          "pitch": -0.0,
+          "yaw": -125.02080499999994,
+          "roll": 0.0
+        },
+        "scale": [
+          1.3624,
+          1.3624,
+          1.3624
+        ]
+      },
+      "candidate_requires_viewport_verification": true,
+      "mesh": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Models/Environment/SM_Env_Moss_Lumps_02.SM_Env_Moss_Lumps_02",
+      "name": "SM_Env_Moss_Lumps_02",
+      "materials": [
+        "/Game/Synty/PolygonMapsWoodlandApocalypse/Materials/MI_Green_Moss_Rock_01_Triplanar.MI_Green_Moss_Rock_01_Triplanar"
+      ],
+      "role": "moss_mass"
+    },
+    {
+      "source_node": "SM_Env_Moss_Lumps_01 (22)_GEN_VARIABLE",
+      "class": "StaticMeshComponent",
+      "source_root_relative_transform": {
+        "location": [
+          -407.580133333332,
+          178.9196685714286,
+          177.8506819047619
+        ],
+        "rotation": {
+          "pitch": -0.0,
+          "yaw": -3.8738220000000183,
+          "roll": 0.0
+        },
+        "scale": [
+          1.4968,
+          1.4968,
+          0.9383
+        ]
+      },
+      "source_body_relative_transform": {
+        "location": [
+          408.045,
+          -135.483,
+          370.2
+        ],
+        "rotation": {
+          "pitch": -0.0,
+          "yaw": 176.12617799999998,
+          "roll": 0.0
+        },
+        "scale": [
+          1.4968,
+          1.4968,
+          0.9383
+        ]
+      },
+      "surface_layer": "roof",
+      "selected_for_exterior_pass": true,
+      "registered_layout_candidate_transform": {
+        "location": [
+          -6858.045,
+          5235.483,
+          370.2
+        ],
+        "rotation": {
+          "pitch": -0.0,
+          "yaw": -3.8738220000000183,
+          "roll": 0.0
+        },
+        "scale": [
+          1.4968,
+          1.4968,
+          0.9383
+        ]
+      },
+      "candidate_requires_viewport_verification": true,
+      "mesh": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Models/Environment/SM_Env_Moss_Lumps_01.SM_Env_Moss_Lumps_01",
+      "name": "SM_Env_Moss_Lumps_01",
+      "materials": [
+        "/Game/Synty/PolygonMapsWoodlandApocalypse/Materials/MI_Green_Moss_Rock_01_Triplanar.MI_Green_Moss_Rock_01_Triplanar"
+      ],
+      "role": "moss_mass"
+    },
+    {
+      "source_node": "SM_Env_GroundCover_01 (44)_GEN_VARIABLE",
+      "class": "StaticMeshComponent",
+      "source_root_relative_transform": {
+        "location": [
+          243.46486666666806,
+          -200.06333142857142,
+          217.5506819047619
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 10.396379999999997,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "source_body_relative_transform": {
+        "location": [
+          -243.0,
+          243.5,
+          409.9
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": -169.60362,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "surface_layer": "roof",
+      "selected_for_exterior_pass": true,
+      "registered_layout_candidate_transform": {
+        "location": [
+          -6207.0,
+          4856.5,
+          409.9
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 10.396379999999994,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "candidate_requires_viewport_verification": true,
+      "mesh": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Models/Environment/SM_Env_GroundCover_01.SM_Env_GroundCover_01",
+      "name": "SM_Env_GroundCover_01",
+      "materials": [
+        "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Materials/Plants/MI_Alpine_GroundCover_01.MI_Alpine_GroundCover_01"
+      ],
+      "role": "groundcover_on_roof"
+    },
+    {
+      "source_node": "SM_Env_Bush_02_Alt (101)_GEN_VARIABLE",
+      "class": "StaticMeshComponent",
+      "source_root_relative_transform": {
+        "location": [
+          -339.1351333333323,
+          108.53666857142858,
+          259.55068190476186
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 111.95293200000002,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "source_body_relative_transform": {
+        "location": [
+          339.6,
+          -65.1,
+          451.9
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": -68.04706799999998,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "surface_layer": "roof",
+      "selected_for_exterior_pass": true,
+      "registered_layout_candidate_transform": {
+        "location": [
+          -6789.6,
+          5165.1,
+          451.9
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 111.95293200000003,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "candidate_requires_viewport_verification": true,
+      "mesh": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Models/Environment/SM_Env_Bush_02_Alt.SM_Env_Bush_02_Alt",
+      "name": "SM_Env_Bush_02_Alt",
+      "materials": [
+        "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Materials/Plants/MI_Alpine_Bush_02.MI_Alpine_Bush_02"
+      ],
+      "role": "roof_shrub"
+    },
+    {
+      "source_node": "SM_Env_GroundCover_01 (43)_GEN_VARIABLE",
+      "class": "StaticMeshComponent",
+      "source_root_relative_transform": {
+        "location": [
+          447.26486666666824,
+          -142.96343142857143,
+          218.1506819047619
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.998897,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "source_body_relative_transform": {
+        "location": [
+          -446.8,
+          186.4001,
+          410.5
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": -90.001103,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "surface_layer": "roof",
+      "selected_for_exterior_pass": true,
+      "registered_layout_candidate_transform": {
+        "location": [
+          -6003.2,
+          4913.5999,
+          410.5
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.998897,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "candidate_requires_viewport_verification": true,
+      "mesh": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Models/Environment/SM_Env_GroundCover_01.SM_Env_GroundCover_01",
+      "name": "SM_Env_GroundCover_01",
+      "materials": [
+        "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Materials/Plants/MI_Alpine_GroundCover_01.MI_Alpine_GroundCover_01"
+      ],
+      "role": "groundcover_on_roof"
+    },
+    {
+      "source_node": "SM_Env_GroundCover_03 (183)_GEN_VARIABLE",
+      "class": "StaticMeshComponent",
+      "source_root_relative_transform": {
+        "location": [
+          206.96486666666806,
+          229.53666857142858,
+          220.3506819047619
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 179.66768800000003,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "source_body_relative_transform": {
+        "location": [
+          -206.5,
+          -186.1,
+          412.7
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": -0.3323119999999733,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "surface_layer": "roof",
+      "selected_for_exterior_pass": true,
+      "registered_layout_candidate_transform": {
+        "location": [
+          -6243.5,
+          5286.1,
+          412.7
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 179.667688,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "candidate_requires_viewport_verification": true,
+      "mesh": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Models/Environment/SM_Env_GroundCover_03.SM_Env_GroundCover_03",
+      "name": "SM_Env_GroundCover_03",
+      "materials": [
+        "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Materials/Plants/MI_Alpine_GroundCover_01.MI_Alpine_GroundCover_01"
+      ],
+      "role": "groundcover_on_roof"
+    },
+    {
+      "source_node": "SM_Env_GroundCover_03 (184)_GEN_VARIABLE",
+      "class": "StaticMeshComponent",
+      "source_root_relative_transform": {
+        "location": [
+          503.8638666666684,
+          159.53656857142857,
+          220.3506819047619
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 127.19441399999995,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "source_body_relative_transform": {
+        "location": [
+          -503.399,
+          -116.0999,
+          412.7
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": -52.80558600000005,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "surface_layer": "roof",
+      "selected_for_exterior_pass": true,
+      "registered_layout_candidate_transform": {
+        "location": [
+          -5946.601,
+          5216.0999,
+          412.7
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 127.19441399999994,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "candidate_requires_viewport_verification": true,
+      "mesh": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Models/Environment/SM_Env_GroundCover_03.SM_Env_GroundCover_03",
+      "name": "SM_Env_GroundCover_03",
+      "materials": [
+        "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Materials/Plants/MI_Alpine_GroundCover_01.MI_Alpine_GroundCover_01"
+      ],
+      "role": "groundcover_on_roof"
+    },
+    {
+      "source_node": "SM_Env_Moss_Lumps_01 (21)_GEN_VARIABLE",
+      "class": "StaticMeshComponent",
+      "source_root_relative_transform": {
+        "location": [
+          431.46486666666806,
+          171.3365685714286,
+          193.75068190476193
+        ],
+        "rotation": {
+          "pitch": -0.0,
+          "yaw": -32.137882999999995,
+          "roll": 0.0
+        },
+        "scale": [
+          1.3513,
+          1.3513,
+          0.9432
+        ]
+      },
+      "source_body_relative_transform": {
+        "location": [
+          -431.0,
+          -127.8999,
+          386.1
+        ],
+        "rotation": {
+          "pitch": -0.0,
+          "yaw": 147.862117,
+          "roll": 0.0
+        },
+        "scale": [
+          1.3513,
+          1.3513,
+          0.9432
+        ]
+      },
+      "surface_layer": "roof",
+      "selected_for_exterior_pass": true,
+      "registered_layout_candidate_transform": {
+        "location": [
+          -6019.0,
+          5227.8999,
+          386.1
+        ],
+        "rotation": {
+          "pitch": -0.0,
+          "yaw": -32.13788299999999,
+          "roll": 0.0
+        },
+        "scale": [
+          1.3513,
+          1.3513,
+          0.9432
+        ]
+      },
+      "candidate_requires_viewport_verification": true,
+      "mesh": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Models/Environment/SM_Env_Moss_Lumps_01.SM_Env_Moss_Lumps_01",
+      "name": "SM_Env_Moss_Lumps_01",
+      "materials": [
+        "/Game/Synty/PolygonMapsWoodlandApocalypse/Materials/MI_Green_Moss_Rock_01_Triplanar.MI_Green_Moss_Rock_01_Triplanar"
+      ],
+      "role": "moss_mass"
+    },
+    {
+      "source_node": "SM_Env_Bush_02 (198)_GEN_VARIABLE",
+      "class": "StaticMeshComponent",
+      "source_root_relative_transform": {
+        "location": [
+          -625.6351333333323,
+          -33.96333142857141,
+          252.9357819047619
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 35.25301200000003,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "source_body_relative_transform": {
+        "location": [
+          626.1,
+          77.4,
+          445.2851
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": -144.746988,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "surface_layer": "roof",
+      "selected_for_exterior_pass": true,
+      "registered_layout_candidate_transform": {
+        "location": [
+          -7076.1,
+          5022.6,
+          445.2851
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 35.25301200000001,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "candidate_requires_viewport_verification": true,
+      "mesh": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Models/Environment/SM_Env_Bush_02.SM_Env_Bush_02",
+      "name": "SM_Env_Bush_02",
+      "materials": [
+        "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Materials/Plants/MI_Alpine_Bush_02.MI_Alpine_Bush_02"
+      ],
+      "role": "roof_shrub"
+    },
+    {
+      "source_node": "Decal Projector (47)_NewDecalComponent_GEN_VARIABLE",
+      "class": "DecalComponent",
+      "source_root_relative_transform": {
+        "location": [
+          81.66486666666788,
+          -26.86323142857141,
+          218.75068190476193
+        ],
+        "rotation": {
+          "pitch": -90.0,
+          "yaw": 176.42366562500266,
+          "roll": -18.02170763873505
+        },
+        "scale": [
+          0.1,
+          1.0,
+          1.0
+        ]
+      },
+      "source_body_relative_transform": {
+        "location": [
+          -81.2,
+          70.2999,
+          411.1
+        ],
+        "rotation": {
+          "pitch": -90.0,
+          "yaw": -3.5763343749973444,
+          "roll": -18.02170763873505
+        },
+        "scale": [
+          0.1,
+          1.0,
+          1.0
+        ]
+      },
+      "surface_layer": "roof",
+      "selected_for_exterior_pass": true,
+      "registered_layout_candidate_transform": {
+        "location": [
+          -6368.8,
+          5029.7001,
+          411.1
+        ],
+        "rotation": {
+          "pitch": -90.0,
+          "yaw": 176.42366562500263,
+          "roll": -18.02170763873505
+        },
+        "scale": [
+          0.1,
+          1.0,
+          1.0
+        ]
+      },
+      "candidate_requires_viewport_verification": true,
+      "decal_material": "/Game/Synty/PolygonMapsWoodlandApocalypse/Materials/Decals/MI_Decal_Aid_02.MI_Decal_Aid_02",
+      "decal_size": [
+        111.292792,
+        222.58558,
+        222.58558
+      ],
+      "scaled_box_half_extents_cm": [
+        11.129279,
+        222.58558,
+        222.58558
+      ],
+      "scaled_box_full_dimensions_cm": [
+        22.258558,
+        445.17116,
+        445.17116
+      ],
+      "projection_axis_plus_x_source": [
+        0,
+        0,
+        -1
+      ],
+      "role": "aid_marking"
+    },
+    {
+      "source_node": "Decal Projector (31)_NewDecalComponent_GEN_VARIABLE",
+      "class": "DecalComponent",
+      "source_root_relative_transform": {
+        "location": [
+          -83.53513333333194,
+          -132.7632314285714,
+          217.6506819047619
+        ],
+        "rotation": {
+          "pitch": -90.0,
+          "yaw": 145.1886280084535,
+          "roll": -146.11492075847332
+        },
+        "scale": [
+          0.1,
+          1.0,
+          1.0
+        ]
+      },
+      "source_body_relative_transform": {
+        "location": [
+          84.0,
+          176.1999,
+          410.0
+        ],
+        "rotation": {
+          "pitch": -90.0,
+          "yaw": -34.81137199154651,
+          "roll": -146.11492075847332
+        },
+        "scale": [
+          0.1,
+          1.0,
+          1.0
+        ]
+      },
+      "surface_layer": "roof",
+      "selected_for_exterior_pass": true,
+      "registered_layout_candidate_transform": {
+        "location": [
+          -6534.0,
+          4923.8001,
+          410.0
+        ],
+        "rotation": {
+          "pitch": -90.0,
+          "yaw": 145.18862800845352,
+          "roll": -146.11492075847332
+        },
+        "scale": [
+          0.1,
+          1.0,
+          1.0
+        ]
+      },
+      "candidate_requires_viewport_verification": true,
+      "decal_material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_03.Generic_Decal_Grunge_03",
+      "decal_size": [
+        128.0,
+        256.0,
+        256.0
+      ],
+      "scaled_box_half_extents_cm": [
+        12.8,
+        256.0,
+        256.0
+      ],
+      "scaled_box_full_dimensions_cm": [
+        25.6,
+        512.0,
+        512.0
+      ],
+      "projection_axis_plus_x_source": [
+        0,
+        0,
+        -1
+      ],
+      "role": "grunge"
+    },
+    {
+      "source_node": "Decal Projector (30)_NewDecalComponent_GEN_VARIABLE",
+      "class": "DecalComponent",
+      "source_root_relative_transform": {
+        "location": [
+          636.4648666666681,
+          286.4366685714286,
+          217.6506819047619
+        ],
+        "rotation": {
+          "pitch": -90.0,
+          "yaw": 0.0,
+          "roll": -78.824625951852
+        },
+        "scale": [
+          0.1,
+          1.0,
+          1.0
+        ]
+      },
+      "source_body_relative_transform": {
+        "location": [
+          -636.0,
+          -243.0,
+          410.0
+        ],
+        "rotation": {
+          "pitch": -90.0,
+          "yaw": -180.0,
+          "roll": -78.824625951852
+        },
+        "scale": [
+          0.1,
+          1.0,
+          1.0
+        ]
+      },
+      "surface_layer": "roof",
+      "selected_for_exterior_pass": true,
+      "registered_layout_candidate_transform": {
+        "location": [
+          -5814.0,
+          5343.0,
+          410.0
+        ],
+        "rotation": {
+          "pitch": -90.0,
+          "yaw": 0.0,
+          "roll": -78.824625951852
+        },
+        "scale": [
+          0.1,
+          1.0,
+          1.0
+        ]
+      },
+      "candidate_requires_viewport_verification": true,
+      "decal_material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_04.Generic_Decal_Grunge_04",
+      "decal_size": [
+        128.0,
+        256.0,
+        256.0
+      ],
+      "scaled_box_half_extents_cm": [
+        12.8,
+        256.0,
+        256.0
+      ],
+      "scaled_box_full_dimensions_cm": [
+        25.6,
+        512.0,
+        512.0
+      ],
+      "projection_axis_plus_x_source": [
+        0,
+        0,
+        -1
+      ],
+      "role": "grunge"
+    },
+    {
+      "source_node": "Decal Projector (29)_NewDecalComponent_GEN_VARIABLE",
+      "class": "DecalComponent",
+      "source_root_relative_transform": {
+        "location": [
+          -392.3351333333321,
+          -102.06333142857142,
+          217.6506819047619
+        ],
+        "rotation": {
+          "pitch": -90.0,
+          "yaw": 90.0,
+          "roll": 150.82128962631583
+        },
+        "scale": [
+          0.1,
+          1.0,
+          1.0
+        ]
+      },
+      "source_body_relative_transform": {
+        "location": [
+          392.8,
+          145.5,
+          410.0
+        ],
+        "rotation": {
+          "pitch": -90.0,
+          "yaw": -90.0,
+          "roll": 150.82128962631583
+        },
+        "scale": [
+          0.1,
+          1.0,
+          1.0
+        ]
+      },
+      "surface_layer": "roof",
+      "selected_for_exterior_pass": true,
+      "registered_layout_candidate_transform": {
+        "location": [
+          -6842.8,
+          4954.5,
+          410.0
+        ],
+        "rotation": {
+          "pitch": -90.0,
+          "yaw": 90.0,
+          "roll": 150.82128962631583
+        },
+        "scale": [
+          0.1,
+          1.0,
+          1.0
+        ]
+      },
+      "candidate_requires_viewport_verification": true,
+      "decal_material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_04.Generic_Decal_Grunge_04",
+      "decal_size": [
+        128.0,
+        256.0,
+        256.0
+      ],
+      "scaled_box_half_extents_cm": [
+        12.8,
+        256.0,
+        256.0
+      ],
+      "scaled_box_full_dimensions_cm": [
+        25.6,
+        512.0,
+        512.0
+      ],
+      "projection_axis_plus_x_source": [
+        0,
+        0,
+        -1
+      ],
+      "role": "grunge"
+    }
+  ],
+  "limits": "Source Blueprint axes differ from the currently installed same-name meshes. The selected Diner positions were registered to furniture landmarks and checked on the installed roof. Whole source layouts and mesh geometry stay local."
+}

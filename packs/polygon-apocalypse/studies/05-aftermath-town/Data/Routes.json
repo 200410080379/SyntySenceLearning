@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "map": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/L_AftermathTown",
+  "scope": "Twelve route centre lines, each sampled on three parallel tracks. Vehicle-entrance routes test a human-size capsule across the entrance and its inner apron; this does not establish vehicle clearance or navigation.",
+  "configuration": {
+    "trace_channel_intent": "Visibility",
+    "trace_type_query": "TRACE_TYPE_QUERY1",
+    "draw_debug": "NONE",
+    "trace_complex_modes": [
+      false,
+      true
+    ],
+    "ground_ray_z_cm": [
+      200.0,
+      -300.0
+    ],
+    "ground_sample_step_cm": 250.0,
+    "capsule_segment_max_length_cm": 500.0,
+    "capsule_radius_cm": 35.0,
+    "capsule_half_height_cm": 88.0,
+    "capsule_center_z_cm": 100.0,
+    "track_lateral_offsets_cm": [
+      -150.0,
+      0.0,
+      150.0
+    ],
+    "ignore_self": false,
+    "actors_to_ignore": []
+  },
+  "ground_grid": {
+    "origin_xy_cm": [
+      -10000,
+      -8000
+    ],
+    "cell_size_cm": 500
+  },
+  "asset_sample_selection": {
+    "ground_tag": "CityGroundValidation",
+    "building_tag": "LearnedBuildingPlacement",
+    "building_body_mesh_names": [
+      "SM_Bld_AutoRepair_01",
+      "SM_Bld_Cafe_01",
+      "SM_Bld_Commercial_Medium_01",
+      "SM_Bld_Commercial_Small_01",
+      "SM_Bld_Diner_01",
+      "SM_Bld_Motel_01",
+      "SM_Bld_Shop_Large_02",
+      "SM_Bld_Shop_Small_01",
+      "SM_Bld_Shop_Small_02",
+      "SM_Prop_Gaspump_Cover_01"
+    ],
+    "vehicle_tag": "AftermathLayer_Stories",
+    "vehicle_name_contains": "Car_Wrecked",
+    "vehicle_name_excludes": [
+      "Overgrowth"
+    ],
+    "note": "Building component index 00 is not always the body: Diner index 00 is a door. Select body names within the building-tagged set instead."
+  },
+  "expected_query_counts": {
+    "ground_lines": 984,
+    "capsule_segments": 456,
+    "collision_asset_samples": 29,
+    "vehicle_entrances": 9
+  },
+  "routes": [
+    {
+      "name": "MainEastWest",
+      "kind": "main_corridor",
+      "start_xy": [
+        -8500.0,
+        -500.0
+      ],
+      "end_xy": [
+        8500.0,
+        -500.0
+      ]
+    },
+    {
+      "name": "NorthBranch",
+      "kind": "main_corridor",
+      "start_xy": [
+        -3000.0,
+        0.0
+      ],
+      "end_xy": [
+        -3000.0,
+        6500.0
+      ]
+    },
+    {
+      "name": "SouthBranch",
+      "kind": "main_corridor",
+      "start_xy": [
+        3000.0,
+        -6500.0
+      ],
+      "end_xy": [
+        3000.0,
+        -1000.0
+      ]
+    },
+    {
+      "name": "VehicleEntry_20_02",
+      "kind": "vehicle_entrance_human_capsule",
+      "cell": [
+        20,
+        2
+      ],
+      "start_xy": [
+        250,
+        -7250
+      ],
+      "end_xy": [
+        250,
+        -6250
+      ]
+    },
+    {
+      "name": "VehicleEntry_37_05",
+      "kind": "vehicle_entrance_human_capsule",
+      "cell": [
+        37,
+        5
+      ],
+      "start_xy": [
+        9250,
+        -5250
+      ],
+      "end_xy": [
+        8250,
+        -5250
+      ]
+    },
+    {
+      "name": "VehicleEntry_24_06",
+      "kind": "vehicle_entrance_human_capsule",
+      "cell": [
+        24,
+        6
+      ],
+      "start_xy": [
+        2750,
+        -4750
+      ],
+      "end_xy": [
+        1750,
+        -4750
+      ]
+    },
+    {
+      "name": "VehicleEntry_05_13",
+      "kind": "vehicle_entrance_human_capsule",
+      "cell": [
+        5,
+        13
+      ],
+      "start_xy": [
+        -7250,
+        -750
+      ],
+      "end_xy": [
+        -7250,
+        -1750
+      ]
+    },
+    {
+      "name": "VehicleEntry_08_13",
+      "kind": "vehicle_entrance_human_capsule",
+      "cell": [
+        8,
+        13
+      ],
+      "start_xy": [
+        -5750,
+        -750
+      ],
+      "end_xy": [
+        -5750,
+        -1750
+      ]
+    },
+    {
+      "name": "VehicleEntry_33_13",
+      "kind": "vehicle_entrance_human_capsule",
+      "cell": [
+        33,
+        13
+      ],
+      "start_xy": [
+        6750,
+        -750
+      ],
+      "end_xy": [
+        6750,
+        -1750
+      ]
+    },
+    {
+      "name": "VehicleEntry_06_16",
+      "kind": "vehicle_entrance_human_capsule",
+      "cell": [
+        6,
+        16
+      ],
+      "start_xy": [
+        -6750,
+        -250
+      ],
+      "end_xy": [
+        -6750,
+        750
+      ]
+    },
+    {
+      "name": "VehicleEntry_15_23",
+      "kind": "vehicle_entrance_human_capsule",
+      "cell": [
+        15,
+        23
+      ],
+      "start_xy": [
+        -2750,
+        3750
+      ],
+      "end_xy": [
+        -1750,
+        3750
+      ]
+    },
+    {
+      "name": "VehicleEntry_37_23",
+      "kind": "vehicle_entrance_human_capsule",
+      "cell": [
+        37,
+        23
+      ],
+      "start_xy": [
+        9250,
+        3750
+      ],
+      "end_xy": [
+        8250,
+        3750
+      ]
+    }
+  ]
+}

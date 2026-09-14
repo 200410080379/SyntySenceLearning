@@ -1,0 +1,638 @@
+{
+  "scope": "Read-only local authoring and mesh-triangle/bounding-box checks; no UE render, physics, navigation or full triangle-intersection verification.",
+  "input_geometry_sha256": "544ef0c4c2487f17af8fbc76ffd22212d74a5cc717dd2458bf3a701a8e302bd9",
+  "random_seed": 2026091467,
+  "regions": [
+    {
+      "id": "Diner/WestForecourtGarden",
+      "strip": [
+        -8890,
+        850,
+        -8070,
+        4160
+      ],
+      "x": -8480,
+      "anchors": [
+        [
+          -8480,
+          1350
+        ],
+        [
+          -8470,
+          2170
+        ],
+        [
+          -8450,
+          3000
+        ]
+      ],
+      "yspan": [
+        900,
+        4030
+      ],
+      "why": "Continuous disused planting margin along the outer diner parking edge; extends the existing west parking-tail growth without crossing the south driveway."
+    },
+    {
+      "id": "Motel/EastForecourtGarden",
+      "strip": [
+        7550,
+        550,
+        8530,
+        3280
+      ],
+      "x": 8080,
+      "anchors": [
+        [
+          8070,
+          1080
+        ],
+        [
+          8080,
+          1920
+        ],
+        [
+          8050,
+          2740
+        ]
+      ],
+      "yspan": [
+        660,
+        3220
+      ],
+      "why": "Former landscape margin behind the east motel parking row; joins the existing south-entry pocket and ends before the east vehicle entrance."
+    }
+  ],
+  "instances": 158,
+  "by_group": {
+    "Diner/WestForecourtGarden": 79,
+    "Motel/EastForecourtGarden": 79
+  },
+  "by_kind": {
+    "soil": 6,
+    "bush": 20,
+    "overgrowth": 24,
+    "grass": 84,
+    "leaves": 24
+  },
+  "new_mesh_dependencies": [],
+  "new_material_dependencies": [],
+  "access_tile_keepouts": 17,
+  "capsule_route_keepouts": 12,
+  "bounding_box_keepout_failures": [],
+  "support_triangle_samples": 790,
+  "soil_centerline_samples": [
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 1350,
+      "soil_z": 5.684345926122331,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 1400,
+      "soil_z": 10.37769990840246,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 1450,
+      "soil_z": 8.240238498702395,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 1500,
+      "soil_z": 7.808662582135058,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 1550,
+      "soil_z": 8.52583884594864,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 1600,
+      "soil_z": 7.557369937922617,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 1650,
+      "soil_z": 6.370004207440131,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 1700,
+      "soil_z": 4.47041032582184,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 1750,
+      "soil_z": 3.236404789414779,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 1800,
+      "soil_z": 6.16722223230745,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 1850,
+      "soil_z": 5.666200031835869,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 1900,
+      "soil_z": 5.670652378036484,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 1950,
+      "soil_z": 7.443223604845562,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 2000,
+      "soil_z": 8.138368521706399,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 2050,
+      "soil_z": 8.75587997581828,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 2100,
+      "soil_z": 8.884020319686384,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 2150,
+      "soil_z": 5.4218628701735145,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 2200,
+      "soil_z": 7.586670406635635,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 2250,
+      "soil_z": 9.307138862970417,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 2300,
+      "soil_z": 6.760887090964596,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 2350,
+      "soil_z": 7.796064785354405,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 2400,
+      "soil_z": 8.125816068508234,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 2450,
+      "soil_z": 7.403846098761777,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 2500,
+      "soil_z": 5.809966807880189,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 2550,
+      "soil_z": 4.309532001208936,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 2600,
+      "soil_z": 5.113629452339357,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 2650,
+      "soil_z": 6.734676574496449,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 2700,
+      "soil_z": 5.011824172684166,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 2750,
+      "soil_z": 5.997625116260304,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 2800,
+      "soil_z": 5.506338766392448,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 2850,
+      "soil_z": 7.028129919174345,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 2900,
+      "soil_z": 7.823126248214882,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 2950,
+      "soil_z": 7.562020076630235,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Diner/WestForecourtGarden",
+      "x": -8480,
+      "y": 3000,
+      "soil_z": 5.967722325523736,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 1080,
+      "soil_z": 5.589512421694115,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 1130,
+      "soil_z": 10.577462440630766,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 1180,
+      "soil_z": 9.144371826297407,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 1230,
+      "soil_z": 7.422568385968161,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 1280,
+      "soil_z": 8.694034271455694,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 1330,
+      "soil_z": 7.955349022894763,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 1380,
+      "soil_z": 7.123447799140452,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 1430,
+      "soil_z": 5.838326904562008,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 1480,
+      "soil_z": 4.0563017836800785,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 1530,
+      "soil_z": 5.080597391984043,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 1580,
+      "soil_z": 6.271616125531745,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 1630,
+      "soil_z": 4.880021276441358,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 1680,
+      "soil_z": 7.2386844576096525,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 1730,
+      "soil_z": 8.939443060256446,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 1780,
+      "soil_z": 9.098754548797599,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 1830,
+      "soil_z": 9.62161369290323,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 1880,
+      "soil_z": 5.967200694370158,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 1930,
+      "soil_z": 6.324242983991299,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 1980,
+      "soil_z": 10.778464428087338,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 2030,
+      "soil_z": 8.080347627447596,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 2080,
+      "soil_z": 7.750802846551339,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 2130,
+      "soil_z": 8.647354497847905,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 2180,
+      "soil_z": 7.73305192867892,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 2230,
+      "soil_z": 6.897033556655343,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 2280,
+      "soil_z": 5.0789391523978455,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 2330,
+      "soil_z": 4.986903864371714,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 2380,
+      "soil_z": 7.527525591701133,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 2430,
+      "soil_z": 5.7137165438994995,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 2480,
+      "soil_z": 4.968757427279941,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 2530,
+      "soil_z": 7.129305658304537,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 2580,
+      "soil_z": 10.656731075901773,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 2630,
+      "soil_z": 10.388461394742945,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 2680,
+      "soil_z": 6.903785368029853,
+      "ground_z": 0.0,
+      "exposed": true
+    },
+    {
+      "group": "Motel/EastForecourtGarden",
+      "x": 8080,
+      "y": 2730,
+      "soil_z": 5.173055849027371,
+      "ground_z": 0.0,
+      "exposed": true
+    }
+  ],
+  "soil_centerline_exposed_samples": 68,
+  "limitations": [
+    "Existing authored vegetation may overlap the new botanical layer intentionally.",
+    "Soil pieces overlap only within planted margins; top-surface continuity and visual intersections still need UE inspection.",
+    "Plant pivot offsets preserve the existing source-study conventions; support is sampled from actual ground and soil LOD0 triangles."
+  ],
+  "authored_layer_sha256": "fce6d97236f4da6c1457e3535c1de46428b337cb6cb6307100bfa95a8f49e817",
+  "final_layout_sha256": "c7e183197c5c9e4d608170912807f2b4e639abc1a8f78a15419222518900e288",
+  "directional_surface_decals": 12
+}

@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "source_assets_included": false,
+  "copy_roots": [
+    {
+      "source_pack": "apocalypse",
+      "source_relative": "PolygonApocalypse",
+      "target_relative": "PolygonApocalypse"
+    },
+    {
+      "source_pack": "woodland",
+      "source_relative": "Synty/PolygonGeneric",
+      "target_relative": "Synty/PolygonGeneric"
+    },
+    {
+      "source_pack": "woodland",
+      "source_relative": "Synty/PolygonMapsWoodlandApocalypse",
+      "target_relative": "Synty/PolygonMapsWoodlandApocalypse"
+    },
+    {
+      "source_pack": "alpine",
+      "source_relative": "Biomes",
+      "target_relative": "Biomes"
+    }
+  ],
+  "aliases": [
+    {
+      "source_pack": "alpine",
+      "source_relative": "Biomes/PNB_Alpine_Mountain/Materials/Plants/MI_Alpine_Bush_02.uasset",
+      "target_relative": "Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Materials/Plants/MI_Alpine_Bush_02.uasset",
+      "reason": "Exact matching source asset at the referenced mount; geometry compatibility separately inspected."
+    },
+    {
+      "source_pack": "alpine",
+      "source_relative": "Biomes/PNB_Alpine_Mountain/Materials/Plants/MI_Alpine_GroundCover_01.uasset",
+      "target_relative": "Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Materials/Plants/MI_Alpine_GroundCover_01.uasset",
+      "reason": "Exact matching source asset at the referenced mount; geometry compatibility separately inspected."
+    },
+    {
+      "source_pack": "alpine",
+      "source_relative": "Biomes/PNB_Alpine_Mountain/Models/Environment/SM_Env_Bush_02.uasset",
+      "target_relative": "Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Models/Environment/SM_Env_Bush_02.uasset",
+      "reason": "Exact matching source asset at the referenced mount; geometry compatibility separately inspected."
+    },
+    {
+      "source_pack": "alpine",
+      "source_relative": "Biomes/PNB_Alpine_Mountain/Models/Environment/SM_Env_Bush_02_Alt.uasset",
+      "target_relative": "Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Models/Environment/SM_Env_Bush_02_Alt.uasset",
+      "reason": "Exact matching source asset at the referenced mount; geometry compatibility separately inspected."
+    },
+    {
+      "source_pack": "alpine",
+      "source_relative": "Biomes/PNB_Alpine_Mountain/Models/Environment/SM_Env_GroundCover_01.uasset",
+      "target_relative": "Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Models/Environment/SM_Env_GroundCover_01.uasset",
+      "reason": "Exact matching source asset at the referenced mount; geometry compatibility separately inspected."
+    },
+    {
+      "source_pack": "alpine",
+      "source_relative": "Biomes/PNB_Alpine_Mountain/Models/Environment/SM_Env_GroundCover_03.uasset",
+      "target_relative": "Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Models/Environment/SM_Env_GroundCover_03.uasset",
+      "reason": "Exact matching source asset at the referenced mount; geometry compatibility separately inspected."
+    },
+    {
+      "source_pack": "alpine",
+      "source_relative": "Biomes/PNB_Alpine_Mountain/Models/Environment/SM_Env_Moss_Lumps_01.uasset",
+      "target_relative": "Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Models/Environment/SM_Env_Moss_Lumps_01.uasset",
+      "reason": "Exact matching source asset at the referenced mount; geometry compatibility separately inspected."
+    },
+    {
+      "source_pack": "alpine",
+      "source_relative": "Biomes/PNB_Alpine_Mountain/Models/Environment/SM_Env_Moss_Lumps_02.uasset",
+      "target_relative": "Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Models/Environment/SM_Env_Moss_Lumps_02.uasset",
+      "reason": "Exact matching source asset at the referenced mount; geometry compatibility separately inspected."
+    },
+    {
+      "source_pack": "alpine",
+      "source_relative": "Biomes/PNB_Alpine_Mountain/Textures/T_Moss_Normals_01.uasset",
+      "target_relative": "Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_Moss_Normals_01.uasset",
+      "reason": "Exact matching source asset at the referenced mount; geometry compatibility separately inspected."
+    },
+    {
+      "source_pack": "alpine",
+      "source_relative": "Biomes/PNB_Alpine_Mountain/Textures/T_Rock_Alpine_Light.uasset",
+      "target_relative": "Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_Rock_Alpine_Light.uasset",
+      "reason": "Exact matching source asset at the referenced mount; geometry compatibility separately inspected."
+    },
+    {
+      "source_pack": "alpine",
+      "source_relative": "Biomes/PNB_Alpine_Mountain/Textures/T_Rock_Normals_01.uasset",
+      "target_relative": "Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_Rock_Normals_01.uasset",
+      "reason": "Exact matching source asset at the referenced mount; geometry compatibility separately inspected."
+    }
+  ],
+  "tested_versions": {
+    "apocalypse": "1.20.0 UE5.3 label",
+    "woodland": "1.0.0 UE5.3 label",
+    "alpine": "1.0.1 UE4.25 label",
+    "editor": "5.8.2"
+  },
+  "scope": "Required for the authored town, not a complete reconstruction of the mismatched Woodland Demo. Asset licenses remain those of the source packs."
+}

@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "validated_at_utc": "2026-09-14T15:54:56.987112+00:00",
+  "engine": "5.8.2-56702186+++UE5+Release-5.8",
+  "instance_validation": {
+    "map": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/L_AftermathTown",
+    "engine": "5.8.2-56702186+++UE5+Release-5.8",
+    "layout_sha256": "c7e183197c5c9e4d608170912807f2b4e639abc1a8f78a15419222518900e288",
+    "decals_sha256": "122a786a0e1c7b0394157c76a2f634e98cc9f92ecb71d5194bed7251c3d67840",
+    "cameras_sha256": "5eaadb0fdcb59f2aa30d109c3ac82e084905c03dfef4c7c5fe6d958094878b15",
+    "expected": {
+      "mesh_instances": 5053,
+      "decals": 184,
+      "cameras": 11
+    },
+    "actual": {
+      "mesh_instances": 5053,
+      "decals": 184,
+      "cameras": 11
+    },
+    "unique_meshes": 214,
+    "errors": [],
+    "scope": "Actor identity, mesh/material references, transforms, folders, tags, collision profiles, decal bounds and camera FOV. This is not mesh contact, collision geometry, navigation or target-platform performance certification."
+  },
+  "fresh_map_reproduction": {
+    "method": "Created an empty independent map using Scripts/build_town.py and the final portable Layout/Decals/Cameras; no source Demo duplication. Then switched maps and reloaded the saved reproduction.",
+    "after_build": {
+      "map": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/ReproductionDelivery/L_AftermathTown",
+      "engine": "5.8.2-56702186+++UE5+Release-5.8",
+      "layout_sha256": "c7e183197c5c9e4d608170912807f2b4e639abc1a8f78a15419222518900e288",
+      "decals_sha256": "122a786a0e1c7b0394157c76a2f634e98cc9f92ecb71d5194bed7251c3d67840",
+      "cameras_sha256": "5eaadb0fdcb59f2aa30d109c3ac82e084905c03dfef4c7c5fe6d958094878b15",
+      "expected": {
+        "mesh_instances": 5053,
+        "decals": 184,
+        "cameras": 11
+      },
+      "actual": {
+        "mesh_instances": 5053,
+        "decals": 184,
+        "cameras": 11
+      },
+      "unique_meshes": 214,
+      "errors": [],
+      "scope": "Actor identity, mesh/material references, transforms, folders, tags, collision profiles, decal bounds and camera FOV. This is not mesh contact, collision geometry, navigation or target-platform performance certification."
+    },
+    "after_reload": {
+      "map": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/ReproductionDelivery/L_AftermathTown",
+      "engine": "5.8.2-56702186+++UE5+Release-5.8",
+      "layout_sha256": "c7e183197c5c9e4d608170912807f2b4e639abc1a8f78a15419222518900e288",
+      "decals_sha256": "122a786a0e1c7b0394157c76a2f634e98cc9f92ecb71d5194bed7251c3d67840",
+      "cameras_sha256": "5eaadb0fdcb59f2aa30d109c3ac82e084905c03dfef4c7c5fe6d958094878b15",
+      "expected": {
+        "mesh_instances": 5053,
+        "decals": 184,
+        "cameras": 11
+      },
+      "actual": {
+        "mesh_instances": 5053,
+        "decals": 184,
+        "cameras": 11
+      },
+      "unique_meshes": 214,
+      "errors": [],
+      "scope": "Actor identity, mesh/material references, transforms, folders, tags, collision profiles, decal bounds and camera FOV. This is not mesh contact, collision geometry, navigation or target-platform performance certification."
+    },
+    "same_project_with_source_assets_installed": true,
+    "clean_machine_reproduction_tested": false
+  },
+  "dependency_preparation": {
+    "command": "Scripts/prepare_dependencies.py with explicit project and three locally owned Content paths",
+    "copied_files": 0,
+    "identical_existing_files": 4497,
+    "source_files_modified": 0,
+    "exit_code": 0
+  },
+  "source_integrity_evidence": "Data/SourcePackageIntegrity.json",
+  "collision_evidence": "Data/CollisionValidation.json",
+  "visual_views": [
+    {
+      "camera": "01_Overview",
+      "file": "Screenshots/AftermathTown_01_Overview.png",
+      "sha256": "90fabe4f3bf4c57bfe3aa656ef4a410bd7eb23f3b4747073ef9ca780d2dc456a",
+      "source": "actual UE editor viewport",
+      "width": 1642,
+      "height": 737
+    },
+    {
+      "camera": "02_GasStation",
+      "file": "Screenshots/AftermathTown_02_GasStation.png",
+      "sha256": "3b171dab842769817098768f1a5d10458186e5603cded972b2e79d8ce56fa826",
+      "source": "actual UE editor viewport",
+      "width": 1642,
+      "height": 737
+    },
+    {
+      "camera": "03_Diner",
+      "file": "Screenshots/AftermathTown_03_Diner.png",
+      "sha256": "07a41bf0b1940bc6c3ada3e654a98b45f7ed5bca7949b3aae2970e83ed203ca7",
+      "source": "actual UE editor viewport",
+      "width": 1642,
+      "height": 737
+    },
+    {
+      "camera": "04_Motel",
+      "file": "Screenshots/AftermathTown_04_Motel.png",
+      "sha256": "a4dd02d2a03a5f145c1f6fb0718a23b58aa853bf5c740885ea3c205a421300d1",
+      "source": "actual UE editor viewport",
+      "width": 1642,
+      "height": 737
+    },
+    {
+      "camera": "05_Repair",
+      "file": "Screenshots/AftermathTown_05_Repair.png",
+      "sha256": "558949aa230562fc44e62025828ce86483080af6f8b5d30bee7de95702b0a534",
+      "source": "actual UE editor viewport",
+      "width": 1642,
+      "height": 737
+    },
+    {
+      "camera": "06_Shops",
+      "file": "Screenshots/AftermathTown_06_Shops.png",
+      "sha256": "b43c851533cae4c7abb30b674bfca13ebd845b3167f459579ad0ccde8f15f68b",
+      "source": "actual UE editor viewport",
+      "width": 1642,
+      "height": 737
+    },
+    {
+      "camera": "07_GasConnection",
+      "file": "Screenshots/AftermathTown_07_GasConnection.png",
+      "sha256": "a65929de16a96997f8152a67aa3ffb3e0723f64d060d801e1a75d181bbf5bf57",
+      "source": "actual UE editor viewport",
+      "width": 1642,
+      "height": 737
+    },
+    {
+      "camera": "08_DinerConnection",
+      "file": "Screenshots/AftermathTown_08_DinerConnection.png",
+      "sha256": "990d1184c36ee0a53860ea91ce4aec1f55b704b0b3d918f62fd790eb8d08bf84",
+      "source": "actual UE editor viewport",
+      "width": 1642,
+      "height": 737
+    },
+    {
+      "camera": "09_EastBoundary",
+      "file": "Screenshots/AftermathTown_09_EastBoundary.png",
+      "sha256": "fd707c63a6c89a0ec517f3c066b7cf975fb61bc29f6946c4c8c2abbda5d979d7",
+      "source": "actual UE editor viewport",
+      "width": 1642,
+      "height": 737
+    },
+    {
+      "camera": "10_DinerReclamation",
+      "file": "Screenshots/AftermathTown_10_DinerReclamation.png",
+      "sha256": "a72de24b1477b658978e5cfd8c52022c6372f17dd9a1b94986d911e5ba81c4d7",
+      "source": "actual UE editor viewport",
+      "width": 1642,
+      "height": 737
+    },
+    {
+      "camera": "11_MotelReclamation",
+      "file": "Screenshots/AftermathTown_11_MotelReclamation.png",
+      "sha256": "754e5eed86e21a87b18836d00f84249e431e631fa81424ec4ce8708cfa30aaff",
+      "source": "actual UE editor viewport",
+      "width": 1642,
+      "height": 737
+    }
+  ],
+  "visual_scope": "Eleven actual viewport captures reviewed for regions, supporting surfaces, exterior transition and the two final reclaimed parking margins. Art-study review does not establish commercial sign-off.",
+  "corrections": [
+    {
+      "issue": "Two repair-yard wooden fences obstructed VehicleEntry_37_05 capsule sweeps.",
+      "resolution": "Moved Stories_0150/0151 to the south return; final repeated sweeps are recorded separately."
+    },
+    {
+      "issue": "Six rooftop decorative leaf components differed in collision profile after level reload.",
+      "resolution": "Explicit per-component NoCollision persisted and was verified after saving and reloading. Source mesh collision assets were not edited."
+    }
+  ],
+  "not_verified": [
+    "Target-hardware frame-time/FPS budget; no usable profiling capture was produced.",
+    "Packaged build and full game integration.",
+    "Navigation, character/vehicle traversal and interactable gameplay.",
+    "Full-vertex contact for every dressing instance."
+  ],
+  "raw_source_exports_included": false
+}

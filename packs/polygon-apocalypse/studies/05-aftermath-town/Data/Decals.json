@@ -1,0 +1,4786 @@
+[
+  {
+    "id": "FinalWear_000",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -6450.0,
+      4360.0,
+      40.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      65.0,
+      280.0,
+      990.0
+    ],
+    "folder": "04_SurfaceWeathering/Diner/FrontFootTraffic",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "FinalWear_001",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Moss.MI_Surface_Moss",
+    "location": [
+      -7420.0,
+      5160.0,
+      40.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      65.0,
+      875.0,
+      225.0
+    ],
+    "folder": "04_SurfaceWeathering/Diner/WestWall",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "FinalWear_002",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -4330.0,
+      4090.0,
+      40.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      65.0,
+      260.0,
+      440.0
+    ],
+    "folder": "04_SurfaceWeathering/Diner/CafeEntry",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "FinalWear_003",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      0.0,
+      5140.0,
+      40.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      65.0,
+      335.0,
+      1150.0
+    ],
+    "folder": "04_SurfaceWeathering/Motel/WestGallery",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "FinalWear_004",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      2950.0,
+      5140.0,
+      40.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      65.0,
+      380.0,
+      1225.0
+    ],
+    "folder": "04_SurfaceWeathering/Motel/MiddleGallery",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "FinalWear_005",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Moss.MI_Surface_Moss",
+    "location": [
+      6060.0,
+      5130.0,
+      40.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      65.0,
+      310.0,
+      975.0
+    ],
+    "folder": "04_SurfaceWeathering/Motel/EastGallery",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "FinalWear_006",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      2930.0,
+      1700.0,
+      40.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      65.0,
+      250.0,
+      800.0
+    ],
+    "folder": "04_SurfaceWeathering/Motel/ReceptionEntrance",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "FinalWear_007",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      5520.0,
+      -3650.0,
+      40.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      65.0,
+      875.0,
+      280.0
+    ],
+    "folder": "04_SurfaceWeathering/Repair/WorkshopApproach",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "FinalWear_008",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      7860.0,
+      -4920.0,
+      40.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      65.0,
+      750.0,
+      370.0
+    ],
+    "folder": "04_SurfaceWeathering/Repair/ServiceYard",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "FinalWear_009",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -5750.0,
+      -4800.0,
+      40.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      65.0,
+      325.0,
+      925.0
+    ],
+    "folder": "04_SurfaceWeathering/Gas/ShopFrontage",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "FinalWear_010",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -2350.0,
+      -1980.0,
+      40.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      65.0,
+      240.0,
+      520.0
+    ],
+    "folder": "04_SurfaceWeathering/Shops/WestFrontage",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "FinalWear_011",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -1010.0,
+      -1980.0,
+      40.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      65.0,
+      230.0,
+      495.0
+    ],
+    "folder": "04_SurfaceWeathering/Shops/EastFrontage",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_000",
+    "material": "/Game/Synty/PolygonMapsWoodlandApocalypse/Materials/Decals/MI_Decal_Aid_02.MI_Decal_Aid_02",
+    "location": [
+      -6368.8,
+      5029.7001,
+      411.1
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 158.40195274353027,
+      "roll": 0.0
+    },
+    "scale": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "size": [
+      111.292792,
+      222.58558,
+      222.58558
+    ],
+    "folder": "04_SurfaceWeathering/Diner/StudiedRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_001",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_03.Generic_Decal_Grunge_03",
+    "location": [
+      -6534.0,
+      4923.8001,
+      410.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -0.9262847900390625,
+      "roll": 0.0
+    },
+    "scale": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "size": [
+      128.0,
+      256.0,
+      256.0
+    ],
+    "folder": "04_SurfaceWeathering/Diner/StudiedRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_002",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_04.Generic_Decal_Grunge_04",
+    "location": [
+      -5814.0,
+      5343.0,
+      410.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -78.82462310791016,
+      "roll": 0.0
+    },
+    "scale": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "size": [
+      128.0,
+      256.0,
+      256.0
+    ],
+    "folder": "04_SurfaceWeathering/Diner/StudiedRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_003",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_04.Generic_Decal_Grunge_04",
+    "location": [
+      -6842.8,
+      4954.5,
+      410.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -119.1787109375,
+      "roll": 0.0
+    },
+    "scale": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "size": [
+      128.0,
+      256.0,
+      256.0
+    ],
+    "folder": "04_SurfaceWeathering/Diner/StudiedRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_004",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -5943.757783915394,
+      -6075.059785619232,
+      747.032470703125
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -174.5657958984375,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      330.0,
+      370.0
+    ],
+    "folder": "04_SurfaceWeathering/SW_GasShop/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_005",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -5689.2003048711595,
+      -5810.300599531294,
+      747.032470703125
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -13.05311107635498,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      330.0,
+      370.0
+    ],
+    "folder": "04_SurfaceWeathering/SW_GasShop/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_006",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -6085.412053405212,
+      -5521.686227369614,
+      747.032470703125
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -150.97352600097656,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      330.0,
+      370.0
+    ],
+    "folder": "04_SurfaceWeathering/SW_GasShop/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_007",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -5488.269277298423,
+      -3490.8996034407924,
+      489.0935974121094
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -55.836570739746094,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      210.32900390625,
+      334.53533935546875
+    ],
+    "folder": "04_SurfaceWeathering/SW_GasCanopy/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_008",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -5690.273592689372,
+      -3330.473110800449,
+      489.0935974121094
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 49.926002502441406,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      210.32900390625,
+      334.53533935546875
+    ],
+    "folder": "04_SurfaceWeathering/SW_GasCanopy/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_009",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -5486.43428407719,
+      -3319.328141850732,
+      489.0935974121093
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -39.58304214477539,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      210.32900390625,
+      334.53533935546875
+    ],
+    "folder": "04_SurfaceWeathering/SW_GasCanopy/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_010",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -1421.6896248183536,
+      -4823.726602532565,
+      1227.7414550781248
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 122.12882995605467,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      330.0,
+      370.0
+    ],
+    "folder": "04_SurfaceWeathering/SW_Commercial/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_011",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -2207.8274212244028,
+      -4829.493640314592,
+      1227.741455078125
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -80.6676025390625,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      330.0,
+      370.0
+    ],
+    "folder": "04_SurfaceWeathering/SW_Commercial/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_012",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -1145.8956071001442,
+      -4793.62641617308,
+      1227.741455078125
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -122.63426971435547,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      330.0,
+      370.0
+    ],
+    "folder": "04_SurfaceWeathering/SW_Commercial/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_013",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -2332.3500812976736,
+      -2675.8979069673605,
+      778.4669799804688
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 73.28503417968746,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      265.71434326171874,
+      187.06378173828125
+    ],
+    "folder": "04_SurfaceWeathering/SW_FrontShopA/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_014",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -2372.524671647005,
+      -2463.834564345692,
+      778.4669799804689
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -20.11780548095703,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      265.71434326171874,
+      187.06378173828125
+    ],
+    "folder": "04_SurfaceWeathering/SW_FrontShopA/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_015",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -2402.14728472119,
+      -2436.8710791909593,
+      778.4669799804688
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 107.43862152099614,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      265.71434326171874,
+      187.06378173828125
+    ],
+    "folder": "04_SurfaceWeathering/SW_FrontShopA/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_016",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -958.5834233519304,
+      -2502.3147286323347,
+      461.9736633300781
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -94.69969177246094,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      259.2335998535156,
+      187.06378173828125
+    ],
+    "folder": "04_SurfaceWeathering/SW_FrontShopB/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_017",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -991.5312045055612,
+      -2396.165649509845,
+      461.9736633300781
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 166.45314025878906,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      259.2335998535156,
+      187.06378173828125
+    ],
+    "folder": "04_SurfaceWeathering/SW_FrontShopB/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_018",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -833.7461341545112,
+      -2537.9841848749215,
+      461.9736633300781
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 73.34442901611325,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      259.2335998535156,
+      187.06378173828125
+    ],
+    "folder": "04_SurfaceWeathering/SW_FrontShopB/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_019",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      788.894917150789,
+      -4716.54445038727,
+      778.4669799804688
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 48.69726562500001,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      265.71434326171874,
+      187.06378173828125
+    ],
+    "folder": "04_SurfaceWeathering/SW_CornerShop/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_020",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      651.8343214871279,
+      -4932.447805057977,
+      778.4669799804688
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 27.782257080078118,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      265.71434326171874,
+      187.06378173828125
+    ],
+    "folder": "04_SurfaceWeathering/SW_CornerShop/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_021",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      822.705707182903,
+      -4760.450980753587,
+      778.4669799804688
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 144.22903442382812,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      265.71434326171874,
+      187.06378173828125
+    ],
+    "folder": "04_SurfaceWeathering/SW_CornerShop/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_022",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -4407.139201133399,
+      4437.770869162852,
+      585.1363525390625
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -123.02092742919922,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      214.84070434570313,
+      145.0048828125
+    ],
+    "folder": "04_SurfaceWeathering/NW_Cafe/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_023",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -4434.455250020459,
+      4472.365388559457,
+      585.1363525390625
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -126.85760498046872,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      214.84070434570313,
+      145.0048828125
+    ],
+    "folder": "04_SurfaceWeathering/NW_Cafe/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_024",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -4303.698922523801,
+      4604.158978470352,
+      585.1363525390625
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 90.86038208007811,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      214.84070434570313,
+      145.0048828125
+    ],
+    "folder": "04_SurfaceWeathering/NW_Cafe/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_025",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -295.1128806049038,
+      6066.239339347402,
+      656.6285400390625
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -84.44232177734375,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      267.90688476562497,
+      370.0
+    ],
+    "folder": "04_SurfaceWeathering/NE_MotelWest/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_026",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      387.2600324066318,
+      6018.424011848038,
+      656.6285400390625
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -56.434478759765625,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      267.90688476562497,
+      370.0
+    ],
+    "folder": "04_SurfaceWeathering/NE_MotelWest/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_027",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      447.49245539908213,
+      5933.339262353828,
+      656.6285400390625
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -93.96180725097656,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      267.90688476562497,
+      370.0
+    ],
+    "folder": "04_SurfaceWeathering/NE_MotelWest/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_028",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      2685.749137470416,
+      6047.309607031254,
+      656.6285400390625
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 101.50107574462893,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      267.90688476562497,
+      370.0
+    ],
+    "folder": "04_SurfaceWeathering/NE_MotelMiddle/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_029",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      2387.512400272726,
+      6102.593797101867,
+      656.6285400390625
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 10.912117958068853,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      267.90688476562497,
+      370.0
+    ],
+    "folder": "04_SurfaceWeathering/NE_MotelMiddle/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_030",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      2698.064040524082,
+      6104.178781250308,
+      656.6285400390625
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 89.4813766479492,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      267.90688476562497,
+      370.0
+    ],
+    "folder": "04_SurfaceWeathering/NE_MotelMiddle/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_031",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      5327.280597188089,
+      6009.350393094436,
+      656.6285400390625
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 94.37969207763673,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      267.90688476562497,
+      370.0
+    ],
+    "folder": "04_SurfaceWeathering/NE_MotelEast/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_032",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      6034.373764473788,
+      5850.47408278738,
+      656.6285400390625
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 61.473327636718736,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      267.90688476562497,
+      370.0
+    ],
+    "folder": "04_SurfaceWeathering/NE_MotelEast/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_033",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      5836.120253908335,
+      6006.771363928399,
+      656.6285400390625
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -160.8168487548828,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      267.90688476562497,
+      370.0
+    ],
+    "folder": "04_SurfaceWeathering/NE_MotelEast/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_034",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      2891.2077198605944,
+      2678.8211962242335,
+      747.032470703125
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -24.020719528198242,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      330.0,
+      370.0
+    ],
+    "folder": "04_SurfaceWeathering/NE_Reception/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_035",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      2553.623731244608,
+      2976.378992103262,
+      747.032470703125
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 63.57094573974608,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      330.0,
+      370.0
+    ],
+    "folder": "04_SurfaceWeathering/NE_Reception/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_036",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      3289.394896824416,
+      2912.556962435021,
+      747.032470703125
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 61.38444519042969,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      330.0,
+      370.0
+    ],
+    "folder": "04_SurfaceWeathering/NE_Reception/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_037",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      6594.412446199332,
+      -3607.6798311188413,
+      583.4614868164062
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -170.54925537109375,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      324.01318359375,
+      370.0
+    ],
+    "folder": "04_SurfaceWeathering/SE_AutoRepair/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_038",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      6563.420159901547,
+      -3919.3457528133276,
+      583.4614868164062
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -86.29036712646484,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      324.01318359375,
+      370.0
+    ],
+    "folder": "04_SurfaceWeathering/SE_AutoRepair/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_039",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      6231.6747948792345,
+      -3659.518333900798,
+      583.4614868164062
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 81.92987060546871,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      324.01318359375,
+      370.0
+    ],
+    "folder": "04_SurfaceWeathering/SE_AutoRepair/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_040",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      6378.535195588993,
+      -5473.902151842051,
+      1144.543212890625
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 98.13279724121095,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      234.36463623046873,
+      288.3768310546875
+    ],
+    "folder": "04_SurfaceWeathering/SE_PartsShop/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_041",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      6324.928485629595,
+      -5326.85344417638,
+      1144.543212890625
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -173.92073059082034,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      234.36463623046873,
+      288.3768310546875
+    ],
+    "folder": "04_SurfaceWeathering/SE_PartsShop/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "RoofWeathering_042",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      6498.0903296284005,
+      -5310.552856464555,
+      1144.543212890625
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 138.58216857910156,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      18.0,
+      234.36463623046873,
+      288.3768310546875
+    ],
+    "folder": "04_SurfaceWeathering/SE_PartsShop/MeasuredRoof",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_000_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -7100.0,
+      -5800.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -99.82599639892578,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      335.0286542640311,
+      245.00908432040174
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_001_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -7061.177,
+      -5829.196,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 157.53599548339844,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      114.92072083604141,
+      127.29895833255554
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_002_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -4530.0,
+      -5690.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 69.09500122070307,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      322.1981499221086,
+      203.8143979201455
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_003_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -4722.775,
+      -5790.899,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 173.88400268554688,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      120.12622606511079,
+      100.44316210321077
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_004_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -3900.0,
+      -5100.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -81.15599822998047,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      252.43115446126848,
+      176.00741628482857
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_005_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -4080.932,
+      -5170.427,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 177.93499755859375,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      103.76836412349289,
+      135.78801946938626
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_006_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -3120.0,
+      -4490.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -44.76599884033203,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      339.06004025331913,
+      282.5934373607988
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_007_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -3146.598,
+      -4629.148,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 12.95100021362305,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      133.6813412709156,
+      149.67379676091628
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_008_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -1970.0,
+      -6020.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -9.29699993133545,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      326.0238124304178,
+      257.28487376553454
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_009_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -1869.295,
+      -5927.341,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 53.42599868774414,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      115.4313762602816,
+      102.68454050429979
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_010_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      750.0,
+      -5490.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 13.807000160217294,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      192.34964103257073,
+      235.80358094323591
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_011_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      541.228,
+      -5299.998,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -120.64800262451172,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      107.11303495221603,
+      129.9112929987534
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_012_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -2780.0,
+      -3330.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 76.33000183105464,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      341.33067697219906,
+      267.9642850578518
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_013_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -2626.279,
+      -3398.139,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 87.62599945068355,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      106.06370218458393,
+      144.95732102077977
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_014_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -1500.0,
+      -3320.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 144.50799560546875,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      267.3766820689531,
+      247.89876078290982
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_015_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -1526.46,
+      -3429.513,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 86.57599639892574,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      101.0387054890479,
+      106.43898284168455
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_016_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -7700.0,
+      4850.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 152.89100646972656,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      258.5040997029761,
+      212.83401700699906
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_017_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -7846.414,
+      4931.714,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 58.94300079345704,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      75.9352837793013,
+      114.07333481944892
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_018_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -6450.0,
+      6100.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -60.24599838256836,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      333.7375917372586,
+      266.087421719113
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_019_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -6291.569,
+      6131.585,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -127.15499877929688,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      134.3526426774028,
+      163.55005420438664
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_020_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -4580.0,
+      5260.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 169.98899841308594,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      218.46960193974618,
+      178.10223685195328
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_021_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -4425.453,
+      5321.466,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 173.33099365234378,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      94.78535872363187,
+      169.53259784458777
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_022_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -4310.0,
+      3440.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 62.89599990844725,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      229.4792107530439,
+      217.38586696672292
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_023_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -4429.799,
+      3330.253,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -86.30500030517578,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      68.40026997011327,
+      102.42476855426018
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_024_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -6900.0,
+      3890.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -75.6449966430664,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      283.4386951327002,
+      283.70657279139186
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_025_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -7041.18,
+      3765.594,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 164.51199340820315,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      118.3592090768767,
+      162.08316700266343
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_026_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -5280.0,
+      2690.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 94.59500122070311,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      246.368726233918,
+      240.37362703042925
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_027_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -5288.211,
+      2511.844,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -111.69999694824219,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      129.5353027100859,
+      120.87932219365968
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_028_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -6400.0,
+      2150.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -47.611000061035156,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      250.700887880723,
+      229.1940505181147
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_029_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      -6396.72,
+      2254.19,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 25.466999053955075,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      62.607778150724165,
+      166.3675040511965
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_030_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      1150.0,
+      3250.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 53.931999206542976,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      269.1153969445755,
+      290.9277330851917
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_031_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      1016.75,
+      3390.666,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -178.81500244140625,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      131.49508876682677,
+      133.77969964561504
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_032_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      1220.0,
+      4320.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -67.96600341796875,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      199.66246711140153,
+      179.1406064895902
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_033_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      1275.315,
+      4278.702,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 37.12599945068359,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      89.10529201111032,
+      114.06741238170875
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_034_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      5100.0,
+      4510.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 178.63999938964844,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      325.30678402174976,
+      276.1704082569845
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_035_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      5214.797,
+      4589.6,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -40.05400085449219,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      62.57563275739949,
+      129.4526446518757
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_036_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      7820.0,
+      5910.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -32.361000061035156,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      259.0785892718393,
+      226.22450303180466
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_037_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      7934.456,
+      5837.651,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 86.32199859619139,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      94.0843998612662,
+      102.06734829398019
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_038_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      4200.0,
+      2990.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 114.39299774169923,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      316.6669309330606,
+      196.49929222698765
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_039_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      4012.368,
+      3085.327,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 104.81400299072266,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      73.76080510920646,
+      168.23261679901856
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_040_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      5430.0,
+      -4110.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -51.55099868774414,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      328.4646636203178,
+      241.19658837152303
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_041_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      5407.368,
+      -4166.449,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 160.68099975585938,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      77.2195629833142,
+      161.8406498191107
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_042_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      5500.0,
+      -2600.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -31.094999313354492,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      250.69552978138256,
+      178.31090618276247
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_043_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      5668.714,
+      -2746.555,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 127.39299774169923,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      109.7379186639942,
+      91.74550694195324
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_044_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      7800.0,
+      -4700.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 123.66400146484372,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      222.2631980926058,
+      275.77722432292427
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_045_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      7776.916,
+      -4775.48,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -106.49500274658203,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      99.28537562857508,
+      91.45270933130044
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_046_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      7350.0,
+      -6000.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 9.340000152587896,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.62432075096012,
+      312.54673062679217
+    ],
+    "folder": "04_SurfaceWeathering/Activity/AccumulatedDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_047_Dirt04",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt04.MI_Surface_Dirt04",
+    "location": [
+      7177.887,
+      -6066.39,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -29.238000869750977,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      136.5218760989551,
+      114.17116136611122
+    ],
+    "folder": "04_SurfaceWeathering/Activity/SmallStains",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_048_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -5800.0,
+      -4020.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 1.9999999999999984,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_049_Oil",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Oil.MI_Surface_Oil",
+    "location": [
+      -5900.0,
+      -2690.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -5.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      105.0,
+      145.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/Leakage",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_050_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -5900.0,
+      -2690.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -5.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_051_Oil",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Oil.MI_Surface_Oil",
+    "location": [
+      -7750.0,
+      -5200.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      105.0,
+      145.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/Leakage",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_052_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -7750.0,
+      -5200.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_053_Oil",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Oil.MI_Surface_Oil",
+    "location": [
+      -7750.0,
+      -3690.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 6.999999999999999,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      105.0,
+      145.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/Leakage",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_054_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -7750.0,
+      -3690.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 6.999999999999999,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_055_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      1250.0,
+      -3730.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 180.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_056_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      1220.0,
+      -2470.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 168.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_057_Oil",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Oil.MI_Surface_Oil",
+    "location": [
+      -7750.0,
+      1500.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      105.0,
+      145.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/Leakage",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_058_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -7750.0,
+      1500.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_059_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -7720.0,
+      2990.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -4.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_060_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -5250.0,
+      1480.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 178.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_061_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -5230.0,
+      2760.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 173.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_062_Oil",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Oil.MI_Surface_Oil",
+    "location": [
+      -6400.0,
+      2150.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 86.99999999999997,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      105.0,
+      145.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/Leakage",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_063_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -6400.0,
+      2150.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 86.99999999999997,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_064_Oil",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Oil.MI_Surface_Oil",
+    "location": [
+      -250.0,
+      1750.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      105.0,
+      145.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/Leakage",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_065_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -250.0,
+      1750.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_066_Oil",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Oil.MI_Surface_Oil",
+    "location": [
+      -235.0,
+      3300.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 2.999999999999998,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      105.0,
+      145.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/Leakage",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_067_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -235.0,
+      3300.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 2.999999999999998,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_068_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -260.0,
+      4220.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -4.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_069_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      6750.0,
+      1750.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 180.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_070_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      6760.0,
+      3180.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -173.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_071_Oil",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Oil.MI_Surface_Oil",
+    "location": [
+      6760.0,
+      4250.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 176.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      105.0,
+      145.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/Leakage",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_072_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      6760.0,
+      4250.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 176.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_073_Oil",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Oil.MI_Surface_Oil",
+    "location": [
+      4680.0,
+      4800.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 6.000000000000001,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      105.0,
+      145.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/Leakage",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_074_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      4680.0,
+      4800.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 6.000000000000001,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_075_Oil",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Oil.MI_Surface_Oil",
+    "location": [
+      4750.0,
+      -5740.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      105.0,
+      145.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/Leakage",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_076_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      4750.0,
+      -5740.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_077_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      5260.0,
+      -4530.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 86.99999999999997,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_078_Oil",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Oil.MI_Surface_Oil",
+    "location": [
+      8010.0,
+      -5260.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 91.99999999999999,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      105.0,
+      145.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/Leakage",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_079_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      8010.0,
+      -5260.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 91.99999999999999,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_080_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      7030.0,
+      -2200.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 82.99999999999996,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_081_Oil",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Oil.MI_Surface_Oil",
+    "location": [
+      5740.0,
+      -2090.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 99.00000000000001,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      105.0,
+      145.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/Leakage",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_082_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      5740.0,
+      -2090.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 99.00000000000001,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_083_Oil",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Oil.MI_Surface_Oil",
+    "location": [
+      -8820.0,
+      -7330.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 6.000000000000001,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      105.0,
+      145.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/Leakage",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_084_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      -8820.0,
+      -7330.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 6.000000000000001,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_085_Oil",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Oil.MI_Surface_Oil",
+    "location": [
+      8250.0,
+      7440.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 1.9999999999999984,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      105.0,
+      145.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/Leakage",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_086_Dirt03",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Dirt03.MI_Surface_Dirt03",
+    "location": [
+      8250.0,
+      7440.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 1.9999999999999984,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      210.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Vehicles/SettledDirt",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_087_Crack02",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack02.MI_Surface_Crack02",
+    "location": [
+      -7800.0,
+      -510.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 18.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      360.0,
+      260.0
+    ],
+    "folder": "04_SurfaceWeathering/Streets/Cracks",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_088_Crack02",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack02.MI_Surface_Crack02",
+    "location": [
+      -4800.0,
+      -400.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 79.99999999999996,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      270.0,
+      400.0
+    ],
+    "folder": "04_SurfaceWeathering/Streets/Cracks",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_089_Crack01",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack01.MI_Surface_Crack01",
+    "location": [
+      -1400.0,
+      -600.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 144.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      400.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Streets/Cracks",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_090_Crack01",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack01.MI_Surface_Crack01",
+    "location": [
+      4600.0,
+      -440.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 12.000000000000005,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      325.0,
+      410.0
+    ],
+    "folder": "04_SurfaceWeathering/Streets/Cracks",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_091_Crack02",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack02.MI_Surface_Crack02",
+    "location": [
+      7800.0,
+      -490.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 110.00000000000003,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      415.0,
+      255.0
+    ],
+    "folder": "04_SurfaceWeathering/Streets/Cracks",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_092_Crack01",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack01.MI_Surface_Crack01",
+    "location": [
+      -3020.0,
+      1900.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 30.000000000000004,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      400.0,
+      305.0
+    ],
+    "folder": "04_SurfaceWeathering/Streets/Cracks",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_093_Crack01",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack01.MI_Surface_Crack01",
+    "location": [
+      -2900.0,
+      5000.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 69.99999999999994,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      305.0,
+      395.0
+    ],
+    "folder": "04_SurfaceWeathering/Streets/Cracks",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_094_Crack02",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack02.MI_Surface_Crack02",
+    "location": [
+      3060.0,
+      -3200.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 36.00000000000001,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      420.0,
+      300.0
+    ],
+    "folder": "04_SurfaceWeathering/Streets/Cracks",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_095_Crack01",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack01.MI_Surface_Crack01",
+    "location": [
+      3100.0,
+      -5900.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 141.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      375.0,
+      275.0
+    ],
+    "folder": "04_SurfaceWeathering/Streets/Cracks",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_096_Crack01",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack01.MI_Surface_Crack01",
+    "location": [
+      -5200.0,
+      -7180.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 50.00000000000001,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      415.0,
+      325.0
+    ],
+    "folder": "04_SurfaceWeathering/Streets/Cracks",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_097_Crack01",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack01.MI_Surface_Crack01",
+    "location": [
+      4600.0,
+      7430.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 19.000000000000007,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      365.0,
+      275.0
+    ],
+    "folder": "04_SurfaceWeathering/Streets/Cracks",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_098_Moss",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Moss.MI_Surface_Moss",
+    "location": [
+      -4200.0,
+      -1800.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -116.88999938964844,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      325.0,
+      240.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Moss",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_099_Crack02",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack02.MI_Surface_Crack02",
+    "location": [
+      -4110.0,
+      -1860.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 53.31700134277343,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      285.0,
+      335.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Fractures",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_100_Moss",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Moss.MI_Surface_Moss",
+    "location": [
+      -7200.0,
+      -4100.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -145.03599548339844,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      325.0,
+      240.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Moss",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_101_Crack02",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack02.MI_Surface_Crack02",
+    "location": [
+      -7110.0,
+      -4160.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -162.5570068359375,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      285.0,
+      335.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Fractures",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_102_Moss",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Moss.MI_Surface_Moss",
+    "location": [
+      -3500.0,
+      -5780.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -7.133999824523926,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      325.0,
+      240.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Moss",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_103_Crack02",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack02.MI_Surface_Crack02",
+    "location": [
+      -3410.0,
+      -5840.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.3260000050067902,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      285.0,
+      335.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Fractures",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_104_Moss",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Moss.MI_Surface_Moss",
+    "location": [
+      -2400.0,
+      -3700.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 85.79499816894528,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      325.0,
+      240.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Moss",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_105_Crack02",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack02.MI_Surface_Crack02",
+    "location": [
+      -2310.0,
+      -3760.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 113.94100189208984,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      285.0,
+      335.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Fractures",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_106_Moss",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Moss.MI_Surface_Moss",
+    "location": [
+      500.0,
+      -3020.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -57.66699981689453,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      325.0,
+      240.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Moss",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_107_Crack02",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack02.MI_Surface_Crack02",
+    "location": [
+      590.0,
+      -3080.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 115.58699798583984,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      285.0,
+      335.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Fractures",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_108_Moss",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Moss.MI_Surface_Moss",
+    "location": [
+      -7950.0,
+      3500.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 145.70799255371094,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      325.0,
+      240.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Moss",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_109_Crack02",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack02.MI_Surface_Crack02",
+    "location": [
+      -7860.0,
+      3440.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -28.56800079345703,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      285.0,
+      335.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Fractures",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_110_Moss",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Moss.MI_Surface_Moss",
+    "location": [
+      -4900.0,
+      6000.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 107.84300231933595,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      325.0,
+      240.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Moss",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_111_Crack02",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack02.MI_Surface_Crack02",
+    "location": [
+      -4810.0,
+      5940.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -171.0659942626953,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      285.0,
+      335.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Fractures",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_112_Moss",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Moss.MI_Surface_Moss",
+    "location": [
+      -1000.0,
+      1050.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -27.5939998626709,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      325.0,
+      240.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Moss",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_113_Crack02",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack02.MI_Surface_Crack02",
+    "location": [
+      -910.0,
+      990.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 130.80799865722656,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      285.0,
+      335.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Fractures",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_114_Moss",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Moss.MI_Surface_Moss",
+    "location": [
+      5500.0,
+      1200.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 29.681999206542958,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      325.0,
+      240.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Moss",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_115_Crack02",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack02.MI_Surface_Crack02",
+    "location": [
+      5590.0,
+      1140.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 10.592000007629396,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      285.0,
+      335.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Fractures",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_116_Moss",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Moss.MI_Surface_Moss",
+    "location": [
+      8090.0,
+      4600.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 155.8489990234375,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      325.0,
+      240.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Moss",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_117_Crack02",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack02.MI_Surface_Crack02",
+    "location": [
+      8180.0,
+      4540.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 155.97500610351562,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      285.0,
+      335.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Fractures",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_118_Moss",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Moss.MI_Surface_Moss",
+    "location": [
+      4730.0,
+      -3450.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -2.1480000019073486,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      325.0,
+      240.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Moss",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_119_Crack02",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack02.MI_Surface_Crack02",
+    "location": [
+      4820.0,
+      -3510.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -122.48100280761716,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      285.0,
+      335.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Fractures",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_120_Moss",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Moss.MI_Surface_Moss",
+    "location": [
+      8100.0,
+      -2500.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 6.647999763488769,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      325.0,
+      240.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Moss",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_121_Crack02",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Crack02.MI_Surface_Crack02",
+    "location": [
+      8190.0,
+      -2560.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 138.50999450683594,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      285.0,
+      335.0
+    ],
+    "folder": "04_SurfaceWeathering/Edges/Fractures",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_122_Tyre",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Tyre.MI_Surface_Tyre",
+    "location": [
+      -6850.0,
+      -3310.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 89.99999999999997,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      160.0,
+      430.0
+    ],
+    "folder": "04_SurfaceWeathering/Traffic/Tracks",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_123_Tyre",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Tyre.MI_Surface_Tyre",
+    "location": [
+      -4890.0,
+      -3420.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 89.99999999999997,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      160.0,
+      430.0
+    ],
+    "folder": "04_SurfaceWeathering/Traffic/Tracks",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_124_Tyre",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Tyre.MI_Surface_Tyre",
+    "location": [
+      -7090.0,
+      -1900.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      160.0,
+      430.0
+    ],
+    "folder": "04_SurfaceWeathering/Traffic/Tracks",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_125_Tyre",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Tyre.MI_Surface_Tyre",
+    "location": [
+      6620.0,
+      -2670.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      160.0,
+      430.0
+    ],
+    "folder": "04_SurfaceWeathering/Traffic/Tracks",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_126_Tyre",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Tyre.MI_Surface_Tyre",
+    "location": [
+      7740.0,
+      -3050.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 18.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      160.0,
+      430.0
+    ],
+    "folder": "04_SurfaceWeathering/Traffic/Tracks",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_127_Tyre",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Tyre.MI_Surface_Tyre",
+    "location": [
+      -6450.0,
+      1100.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      160.0,
+      430.0
+    ],
+    "folder": "04_SurfaceWeathering/Traffic/Tracks",
+    "fade_screen_size": 9.999999747378752e-05
+  },
+  {
+    "id": "Weathering_128_Tyre",
+    "material": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/Materials/MI_Surface_Tyre.MI_Surface_Tyre",
+    "location": [
+      4500.0,
+      4300.0,
+      7.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 89.99999999999997,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "size": [
+      20.0,
+      160.0,
+      430.0
+    ],
+    "folder": "04_SurfaceWeathering/Traffic/Tracks",
+    "fade_screen_size": 9.999999747378752e-05
+  }
+]

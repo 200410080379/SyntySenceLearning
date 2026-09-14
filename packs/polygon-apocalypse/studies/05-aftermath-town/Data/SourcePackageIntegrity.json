@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-09-14T15:34:56.177185+00:00",
+  "method": "Read-only SHA256 comparison of current project package files against original downloaded asset packages, including byte-preserving aliases traced to original sources.",
+  "input_snapshot": {
+    "name": "RequiredAssetClosure.json",
+    "sha256": "512fb2ce252d90b38fc16361df2ec169b786ff8972ff90923719807963fe27f4",
+    "listed_unique_packages": 318,
+    "reported_missing_packages": [],
+    "listed_authored_packages_excluded": 11,
+    "other_mount_packages_excluded": 0
+  },
+  "source_files_checked": 307,
+  "identical": 307,
+  "different": 0,
+  "missing_project_files": 0,
+  "missing_original_source_files": 0,
+  "unmapped_sources": 0,
+  "all_compared_source_files_identical": true,
+  "by_source_pack": {
+    "apocalypse": {
+      "checked_package_files": 238,
+      "identical": 238,
+      "different": 0,
+      "missing_original_source": 0,
+      "bytes_compared": 54230085
+    },
+    "woodland": {
+      "checked_package_files": 32,
+      "identical": 32,
+      "different": 0,
+      "missing_original_source": 0,
+      "bytes_compared": 10611111
+    },
+    "alpine": {
+      "checked_package_files": 37,
+      "identical": 37,
+      "different": 0,
+      "missing_original_source": 0,
+      "bytes_compared": 30268330
+    }
+  },
+  "failures": [],
+  "coverage": {
+    "scope": "Only source package files explicitly present in the provided RequiredAssetClosure snapshot. The study-authored assets and level are excluded from source hash comparison.",
+    "complete_dependency_graph_revalidated": false,
+    "engine_packages_checked": false,
+    "derived_material_graphs_retraversed_in_ue": false,
+    "existing_external_package_strings_in_derived_assets_absent_from_snapshot": 0,
+    "limitation": "The source comparison covers the supplied snapshot, including source packages referenced through its eleven authored-material entries. Supplemental read-only byte-string inspection of those authored files found zero existing external package paths absent from the snapshot. Byte strings may include metadata, and no Unreal AssetRegistry/material graph traversal was repeated here; this check does not independently prove a complete derived-material dependency graph.",
+    "additional_dependency_candidates": []
+  },
+  "private_paths_included": false,
+  "asset_bytes_included": false
+}

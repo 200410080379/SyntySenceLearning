@@ -1,0 +1,2062 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-14T15:52:16.332915+00:00",
+  "map": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/L_AftermathTown",
+  "engine": "5.8.2-56702186+++UE5+Release-5.8",
+  "layout_sha256": "c7e183197c5c9e4d608170912807f2b4e639abc1a8f78a15419222518900e288",
+  "status": "sampled_capsule_tracks_clear_with_complex_seam_misses",
+  "scope": "Actual read-only editor-world Visibility queries. Vertical rays sample ground response. Horizontal capsules approximate a human-size clearance envelope on selected tracks. These results are not character movement, NavMesh, AI reachability, vehicle clearance, complete 4 m band coverage, or target-platform performance certification.",
+  "query_configuration": {
+    "trace_channel_intent": "Visibility",
+    "trace_type_query": "TRACE_TYPE_QUERY1",
+    "draw_debug": "NONE",
+    "trace_complex_modes": [
+      false,
+      true
+    ],
+    "ground_ray_z_cm": [
+      200.0,
+      -300.0
+    ],
+    "ground_sample_step_cm": 250.0,
+    "capsule_segment_max_length_cm": 500.0,
+    "capsule_radius_cm": 35.0,
+    "capsule_half_height_cm": 88.0,
+    "capsule_center_z_cm": 100.0,
+    "track_lateral_offsets_cm": [
+      -150.0,
+      0.0,
+      150.0
+    ],
+    "ignore_self": false,
+    "actors_to_ignore": [],
+    "trace_type_query_runtime": "<TraceTypeQuery.ECC_VISIBILITY: 0>"
+  },
+  "routes": [
+    {
+      "name": "MainEastWest",
+      "kind": "main_corridor",
+      "start_xy": [
+        -8500.0,
+        -500.0
+      ],
+      "end_xy": [
+        8500.0,
+        -500.0
+      ]
+    },
+    {
+      "name": "NorthBranch",
+      "kind": "main_corridor",
+      "start_xy": [
+        -3000.0,
+        0.0
+      ],
+      "end_xy": [
+        -3000.0,
+        6500.0
+      ]
+    },
+    {
+      "name": "SouthBranch",
+      "kind": "main_corridor",
+      "start_xy": [
+        3000.0,
+        -6500.0
+      ],
+      "end_xy": [
+        3000.0,
+        -1000.0
+      ]
+    },
+    {
+      "name": "VehicleEntry_20_02",
+      "kind": "vehicle_entrance_human_capsule",
+      "cell": [
+        20,
+        2
+      ],
+      "start_xy": [
+        250,
+        -7250
+      ],
+      "end_xy": [
+        250,
+        -6250
+      ]
+    },
+    {
+      "name": "VehicleEntry_37_05",
+      "kind": "vehicle_entrance_human_capsule",
+      "cell": [
+        37,
+        5
+      ],
+      "start_xy": [
+        9250,
+        -5250
+      ],
+      "end_xy": [
+        8250,
+        -5250
+      ]
+    },
+    {
+      "name": "VehicleEntry_24_06",
+      "kind": "vehicle_entrance_human_capsule",
+      "cell": [
+        24,
+        6
+      ],
+      "start_xy": [
+        2750,
+        -4750
+      ],
+      "end_xy": [
+        1750,
+        -4750
+      ]
+    },
+    {
+      "name": "VehicleEntry_05_13",
+      "kind": "vehicle_entrance_human_capsule",
+      "cell": [
+        5,
+        13
+      ],
+      "start_xy": [
+        -7250,
+        -750
+      ],
+      "end_xy": [
+        -7250,
+        -1750
+      ]
+    },
+    {
+      "name": "VehicleEntry_08_13",
+      "kind": "vehicle_entrance_human_capsule",
+      "cell": [
+        8,
+        13
+      ],
+      "start_xy": [
+        -5750,
+        -750
+      ],
+      "end_xy": [
+        -5750,
+        -1750
+      ]
+    },
+    {
+      "name": "VehicleEntry_33_13",
+      "kind": "vehicle_entrance_human_capsule",
+      "cell": [
+        33,
+        13
+      ],
+      "start_xy": [
+        6750,
+        -750
+      ],
+      "end_xy": [
+        6750,
+        -1750
+      ]
+    },
+    {
+      "name": "VehicleEntry_06_16",
+      "kind": "vehicle_entrance_human_capsule",
+      "cell": [
+        6,
+        16
+      ],
+      "start_xy": [
+        -6750,
+        -250
+      ],
+      "end_xy": [
+        -6750,
+        750
+      ]
+    },
+    {
+      "name": "VehicleEntry_15_23",
+      "kind": "vehicle_entrance_human_capsule",
+      "cell": [
+        15,
+        23
+      ],
+      "start_xy": [
+        -2750,
+        3750
+      ],
+      "end_xy": [
+        -1750,
+        3750
+      ]
+    },
+    {
+      "name": "VehicleEntry_37_23",
+      "kind": "vehicle_entrance_human_capsule",
+      "cell": [
+        37,
+        23
+      ],
+      "start_xy": [
+        9250,
+        3750
+      ],
+      "end_xy": [
+        8250,
+        3750
+      ]
+    }
+  ],
+  "original_query_results": {
+    "ground_lines": {
+      "false": {
+        "queries": 492,
+        "blocking_hits": 492,
+        "no_blocking_hits": 0,
+        "errors": 0
+      },
+      "true": {
+        "queries": 492,
+        "blocking_hits": 481,
+        "no_blocking_hits": 11,
+        "errors": 0
+      }
+    },
+    "capsule_segments": {
+      "false": {
+        "queries": 228,
+        "blocking_hits": 0,
+        "no_blocking_hits": 228,
+        "errors": 0
+      },
+      "true": {
+        "queries": 228,
+        "blocking_hits": 0,
+        "no_blocking_hits": 228,
+        "errors": 0
+      }
+    },
+    "ground_hits_on_other_meshes": 0,
+    "errors": []
+  },
+  "complex_seam_diagnostics": {
+    "scope": "Additional complex Visibility ray diagnostics for original failed ground samples only. Repeat the exact original point, then offset perpendicular to its nearest 500 cm ground-tile seam by -1, -0.1, +0.1 and +1 cm. These results never replace original samples or change original query counts. A nearby hit does not turn the original miss into a pass.",
+    "original_failed_complex_samples": 11,
+    "probe_queries": 55,
+    "exact_point_repeats": {
+      "queries": 11,
+      "blocking_hits": 0,
+      "misses": 11
+    },
+    "off_seam_probes": {
+      "perpendicular_offsets_cm": [
+        -1.0,
+        -0.1,
+        0.1,
+        1.0
+      ],
+      "queries": 44,
+      "blocking_hits": 44,
+      "misses": 0,
+      "hits_on_expected_ground": 44
+    },
+    "errors": [],
+    "interpretation": "The exact seam misses repeat, while every sampled offset of 0.1 cm or 1 cm hits the neighbouring expected ground tile. This supports sensitivity of exact complex rays at tile boundaries; it does not prove the precise cause or eliminate sub-millimetre collision discontinuity. The original 11 misses remain failures in the original counts. No extended no-hit area was observed at the sampled offsets.",
+    "samples": [
+      {
+        "route": "MainEastWest",
+        "lateral_offset_cm": -150.0,
+        "sample_index": 16,
+        "xy_cm": [
+          -4500.0,
+          -650.0
+        ],
+        "seam_normal_axis": "x",
+        "distance_to_tile_seams_cm": {
+          "x": 0.0,
+          "y": 150.0
+        },
+        "original_simple": {
+          "blocking_hit": true,
+          "initial_overlap": false,
+          "actor_label": "Ground_11_14_SM_Env_Road_01",
+          "impact_point": [
+            -4500.0,
+            -650.0,
+            -10.113211353821697
+          ],
+          "hit_is_original_ground_tile_mesh": true
+        },
+        "original_complex": {
+          "blocking_hit": false,
+          "initial_overlap": false,
+          "actor_label": null,
+          "impact_point": null,
+          "hit_is_original_ground_tile_mesh": null
+        },
+        "probes": [
+          {
+            "perpendicular_offset_cm": 0.0,
+            "xy_cm": [
+              -4500.0,
+              -650.0
+            ],
+            "result": {
+              "blocking_hit": false,
+              "initial_overlap": false,
+              "actor_label": null,
+              "impact_point": null,
+              "hit_is_original_ground_tile_mesh": null
+            }
+          },
+          {
+            "perpendicular_offset_cm": -1.0,
+            "xy_cm": [
+              -4501.0,
+              -650.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_10_14_SM_Env_Road_Crossing_01",
+              "impact_point": [
+                -4501.0000341600835,
+                -649.9999897314378,
+                -2.842170943040401e-14
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": -0.1,
+            "xy_cm": [
+              -4500.1,
+              -650.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_10_14_SM_Env_Road_Crossing_01",
+              "impact_point": [
+                -4500.100034221696,
+                -649.9999897314378,
+                -2.842170943040401e-14
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": 0.1,
+            "xy_cm": [
+              -4499.9,
+              -650.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_11_14_SM_Env_Road_01",
+              "impact_point": [
+                -4499.9,
+                -650.0,
+                7.823672660833836e-07
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": 1.0,
+            "xy_cm": [
+              -4499.0,
+              -650.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_11_14_SM_Env_Road_01",
+              "impact_point": [
+                -4499.0,
+                -650.0,
+                7.828740251625277e-07
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          }
+        ]
+      },
+      {
+        "route": "MainEastWest",
+        "lateral_offset_cm": -150.0,
+        "sample_index": 54,
+        "xy_cm": [
+          5000.0,
+          -650.0
+        ],
+        "seam_normal_axis": "x",
+        "distance_to_tile_seams_cm": {
+          "x": 0.0,
+          "y": 150.0
+        },
+        "original_simple": {
+          "blocking_hit": true,
+          "initial_overlap": false,
+          "actor_label": "Ground_30_14_SM_Env_Road_01",
+          "impact_point": [
+            5000.0,
+            -650.0,
+            -10.113211353821697
+          ],
+          "hit_is_original_ground_tile_mesh": true
+        },
+        "original_complex": {
+          "blocking_hit": false,
+          "initial_overlap": false,
+          "actor_label": null,
+          "impact_point": null,
+          "hit_is_original_ground_tile_mesh": null
+        },
+        "probes": [
+          {
+            "perpendicular_offset_cm": 0.0,
+            "xy_cm": [
+              5000.0,
+              -650.0
+            ],
+            "result": {
+              "blocking_hit": false,
+              "initial_overlap": false,
+              "actor_label": null,
+              "impact_point": null,
+              "hit_is_original_ground_tile_mesh": null
+            }
+          },
+          {
+            "perpendicular_offset_cm": -1.0,
+            "xy_cm": [
+              4999.0,
+              -650.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_29_14_SM_Env_Road_Crossing_01",
+              "impact_point": [
+                4999.000000068457,
+                -650.0000239599784,
+                0.0
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": -0.1,
+            "xy_cm": [
+              4999.9,
+              -650.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_29_14_SM_Env_Road_Crossing_01",
+              "impact_point": [
+                4999.900000006845,
+                -650.0000239599784,
+                0.0
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": 0.1,
+            "xy_cm": [
+              5000.1,
+              -650.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_30_14_SM_Env_Road_01",
+              "impact_point": [
+                5000.1,
+                -650.0,
+                7.823672660833836e-07
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": 1.0,
+            "xy_cm": [
+              5001.0,
+              -650.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_30_14_SM_Env_Road_01",
+              "impact_point": [
+                5001.0,
+                -650.0,
+                7.828740251625277e-07
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          }
+        ]
+      },
+      {
+        "route": "VehicleEntry_05_13",
+        "lateral_offset_cm": -150.0,
+        "sample_index": 3,
+        "xy_cm": [
+          -7400.0,
+          -1500.0
+        ],
+        "seam_normal_axis": "y",
+        "distance_to_tile_seams_cm": {
+          "x": 100.0,
+          "y": 0.0
+        },
+        "original_simple": {
+          "blocking_hit": true,
+          "initial_overlap": false,
+          "actor_label": "Ground_05_13_SM_Env_Sidewalk_Dip_01",
+          "impact_point": [
+            -7400.000006845708,
+            -1499.9999657714593,
+            0.0
+          ],
+          "hit_is_original_ground_tile_mesh": true
+        },
+        "original_complex": {
+          "blocking_hit": false,
+          "initial_overlap": false,
+          "actor_label": null,
+          "impact_point": null,
+          "hit_is_original_ground_tile_mesh": null
+        },
+        "probes": [
+          {
+            "perpendicular_offset_cm": 0.0,
+            "xy_cm": [
+              -7400.0,
+              -1500.0
+            ],
+            "result": {
+              "blocking_hit": false,
+              "initial_overlap": false,
+              "actor_label": null,
+              "impact_point": null,
+              "hit_is_original_ground_tile_mesh": null
+            }
+          },
+          {
+            "perpendicular_offset_cm": -1.0,
+            "xy_cm": [
+              -7400.0,
+              -1501.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_05_12_SM_Env_Road_Bare_01",
+              "impact_point": [
+                -7400.0,
+                -1501.0,
+                7.450580596923828e-07
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": -0.1,
+            "xy_cm": [
+              -7400.0,
+              -1500.1
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_05_12_SM_Env_Road_Bare_01",
+              "impact_point": [
+                -7400.0,
+                -1500.1,
+                7.450580596923828e-07
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": 0.1,
+            "xy_cm": [
+              -7400.0,
+              -1499.9
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_05_13_SM_Env_Sidewalk_Dip_01",
+              "impact_point": [
+                -7400.000006845708,
+                -1499.8999657783052,
+                0.0013084761933157552
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": 1.0,
+            "xy_cm": [
+              -7400.0,
+              -1499.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_05_13_SM_Env_Sidewalk_Dip_01",
+              "impact_point": [
+                -7400.000006845708,
+                -1498.9999658399165,
+                0.013171378421930058
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          }
+        ]
+      },
+      {
+        "route": "VehicleEntry_05_13",
+        "lateral_offset_cm": 0.0,
+        "sample_index": 3,
+        "xy_cm": [
+          -7250.0,
+          -1500.0
+        ],
+        "seam_normal_axis": "y",
+        "distance_to_tile_seams_cm": {
+          "x": 250.0,
+          "y": 0.0
+        },
+        "original_simple": {
+          "blocking_hit": true,
+          "initial_overlap": false,
+          "actor_label": "Ground_05_13_SM_Env_Sidewalk_Dip_01",
+          "impact_point": [
+            -7250.00001711427,
+            -1499.9999657714593,
+            -2.842170943040401e-14
+          ],
+          "hit_is_original_ground_tile_mesh": true
+        },
+        "original_complex": {
+          "blocking_hit": false,
+          "initial_overlap": false,
+          "actor_label": null,
+          "impact_point": null,
+          "hit_is_original_ground_tile_mesh": null
+        },
+        "probes": [
+          {
+            "perpendicular_offset_cm": 0.0,
+            "xy_cm": [
+              -7250.0,
+              -1500.0
+            ],
+            "result": {
+              "blocking_hit": false,
+              "initial_overlap": false,
+              "actor_label": null,
+              "impact_point": null,
+              "hit_is_original_ground_tile_mesh": null
+            }
+          },
+          {
+            "perpendicular_offset_cm": -1.0,
+            "xy_cm": [
+              -7250.0,
+              -1501.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_05_12_SM_Env_Road_Bare_01",
+              "impact_point": [
+                -7250.0,
+                -1501.0,
+                7.450580596923828e-07
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": -0.1,
+            "xy_cm": [
+              -7250.0,
+              -1500.1
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_05_12_SM_Env_Road_Bare_01",
+              "impact_point": [
+                -7250.0,
+                -1500.1,
+                7.450580596923828e-07
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": 0.1,
+            "xy_cm": [
+              -7250.0,
+              -1499.9
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_05_13_SM_Env_Sidewalk_Dip_01",
+              "impact_point": [
+                -7250.00001711427,
+                -1499.8999657783052,
+                0.0018060138960152017
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": 1.0,
+            "xy_cm": [
+              -7250.0,
+              -1499.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_05_13_SM_Env_Sidewalk_Dip_01",
+              "impact_point": [
+                -7250.00001711427,
+                -1498.9999658399163,
+                0.018175832735749964
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          }
+        ]
+      },
+      {
+        "route": "VehicleEntry_05_13",
+        "lateral_offset_cm": 150.0,
+        "sample_index": 3,
+        "xy_cm": [
+          -7100.0,
+          -1500.0
+        ],
+        "seam_normal_axis": "y",
+        "distance_to_tile_seams_cm": {
+          "x": 100.0,
+          "y": 0.0
+        },
+        "original_simple": {
+          "blocking_hit": true,
+          "initial_overlap": false,
+          "actor_label": "Ground_05_13_SM_Env_Sidewalk_Dip_01",
+          "impact_point": [
+            -7100.000027382833,
+            -1499.9999657714593,
+            -2.842170943040401e-14
+          ],
+          "hit_is_original_ground_tile_mesh": true
+        },
+        "original_complex": {
+          "blocking_hit": false,
+          "initial_overlap": false,
+          "actor_label": null,
+          "impact_point": null,
+          "hit_is_original_ground_tile_mesh": null
+        },
+        "probes": [
+          {
+            "perpendicular_offset_cm": 0.0,
+            "xy_cm": [
+              -7100.0,
+              -1500.0
+            ],
+            "result": {
+              "blocking_hit": false,
+              "initial_overlap": false,
+              "actor_label": null,
+              "impact_point": null,
+              "hit_is_original_ground_tile_mesh": null
+            }
+          },
+          {
+            "perpendicular_offset_cm": -1.0,
+            "xy_cm": [
+              -7100.0,
+              -1501.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_05_12_SM_Env_Road_Bare_01",
+              "impact_point": [
+                -7100.0,
+                -1501.0,
+                7.450580596923828e-07
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": -0.1,
+            "xy_cm": [
+              -7100.0,
+              -1500.1
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_05_12_SM_Env_Road_Bare_01",
+              "impact_point": [
+                -7100.0,
+                -1500.1,
+                7.450580596923828e-07
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": 0.1,
+            "xy_cm": [
+              -7100.0,
+              -1499.9
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_05_13_SM_Env_Sidewalk_Dip_01",
+              "impact_point": [
+                -7100.000027382833,
+                -1499.8999657783052,
+                0.005975870314017584
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": 1.0,
+            "xy_cm": [
+              -7100.0,
+              -1499.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_05_13_SM_Env_Sidewalk_Dip_01",
+              "impact_point": [
+                -7100.000027382833,
+                -1498.9999658399165,
+                0.06013871846388952
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          }
+        ]
+      },
+      {
+        "route": "VehicleEntry_08_13",
+        "lateral_offset_cm": -150.0,
+        "sample_index": 3,
+        "xy_cm": [
+          -5900.0,
+          -1500.0
+        ],
+        "seam_normal_axis": "y",
+        "distance_to_tile_seams_cm": {
+          "x": 100.0,
+          "y": 0.0
+        },
+        "original_simple": {
+          "blocking_hit": true,
+          "initial_overlap": false,
+          "actor_label": "Ground_08_13_SM_Env_Sidewalk_Dip_01",
+          "impact_point": [
+            -5900.000006845708,
+            -1499.9999657714593,
+            0.0
+          ],
+          "hit_is_original_ground_tile_mesh": true
+        },
+        "original_complex": {
+          "blocking_hit": false,
+          "initial_overlap": false,
+          "actor_label": null,
+          "impact_point": null,
+          "hit_is_original_ground_tile_mesh": null
+        },
+        "probes": [
+          {
+            "perpendicular_offset_cm": 0.0,
+            "xy_cm": [
+              -5900.0,
+              -1500.0
+            ],
+            "result": {
+              "blocking_hit": false,
+              "initial_overlap": false,
+              "actor_label": null,
+              "impact_point": null,
+              "hit_is_original_ground_tile_mesh": null
+            }
+          },
+          {
+            "perpendicular_offset_cm": -1.0,
+            "xy_cm": [
+              -5900.0,
+              -1501.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_08_12_SM_Env_Road_Bare_01",
+              "impact_point": [
+                -5900.0,
+                -1501.0,
+                7.450580596923828e-07
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": -0.1,
+            "xy_cm": [
+              -5900.0,
+              -1500.1
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_08_12_SM_Env_Road_Bare_01",
+              "impact_point": [
+                -5900.0,
+                -1500.1,
+                7.450580596923828e-07
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": 0.1,
+            "xy_cm": [
+              -5900.0,
+              -1499.9
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_08_13_SM_Env_Sidewalk_Dip_01",
+              "impact_point": [
+                -5900.000006845708,
+                -1499.8999657783052,
+                0.0013084761933157552
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": 1.0,
+            "xy_cm": [
+              -5900.0,
+              -1499.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_08_13_SM_Env_Sidewalk_Dip_01",
+              "impact_point": [
+                -5900.000006845708,
+                -1498.9999658399165,
+                0.013171378421930058
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          }
+        ]
+      },
+      {
+        "route": "VehicleEntry_08_13",
+        "lateral_offset_cm": 0.0,
+        "sample_index": 3,
+        "xy_cm": [
+          -5750.0,
+          -1500.0
+        ],
+        "seam_normal_axis": "y",
+        "distance_to_tile_seams_cm": {
+          "x": 250.0,
+          "y": 0.0
+        },
+        "original_simple": {
+          "blocking_hit": true,
+          "initial_overlap": false,
+          "actor_label": "Ground_08_13_SM_Env_Sidewalk_Dip_01",
+          "impact_point": [
+            -5750.00001711427,
+            -1499.9999657714593,
+            -2.842170943040401e-14
+          ],
+          "hit_is_original_ground_tile_mesh": true
+        },
+        "original_complex": {
+          "blocking_hit": false,
+          "initial_overlap": false,
+          "actor_label": null,
+          "impact_point": null,
+          "hit_is_original_ground_tile_mesh": null
+        },
+        "probes": [
+          {
+            "perpendicular_offset_cm": 0.0,
+            "xy_cm": [
+              -5750.0,
+              -1500.0
+            ],
+            "result": {
+              "blocking_hit": false,
+              "initial_overlap": false,
+              "actor_label": null,
+              "impact_point": null,
+              "hit_is_original_ground_tile_mesh": null
+            }
+          },
+          {
+            "perpendicular_offset_cm": -1.0,
+            "xy_cm": [
+              -5750.0,
+              -1501.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_08_12_SM_Env_Road_Bare_01",
+              "impact_point": [
+                -5750.0,
+                -1501.0,
+                7.450580596923828e-07
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": -0.1,
+            "xy_cm": [
+              -5750.0,
+              -1500.1
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_08_12_SM_Env_Road_Bare_01",
+              "impact_point": [
+                -5750.0,
+                -1500.1,
+                7.450580596923828e-07
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": 0.1,
+            "xy_cm": [
+              -5750.0,
+              -1499.9
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_08_13_SM_Env_Sidewalk_Dip_01",
+              "impact_point": [
+                -5750.00001711427,
+                -1499.8999657783052,
+                0.0018060138960152017
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": 1.0,
+            "xy_cm": [
+              -5750.0,
+              -1499.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_08_13_SM_Env_Sidewalk_Dip_01",
+              "impact_point": [
+                -5750.00001711427,
+                -1498.9999658399163,
+                0.018175832735749964
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          }
+        ]
+      },
+      {
+        "route": "VehicleEntry_08_13",
+        "lateral_offset_cm": 150.0,
+        "sample_index": 3,
+        "xy_cm": [
+          -5600.0,
+          -1500.0
+        ],
+        "seam_normal_axis": "y",
+        "distance_to_tile_seams_cm": {
+          "x": 100.0,
+          "y": 0.0
+        },
+        "original_simple": {
+          "blocking_hit": true,
+          "initial_overlap": false,
+          "actor_label": "Ground_08_13_SM_Env_Sidewalk_Dip_01",
+          "impact_point": [
+            -5600.000027382833,
+            -1499.9999657714593,
+            -2.842170943040401e-14
+          ],
+          "hit_is_original_ground_tile_mesh": true
+        },
+        "original_complex": {
+          "blocking_hit": false,
+          "initial_overlap": false,
+          "actor_label": null,
+          "impact_point": null,
+          "hit_is_original_ground_tile_mesh": null
+        },
+        "probes": [
+          {
+            "perpendicular_offset_cm": 0.0,
+            "xy_cm": [
+              -5600.0,
+              -1500.0
+            ],
+            "result": {
+              "blocking_hit": false,
+              "initial_overlap": false,
+              "actor_label": null,
+              "impact_point": null,
+              "hit_is_original_ground_tile_mesh": null
+            }
+          },
+          {
+            "perpendicular_offset_cm": -1.0,
+            "xy_cm": [
+              -5600.0,
+              -1501.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_08_12_SM_Env_Road_Bare_01",
+              "impact_point": [
+                -5600.0,
+                -1501.0,
+                7.450580596923828e-07
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": -0.1,
+            "xy_cm": [
+              -5600.0,
+              -1500.1
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_08_12_SM_Env_Road_Bare_01",
+              "impact_point": [
+                -5600.0,
+                -1500.1,
+                7.450580596923828e-07
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": 0.1,
+            "xy_cm": [
+              -5600.0,
+              -1499.9
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_08_13_SM_Env_Sidewalk_Dip_01",
+              "impact_point": [
+                -5600.000027382833,
+                -1499.8999657783052,
+                0.005975870314017584
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": 1.0,
+            "xy_cm": [
+              -5600.0,
+              -1499.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_08_13_SM_Env_Sidewalk_Dip_01",
+              "impact_point": [
+                -5600.000027382833,
+                -1498.9999658399165,
+                0.06013871846388952
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          }
+        ]
+      },
+      {
+        "route": "VehicleEntry_33_13",
+        "lateral_offset_cm": -150.0,
+        "sample_index": 3,
+        "xy_cm": [
+          6600.0,
+          -1500.0
+        ],
+        "seam_normal_axis": "y",
+        "distance_to_tile_seams_cm": {
+          "x": 100.0,
+          "y": 0.0
+        },
+        "original_simple": {
+          "blocking_hit": true,
+          "initial_overlap": false,
+          "actor_label": "Ground_33_13_SM_Env_Sidewalk_Dip_01",
+          "impact_point": [
+            6599.999993154292,
+            -1499.9999657714593,
+            0.0
+          ],
+          "hit_is_original_ground_tile_mesh": true
+        },
+        "original_complex": {
+          "blocking_hit": false,
+          "initial_overlap": false,
+          "actor_label": null,
+          "impact_point": null,
+          "hit_is_original_ground_tile_mesh": null
+        },
+        "probes": [
+          {
+            "perpendicular_offset_cm": 0.0,
+            "xy_cm": [
+              6600.0,
+              -1500.0
+            ],
+            "result": {
+              "blocking_hit": false,
+              "initial_overlap": false,
+              "actor_label": null,
+              "impact_point": null,
+              "hit_is_original_ground_tile_mesh": null
+            }
+          },
+          {
+            "perpendicular_offset_cm": -1.0,
+            "xy_cm": [
+              6600.0,
+              -1501.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_33_12_SM_Env_Road_Bare_01",
+              "impact_point": [
+                6600.0,
+                -1501.0,
+                7.450580596923828e-07
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": -0.1,
+            "xy_cm": [
+              6600.0,
+              -1500.1
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_33_12_SM_Env_Road_Bare_01",
+              "impact_point": [
+                6600.0,
+                -1500.1,
+                7.450580596923828e-07
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": 0.1,
+            "xy_cm": [
+              6600.0,
+              -1499.9
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_33_13_SM_Env_Sidewalk_Dip_01",
+              "impact_point": [
+                6599.999993154292,
+                -1499.8999657783052,
+                0.0013084761933157552
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": 1.0,
+            "xy_cm": [
+              6600.0,
+              -1499.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_33_13_SM_Env_Sidewalk_Dip_01",
+              "impact_point": [
+                6599.999993154292,
+                -1498.9999658399165,
+                0.013171378421930058
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          }
+        ]
+      },
+      {
+        "route": "VehicleEntry_33_13",
+        "lateral_offset_cm": 0.0,
+        "sample_index": 3,
+        "xy_cm": [
+          6750.0,
+          -1500.0
+        ],
+        "seam_normal_axis": "y",
+        "distance_to_tile_seams_cm": {
+          "x": 250.0,
+          "y": 0.0
+        },
+        "original_simple": {
+          "blocking_hit": true,
+          "initial_overlap": false,
+          "actor_label": "Ground_33_13_SM_Env_Sidewalk_Dip_01",
+          "impact_point": [
+            6749.99998288573,
+            -1499.9999657714593,
+            -2.842170943040401e-14
+          ],
+          "hit_is_original_ground_tile_mesh": true
+        },
+        "original_complex": {
+          "blocking_hit": false,
+          "initial_overlap": false,
+          "actor_label": null,
+          "impact_point": null,
+          "hit_is_original_ground_tile_mesh": null
+        },
+        "probes": [
+          {
+            "perpendicular_offset_cm": 0.0,
+            "xy_cm": [
+              6750.0,
+              -1500.0
+            ],
+            "result": {
+              "blocking_hit": false,
+              "initial_overlap": false,
+              "actor_label": null,
+              "impact_point": null,
+              "hit_is_original_ground_tile_mesh": null
+            }
+          },
+          {
+            "perpendicular_offset_cm": -1.0,
+            "xy_cm": [
+              6750.0,
+              -1501.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_33_12_SM_Env_Road_Bare_01",
+              "impact_point": [
+                6750.0,
+                -1501.0,
+                7.450580596923828e-07
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": -0.1,
+            "xy_cm": [
+              6750.0,
+              -1500.1
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_33_12_SM_Env_Road_Bare_01",
+              "impact_point": [
+                6750.0,
+                -1500.1,
+                7.450580596923828e-07
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": 0.1,
+            "xy_cm": [
+              6750.0,
+              -1499.9
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_33_13_SM_Env_Sidewalk_Dip_01",
+              "impact_point": [
+                6749.99998288573,
+                -1499.8999657783052,
+                0.0018060138960152017
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": 1.0,
+            "xy_cm": [
+              6750.0,
+              -1499.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_33_13_SM_Env_Sidewalk_Dip_01",
+              "impact_point": [
+                6749.99998288573,
+                -1498.9999658399163,
+                0.018175832735749964
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          }
+        ]
+      },
+      {
+        "route": "VehicleEntry_33_13",
+        "lateral_offset_cm": 150.0,
+        "sample_index": 3,
+        "xy_cm": [
+          6900.0,
+          -1500.0
+        ],
+        "seam_normal_axis": "y",
+        "distance_to_tile_seams_cm": {
+          "x": 100.0,
+          "y": 0.0
+        },
+        "original_simple": {
+          "blocking_hit": true,
+          "initial_overlap": false,
+          "actor_label": "Ground_33_13_SM_Env_Sidewalk_Dip_01",
+          "impact_point": [
+            6899.999972617167,
+            -1499.9999657714593,
+            -2.842170943040401e-14
+          ],
+          "hit_is_original_ground_tile_mesh": true
+        },
+        "original_complex": {
+          "blocking_hit": false,
+          "initial_overlap": false,
+          "actor_label": null,
+          "impact_point": null,
+          "hit_is_original_ground_tile_mesh": null
+        },
+        "probes": [
+          {
+            "perpendicular_offset_cm": 0.0,
+            "xy_cm": [
+              6900.0,
+              -1500.0
+            ],
+            "result": {
+              "blocking_hit": false,
+              "initial_overlap": false,
+              "actor_label": null,
+              "impact_point": null,
+              "hit_is_original_ground_tile_mesh": null
+            }
+          },
+          {
+            "perpendicular_offset_cm": -1.0,
+            "xy_cm": [
+              6900.0,
+              -1501.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_33_12_SM_Env_Road_Bare_01",
+              "impact_point": [
+                6900.0,
+                -1501.0,
+                7.450580596923828e-07
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": -0.1,
+            "xy_cm": [
+              6900.0,
+              -1500.1
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_33_12_SM_Env_Road_Bare_01",
+              "impact_point": [
+                6900.0,
+                -1500.1,
+                7.450580596923828e-07
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": 0.1,
+            "xy_cm": [
+              6900.0,
+              -1499.9
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_33_13_SM_Env_Sidewalk_Dip_01",
+              "impact_point": [
+                6899.999972617167,
+                -1499.8999657783052,
+                0.005975870314017584
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          },
+          {
+            "perpendicular_offset_cm": 1.0,
+            "xy_cm": [
+              6900.0,
+              -1499.0
+            ],
+            "result": {
+              "blocking_hit": true,
+              "initial_overlap": false,
+              "actor_label": "Ground_33_13_SM_Env_Sidewalk_Dip_01",
+              "impact_point": [
+                6899.999972617167,
+                -1498.9999658399165,
+                0.06013871846388952
+              ],
+              "hit_is_original_ground_tile_mesh": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "resolved_entrance_obstruction": {
+    "affected_entrance": "VehicleEntry_37_05",
+    "previous_observation": "Two tracks in one entrance crossing were blocked by two wood-fence panels; each track blocked both simple and complex capsule queries.",
+    "original_geometric_review_limit": "The earlier bounds check protected the entrance tile itself, but its 10 m traversal continues into the lot and reached the fence at X about 8307 cm. The actual sweep caught this deeper approach obstruction.",
+    "relocations": [
+      {
+        "actor_id": "Stories_0150_Prop_Fence_Wood_Straight_03",
+        "original_location_cm": [
+          8300,
+          -5390,
+          0
+        ],
+        "original_yaw_degrees": 0,
+        "final_location_cm": [
+          8050.0,
+          -6140.0,
+          0.0
+        ],
+        "final_rotation_degrees": {
+          "pitch": 0.0,
+          "yaw": 89.99999999999999,
+          "roll": -0.0
+        },
+        "reason": "The fence stood across the east workshop entrance approach inside the lot. Relocated as a westward return at the existing fence south end, preserving the fence models and collision.",
+        "previous_observed_query": {
+          "route": "VehicleEntry_37_05",
+          "lateral_offset_cm": 150.0,
+          "segment_index": 1,
+          "simple_blocking_hit": true,
+          "complex_blocking_hit": true,
+          "source": "Earlier actual CollisionRoutes output inspected in this task before relocation."
+        },
+        "final_actual_queries": [
+          {
+            "trace_complex": false,
+            "start_cm": [
+              8750.0,
+              -5400.0,
+              100.0
+            ],
+            "end_cm": [
+              8250.0,
+              -5400.0,
+              100.0
+            ],
+            "blocking_hit": false,
+            "initial_overlap": false
+          },
+          {
+            "trace_complex": true,
+            "start_cm": [
+              8750.0,
+              -5400.0,
+              100.0
+            ],
+            "end_cm": [
+              8250.0,
+              -5400.0,
+              100.0
+            ],
+            "blocking_hit": false,
+            "initial_overlap": false
+          }
+        ]
+      },
+      {
+        "actor_id": "Stories_0151_Prop_Fence_Wood_Straight_01",
+        "original_location_cm": [
+          8300,
+          -5140,
+          0
+        ],
+        "original_yaw_degrees": 0,
+        "final_location_cm": [
+          7800.0,
+          -6140.0,
+          0.0
+        ],
+        "final_rotation_degrees": {
+          "pitch": 0.0,
+          "yaw": 89.99999999999999,
+          "roll": -0.0
+        },
+        "reason": "The fence stood across the east workshop entrance approach inside the lot. Relocated as a westward return at the existing fence south end, preserving the fence models and collision.",
+        "previous_observed_query": {
+          "route": "VehicleEntry_37_05",
+          "lateral_offset_cm": 0.0,
+          "segment_index": 1,
+          "simple_blocking_hit": true,
+          "complex_blocking_hit": true,
+          "source": "Earlier actual CollisionRoutes output inspected in this task before relocation."
+        },
+        "final_actual_queries": [
+          {
+            "trace_complex": false,
+            "start_cm": [
+              8750.0,
+              -5250.0,
+              100.0
+            ],
+            "end_cm": [
+              8250.0,
+              -5250.0,
+              100.0
+            ],
+            "blocking_hit": false,
+            "initial_overlap": false
+          },
+          {
+            "trace_complex": true,
+            "start_cm": [
+              8750.0,
+              -5250.0,
+              100.0
+            ],
+            "end_cm": [
+              8250.0,
+              -5250.0,
+              100.0
+            ],
+            "blocking_hit": false,
+            "initial_overlap": false
+          }
+        ]
+      }
+    ],
+    "final_all_capsule_queries": {
+      "simple": {
+        "queries": 228,
+        "blocking_hits": 0,
+        "no_blocking_hits": 228,
+        "errors": 0
+      },
+      "complex": {
+        "queries": 228,
+        "blocking_hits": 0,
+        "no_blocking_hits": 228,
+        "errors": 0
+      }
+    }
+  },
+  "collision_asset_inspection": {
+    "sample_count": 29,
+    "scope": "Actual collision settings on the ground tiles, main building bodies and vehicles referenced by this layout. GetSimpleCollisionCount counts Box/Sphere/Sphyl only; convex primitives are queried separately.",
+    "project_default_shape_complexity": "<CollisionTraceFlag.CTF_USE_SIMPLE_AND_COMPLEX: 1>",
+    "world_static_mesh_component_count": 5065,
+    "world_component_collision_profile_counts": {
+      "BlockAll": 5047,
+      "NoCollision": 18
+    },
+    "samples": [
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_AutoRepair_01.SM_Bld_AutoRepair_01",
+        "categories": [
+          "building_body"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 25,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Cafe_01.SM_Bld_Cafe_01",
+        "categories": [
+          "building_body"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 30,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Medium_01.SM_Bld_Commercial_Medium_01",
+        "categories": [
+          "building_body"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 82,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Small_01.SM_Bld_Commercial_Small_01",
+        "categories": [
+          "building_body"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 63,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_01.SM_Bld_Diner_01",
+        "categories": [
+          "building_body"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 47,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_01.SM_Bld_Motel_01",
+        "categories": [
+          "building_body"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 46,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Large_02.SM_Bld_Shop_Large_02",
+        "categories": [
+          "building_body"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 26,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Small_01.SM_Bld_Shop_Small_01",
+        "categories": [
+          "building_body"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 29,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Small_02.SM_Bld_Shop_Small_02",
+        "categories": [
+          "building_body"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 24,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+        "categories": [
+          "ground"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 1,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+        "categories": [
+          "ground"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 1,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Crossing_01.SM_Env_Road_Crossing_01",
+        "categories": [
+          "ground"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 1,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Parking_01.SM_Env_Road_Parking_01",
+        "categories": [
+          "ground"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 1,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Parking_02.SM_Env_Road_Parking_02",
+        "categories": [
+          "ground"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 1,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_01.SM_Env_Sidewalk_01",
+        "categories": [
+          "ground"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 1,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Corner_01.SM_Env_Sidewalk_Corner_01",
+        "categories": [
+          "ground"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 1,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Dip_01.SM_Env_Sidewalk_Dip_01",
+        "categories": [
+          "ground"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 1,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Panel_01.SM_Env_Sidewalk_Panel_01",
+        "categories": [
+          "ground"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 1,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+        "categories": [
+          "ground"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 1,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Car_Wrecked_01.SM_Prop_Car_Wrecked_01",
+        "categories": [
+          "vehicle"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 2,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Car_Wrecked_Bus_01.SM_Prop_Car_Wrecked_Bus_01",
+        "categories": [
+          "vehicle"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 1,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Car_Wrecked_OpenBoot_01.SM_Prop_Car_Wrecked_OpenBoot_01",
+        "categories": [
+          "vehicle"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 3,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Car_Wrecked_Rusted_01.SM_Prop_Car_Wrecked_Rusted_01",
+        "categories": [
+          "vehicle"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 2,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Car_Wrecked_SUV_01.SM_Prop_Car_Wrecked_SUV_01",
+        "categories": [
+          "vehicle"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 3,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Car_Wrecked_Squished_01.SM_Prop_Car_Wrecked_Squished_01",
+        "categories": [
+          "vehicle"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 2,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Car_Wrecked_Squished_Rusted_01.SM_Prop_Car_Wrecked_Squished_Rusted_01",
+        "categories": [
+          "vehicle"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 3,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Car_Wrecked_Stack_Rusted_01.SM_Prop_Car_Wrecked_Stack_Rusted_01",
+        "categories": [
+          "vehicle"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 1,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Car_Wrecked_Van_01.SM_Prop_Car_Wrecked_Van_01",
+        "categories": [
+          "vehicle"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 2,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Gaspump_Cover_01.SM_Prop_Gaspump_Cover_01",
+        "categories": [
+          "building_body"
+        ],
+        "simple_box_sphere_sphyl_count": 0,
+        "convex_count": 3,
+        "collision_complexity": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>",
+        "body_setup_collision_trace_flag": "<CollisionTraceFlag.CTF_USE_DEFAULT: 0>"
+      }
+    ],
+    "warnings": [],
+    "world_component_count_scope": "All StaticMeshComponents in the queried editor world, including environment components; this is not the count of authored rows in Layout.json."
+  },
+  "query_did_not_change_dirty_package_sets": true,
+  "local_raw_evidence_sha256": {
+    "CollisionRoutes.json": "46cb58cca54ab1449baa780c0863e4063135cbcd04e1f3a2855cad7d35040131",
+    "CollisionSeamProbes.json": "19edc3efc71c9914fa85ec5cd26252d47fbaec7c76f7374324ef185d484e4e28"
+  },
+  "limitations": [
+    "Collision query settings are channel-specific. Visibility results do not automatically transfer to every future gameplay collision channel.",
+    "Three parallel capsule tracks are sampled through each corridor; untested lateral positions, stepping, jumping, sloped motion and complete player reachability remain unverified.",
+    "Exact complex seam rays still miss at the 11 recorded positions, even though simple rays hit and all off-seam probes hit.",
+    "Mesh collision settings were inspected for 29 selected meshes, not every scene asset."
+  ],
+  "routes_sha256": "125de869e8ee0ed13d2c6e78049d88880ac886f0d6e14c0a215b0ff775f5181b",
+  "reproduction_script": "Scripts/check_routes.py",
+  "route_plan": "Data/Routes.json",
+  "layout_manifest_instance_count": 5053,
+  "asset_selection_counts": {
+    "ground_instances": 1280,
+    "building_components": 94,
+    "selected_vehicle_instances": 25,
+    "unique_collision_assets": 29
+  },
+  "instance_validation_note": "Save/reload instance, decal and camera validation is maintained separately in ReproductionValidation.json. This file records collision queries only."
+}
