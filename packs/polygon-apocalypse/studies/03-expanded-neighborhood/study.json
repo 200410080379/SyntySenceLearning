@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "03-expanded-neighborhood",
+  "title": "扩大街区与区域地面关系",
+  "date": "2026-09-14",
+  "pack": "polygon-apocalypse",
+  "status": "verified-portable-scripts-ue5.8.2",
+  "map": "/Game/SyntySenceLearning/PolygonApocalypse/ExpandedNeighborhood/L_ExpandedNeighborhood",
+  "layout": "Data/Layout.json",
+  "historical_evidence": "Data/ReproductionValidation.json",
+  "readme": "README.md",
+  "scripts": {
+    "plan": "Scripts/plan_neighborhood.py",
+    "build": "Scripts/build_city_ground.py",
+    "material_fix": "Scripts/fix_road_atlas_sampling.py",
+    "verify": "Scripts/sync_and_check_city_ground.py",
+    "geometry_export": "Scripts/export_candidate_geometry.py",
+    "offline_analysis": "Scripts/validate_ground_geometry.py",
+    "view": "Scripts/set_view.py"
+  },
+  "requires_source_demo_for_build": false,
+  "expected_mesh_instances": 1280,
+  "expected_adjacent_seams": 2488,
+  "reproduction_evidence": "Data/ReproductionValidation.json",
+  "evidence_relationship": "Both evidence fields refer to the same current run; this study has no separate legacy run."
+}

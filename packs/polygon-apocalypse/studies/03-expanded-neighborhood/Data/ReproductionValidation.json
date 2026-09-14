@@ -1,0 +1,332 @@
+{
+  "record_kind": "repository_script_build_and_saved_reload_validation",
+  "verified_date": "2026-09-14",
+  "engine_version": "5.8.2",
+  "saved_level_reopened": true,
+  "instance_validation": {
+    "world": "/Game/SyntySenceLearning/PolygonApocalypse/ExpandedNeighborhood/L_ExpandedNeighborhood.L_ExpandedNeighborhood",
+    "surface_size_m": [
+      200,
+      160
+    ],
+    "mesh_instances": 1280,
+    "unique_meshes": 10,
+    "layout_sha256": "0c2cd123cd7121e73c1801cea5a8f4930a65b64abb8a121ec86655e8217820cb",
+    "changed_mesh_instances": 0,
+    "read_only": true,
+    "instance_validation_failures": [],
+    "expected_material_override": {
+      "source_material": "/Game/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_Road_Mat_01.MI_PolygonApocalypse_Road_Mat_01",
+      "instance_material": "/Game/SyntySenceLearning/PolygonApocalypse/ExpandedNeighborhood/Materials/MI_Road_AtlasSampling.MI_Road_AtlasSampling",
+      "base_material": "/Game/SyntySenceLearning/PolygonApocalypse/ExpandedNeighborhood/Materials/M_Road_AtlasSampling.M_Road_AtlasSampling",
+      "base_texture_mip_bias": -3,
+      "affected_component_slots": 846,
+      "source_assets_modified": false,
+      "reason": "Source road texture includes a bottom palette strip; distant mip filtering bled yellow into asphalt tile edges.",
+      "tradeoff": "Road BaseTexture samples finer mip levels; no global rendering or texture-cache setting is changed."
+    },
+    "all_original_source_meshes": true,
+    "all_scale_one": true
+  },
+  "geometry_validation": {
+    "passed": true,
+    "method": "LOD0 triangle-plane sections at nominal borders; XY drift registration; piecewise linear upper envelopes evaluated at both meshes nodes, line crossings and one-sided endpoints, with midpoint coverage tests.",
+    "summary": {
+      "expected_adjacent_seams": 2488,
+      "checked_adjacent_seams": 2488,
+      "failed_seam_count": 0,
+      "maximum_height_difference_cm": 9.999999999621423e-06,
+      "maximum_uncovered_span_cm": 0.0,
+      "unique_mesh_yaw_profile_count": 30
+    },
+    "tolerances_cm": {
+      "author_horizontal_vertex_drift": 0.01,
+      "height_difference": 0.1,
+      "uncovered_span": 0.1
+    },
+    "coverage": {
+      "grid_size": [
+        40,
+        32
+      ],
+      "expected_tile_count": 1280,
+      "input_tile_count": 1280,
+      "occupied_cell_count": 1280,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "errors": []
+    },
+    "limits": [
+      "Checks adjacent tile seams and declared grid occupancy, not arbitrary holes inside a mesh.",
+      "Includes sculpted cracks, raised curb and gutters in actual triangle Z; no flattening to actor Z.",
+      "Only nonvertical XY-projected triangle surfaces count as floor coverage.",
+      "Does not validate collision, UV continuity, shading, draw order or outer-edge scenery."
+    ],
+    "layout_sha256": "0c2cd123cd7121e73c1801cea5a8f4930a65b64abb8a121ec86655e8217820cb"
+  },
+  "source_integrity": {
+    "all_identical": true,
+    "files_checked": 15,
+    "files": [
+      {
+        "asset": "PolygonApocalypse/Maps/Demo.umap",
+        "source_sha256": "c0bac32ccd1c8bfc3e35624c4b4f4984b16a965ff0fde0a84d91dbee722d95cb",
+        "project_sha256": "c0bac32ccd1c8bfc3e35624c4b4f4984b16a965ff0fde0a84d91dbee722d95cb",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Materials/Base/M_PolygonApocalypse_Base.uasset",
+        "source_sha256": "30f24c2a5cf9091fff0e46b9c98e2f457b569d00469448e089f8d8959c45bf71",
+        "project_sha256": "30f24c2a5cf9091fff0e46b9c98e2f457b569d00469448e089f8d8959c45bf71",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_Road_Mat_01.uasset",
+        "source_sha256": "239a90f121d2fceac5c2e2a354c135c1df26e1329478a28e9754568095c2e1b1",
+        "project_sha256": "239a90f121d2fceac5c2e2a354c135c1df26e1329478a28e9754568095c2e1b1",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.uasset",
+        "source_sha256": "deb5e743064b2b4be24bba9a0b23bcfc0447da8a7a942a072e4b5f46353aa51c",
+        "project_sha256": "deb5e743064b2b4be24bba9a0b23bcfc0447da8a7a942a072e4b5f46353aa51c",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.uasset",
+        "source_sha256": "1be8375c4a93829232eb2e2b59210e6cff9fad1eb7c62b4a6b74e7b06ebe0170",
+        "project_sha256": "1be8375c4a93829232eb2e2b59210e6cff9fad1eb7c62b4a6b74e7b06ebe0170",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Environments/SM_Env_Road_Crossing_01.uasset",
+        "source_sha256": "a9e27c06232a328bc0d23cfd7a7f7783c6f1fa072d998fde51283611ff476985",
+        "project_sha256": "a9e27c06232a328bc0d23cfd7a7f7783c6f1fa072d998fde51283611ff476985",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Environments/SM_Env_Road_Parking_01.uasset",
+        "source_sha256": "03ebe5792e9654eb6975f9092b54fcd709f9195a97f0dd217892b3a61c10fa51",
+        "project_sha256": "03ebe5792e9654eb6975f9092b54fcd709f9195a97f0dd217892b3a61c10fa51",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Environments/SM_Env_Road_Parking_02.uasset",
+        "source_sha256": "caa43a6711360179f3ef6ad863edb4c8751155a69bdd4ebc7040a86971dcfba4",
+        "project_sha256": "caa43a6711360179f3ef6ad863edb4c8751155a69bdd4ebc7040a86971dcfba4",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_01.uasset",
+        "source_sha256": "8394b074fff87295b182365e1e4fc193278171d83bd01ce92bea0df73e39e45b",
+        "project_sha256": "8394b074fff87295b182365e1e4fc193278171d83bd01ce92bea0df73e39e45b",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.uasset",
+        "source_sha256": "8ea0ca71c899457eae3d1c44d604f9af800db2d04ab6cc72f0450fb5c61071e8",
+        "project_sha256": "8ea0ca71c899457eae3d1c44d604f9af800db2d04ab6cc72f0450fb5c61071e8",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Corner_01.uasset",
+        "source_sha256": "269cd63acf16c8dfaeac1c30716598e68ee0cffd08cdfa62c43bba1ebadaa84f",
+        "project_sha256": "269cd63acf16c8dfaeac1c30716598e68ee0cffd08cdfa62c43bba1ebadaa84f",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Dip_01.uasset",
+        "source_sha256": "df873e08e4ce1173b7aced2381d0c995937204cef7d0a603d057ee08288cc3b9",
+        "project_sha256": "df873e08e4ce1173b7aced2381d0c995937204cef7d0a603d057ee08288cc3b9",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Panel_01.uasset",
+        "source_sha256": "f0b293b53fb2f449359ef5b963652a303616f86ff9a318bebf244038c3ecbcd5",
+        "project_sha256": "f0b293b53fb2f449359ef5b963652a303616f86ff9a318bebf244038c3ecbcd5",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.uasset",
+        "source_sha256": "831344aa1f69c2cfdda6eeafa4cb9014ec4fe5bb6dce4072c37d2830efe27d19",
+        "project_sha256": "831344aa1f69c2cfdda6eeafa4cb9014ec4fe5bb6dce4072c37d2830efe27d19",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Textures/Misc/T_PolygonApocalypse_Road_01.uasset",
+        "source_sha256": "86ed9c6a5c7966a029113be10a0e6d0dce706bf6bdcadd229787e292a811522d",
+        "project_sha256": "86ed9c6a5c7966a029113be10a0e6d0dce706bf6bdcadd229787e292a811522d",
+        "identical": true
+      }
+    ]
+  },
+  "interior_coverage_sampling": {
+    "layout_sha256": "0c2cd123cd7121e73c1801cea5a8f4930a65b64abb8a121ec86655e8217820cb",
+    "method": "Cell-center samples in local XY [-500,0] x [-500,0], union of scanline intervals from all nonvertical LOD0 triangle projections; no ground generated or modified.",
+    "limits": [
+      "Finite sampling, not a strict proof of no holes smaller than sample spacing.",
+      "Any nonvertical triangle counts, including downward-facing triangles and surfaces at different Z; this does not verify visible top faces.",
+      "Does not verify collision, navigation, UVs, materials, lighting, LOD switching or render culling.",
+      "Meshes are sampled individually at their authored local coordinates; seam and placement checks are in GeometryValidation.json."
+    ],
+    "meshes": [
+      {
+        "name": "SM_Env_Road_01",
+        "samplings": [
+          {
+            "spacing_cm": 5,
+            "sample_count": 10000,
+            "uncovered_sample_count": 0
+          },
+          {
+            "spacing_cm": 1,
+            "sample_count": 250000,
+            "uncovered_sample_count": 0
+          }
+        ]
+      },
+      {
+        "name": "SM_Env_Road_Bare_01",
+        "samplings": [
+          {
+            "spacing_cm": 5,
+            "sample_count": 10000,
+            "uncovered_sample_count": 0
+          },
+          {
+            "spacing_cm": 1,
+            "sample_count": 250000,
+            "uncovered_sample_count": 0
+          }
+        ]
+      },
+      {
+        "name": "SM_Env_Road_Crossing_01",
+        "samplings": [
+          {
+            "spacing_cm": 5,
+            "sample_count": 10000,
+            "uncovered_sample_count": 0
+          },
+          {
+            "spacing_cm": 1,
+            "sample_count": 250000,
+            "uncovered_sample_count": 0
+          }
+        ]
+      },
+      {
+        "name": "SM_Env_Road_Parking_01",
+        "samplings": [
+          {
+            "spacing_cm": 5,
+            "sample_count": 10000,
+            "uncovered_sample_count": 0
+          },
+          {
+            "spacing_cm": 1,
+            "sample_count": 250000,
+            "uncovered_sample_count": 0
+          }
+        ]
+      },
+      {
+        "name": "SM_Env_Road_Parking_02",
+        "samplings": [
+          {
+            "spacing_cm": 5,
+            "sample_count": 10000,
+            "uncovered_sample_count": 0
+          },
+          {
+            "spacing_cm": 1,
+            "sample_count": 250000,
+            "uncovered_sample_count": 0
+          }
+        ]
+      },
+      {
+        "name": "SM_Env_Sidewalk_01",
+        "samplings": [
+          {
+            "spacing_cm": 5,
+            "sample_count": 10000,
+            "uncovered_sample_count": 0
+          },
+          {
+            "spacing_cm": 1,
+            "sample_count": 250000,
+            "uncovered_sample_count": 0
+          }
+        ]
+      },
+      {
+        "name": "SM_Env_Sidewalk_Corner_01",
+        "samplings": [
+          {
+            "spacing_cm": 5,
+            "sample_count": 10000,
+            "uncovered_sample_count": 7
+          },
+          {
+            "spacing_cm": 1,
+            "sample_count": 250000,
+            "uncovered_sample_count": 160
+          }
+        ]
+      },
+      {
+        "name": "SM_Env_Sidewalk_Dip_01",
+        "samplings": [
+          {
+            "spacing_cm": 5,
+            "sample_count": 10000,
+            "uncovered_sample_count": 0
+          },
+          {
+            "spacing_cm": 1,
+            "sample_count": 250000,
+            "uncovered_sample_count": 0
+          }
+        ]
+      },
+      {
+        "name": "SM_Env_Sidewalk_Panel_01",
+        "samplings": [
+          {
+            "spacing_cm": 5,
+            "sample_count": 10000,
+            "uncovered_sample_count": 0
+          },
+          {
+            "spacing_cm": 1,
+            "sample_count": 250000,
+            "uncovered_sample_count": 0
+          }
+        ]
+      },
+      {
+        "name": "SM_Env_Sidewalk_Straight_01",
+        "samplings": [
+          {
+            "spacing_cm": 5,
+            "sample_count": 10000,
+            "uncovered_sample_count": 0
+          },
+          {
+            "spacing_cm": 1,
+            "sample_count": 250000,
+            "uncovered_sample_count": 0
+          }
+        ]
+      }
+    ]
+  },
+  "layout_review": {
+    "changes": [
+      "Removed NW_Diner vehicle entrance (9,16) adjacent to pedestrian entrance (10,16), also facing parking column i=9. Kept vehicle entrance (6,16)."
+    ],
+    "interpretation": "Visual route and parcel planning; vehicle turning geometry, building fit, gameplay, navigation, collision and runtime performance not validated."
+  },
+  "scope": "Built from repository scripts in an existing UE 5.8.2 project with locally installed source assets; existing 80 m study retained. No clean-engine installation test."
+}
