@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "04-building-placement",
+  "title": "从原包装配学习街区建筑摆放",
+  "date": "2026-09-14",
+  "pack": "polygon-apocalypse",
+  "status": "verified-additive-scripts-ue5.8.2",
+  "map": "/Game/SyntySenceLearning/PolygonApocalypse/ExpandedNeighborhood/L_ExpandedNeighborhood",
+  "layout": "Data/Layout.json",
+  "historical_evidence": "Data/ReproductionValidation.json",
+  "readme": "README.md",
+  "scripts": {
+    "plan": "Scripts/plan_buildings.py",
+    "build": "Scripts/build_buildings.py",
+    "verify": "Scripts/verify_buildings.py",
+    "view": "Scripts/set_view.py"
+  },
+  "requires_source_demo_for_build": false,
+  "requires_studies": ["03-expanded-neighborhood"],
+  "build_mode": "add-buildings-to-existing-ground-map-once",
+  "expected_mesh_instances": 94,
+  "expected_building_groups": 14,
+  "expected_main_buildings": 13,
+  "expected_canopies": 1,
+  "expected_existing_ground_instances": 1280,
+  "reproduction_evidence": "Data/ReproductionValidation.json",
+  "evidence_relationship": "Both evidence fields refer to the same current run; no separate legacy run. Ground placements are checked unchanged, not remeasured as new seam evidence."
+}

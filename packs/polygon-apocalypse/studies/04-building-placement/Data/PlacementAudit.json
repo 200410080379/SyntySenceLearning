@@ -1,0 +1,543 @@
+{
+  "scope": "Independent plan-space review of main-mesh conservative XY bounds only; no UE actor mutation or collision/navigation tests. Roof/stair projections are included. Same-assembly overlaps are expected and excluded.",
+  "plan_sha256": "8edbbcb89e32bceca8a3e069a8d5e88c065666b1d605897828d16e72cb9b66f9",
+  "layout_sha256": "b1ab7673ab622ffb4b206efad164c321e49c091d5b747a077371069fcfba108d",
+  "ground_sha256": "0c2cd123cd7121e73c1801cea5a8f4930a65b64abb8a121ec86655e8217820cb",
+  "groups_reviewed": 14,
+  "main_pairs_reviewed": 91,
+  "vehicle_accesses_reviewed": 9,
+  "issues": [],
+  "resolved_review": [
+    {
+      "issue": "East vehicle access had a short apron facing the parts shop.",
+      "group": "SE_PartsShop",
+      "cell": [
+        37,
+        5
+      ],
+      "before_anchor_cm": [
+        7800,
+        -5600,
+        0
+      ],
+      "after_anchor_cm": [
+        6500,
+        -5600,
+        0
+      ],
+      "before_entry_to_main_bounds_cm": 335.64,
+      "after_entry_to_main_bounds_cm": 1635.64,
+      "previous_plan_sha256": "fcd6ccb2e4c2f74910f90676c4f996ecac0c1d3df526ac6c3b693496432b68db",
+      "previous_layout_sha256": "110888ad161d4c207ed5a488dc8b3987f520e18034d84212b409318f6e0458c3",
+      "resolution": "Moved the entire building assembly 13 m west, preserving relative transforms and original ground."
+    }
+  ],
+  "main_bounds": [
+    {
+      "group": "SW_GasShop",
+      "world_xy_bounds_cm": [
+        -6828.5947,
+        -4975.2481,
+        -6366.582,
+        -4896.0469
+      ],
+      "inner_block_clearance_cm_w_e_s_n": [
+        1671.4053,
+        6975.2481,
+        133.418,
+        3396.0469
+      ],
+      "ground_roles": {
+        "SW_GasAndShops/BuildingOrPedestrianReserve": 15,
+        "SW_GasAndShops/GasForecourt": 5
+      },
+      "protected_overlaps": []
+    },
+    {
+      "group": "SW_GasCanopy",
+      "world_xy_bounds_cm": [
+        -6469.0707,
+        -5130.9293,
+        -3750.5483,
+        -3049.4517
+      ],
+      "inner_block_clearance_cm_w_e_s_n": [
+        2030.9293,
+        7130.9293,
+        2749.4517,
+        1549.4517
+      ],
+      "ground_roles": {
+        "SW_GasAndShops/GasForecourt": 6
+      },
+      "protected_overlaps": []
+    },
+    {
+      "group": "SW_Commercial",
+      "world_xy_bounds_cm": [
+        -2782.959,
+        -325.8701,
+        -5373.4872,
+        -4135.7166
+      ],
+      "inner_block_clearance_cm_w_e_s_n": [
+        5717.041,
+        2325.8701,
+        1126.5128,
+        2635.7166
+      ],
+      "ground_roles": {
+        "SW_GasAndShops/BuildingOrPedestrianReserve": 18
+      },
+      "protected_overlaps": []
+    },
+    {
+      "group": "SW_FrontShopA",
+      "world_xy_bounds_cm": [
+        -2774.1276,
+        -2025.8724,
+        -3024.3202,
+        -2138.6057
+      ],
+      "inner_block_clearance_cm_w_e_s_n": [
+        5725.8724,
+        4025.8724,
+        3475.6798,
+        638.6057
+      ],
+      "ground_roles": {
+        "SW_GasAndShops/BuildingOrPedestrianReserve": 2,
+        "SW_GasAndShops/Forecourt": 4
+      },
+      "protected_overlaps": []
+    },
+    {
+      "group": "SW_FrontShopB",
+      "world_xy_bounds_cm": [
+        -1424.1276,
+        -675.8724,
+        -3024.3202,
+        -2160.2082
+      ],
+      "inner_block_clearance_cm_w_e_s_n": [
+        7075.8724,
+        2675.8724,
+        3475.6798,
+        660.2082
+      ],
+      "ground_roles": {
+        "SW_GasAndShops/BuildingOrPedestrianReserve": 2,
+        "SW_GasAndShops/Forecourt": 4
+      },
+      "protected_overlaps": []
+    },
+    {
+      "group": "SW_CornerShop",
+      "world_xy_bounds_cm": [
+        175.6798,
+        1061.3943,
+        -5124.1276,
+        -4375.8724
+      ],
+      "inner_block_clearance_cm_w_e_s_n": [
+        8675.6798,
+        938.6057,
+        1375.8724,
+        2875.8724
+      ],
+      "ground_roles": {
+        "SW_GasAndShops/BuildingOrPedestrianReserve": 6,
+        "SW_GasAndShops/Forecourt": 3
+      },
+      "protected_overlaps": []
+    },
+    {
+      "group": "NW_Diner",
+      "world_xy_bounds_cm": [
+        -7251.4061,
+        -5648.5939,
+        4548.9133,
+        5593.5963
+      ],
+      "inner_block_clearance_cm_w_e_s_n": [
+        1248.5939,
+        1648.5939,
+        4048.9133,
+        906.4037
+      ],
+      "ground_roles": {
+        "NW_Diner/BuildingOrPedestrianReserve": 12
+      },
+      "protected_overlaps": []
+    },
+    {
+      "group": "NW_Cafe",
+      "world_xy_bounds_cm": [
+        -4807.847,
+        -4091.7113,
+        4209.9903,
+        4790.0098
+      ],
+      "inner_block_clearance_cm_w_e_s_n": [
+        3692.153,
+        91.7113,
+        3709.9903,
+        1709.9902
+      ],
+      "ground_roles": {
+        "NW_Diner/BuildingOrPedestrianReserve": 2,
+        "NW_Diner/Forecourt": 2
+      },
+      "protected_overlaps": []
+    },
+    {
+      "group": "NE_MotelWest",
+      "world_xy_bounds_cm": [
+        -1388.2549,
+        1372.4868,
+        5339.8174,
+        6232.8403
+      ],
+      "inner_block_clearance_cm_w_e_s_n": [
+        611.7451,
+        7127.5132,
+        4839.8174,
+        267.1597
+      ],
+      "ground_roles": {
+        "NE_Motel/BuildingOrPedestrianReserve": 18
+      },
+      "protected_overlaps": []
+    },
+    {
+      "group": "NE_MotelMiddle",
+      "world_xy_bounds_cm": [
+        1561.7451,
+        4322.4868,
+        5339.8174,
+        6232.8403
+      ],
+      "inner_block_clearance_cm_w_e_s_n": [
+        3561.7451,
+        4177.5132,
+        4839.8174,
+        267.1597
+      ],
+      "ground_roles": {
+        "NE_Motel/BuildingOrPedestrianReserve": 18
+      },
+      "protected_overlaps": []
+    },
+    {
+      "group": "NE_MotelEast",
+      "world_xy_bounds_cm": [
+        4511.7451,
+        7272.4868,
+        5339.8174,
+        6232.8403
+      ],
+      "inner_block_clearance_cm_w_e_s_n": [
+        6511.7451,
+        1227.5132,
+        4839.8174,
+        267.1597
+      ],
+      "ground_roles": {
+        "NE_Motel/BuildingOrPedestrianReserve": 18
+      },
+      "protected_overlaps": []
+    },
+    {
+      "group": "NE_Reception",
+      "world_xy_bounds_cm": [
+        2175.2481,
+        4028.5947,
+        1896.0469,
+        3366.582
+      ],
+      "inner_block_clearance_cm_w_e_s_n": [
+        4175.2481,
+        4471.4053,
+        1396.0469,
+        3133.418
+      ],
+      "ground_roles": {
+        "NE_Motel/BuildingOrPedestrianReserve": 20
+      },
+      "protected_overlaps": []
+    },
+    {
+      "group": "SE_AutoRepair",
+      "world_xy_bounds_cm": [
+        5847.8467,
+        7821.2922,
+        -4235.5918,
+        -3155.5478
+      ],
+      "inner_block_clearance_cm_w_e_s_n": [
+        1847.8467,
+        678.7078,
+        2264.4082,
+        1655.5478
+      ],
+      "ground_roles": {
+        "SE_ServiceCourt/BuildingOrPedestrianReserve": 15
+      },
+      "protected_overlaps": []
+    },
+    {
+      "group": "SE_PartsShop",
+      "world_xy_bounds_cm": [
+        6083.1445,
+        6864.36,
+        -6176.7536,
+        -5023.2463
+      ],
+      "inner_block_clearance_cm_w_e_s_n": [
+        2083.1445,
+        1635.64,
+        323.2464,
+        3523.2463
+      ],
+      "ground_roles": {
+        "SE_ServiceCourt/Forecourt": 6
+      },
+      "protected_overlaps": []
+    }
+  ],
+  "nearby_pairs": [
+    {
+      "groups": [
+        "SW_Commercial",
+        "SW_CornerShop"
+      ],
+      "conservative_xy_gap_cm": 501.5499
+    },
+    {
+      "groups": [
+        "SW_FrontShopA",
+        "SW_FrontShopB"
+      ],
+      "conservative_xy_gap_cm": 601.7449
+    },
+    {
+      "groups": [
+        "NW_Diner",
+        "NW_Cafe"
+      ],
+      "conservative_xy_gap_cm": 840.7469
+    },
+    {
+      "groups": [
+        "NE_MotelWest",
+        "NE_MotelMiddle"
+      ],
+      "conservative_xy_gap_cm": 189.2583
+    },
+    {
+      "groups": [
+        "NE_MotelMiddle",
+        "NE_MotelEast"
+      ],
+      "conservative_xy_gap_cm": 189.2583
+    },
+    {
+      "groups": [
+        "SE_AutoRepair",
+        "SE_PartsShop"
+      ],
+      "conservative_xy_gap_cm": 787.6545
+    }
+  ],
+  "vehicle_accesses": [
+    {
+      "block": "SW_GasAndShops",
+      "cell": [
+        20,
+        2
+      ],
+      "edge": "S",
+      "projection_width_cm": 500,
+      "first_main_in_straight_band": {
+        "distance_cm": 1375.8724,
+        "group": "SW_CornerShop",
+        "canopy_overhead_bounds": false
+      },
+      "all_main_hits": [
+        {
+          "distance_cm": 1375.8724,
+          "group": "SW_CornerShop",
+          "canopy_overhead_bounds": false
+        }
+      ]
+    },
+    {
+      "block": "SE_ServiceCourt",
+      "cell": [
+        37,
+        5
+      ],
+      "edge": "E",
+      "projection_width_cm": 500,
+      "first_main_in_straight_band": {
+        "distance_cm": 1635.64,
+        "group": "SE_PartsShop",
+        "canopy_overhead_bounds": false
+      },
+      "all_main_hits": [
+        {
+          "distance_cm": 1635.64,
+          "group": "SE_PartsShop",
+          "canopy_overhead_bounds": false
+        }
+      ]
+    },
+    {
+      "block": "SW_GasAndShops",
+      "cell": [
+        24,
+        6
+      ],
+      "edge": "E",
+      "projection_width_cm": 500,
+      "first_main_in_straight_band": {
+        "distance_cm": 938.6057,
+        "group": "SW_CornerShop",
+        "canopy_overhead_bounds": false
+      },
+      "all_main_hits": [
+        {
+          "distance_cm": 938.6057,
+          "group": "SW_CornerShop",
+          "canopy_overhead_bounds": false
+        },
+        {
+          "distance_cm": 2325.8701,
+          "group": "SW_Commercial",
+          "canopy_overhead_bounds": false
+        },
+        {
+          "distance_cm": 6975.2481,
+          "group": "SW_GasShop",
+          "canopy_overhead_bounds": false
+        }
+      ]
+    },
+    {
+      "block": "SW_GasAndShops",
+      "cell": [
+        5,
+        13
+      ],
+      "edge": "N",
+      "projection_width_cm": 500,
+      "first_main_in_straight_band": null,
+      "all_main_hits": []
+    },
+    {
+      "block": "SW_GasAndShops",
+      "cell": [
+        8,
+        13
+      ],
+      "edge": "N",
+      "projection_width_cm": 500,
+      "first_main_in_straight_band": {
+        "distance_cm": 3396.0469,
+        "group": "SW_GasShop",
+        "canopy_overhead_bounds": false
+      },
+      "all_main_hits": [
+        {
+          "distance_cm": 1549.4517,
+          "group": "SW_GasCanopy",
+          "canopy_overhead_bounds": true
+        },
+        {
+          "distance_cm": 3396.0469,
+          "group": "SW_GasShop",
+          "canopy_overhead_bounds": false
+        }
+      ]
+    },
+    {
+      "block": "SE_ServiceCourt",
+      "cell": [
+        33,
+        13
+      ],
+      "edge": "N",
+      "projection_width_cm": 500,
+      "first_main_in_straight_band": {
+        "distance_cm": 1655.5478,
+        "group": "SE_AutoRepair",
+        "canopy_overhead_bounds": false
+      },
+      "all_main_hits": [
+        {
+          "distance_cm": 1655.5478,
+          "group": "SE_AutoRepair",
+          "canopy_overhead_bounds": false
+        },
+        {
+          "distance_cm": 3523.2463,
+          "group": "SE_PartsShop",
+          "canopy_overhead_bounds": false
+        }
+      ]
+    },
+    {
+      "block": "NW_Diner",
+      "cell": [
+        6,
+        16
+      ],
+      "edge": "S",
+      "projection_width_cm": 500,
+      "first_main_in_straight_band": {
+        "distance_cm": 4048.9133,
+        "group": "NW_Diner",
+        "canopy_overhead_bounds": false
+      },
+      "all_main_hits": [
+        {
+          "distance_cm": 4048.9133,
+          "group": "NW_Diner",
+          "canopy_overhead_bounds": false
+        }
+      ]
+    },
+    {
+      "block": "NE_Motel",
+      "cell": [
+        15,
+        23
+      ],
+      "edge": "W",
+      "projection_width_cm": 500,
+      "first_main_in_straight_band": null,
+      "all_main_hits": []
+    },
+    {
+      "block": "NE_Motel",
+      "cell": [
+        37,
+        23
+      ],
+      "edge": "E",
+      "projection_width_cm": 500,
+      "first_main_in_straight_band": null,
+      "all_main_hits": []
+    }
+  ],
+  "limits": [
+    "World XY main bounds are transformed from measured source local bounds with plan yaw and unit scale.",
+    "Access test projects the full 5 m entrance cell width inward and records first main bound; it does not simulate turns, canopy columns, vehicles, collision, doors, pedestrian routing, or interiors.",
+    "No full geometry or proprietary source meshes are exported in this report."
+  ],
+  "latest_recipe_review": {
+    "components": 94,
+    "main_groups": 14,
+    "scope": "Recomputed main bounds, protected ground intersections, all 91 main pairs and all 9 entrance projections after ancillary sign changes; main geometry and placements are unchanged. Ancillary prop collision is outside scope."
+  }
+}

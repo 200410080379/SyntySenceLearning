@@ -1,0 +1,425 @@
+{
+  "map": "/Game/SyntySenceLearning/PolygonApocalypse/ExpandedNeighborhood/L_ExpandedNeighborhood",
+  "ground_study": "03-expanded-neighborhood",
+  "expected_ground_tiles": 1280,
+  "ground_layout_sha256": "0c2cd123cd7121e73c1801cea5a8f4930a65b64abb8a121ec86655e8217820cb",
+  "groups": [
+    {
+      "id": "SW_GasShop",
+      "assembly": "CommercialSmall",
+      "block": "SW_GasAndShops",
+      "anchor": [
+        -5800,
+        -5750,
+        0
+      ],
+      "yaw": 90,
+      "main_mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Small_01.SM_Bld_Commercial_Small_01",
+      "main_bounds": {
+        "min": [
+          -616.58203,
+          -824.75195,
+          -24.45569
+        ],
+        "max": [
+          853.95312,
+          1028.59473,
+          779.09363
+        ],
+        "size": [
+          1470.53516,
+          1853.34668,
+          803.54932
+        ]
+      }
+    },
+    {
+      "id": "SW_GasCanopy",
+      "assembly": "GasCanopy",
+      "block": "SW_GasAndShops",
+      "anchor": [
+        -5800,
+        -3400,
+        0
+      ],
+      "yaw": 90,
+      "main_mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Gaspump_Cover_01.SM_Prop_Gaspump_Cover_01",
+      "main_bounds": {
+        "min": [
+          -350.54834,
+          -669.07068,
+          -27.63358
+        ],
+        "max": [
+          350.54834,
+          669.07068,
+          496.81259
+        ],
+        "size": [
+          701.09668,
+          1338.14136,
+          524.44617
+        ]
+      }
+    },
+    {
+      "id": "SW_Commercial",
+      "assembly": "CommercialMedium",
+      "block": "SW_GasAndShops",
+      "anchor": [
+        -1600,
+        -4750,
+        0
+      ],
+      "yaw": 90,
+      "main_mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Medium_01.SM_Bld_Commercial_Medium_01",
+      "main_bounds": {
+        "min": [
+          -623.48718,
+          -1274.12988,
+          -18.76752
+        ],
+        "max": [
+          614.28345,
+          1182.95898,
+          1584.48944
+        ],
+        "size": [
+          1237.77063,
+          2457.08887,
+          1603.25696
+        ]
+      }
+    },
+    {
+      "id": "SW_FrontShopA",
+      "assembly": "ShopSmall01",
+      "block": "SW_GasAndShops",
+      "anchor": [
+        -2400,
+        -2550,
+        0
+      ],
+      "yaw": 90,
+      "main_mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Small_01.SM_Bld_Shop_Small_01",
+      "main_bounds": {
+        "min": [
+          -474.32019,
+          -374.12756,
+          -11.49109
+        ],
+        "max": [
+          411.39429,
+          374.12756,
+          860.13324
+        ],
+        "size": [
+          885.71448,
+          748.25513,
+          871.62433
+        ]
+      }
+    },
+    {
+      "id": "SW_FrontShopB",
+      "assembly": "ShopSmall02",
+      "block": "SW_GasAndShops",
+      "anchor": [
+        -1050,
+        -2550,
+        0
+      ],
+      "yaw": 90,
+      "main_mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Small_02.SM_Bld_Shop_Small_02",
+      "main_bounds": {
+        "min": [
+          -474.32019,
+          -374.12756,
+          -9.64282
+        ],
+        "max": [
+          389.79181,
+          374.12756,
+          490.07617
+        ],
+        "size": [
+          864.112,
+          748.25513,
+          499.71899
+        ]
+      }
+    },
+    {
+      "id": "SW_CornerShop",
+      "assembly": "ShopSmall01",
+      "block": "SW_GasAndShops",
+      "anchor": [
+        650,
+        -4750,
+        0
+      ],
+      "yaw": 0,
+      "main_mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Small_01.SM_Bld_Shop_Small_01",
+      "main_bounds": {
+        "min": [
+          -474.32019,
+          -374.12756,
+          -11.49109
+        ],
+        "max": [
+          411.39429,
+          374.12756,
+          860.13324
+        ],
+        "size": [
+          885.71448,
+          748.25513,
+          871.62433
+        ]
+      }
+    },
+    {
+      "id": "NW_Diner",
+      "assembly": "Diner",
+      "block": "NW_Diner",
+      "anchor": [
+        -6450,
+        5100,
+        0
+      ],
+      "yaw": 270,
+      "main_mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_01.SM_Bld_Diner_01",
+      "main_bounds": {
+        "min": [
+          -493.59631,
+          -801.40613,
+          0.0
+        ],
+        "max": [
+          551.08667,
+          801.40613,
+          450.89896
+        ],
+        "size": [
+          1044.68298,
+          1602.81226,
+          450.89896
+        ]
+      }
+    },
+    {
+      "id": "NW_Cafe",
+      "assembly": "Cafe",
+      "block": "NW_Diner",
+      "anchor": [
+        -4350,
+        4500,
+        0
+      ],
+      "yaw": 180,
+      "main_mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Cafe_01.SM_Bld_Cafe_01",
+      "main_bounds": {
+        "min": [
+          -258.2887,
+          -290.0098,
+          -13.36847
+        ],
+        "max": [
+          457.84698,
+          290.00974,
+          602.45691
+        ],
+        "size": [
+          716.13568,
+          580.01953,
+          615.82538
+        ]
+      }
+    },
+    {
+      "id": "NE_MotelWest",
+      "assembly": "Motel",
+      "block": "NE_Motel",
+      "anchor": [
+        0,
+        5900,
+        0
+      ],
+      "yaw": 270,
+      "main_mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_01.SM_Bld_Motel_01",
+      "main_bounds": {
+        "min": [
+          -332.84033,
+          -1388.25488,
+          -13.10147
+        ],
+        "max": [
+          560.18262,
+          1372.48682,
+          714.37949
+        ],
+        "size": [
+          893.02295,
+          2760.7417,
+          727.48096
+        ]
+      }
+    },
+    {
+      "id": "NE_MotelMiddle",
+      "assembly": "Motel",
+      "block": "NE_Motel",
+      "anchor": [
+        2950,
+        5900,
+        0
+      ],
+      "yaw": 270,
+      "main_mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_01.SM_Bld_Motel_01",
+      "main_bounds": {
+        "min": [
+          -332.84033,
+          -1388.25488,
+          -13.10147
+        ],
+        "max": [
+          560.18262,
+          1372.48682,
+          714.37949
+        ],
+        "size": [
+          893.02295,
+          2760.7417,
+          727.48096
+        ]
+      }
+    },
+    {
+      "id": "NE_MotelEast",
+      "assembly": "Motel",
+      "block": "NE_Motel",
+      "anchor": [
+        5900,
+        5900,
+        0
+      ],
+      "yaw": 270,
+      "main_mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_01.SM_Bld_Motel_01",
+      "main_bounds": {
+        "min": [
+          -332.84033,
+          -1388.25488,
+          -13.10147
+        ],
+        "max": [
+          560.18262,
+          1372.48682,
+          714.37949
+        ],
+        "size": [
+          893.02295,
+          2760.7417,
+          727.48096
+        ]
+      }
+    },
+    {
+      "id": "NE_Reception",
+      "assembly": "CommercialSmall",
+      "block": "NE_Motel",
+      "anchor": [
+        3000,
+        2750,
+        0
+      ],
+      "yaw": 270,
+      "main_mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Small_01.SM_Bld_Commercial_Small_01",
+      "main_bounds": {
+        "min": [
+          -616.58203,
+          -824.75195,
+          -24.45569
+        ],
+        "max": [
+          853.95312,
+          1028.59473,
+          779.09363
+        ],
+        "size": [
+          1470.53516,
+          1853.34668,
+          803.54932
+        ]
+      }
+    },
+    {
+      "id": "SE_AutoRepair",
+      "assembly": "AutoRepair",
+      "block": "SE_ServiceCourt",
+      "anchor": [
+        6700,
+        -3800,
+        1
+      ],
+      "yaw": 90,
+      "main_mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_AutoRepair_01.SM_Bld_AutoRepair_01",
+      "main_bounds": {
+        "min": [
+          -435.5918,
+          -1121.29224,
+          -37.55142
+        ],
+        "max": [
+          644.45215,
+          852.15332,
+          668.63034
+        ],
+        "size": [
+          1080.04395,
+          1973.44556,
+          706.18176
+        ]
+      }
+    },
+    {
+      "id": "SE_PartsShop",
+      "assembly": "ShopLarge02",
+      "block": "SE_ServiceCourt",
+      "anchor": [
+        6500,
+        -5600,
+        0
+      ],
+      "yaw": 180,
+      "main_mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Large_02.SM_Bld_Shop_Large_02",
+      "main_bounds": {
+        "min": [
+          -364.35995,
+          -576.75372,
+          -4.21564
+        ],
+        "max": [
+          416.8555,
+          576.7536,
+          1225.5766
+        ],
+        "size": [
+          781.21545,
+          1153.50732,
+          1229.79224
+        ]
+      }
+    }
+  ],
+  "building_main_count": 13,
+  "canopy_count": 1,
+  "component_choices": {
+    "motel_roof_sign": "Only NE_MotelMiddle uses the measured roof sign; west/east omit this optional sign."
+  },
+  "approach": "Additive architecture study on the existing 200 x 160 m ground; original ground placements remain unchanged.",
+  "limits": [
+    "Building and canopy main meshes have unit scale; measured source doors/signs retain authored scale or mirror.",
+    "Building main bounds include roofs, stairs and projections; they are conservative spacing checks, not exact wall polygons.",
+    "No collision, navmesh, vehicle turning or interior gameplay is established by this layout."
+  ]
+}

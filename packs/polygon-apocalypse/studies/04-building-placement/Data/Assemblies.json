@@ -1,0 +1,1741 @@
+{
+  "Diner": {
+    "main_mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_01.SM_Bld_Diner_01",
+    "front_axis": "+X",
+    "main_bounds": {
+      "min": [
+        -493.59631,
+        -801.40613,
+        0.0
+      ],
+      "max": [
+        551.08667,
+        801.40613,
+        450.89896
+      ],
+      "size": [
+        1044.68298,
+        1602.81226,
+        450.89896
+      ]
+    },
+    "components": [
+      {
+        "name": "SM_Bld_Diner_Door_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Door_01.SM_Bld_Diner_Door_01",
+        "location": [
+          464.5,
+          104.30005,
+          156.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 52.21252,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Diner_Door_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Door_01.SM_Bld_Diner_Door_01",
+        "location": [
+          464.5,
+          -104.6001,
+          156.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 144.67119,
+          "roll": -0.0
+        },
+        "scale": [
+          -1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Diner_Booth_Seat_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Booth_Seat_01.SM_Bld_Diner_Booth_Seat_01",
+        "location": [
+          283.90002,
+          208.80005,
+          42.2
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99985,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Diner_Booth_Seat_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Booth_Seat_01.SM_Bld_Diner_Booth_Seat_01",
+        "location": [
+          283.90002,
+          495.09985,
+          42.2
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99985,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Diner_Booth_Seat_02",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Booth_Seat_02.SM_Bld_Diner_Booth_Seat_02",
+        "location": [
+          290.40002,
+          392.29993,
+          42.4
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": -89.99982,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Diner_Booth_Seat_02",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Booth_Seat_02.SM_Bld_Diner_Booth_Seat_02",
+        "location": [
+          290.40002,
+          678.59998,
+          42.4
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": -89.99982,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Diner_Stool_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Stool_01.SM_Bld_Diner_Stool_01",
+        "location": [
+          -11.18701,
+          70.16992,
+          44.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Diner_Stool_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Stool_01.SM_Bld_Diner_Stool_01",
+        "location": [
+          198.70007,
+          -317.19995,
+          44.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Diner_Stool_02",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Stool_02.SM_Bld_Diner_Stool_02",
+        "location": [
+          71.19995,
+          63.2002,
+          42.3
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Diner_Stool_02",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Stool_02.SM_Bld_Diner_Stool_02",
+        "location": [
+          201.0,
+          -429.0,
+          42.3
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Diner_Stool_02",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Stool_02.SM_Bld_Diner_Stool_02",
+        "location": [
+          201.0,
+          -61.0,
+          42.3
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": -179.38197,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Diner_Stool_03",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Stool_03.SM_Bld_Diner_Stool_03",
+        "location": [
+          201.0,
+          -191.19995,
+          41.8
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Diner_Stool_04",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Stool_04.SM_Bld_Diner_Stool_04",
+        "location": [
+          211.30005,
+          -240.1001,
+          38.6
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": -80.7631,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Diner_Table_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Table_01.SM_Bld_Diner_Table_01",
+        "location": [
+          34.40002,
+          366.19995,
+          42.5
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Diner_Table_02",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Table_02.SM_Bld_Diner_Table_02",
+        "location": [
+          279.99902,
+          304.90002,
+          49.9
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Diner_Table_02",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Table_02.SM_Bld_Diner_Table_02",
+        "location": [
+          279.99902,
+          591.19995,
+          49.9
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Diner_Text_02",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Text_02.SM_Bld_Diner_Text_02",
+        "location": [
+          343.90002,
+          -40.0,
+          449.10001
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Diner_Sign_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Sign_01.SM_Bld_Diner_Sign_01",
+        "location": [
+          558.0,
+          -713.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99977,
+          "roll": -0.0
+        },
+        "scale": [
+          1.06172,
+          1.06172,
+          1.06172
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Diner_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_01.SM_Bld_Diner_01",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": true
+      },
+      {
+        "name": "SM_Bld_Diner_Door_Glass_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Door_Glass_01.SM_Bld_Diner_Door_Glass_01",
+        "location": [
+          464.5,
+          104.30005,
+          156.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 52.21252,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_Glass_01.MI_PolygonApocalypse_Glass_01"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Diner_Door_Glass_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Door_Glass_01.SM_Bld_Diner_Door_Glass_01",
+        "location": [
+          464.49869,
+          -104.60216,
+          156.00017
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 144.67119,
+          "roll": -0.0
+        },
+        "scale": [
+          -1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_Glass_01.MI_PolygonApocalypse_Glass_01"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Diner_Glass_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Glass_01.SM_Bld_Diner_Glass_01",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_Glass_01.MI_PolygonApocalypse_Glass_01"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Diner_Interior_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Interior_01.SM_Bld_Diner_Interior_01",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      }
+    ],
+    "basis": "Relative transforms measured from one source Demo assembly; original source assets retained."
+  },
+  "Motel": {
+    "main_mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_01.SM_Bld_Motel_01",
+    "front_axis": "+X",
+    "main_bounds": {
+      "min": [
+        -332.84033,
+        -1388.25488,
+        -13.10147
+      ],
+      "max": [
+        560.18262,
+        1372.48682,
+        714.37949
+      ],
+      "size": [
+        893.02295,
+        2760.7417,
+        727.48096
+      ]
+    },
+    "components": [
+      {
+        "name": "SM_Bld_Motel_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_01.SM_Bld_Motel_01",
+        "location": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A",
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": true
+      },
+      {
+        "name": "SM_Bld_Motel_01_Attachments_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_01_Attachments_01.SM_Bld_Motel_01_Attachments_01",
+        "location": [
+          -0.00195,
+          -0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Motel_01_Barricades_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_01_Barricades_01.SM_Bld_Motel_01_Barricades_01",
+        "location": [
+          -0.00195,
+          -0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Motel_01_Overgrowth_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_01_Overgrowth_01.SM_Bld_Motel_01_Overgrowth_01",
+        "location": [
+          -0.00195,
+          -0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_Overgrowth_01.MI_PolygonApocalypse_Overgrowth_01"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Motel_01_Sign_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_01_Sign_01.SM_Bld_Motel_01_Sign_01",
+        "location": [
+          -0.00195,
+          -0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Motel_Door_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_Door_01.SM_Bld_Motel_Door_01",
+        "location": [
+          287.12024,
+          1064.12195,
+          22.40296
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Motel_Door_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_Door_01.SM_Bld_Motel_Door_01",
+        "location": [
+          287.12024,
+          1064.12195,
+          322.40292
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Motel_Door_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_Door_01.SM_Bld_Motel_Door_01",
+        "location": [
+          287.12,
+          -62.92606,
+          22.40296
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Motel_Door_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_Door_01.SM_Bld_Motel_Door_01",
+        "location": [
+          287.12003,
+          149.68591,
+          322.40292
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Motel_Door_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_Door_01.SM_Bld_Motel_Door_01",
+        "location": [
+          287.12003,
+          149.68591,
+          22.40296
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Motel_Door_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_Door_01.SM_Bld_Motel_Door_01",
+        "location": [
+          287.11975,
+          -977.36298,
+          322.40292
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Motel_Door_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_Door_01.SM_Bld_Motel_Door_01",
+        "location": [
+          287.11975,
+          -977.36298,
+          22.40296
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      }
+    ],
+    "basis": "Relative transforms measured from one source Demo assembly; original source assets retained."
+  },
+  "AutoRepair": {
+    "main_mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_AutoRepair_01.SM_Bld_AutoRepair_01",
+    "front_axis": "+X",
+    "main_bounds": {
+      "min": [
+        -435.5918,
+        -1121.29224,
+        -37.55142
+      ],
+      "max": [
+        644.45215,
+        852.15332,
+        668.63034
+      ],
+      "size": [
+        1080.04395,
+        1973.44556,
+        706.18176
+      ]
+    },
+    "components": [
+      {
+        "name": "SM_Bld_AutoRepair_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_AutoRepair_01.SM_Bld_AutoRepair_01",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": true
+      },
+      {
+        "name": "SM_Bld_AutoRepair_01_Door_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_AutoRepair_01_Door_01.SM_Bld_AutoRepair_01_Door_01",
+        "location": [
+          580.92822,
+          -152.42773,
+          397.47092
+        ],
+        "rotation": {
+          "pitch": -90.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_AutoRepair_01_Door_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_AutoRepair_01_Door_01.SM_Bld_AutoRepair_01_Door_01",
+        "location": [
+          580.92822,
+          462.81055,
+          397.47092
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_AutoRepair_01_Glass_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_AutoRepair_01_Glass_01.SM_Bld_AutoRepair_01_Glass_01",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_Glass_01.MI_PolygonApocalypse_Glass_01"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_AutoRepair_01_Overgrowth_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_AutoRepair_01_Overgrowth_01.SM_Bld_AutoRepair_01_Overgrowth_01",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_Overgrowth_01.MI_PolygonApocalypse_Overgrowth_01"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Prop_Sign_Wheel_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Sign_Wheel_01.SM_Prop_Sign_Wheel_01",
+        "location": [
+          338.7002,
+          -90.60059,
+          746.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": -27.38771,
+          "roll": 0.0
+        },
+        "scale": [
+          0.81924,
+          0.81924,
+          0.81924
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Prop_Sign_Repairs_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Sign_Repairs_01.SM_Prop_Sign_Repairs_01",
+        "location": [
+          607.69971,
+          175.0,
+          516.29999
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.49477,
+          1.49477,
+          1.49477
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      }
+    ],
+    "basis": "Relative transforms measured from one source Demo assembly; original source assets retained."
+  },
+  "Cafe": {
+    "main_mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Cafe_01.SM_Bld_Cafe_01",
+    "front_axis": "+X",
+    "main_bounds": {
+      "min": [
+        -258.2887,
+        -290.0098,
+        -13.36847
+      ],
+      "max": [
+        457.84698,
+        290.00974,
+        602.45691
+      ],
+      "size": [
+        716.13568,
+        580.01953,
+        615.82538
+      ]
+    },
+    "components": [
+      {
+        "name": "SM_Bld_Cafe_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Cafe_01.SM_Bld_Cafe_01",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": true
+      },
+      {
+        "name": "SM_Bld_Cafe_01_Glass_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Cafe_01_Glass_01.SM_Bld_Cafe_01_Glass_01",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_Glass_01.MI_PolygonApocalypse_Glass_01"
+        ],
+        "main": false
+      }
+    ],
+    "basis": "Relative transforms measured from one source Demo assembly; original source assets retained."
+  },
+  "CommercialSmall": {
+    "main_mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Small_01.SM_Bld_Commercial_Small_01",
+    "front_axis": "+X",
+    "main_bounds": {
+      "min": [
+        -616.58203,
+        -824.75195,
+        -24.45569
+      ],
+      "max": [
+        853.95312,
+        1028.59473,
+        779.09363
+      ],
+      "size": [
+        1470.53516,
+        1853.34668,
+        803.54932
+      ]
+    },
+    "components": [
+      {
+        "name": "SM_Bld_Commercial_Small_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Small_01.SM_Bld_Commercial_Small_01",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": true
+      },
+      {
+        "name": "SM_Bld_Commercial_Small_01_Attachment_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Small_01_Attachment_01.SM_Bld_Commercial_Small_01_Attachment_01",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Commercial_Small_01_Glass_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Small_01_Glass_01.SM_Bld_Commercial_Small_01_Glass_01",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_Glass_01.MI_PolygonApocalypse_Glass_01"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Commercial_Small_01_Overgrowth_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Small_01_Overgrowth_01.SM_Bld_Commercial_Small_01_Overgrowth_01",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_Overgrowth_01.MI_PolygonApocalypse_Overgrowth_01"
+        ],
+        "main": false
+      }
+    ],
+    "basis": "Relative transforms measured from one source Demo assembly; original source assets retained."
+  },
+  "CommercialMedium": {
+    "main_mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Medium_01.SM_Bld_Commercial_Medium_01",
+    "front_axis": "+X",
+    "main_bounds": {
+      "min": [
+        -623.48718,
+        -1274.12988,
+        -18.76752
+      ],
+      "max": [
+        614.28345,
+        1182.95898,
+        1584.48944
+      ],
+      "size": [
+        1237.77063,
+        2457.08887,
+        1603.25696
+      ]
+    },
+    "components": [
+      {
+        "name": "SM_Bld_Commercial_Medium_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Medium_01.SM_Bld_Commercial_Medium_01",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_03_A.MI_PolygonApocalypse_03_A"
+        ],
+        "main": true
+      },
+      {
+        "name": "SM_Bld_Commercial_Medium_01_Attachments_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Medium_01_Attachments_01.SM_Bld_Commercial_Medium_01_Attachments_01",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Commercial_Medium_01_Glass_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Medium_01_Glass_01.SM_Bld_Commercial_Medium_01_Glass_01",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_Glass_01.MI_PolygonApocalypse_Glass_01"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Commercial_Medium_01_Overgrowth_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Medium_01_Overgrowth_01.SM_Bld_Commercial_Medium_01_Overgrowth_01",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_Overgrowth_01.MI_PolygonApocalypse_Overgrowth_01"
+        ],
+        "main": false
+      }
+    ],
+    "basis": "Relative transforms measured from one source Demo assembly; original source assets retained."
+  },
+  "ShopSmall01": {
+    "main_mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Small_01.SM_Bld_Shop_Small_01",
+    "front_axis": "+X",
+    "main_bounds": {
+      "min": [
+        -474.32019,
+        -374.12756,
+        -11.49109
+      ],
+      "max": [
+        411.39429,
+        374.12756,
+        860.13324
+      ],
+      "size": [
+        885.71448,
+        748.25513,
+        871.62433
+      ]
+    },
+    "components": [
+      {
+        "name": "SM_Bld_Shop_Small_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Small_01.SM_Bld_Shop_Small_01",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": true
+      },
+      {
+        "name": "SM_Bld_Shop_Small_Glass_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Small_Glass_01.SM_Bld_Shop_Small_Glass_01",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_Glass_01.MI_PolygonApocalypse_Glass_01"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Door_Barricaded_05",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Door_Barricaded_05.SM_Bld_Door_Barricaded_05",
+        "location": [
+          264.07678,
+          52.6001,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.01,
+          1.0988,
+          1.01
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A",
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_Glass_01.MI_PolygonApocalypse_Glass_01"
+        ],
+        "main": false
+      }
+    ],
+    "basis": "Relative transforms measured from one source Demo assembly; original source assets retained."
+  },
+  "ShopSmall02": {
+    "main_mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Small_02.SM_Bld_Shop_Small_02",
+    "front_axis": "+X",
+    "main_bounds": {
+      "min": [
+        -474.32019,
+        -374.12756,
+        -9.64282
+      ],
+      "max": [
+        389.79181,
+        374.12756,
+        490.07617
+      ],
+      "size": [
+        864.112,
+        748.25513,
+        499.71899
+      ]
+    },
+    "components": [
+      {
+        "name": "SM_Bld_Shop_Small_02",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Small_02.SM_Bld_Shop_Small_02",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": true
+      },
+      {
+        "name": "SM_Bld_Shop_Small_Glass_02",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Small_Glass_02.SM_Bld_Shop_Small_Glass_02",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_Glass_01.MI_PolygonApocalypse_Glass_01"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Door_Barricaded_06",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Door_Barricaded_06.SM_Bld_Door_Barricaded_06",
+        "location": [
+          254.30005,
+          47.14893,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A",
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_Glass_01.MI_PolygonApocalypse_Glass_01"
+        ],
+        "main": false
+      }
+    ],
+    "basis": "Relative transforms measured from one source Demo assembly; original source assets retained."
+  },
+  "ShopLarge02": {
+    "main_mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Large_02.SM_Bld_Shop_Large_02",
+    "front_axis": "+X",
+    "main_bounds": {
+      "min": [
+        -364.35995,
+        -576.75372,
+        -4.21564
+      ],
+      "max": [
+        416.8555,
+        576.7536,
+        1225.5766
+      ],
+      "size": [
+        781.21545,
+        1153.50732,
+        1229.79224
+      ]
+    },
+    "components": [
+      {
+        "name": "SM_Bld_Shop_Large_02",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Large_02.SM_Bld_Shop_Large_02",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A",
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_Glass_01.MI_PolygonApocalypse_Glass_01"
+        ],
+        "main": true
+      },
+      {
+        "name": "SM_Bld_Shop_Large_Glass_02",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Large_Glass_02.SM_Bld_Shop_Large_Glass_02",
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_Glass_01.MI_PolygonApocalypse_Glass_01"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Bld_Door_Barricaded_04",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Door_Barricaded_04.SM_Bld_Door_Barricaded_04",
+        "location": [
+          365.29999,
+          54.69971,
+          0.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.09748,
+          1.09748,
+          1.09748
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      }
+    ],
+    "basis": "Relative transforms measured from one source Demo assembly; original source assets retained."
+  },
+  "GasCanopy": {
+    "main_mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Gaspump_Cover_01.SM_Prop_Gaspump_Cover_01",
+    "front_axis": "Vehicle aisles on both sides of local Y island",
+    "main_bounds": {
+      "min": [
+        -350.54834,
+        -669.07068,
+        -27.63358
+      ],
+      "max": [
+        350.54834,
+        669.07068,
+        496.81259
+      ],
+      "size": [
+        701.09668,
+        1338.14136,
+        524.44617
+      ]
+    },
+    "components": [
+      {
+        "name": "SM_Prop_Gaspump_Cover_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Gaspump_Cover_01.SM_Prop_Gaspump_Cover_01",
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": true
+      },
+      {
+        "name": "SM_Prop_Gaspump_Base_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Gaspump_Base_01.SM_Prop_Gaspump_Base_01",
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Prop_Gaspump_01",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Gaspump_01.SM_Prop_Gaspump_01",
+        "location": [
+          0,
+          -150,
+          0
+        ],
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      },
+      {
+        "name": "SM_Prop_Gaspump_02",
+        "mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Gaspump_02.SM_Prop_Gaspump_02",
+        "location": [
+          0,
+          150,
+          0
+        ],
+        "rotation": {
+          "pitch": 0,
+          "yaw": 0,
+          "roll": 0
+        },
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "materials": [
+          "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+        ],
+        "main": false
+      }
+    ],
+    "basis": "Authored intact variant using measured source 150 cm pump spacing; intact canopy is available but unused in original Demo."
+  }
+}

@@ -12,6 +12,7 @@
   "studies": [
     {"id": "01-ground-assembly", "alias": "ground-assembly", "manifest": "studies/01-ground-assembly/study.json"},
     {"id": "02-city-ground", "alias": "city-ground", "manifest": "studies/02-city-ground/study.json"},
-    {"id": "03-expanded-neighborhood", "alias": "expanded-neighborhood", "manifest": "studies/03-expanded-neighborhood/study.json"}
+    {"id": "03-expanded-neighborhood", "alias": "expanded-neighborhood", "manifest": "studies/03-expanded-neighborhood/study.json"},
+    {"id": "04-building-placement", "alias": "building-placement", "manifest": "studies/04-building-placement/study.json"}
   ]
 }

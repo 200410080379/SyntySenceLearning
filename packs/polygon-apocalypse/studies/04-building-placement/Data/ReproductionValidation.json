@@ -1,0 +1,413 @@
+{
+  "record_kind": "additive_building_study_saved_reload_validation",
+  "verified_date": "2026-09-14",
+  "engine_version": "5.8.2",
+  "saved_level_reopened": true,
+  "instance_validation": {
+    "world": "/Game/SyntySenceLearning/PolygonApocalypse/ExpandedNeighborhood/L_ExpandedNeighborhood.L_ExpandedNeighborhood",
+    "read_only": true,
+    "layout_sha256": "b1ab7673ab622ffb4b206efad164c321e49c091d5b747a077371069fcfba108d",
+    "mesh_instances": 94,
+    "main_buildings": 13,
+    "canopies": 1,
+    "unique_meshes": 50,
+    "instance_validation_failures": [],
+    "ground_instances": 1280,
+    "ground_layout_sha256": "0c2cd123cd7121e73c1801cea5a8f4930a65b64abb8a121ec86655e8217820cb",
+    "ground_failures": [],
+    "limits": [
+      "Checks declared building component transforms and materials; does not establish collision/navigation/interior gameplay.",
+      "Ground geometry placement verified unchanged; visual occlusion by buildings is a separate consideration."
+    ]
+  },
+  "placement_audit": {
+    "scope": "Independent plan-space review of main-mesh conservative XY bounds only; no UE actor mutation or collision/navigation tests. Roof/stair projections are included. Same-assembly overlaps are expected and excluded.",
+    "plan_sha256": "8edbbcb89e32bceca8a3e069a8d5e88c065666b1d605897828d16e72cb9b66f9",
+    "layout_sha256": "b1ab7673ab622ffb4b206efad164c321e49c091d5b747a077371069fcfba108d",
+    "ground_sha256": "0c2cd123cd7121e73c1801cea5a8f4930a65b64abb8a121ec86655e8217820cb",
+    "groups_reviewed": 14,
+    "main_pairs_reviewed": 91,
+    "vehicle_accesses_reviewed": 9,
+    "issues": [],
+    "resolved_review": [
+      {
+        "issue": "East vehicle access had a short apron facing the parts shop.",
+        "group": "SE_PartsShop",
+        "cell": [
+          37,
+          5
+        ],
+        "before_anchor_cm": [
+          7800,
+          -5600,
+          0
+        ],
+        "after_anchor_cm": [
+          6500,
+          -5600,
+          0
+        ],
+        "before_entry_to_main_bounds_cm": 335.64,
+        "after_entry_to_main_bounds_cm": 1635.64,
+        "previous_plan_sha256": "fcd6ccb2e4c2f74910f90676c4f996ecac0c1d3df526ac6c3b693496432b68db",
+        "previous_layout_sha256": "110888ad161d4c207ed5a488dc8b3987f520e18034d84212b409318f6e0458c3",
+        "resolution": "Moved the entire building assembly 13 m west, preserving relative transforms and original ground."
+      }
+    ]
+  },
+  "source_integrity": {
+    "all_identical": true,
+    "files_checked": 55,
+    "files": [
+      {
+        "asset": "PolygonApocalypse/Maps/Demo.umap",
+        "source_sha256": "c0bac32ccd1c8bfc3e35624c4b4f4984b16a965ff0fde0a84d91dbee722d95cb",
+        "project_sha256": "c0bac32ccd1c8bfc3e35624c4b4f4984b16a965ff0fde0a84d91dbee722d95cb",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.uasset",
+        "source_sha256": "e0d8316c363a7ae25b7c293bd7c3c1c213dec2a6d6d7a615d85f9fc76f7b9d67",
+        "project_sha256": "e0d8316c363a7ae25b7c293bd7c3c1c213dec2a6d6d7a615d85f9fc76f7b9d67",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_03_A.uasset",
+        "source_sha256": "e2089a72249f61eeb349dd78000ffc524b72dbdf1e1821a0ee405e5e52b206b2",
+        "project_sha256": "e2089a72249f61eeb349dd78000ffc524b72dbdf1e1821a0ee405e5e52b206b2",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_Glass_01.uasset",
+        "source_sha256": "a96468b325d3a0695cef8e32a03f590974e8ab859706f1027cd56cdcd947abe4",
+        "project_sha256": "a96468b325d3a0695cef8e32a03f590974e8ab859706f1027cd56cdcd947abe4",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_Overgrowth_01.uasset",
+        "source_sha256": "92cf12e985c26b2a9428ad7ef8275bc4fe0ee958acc78b5020c56da2021ec64d",
+        "project_sha256": "92cf12e985c26b2a9428ad7ef8275bc4fe0ee958acc78b5020c56da2021ec64d",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_AutoRepair_01.uasset",
+        "source_sha256": "f614af0ccc8c73d56c50ecf7c5adaff0d09ae4be0b9ce27df2aad63394f72770",
+        "project_sha256": "f614af0ccc8c73d56c50ecf7c5adaff0d09ae4be0b9ce27df2aad63394f72770",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_AutoRepair_01_Door_01.uasset",
+        "source_sha256": "22419f94b03663e9f033c5de312c607b9d1dd3d890acecda8527ae0183748a0a",
+        "project_sha256": "22419f94b03663e9f033c5de312c607b9d1dd3d890acecda8527ae0183748a0a",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_AutoRepair_01_Glass_01.uasset",
+        "source_sha256": "f30b476d297d8da5d8b9bd0556e6abca4145bb4f08aa94035c5b84fc8a0e557a",
+        "project_sha256": "f30b476d297d8da5d8b9bd0556e6abca4145bb4f08aa94035c5b84fc8a0e557a",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_AutoRepair_01_Overgrowth_01.uasset",
+        "source_sha256": "e98d178e7c8cb58c84c39e329855321e954405f3b4459795877c15b52f86fa7a",
+        "project_sha256": "e98d178e7c8cb58c84c39e329855321e954405f3b4459795877c15b52f86fa7a",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Cafe_01.uasset",
+        "source_sha256": "7e3661bbfe24567f9c3773a839159bf1fbee2338104d86fb8038f11115298b34",
+        "project_sha256": "7e3661bbfe24567f9c3773a839159bf1fbee2338104d86fb8038f11115298b34",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Cafe_01_Glass_01.uasset",
+        "source_sha256": "06859cece2e57c2d2fc74974eb1a0fc704397f0a47b0e37b5ae35e756a18f041",
+        "project_sha256": "06859cece2e57c2d2fc74974eb1a0fc704397f0a47b0e37b5ae35e756a18f041",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Medium_01.uasset",
+        "source_sha256": "c14b186aa75c7257111cbede026c9aa2b1013d22688339faaa1d201aafe2e9ab",
+        "project_sha256": "c14b186aa75c7257111cbede026c9aa2b1013d22688339faaa1d201aafe2e9ab",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Medium_01_Attachments_01.uasset",
+        "source_sha256": "cb8c43f774da7d848aa99c0ea41cc9508686f09b5e2be8e85fb782a7c2221a1f",
+        "project_sha256": "cb8c43f774da7d848aa99c0ea41cc9508686f09b5e2be8e85fb782a7c2221a1f",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Medium_01_Glass_01.uasset",
+        "source_sha256": "128f970ee2e78fcd9c2d697cf09f76a98400c78f5b8ade90293a2f6a164dae3d",
+        "project_sha256": "128f970ee2e78fcd9c2d697cf09f76a98400c78f5b8ade90293a2f6a164dae3d",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Medium_01_Overgrowth_01.uasset",
+        "source_sha256": "460385b6f26a4aec8fbaec10788f5f2dfa5da762367a8a1960f13160f8ebf635",
+        "project_sha256": "460385b6f26a4aec8fbaec10788f5f2dfa5da762367a8a1960f13160f8ebf635",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Small_01.uasset",
+        "source_sha256": "4525fdda40dd34a48e58706c4103fcac3ca09cc1b5e3d00c065731b8ffdccec7",
+        "project_sha256": "4525fdda40dd34a48e58706c4103fcac3ca09cc1b5e3d00c065731b8ffdccec7",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Small_01_Attachment_01.uasset",
+        "source_sha256": "305a9c0bb9728f12b4fff8fa3311cd32f86bee0ab81e2aa45df2cb33d1fe825d",
+        "project_sha256": "305a9c0bb9728f12b4fff8fa3311cd32f86bee0ab81e2aa45df2cb33d1fe825d",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Small_01_Glass_01.uasset",
+        "source_sha256": "584ebe50e844ea04199be45f3944c36e3dd28ce35dab6312ab34af88b35cdcae",
+        "project_sha256": "584ebe50e844ea04199be45f3944c36e3dd28ce35dab6312ab34af88b35cdcae",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Commercial_Small_01_Overgrowth_01.uasset",
+        "source_sha256": "2c9e83e07a968ad6033e6e49fb5aae375a8c590e3824c201b2702be7ecb48077",
+        "project_sha256": "2c9e83e07a968ad6033e6e49fb5aae375a8c590e3824c201b2702be7ecb48077",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_01.uasset",
+        "source_sha256": "65e49fcaf3f031fb62f36b71f3ecbbdbfd4a353e82ef9990475a33104fd22e12",
+        "project_sha256": "65e49fcaf3f031fb62f36b71f3ecbbdbfd4a353e82ef9990475a33104fd22e12",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Booth_Seat_01.uasset",
+        "source_sha256": "4791454944ca89213ed3aa8705fcd32621cf1af35839c8a944c5afb59c146032",
+        "project_sha256": "4791454944ca89213ed3aa8705fcd32621cf1af35839c8a944c5afb59c146032",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Booth_Seat_02.uasset",
+        "source_sha256": "b04826bdb7a326624312ec6291c457f980e5ebefb91244f57e49220c47e57ddf",
+        "project_sha256": "b04826bdb7a326624312ec6291c457f980e5ebefb91244f57e49220c47e57ddf",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Door_01.uasset",
+        "source_sha256": "5d4c1c2c734b672271ab5f4e711beac1f25a8e73c7a75b0fb938a0cfc5d22ef2",
+        "project_sha256": "5d4c1c2c734b672271ab5f4e711beac1f25a8e73c7a75b0fb938a0cfc5d22ef2",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Door_Glass_01.uasset",
+        "source_sha256": "71ac57d3b3fbda1dfed6eed1b851eb5ff85b87a5c658641cefe780af917bbe77",
+        "project_sha256": "71ac57d3b3fbda1dfed6eed1b851eb5ff85b87a5c658641cefe780af917bbe77",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Glass_01.uasset",
+        "source_sha256": "c2cf4df84190aeaf3ccc762fe9c1d2f424a970fb0b62f1513749f090e743d8ea",
+        "project_sha256": "c2cf4df84190aeaf3ccc762fe9c1d2f424a970fb0b62f1513749f090e743d8ea",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Interior_01.uasset",
+        "source_sha256": "d7dde6f3f9a46f2c11a95d705e22a7a08f4a25bbd317bee476f5ae6c2fe5a182",
+        "project_sha256": "d7dde6f3f9a46f2c11a95d705e22a7a08f4a25bbd317bee476f5ae6c2fe5a182",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Sign_01.uasset",
+        "source_sha256": "ff22d36b7f2d7e2b4e20aa770aac0ee2e40d7fb2952fd75ff49de71d31ea993e",
+        "project_sha256": "ff22d36b7f2d7e2b4e20aa770aac0ee2e40d7fb2952fd75ff49de71d31ea993e",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Stool_01.uasset",
+        "source_sha256": "7be83be65ccffe2a4a80f16fc40c2c501de248b25600b0c6608df2eb9aace30f",
+        "project_sha256": "7be83be65ccffe2a4a80f16fc40c2c501de248b25600b0c6608df2eb9aace30f",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Stool_02.uasset",
+        "source_sha256": "9808a560d7884bd8306d3a82439bd3490fda494dd72dcc35a97efdd1206d1e52",
+        "project_sha256": "9808a560d7884bd8306d3a82439bd3490fda494dd72dcc35a97efdd1206d1e52",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Stool_03.uasset",
+        "source_sha256": "4a22e015b0c29d50a0647f1eaca3241f34ecdcc36a7814a76b6ae07ea079c11c",
+        "project_sha256": "4a22e015b0c29d50a0647f1eaca3241f34ecdcc36a7814a76b6ae07ea079c11c",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Stool_04.uasset",
+        "source_sha256": "7f8edc4c5772ea02bd15126fb7fad4a11791287b8756824061d7a8b1b910c17e",
+        "project_sha256": "7f8edc4c5772ea02bd15126fb7fad4a11791287b8756824061d7a8b1b910c17e",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Table_01.uasset",
+        "source_sha256": "fbef0be114ba259b149c52d7bb3382d556e6712e8800ebed191964080d3da74d",
+        "project_sha256": "fbef0be114ba259b149c52d7bb3382d556e6712e8800ebed191964080d3da74d",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Table_02.uasset",
+        "source_sha256": "8f63a01275841106efe8ef76cf01355f0d4793bc389ec031e1a942f99d13f351",
+        "project_sha256": "8f63a01275841106efe8ef76cf01355f0d4793bc389ec031e1a942f99d13f351",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Text_02.uasset",
+        "source_sha256": "dc4f0eea52f6aee266e86810267f5e3b8aa11cfccdd892d6a5a4a9a975ad8b9a",
+        "project_sha256": "dc4f0eea52f6aee266e86810267f5e3b8aa11cfccdd892d6a5a4a9a975ad8b9a",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Door_Barricaded_04.uasset",
+        "source_sha256": "010b25991bf0939addc4e40b050aadcb147a6beae06b9046986eb98ef7a9bc2b",
+        "project_sha256": "010b25991bf0939addc4e40b050aadcb147a6beae06b9046986eb98ef7a9bc2b",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Door_Barricaded_05.uasset",
+        "source_sha256": "ba8bf10328a0b2b2bae47fe57009f715cfbea580a578db2d1f367f332852d5c7",
+        "project_sha256": "ba8bf10328a0b2b2bae47fe57009f715cfbea580a578db2d1f367f332852d5c7",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Door_Barricaded_06.uasset",
+        "source_sha256": "8bd84eaee831b527bd53bb47c5f217265b3db005915e63c9563d228fdb202650",
+        "project_sha256": "8bd84eaee831b527bd53bb47c5f217265b3db005915e63c9563d228fdb202650",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_01.uasset",
+        "source_sha256": "b094dc938f0eb72c6938f739886252002e004367f83ef3850b18b8c28a937ea4",
+        "project_sha256": "b094dc938f0eb72c6938f739886252002e004367f83ef3850b18b8c28a937ea4",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_01_Attachments_01.uasset",
+        "source_sha256": "213848344371dc7637eb5ed1f4cb807f8258e035ec911526382486b22fe4e0e4",
+        "project_sha256": "213848344371dc7637eb5ed1f4cb807f8258e035ec911526382486b22fe4e0e4",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_01_Barricades_01.uasset",
+        "source_sha256": "1737c7a6ddceb70a25ed390cd5058b271a8514c0c157bd8e3eb28b5926771a67",
+        "project_sha256": "1737c7a6ddceb70a25ed390cd5058b271a8514c0c157bd8e3eb28b5926771a67",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_01_Overgrowth_01.uasset",
+        "source_sha256": "c2af640b6c064d49135c0c4f19b3711494c2b716b38009dddade8e831a959a65",
+        "project_sha256": "c2af640b6c064d49135c0c4f19b3711494c2b716b38009dddade8e831a959a65",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_01_Sign_01.uasset",
+        "source_sha256": "84841257e34cfc6155c5042449e76f86c2982ecd0141ed6c037fd205ab29e5f5",
+        "project_sha256": "84841257e34cfc6155c5042449e76f86c2982ecd0141ed6c037fd205ab29e5f5",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Motel_Door_01.uasset",
+        "source_sha256": "0e172487c6463b96d87915887f9e55bad2dc6671c9f312920dc97bc38a6c18ac",
+        "project_sha256": "0e172487c6463b96d87915887f9e55bad2dc6671c9f312920dc97bc38a6c18ac",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Large_02.uasset",
+        "source_sha256": "86b69e0af5ef69b47878f4b0afd1de17b1e1e0e7fba3d30da954acebf21ca2fa",
+        "project_sha256": "86b69e0af5ef69b47878f4b0afd1de17b1e1e0e7fba3d30da954acebf21ca2fa",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Large_Glass_02.uasset",
+        "source_sha256": "682b041a004e277df4f6d895d2a4b727367b5f0be60a42cff195e1d1d1a59457",
+        "project_sha256": "682b041a004e277df4f6d895d2a4b727367b5f0be60a42cff195e1d1d1a59457",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Small_01.uasset",
+        "source_sha256": "a96986db47a00e42642d86eb0f79ce2e59b151cb5f572bb7c11b079749d48c94",
+        "project_sha256": "a96986db47a00e42642d86eb0f79ce2e59b151cb5f572bb7c11b079749d48c94",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Small_02.uasset",
+        "source_sha256": "6e34b7b96a3393391a61c1ff982fc5565b7f9bb56fa3d1b3c710d27193e55d2c",
+        "project_sha256": "6e34b7b96a3393391a61c1ff982fc5565b7f9bb56fa3d1b3c710d27193e55d2c",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Small_Glass_01.uasset",
+        "source_sha256": "462b3b6aa1cf39c47b45277bdae8ffb97c4c67cbd0ac1a75005f3aad5b5ce9ae",
+        "project_sha256": "462b3b6aa1cf39c47b45277bdae8ffb97c4c67cbd0ac1a75005f3aad5b5ce9ae",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Small_Glass_02.uasset",
+        "source_sha256": "611a251a7a4e24dd44339008ffb0e68e72c20d43ee75a0a1a7113358001410fa",
+        "project_sha256": "611a251a7a4e24dd44339008ffb0e68e72c20d43ee75a0a1a7113358001410fa",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Props/SM_Prop_Gaspump_01.uasset",
+        "source_sha256": "ab983584438c59941db1222dda4606fd64e5f1e8458c1168cfa02937e13d07bf",
+        "project_sha256": "ab983584438c59941db1222dda4606fd64e5f1e8458c1168cfa02937e13d07bf",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Props/SM_Prop_Gaspump_02.uasset",
+        "source_sha256": "5e40688d31d11bc3362f6e5bb36938772aa15f92f348b9f331f44b91382c26bf",
+        "project_sha256": "5e40688d31d11bc3362f6e5bb36938772aa15f92f348b9f331f44b91382c26bf",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Props/SM_Prop_Gaspump_Base_01.uasset",
+        "source_sha256": "3b1738e13019bb6bb15e62343572f270cdba0c57803b60b75ac9e567795b505d",
+        "project_sha256": "3b1738e13019bb6bb15e62343572f270cdba0c57803b60b75ac9e567795b505d",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Props/SM_Prop_Gaspump_Cover_01.uasset",
+        "source_sha256": "2e61744754c2b950dac00787b77fa3bdb6041ea9a5358f18601059bb5179daf1",
+        "project_sha256": "2e61744754c2b950dac00787b77fa3bdb6041ea9a5358f18601059bb5179daf1",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Props/SM_Prop_Sign_Repairs_01.uasset",
+        "source_sha256": "b0d6938091d620179e30df32c22411091233dc2a1832f018da76db77b283e2cf",
+        "project_sha256": "b0d6938091d620179e30df32c22411091233dc2a1832f018da76db77b283e2cf",
+        "identical": true
+      },
+      {
+        "asset": "PolygonApocalypse/Meshes/Props/SM_Prop_Sign_Wheel_01.uasset",
+        "source_sha256": "93085844f14246df081863c48702764a8be205f773ec90dffd7f5730d8f248fa",
+        "project_sha256": "93085844f14246df081863c48702764a8be205f773ec90dffd7f5730d8f248fa",
+        "identical": true
+      }
+    ]
+  },
+  "ground_seams": "No new ground seam claim: the 1280 existing ground placements were verified unchanged against lesson 03. Prior 2488-seam geometry results remain in lesson 03.",
+  "source_measurements": "SourceAssemblyMeasurements.json records source component transforms and selected local LOD0 height samples.",
+  "visual_review": {
+    "views": [
+      "Overview",
+      "GasStation",
+      "Diner",
+      "Motel",
+      "AutoRepair",
+      "Shops",
+      "GasEntry"
+    ],
+    "notes": [
+      "Restored measured wheel and text signs to identify the repair shop.",
+      "Kept one roof Motel sign for the shared three-wing compound.",
+      "Gas shop overgrowth extends locally beyond the body; main-box clearance does not certify all foliage as nonblocking."
+    ]
+  },
+  "scope": "Built in an existing UE5.8.2 project containing the licensed asset pack. Building architecture and placement study; collision, navmesh, interior gameplay and vehicle swept paths are not verified."
+}

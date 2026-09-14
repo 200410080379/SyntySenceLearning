@@ -2,7 +2,7 @@
 
 用于学习、复现和验证 Synty 场景搭建的长期仓库。按资源包保存研究笔记、最小拼接样板、独立训练布局、构建脚本、实测报告和 UE 截图，逐步积累可复用的搭建方法。
 
-首批内容研究 **POLYGON Apocalypse** 的城市地面：先确认模块接口，验证 80×80 米连续地面，再扩大到 200×160 米，学习主街、支路、不同区域和出入口的关系。
+首批内容研究 **POLYGON Apocalypse** 的城市区域：先确认地面模块接口，验证 80×80 米连续地面，再扩大到 200×160 米，学习主街、支路和出入口的关系；随后从原包建筑装配方法入手，加入加油站、饭店、旅馆和商业建筑。
 
 ![仓库脚本重建的城市地面](packs/polygon-apocalypse/studies/02-city-ground/Screenshots/Repository_CityGround_Reproduction.png)
 
@@ -13,12 +13,15 @@
 | [POLYGON Apocalypse](packs/polygon-apocalypse/README.md) | [01 原包地面拼接](packs/polygon-apocalypse/studies/01-ground-assembly/README.md) | 30 个学习实例；原样与拆开对照、路缘、转角和入口 |
 | POLYGON Apocalypse | [02 城市地面验证](packs/polygon-apocalypse/studies/02-city-ground/README.md) | 256 块地面、十字路、环路、街角、斑马线和院落入口 |
 | POLYGON Apocalypse | [03 扩大街区](packs/polygon-apocalypse/studies/03-expanded-neighborhood/README.md) | 1,280 块地面、错位 T 字路口，以及加油站、饭店、旅馆等区域预留 |
+| POLYGON Apocalypse | [04 建筑装配与摆放](packs/polygon-apocalypse/studies/04-building-placement/README.md) | 10 套装配配方、13 栋主建筑和 1 组加油棚；在第三课地图中添加 94 个部件 |
 
 第二课的历史实测结果为 **480 条相邻接缝通过 1 mm 高差阈值检查**，并完成保存重开与近远景观察。该结果针对当时的模型版本、布局和几何算法；新环境需要重新验证，不包含角色碰撞或导航验收。
 
 仓库整理后的脚本也已在 UE 5.8.2 中实际重建两课：使用独立资产目录，30 个学习实例和 256 块城市地面的保存重开检查均通过，480 条接缝重新计算通过。结果分别见[第一课复现记录](packs/polygon-apocalypse/studies/01-ground-assembly/Data/ReproductionValidation.json)和[第二课复现记录](packs/polygon-apocalypse/studies/02-city-ground/Data/ReproductionValidation.json)。本次复现使用已安装所需资源的现有工程，未测试全新引擎安装。
 
 第三课保留原测试场景，在独立关卡中将地面面积扩大为 5 倍，重新检查的 2,488 条相邻接缝通过，1,280 个实例保存重开后的只读核对零失败，见[第三课验证记录](packs/polygon-apocalypse/studies/03-expanded-neighborhood/Data/ReproductionValidation.json)。区域用途用于组织地面、入口和前后场，建筑尺寸、碰撞、导航及完整玩法尚需分区域验证。
+
+第四课沿用第三课地图和地面布局，记录主体、玻璃、独立门枢轴、镜像及附件的关系，再把局部装配用于四个街块。建筑主体和加油棚保留原始尺寸，门和招牌保留测得的原配方缩放；验证建筑实例与原地面摆放，具体结果及限制见[第四课说明](packs/polygon-apocalypse/studies/04-building-placement/README.md)。
 
 ## 在自己的 UE 工程复现
 
@@ -32,11 +35,12 @@
 python tools/prepare_study.py --project "X:/YourProject/YourProject.uproject" --study ground-assembly
 python tools/prepare_study.py --project "X:/YourProject/YourProject.uproject" --study city-ground
 python tools/prepare_study.py --project "X:/YourProject/YourProject.uproject" --study expanded-neighborhood
+python tools/prepare_study.py --project "X:/YourProject/YourProject.uproject" --study building-placement
 ```
 
 准备工具将训练文件放入工程的 `Learning/SyntySenceLearning/polygon-apocalypse/<study-id>`，并输出实际执行入口及 MCP 所需的工程相对路径。随后在打开该工程的 UE 中执行对应 Python 文件；已有可用 MCP 时可使用其 Python 执行能力，也可以直接使用 UE 的 Python 文件执行功能。
 
-生成的学习资产分别位于 `/Game/SyntySenceLearning/PolygonApocalypse/` 下的 `GroundAssembly`、`CityGround` 与 `ExpandedNeighborhood` 独立目录。仓库不依赖最初的 JSQS 工程，也不捆绑 MCP 服务。不同 UE 或资源包版本的复现结果应另行记录。
+前三课生成的学习资产分别位于 `/Game/SyntySenceLearning/PolygonApocalypse/` 下的 `GroundAssembly`、`CityGround` 与 `ExpandedNeighborhood` 独立目录。第四课依赖第三课，直接在其 `L_ExpandedNeighborhood` 地图中添加建筑；准备工具不会自动构建前置训练，需要按两课步骤顺序执行。仓库不依赖最初的 JSQS 工程，也不捆绑 MCP 服务。不同 UE 或资源包版本的复现结果应另行记录。
 
 ## 仓库结构
 

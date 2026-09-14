@@ -1,0 +1,432 @@
+{
+  "units": "centimeters, Unreal source local coordinates; relative transforms are valid here because anchor yaw=0 scale=1",
+  "source_world": "/Game/PolygonApocalypse/Maps/Demo",
+  "method": "Read existing UE exports. LOD0 vertical triangle intersections at selected local XY; transform comparisons. No source edits, no UE calls.",
+  "diner": {
+    "source_anchor": [
+      -1550.0,
+      -2113.0,
+      0.0
+    ],
+    "front_direction_local": "+X",
+    "shared_pivot_members": [
+      "SM_Bld_Diner_01",
+      "SM_Bld_Diner_Interior_01",
+      "SM_Bld_Diner_Glass_01"
+    ],
+    "assembly_reference_transforms": [
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Door_01.SM_Bld_Diner_Door_01",
+        "source_actor": "SM_Bld_Diner_Door_01",
+        "relative_location_cm": [
+          464.5,
+          104.30005,
+          156.0
+        ],
+        "rotation_degrees": {
+          "pitch": 0.0,
+          "yaw": 52.21252441406249,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Door_01.SM_Bld_Diner_Door_01",
+        "source_actor": "SM_Bld_Diner_Door_01 (1)",
+        "relative_location_cm": [
+          464.5,
+          -104.6001,
+          156.0
+        ],
+        "rotation_degrees": {
+          "pitch": 0.0,
+          "yaw": 144.6711883544922,
+          "roll": -0.0
+        },
+        "scale": [
+          -1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Text_02.SM_Bld_Diner_Text_02",
+        "source_actor": "SM_Bld_Diner_Text_02",
+        "relative_location_cm": [
+          343.90002,
+          -40.0,
+          449.10001
+        ],
+        "rotation_degrees": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Sign_01.SM_Bld_Diner_Sign_01",
+        "source_actor": "SM_Bld_Diner_Sign",
+        "relative_location_cm": [
+          558.0,
+          -713.0,
+          0.0
+        ],
+        "rotation_degrees": {
+          "pitch": 0.0,
+          "yaw": 89.99977111816406,
+          "roll": -0.0
+        },
+        "scale": [
+          1.06172,
+          1.06172,
+          1.06172
+        ]
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_01.SM_Bld_Diner_01",
+        "source_actor": "SM_Bld_Diner_01",
+        "relative_location_cm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_degrees": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Door_Glass_01.SM_Bld_Diner_Door_Glass_01",
+        "source_actor": "SM_Bld_Diner_Door_Glass_01",
+        "relative_location_cm": [
+          464.5,
+          104.30005,
+          156.0
+        ],
+        "rotation_degrees": {
+          "pitch": 0.0,
+          "yaw": 52.21252441406249,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Door_Glass_01.SM_Bld_Diner_Door_Glass_01",
+        "source_actor": "SM_Bld_Diner_Door_Glass_01",
+        "relative_location_cm": [
+          464.49869,
+          -104.60216,
+          156.00017
+        ],
+        "rotation_degrees": {
+          "pitch": 0.0,
+          "yaw": 144.671186646945,
+          "roll": -0.0
+        },
+        "scale": [
+          -1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Glass_01.SM_Bld_Diner_Glass_01",
+        "source_actor": "SM_Bld_Diner_Glass_01",
+        "relative_location_cm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_degrees": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Interior_01.SM_Bld_Diner_Interior_01",
+        "source_actor": "SM_Bld_Diner_Interior_01",
+        "relative_location_cm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_degrees": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "entrance_surface_samples": [
+      {
+        "local_xy_cm": [
+          540,
+          0
+        ],
+        "surface": "outer step top",
+        "z_cm": 19.80553
+      },
+      {
+        "local_xy_cm": [
+          490,
+          0
+        ],
+        "surface": "inner step top",
+        "z_cm": 43.53719
+      },
+      {
+        "local_xy_cm": [
+          460,
+          0
+        ],
+        "surface": "threshold top",
+        "z_cm": 47.79895
+      },
+      {
+        "local_xy_cm": [
+          380,
+          0
+        ],
+        "surface": "interior floor",
+        "z_cm": 46.0721
+      },
+      {
+        "local_xy_cm": [
+          0,
+          0
+        ],
+        "surface": "interior floor",
+        "z_cm": 46.0721
+      }
+    ],
+    "door_bottom_world_z_cm": 48.12073,
+    "door_to_threshold_clearance_cm": 0.32178,
+    "placement_rule": "Keep body/interior/glass in common pivot and common rotation/scale. Actor Z=0 preserves modeled external steps and elevated internal floor. Door and sign pieces use measured offsets, not common body pivot.",
+    "limits": "Point samples verify rendered surfaces only; collision, navigation and complete interior walkability not validated."
+  },
+  "gas_station": {
+    "source_anchor": [
+      -1400.0,
+      16750.0,
+      0.0
+    ],
+    "source_assembly_reference_transforms": [
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Gaspump_02.SM_Prop_Gaspump_02",
+        "source_actor": "SM_Prop_Gaspump_02",
+        "relative_location_cm": [
+          0.0,
+          150.0,
+          0.0
+        ],
+        "rotation_degrees": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Gaspump_Base_01.SM_Prop_Gaspump_Base_01",
+        "source_actor": "SM_Prop_Gaspump_Base_01",
+        "relative_location_cm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_degrees": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Gaspump_Burnt_01.SM_Prop_Gaspump_Burnt_01",
+        "source_actor": "SM_Prop_Gaspump_Burnt_01",
+        "relative_location_cm": [
+          0.0,
+          -150.0,
+          0.0
+        ],
+        "rotation_degrees": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Gaspump_Cover_Burnt_01.SM_Prop_Gaspump_Cover_Burnt_01",
+        "source_actor": "SM_Prop_Gaspump_Cover_Burnt_01",
+        "relative_location_cm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_degrees": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "mesh": "/Game/PolygonApocalypse/Meshes/Props/SM_Prop_Gaspump_Cover_Burnt_Rubble_01.SM_Prop_Gaspump_Cover_Burnt_Rubble_01",
+        "source_actor": "SM_Prop_Gaspump_Cover_Burnt_Rubble_01",
+        "relative_location_cm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_degrees": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "source_state": "Both Demo canopies are SM_Prop_Gaspump_Cover_Burnt_01, paired with Burnt_Rubble. Intact Cover_01 exists but has no Demo instance in this export.",
+    "clean_canopy_footprint_cm": [
+      701.09668,
+      1338.14136
+    ],
+    "clean_canopy_top_z_cm": 496.81259,
+    "canopy_column_below_ground_min_z_cm": -27.63358,
+    "island_footprint_cm": [
+      217.23652,
+      577.0404
+    ],
+    "island_below_ground_min_z_cm": -27.7825,
+    "island_deck_top_z_cm": 15.10491,
+    "source_pumps_relative_y_cm": [
+      -150,
+      150
+    ],
+    "source_pumps_relative_z_cm": [
+      0,
+      0
+    ],
+    "intact_pump_bottom_local_z_cm": 8.54743,
+    "derived_intact_pump_actor_z_for_exact_island_contact_cm": 6.55748,
+    "placement_rule": "Use common cover/island pivot with pumps spaced along local Y; modeled column and island foundations intentionally extend below ground at actor Z0. Preserve full assembly offsets under rotation. Do not attach burned rubble to intact canopy as though it were an observed Demo combination.",
+    "limits": "Exact pump actor Z6.55748 is a new geometric contact calculation, not Demo placement and not a runtime collision validation. Demo source pump Z0 overlaps the island deck slightly."
+  },
+  "verified_date": "2026-09-14",
+  "engine_version": "5.8.2",
+  "pack_version": "1.20.0",
+  "other_measured_interfaces": {
+    "method": "Read-only source Demo component transform comparison; bounding boxes from installed source meshes. Limited assembly measurements, not full scene export.",
+    "motel": {
+      "front_axis": "+X",
+      "same_pivot_parts": [
+        "Attachments_01",
+        "Barricades_01",
+        "Overgrowth_01",
+        "Sign_01"
+      ],
+      "maximum_observed_same_pivot_drift_cm": 0.00195,
+      "door_front_x_cm": 287.12,
+      "lower_door_base_local_z_cm": 22.40296,
+      "upper_door_base_local_z_cm": 322.40292,
+      "template_closed_door_count": 7,
+      "note": "The other source Motel includes damaged/open door poses; current recipe uses the closed-door exemplar."
+    },
+    "auto_repair": {
+      "source_main_actor_z_cm": 1,
+      "shared_pivot_parts": [
+        "Glass_01",
+        "Overgrowth_01"
+      ],
+      "door_local_positions_cm": [
+        [
+          580.92822,
+          -152.42773,
+          397.47092
+        ],
+        [
+          580.92822,
+          462.81055,
+          397.47092
+        ]
+      ],
+      "door_pitch_degrees": [
+        -90,
+        0
+      ],
+      "door_mesh_local_z_range_cm": [
+        -375.866,
+        0
+      ],
+      "closed_door_bottom_local_z_cm": 21.60492,
+      "note": "Door pivot is at the top; wheel and text signs use separate source relative transforms and source scale."
+    },
+    "shop_large_01_unused_counterexample": {
+      "used_in_current_layout": false,
+      "body_mesh": "SM_Bld_Shop_Large_01",
+      "glass_mesh": "SM_Bld_Shop_Large_Glass_01",
+      "glass_relative_location_cm": [
+        51.58899,
+        -49.79297,
+        630.6076
+      ],
+      "relative_rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "note": "Measured source body and glass have equal rotation but different origins. Shared naming does not imply a shared pivot."
+    }
+  }
+}
