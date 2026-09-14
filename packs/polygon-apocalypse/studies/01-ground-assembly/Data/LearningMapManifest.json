@@ -1,0 +1,842 @@
+[
+  {
+    "folder": "A_Street/01_Assembled",
+    "source_actor": "SM_Env_Sidewalk_01 (5)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_01.SM_Env_Sidewalk_01",
+    "source_location": [
+      -900.0,
+      -1500.0,
+      0.0
+    ],
+    "study_location": [
+      -250.0,
+      250.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+    ]
+  },
+  {
+    "folder": "A_Street/02_Separated_200cm",
+    "source_actor": "SM_Env_Sidewalk_01 (5)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_01.SM_Env_Sidewalk_01",
+    "source_location": [
+      -900.0,
+      -1500.0,
+      0.0
+    ],
+    "study_location": [
+      -450.0,
+      1250.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+    ]
+  },
+  {
+    "folder": "A_Street/01_Assembled",
+    "source_actor": "SM_Env_Sidewalk_Panel_01",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Panel_01.SM_Env_Sidewalk_Panel_01",
+    "source_location": [
+      -400.0,
+      -1500.0,
+      0.0
+    ],
+    "study_location": [
+      250.0,
+      250.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+    ]
+  },
+  {
+    "folder": "A_Street/02_Separated_200cm",
+    "source_actor": "SM_Env_Sidewalk_Panel_01",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Panel_01.SM_Env_Sidewalk_Panel_01",
+    "source_location": [
+      -400.0,
+      -1500.0,
+      0.0
+    ],
+    "study_location": [
+      250.0,
+      1250.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+    ]
+  },
+  {
+    "folder": "A_Street/01_Assembled",
+    "source_actor": "SM_Env_Road_01 (157)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+    "source_location": [
+      -400.0,
+      -1500.0,
+      0.0
+    ],
+    "study_location": [
+      250.0,
+      250.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 89.99982452392578,
+      "roll": -0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_Road_Mat_01.MI_PolygonApocalypse_Road_Mat_01"
+    ]
+  },
+  {
+    "folder": "A_Street/02_Separated_200cm",
+    "source_actor": "SM_Env_Road_01 (157)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+    "source_location": [
+      -400.0,
+      -1500.0,
+      0.0
+    ],
+    "study_location": [
+      450.0,
+      1250.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 89.99982452392578,
+      "roll": -0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_Road_Mat_01.MI_PolygonApocalypse_Road_Mat_01"
+    ]
+  },
+  {
+    "folder": "B_GasApronCorner",
+    "source_actor": "SM_Env_Sidewalk_01 (26)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_01.SM_Env_Sidewalk_01",
+    "source_location": [
+      -5400.0,
+      -3500.0,
+      0.0
+    ],
+    "study_location": [
+      3450.0,
+      -500.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 90.00003051757814,
+      "roll": -0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+    ]
+  },
+  {
+    "folder": "B_GasApronCorner",
+    "source_actor": "SM_Env_Sidewalk_01 (24)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_01.SM_Env_Sidewalk_01",
+    "source_location": [
+      -4900.0,
+      -4000.0,
+      0.0
+    ],
+    "study_location": [
+      3950.0,
+      -1000.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 180.0,
+      "roll": -0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+    ]
+  },
+  {
+    "folder": "B_GasApronCorner",
+    "source_actor": "SM_Env_Sidewalk_01 (21)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_01.SM_Env_Sidewalk_01",
+    "source_location": [
+      -3900.0,
+      -3500.0,
+      0.0
+    ],
+    "study_location": [
+      4950.0,
+      -500.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+    ]
+  },
+  {
+    "folder": "B_GasApronCorner",
+    "source_actor": "SM_Env_Sidewalk_01 (20)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_01.SM_Env_Sidewalk_01",
+    "source_location": [
+      -3900.0,
+      -3500.0,
+      0.0
+    ],
+    "study_location": [
+      4950.0,
+      -500.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 90.00003051757814,
+      "roll": -0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+    ]
+  },
+  {
+    "folder": "B_GasApronCorner",
+    "source_actor": "SM_Env_Sidewalk_Panel_01",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Panel_01.SM_Env_Sidewalk_Panel_01",
+    "source_location": [
+      -3900.0,
+      -3000.0,
+      0.0
+    ],
+    "study_location": [
+      4950.0,
+      0.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 90.00003051757814,
+      "roll": -0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+    ]
+  },
+  {
+    "folder": "B_GasApronCorner",
+    "source_actor": "SM_Env_Road_ParkingLines_01 (8)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_ParkingLines_01.SM_Env_Road_ParkingLines_01",
+    "source_location": [
+      -3900.0,
+      -2000.0,
+      0.0
+    ],
+    "study_location": [
+      4950.0,
+      1000.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_Road_Mat_01.MI_PolygonApocalypse_Road_Mat_01"
+    ]
+  },
+  {
+    "folder": "B_GasApronCorner",
+    "source_actor": "SM_Env_Sidewalk_Straight_02 (33)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_02.SM_Env_Sidewalk_Straight_02",
+    "source_location": [
+      -4400.0,
+      -3000.0,
+      0.0
+    ],
+    "study_location": [
+      4450.0,
+      0.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 90.00003051757814,
+      "roll": -0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+    ]
+  },
+  {
+    "folder": "B_GasApronCorner",
+    "source_actor": "SM_Env_Sidewalk_Corner_02 (2)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Corner_02.SM_Env_Sidewalk_Corner_02",
+    "source_location": [
+      -4400.0,
+      -3000.0,
+      0.0
+    ],
+    "study_location": [
+      4450.0,
+      0.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+    ]
+  },
+  {
+    "folder": "B_GasApronCorner",
+    "source_actor": "SM_Env_Sidewalk_Straight_02 (32)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_02.SM_Env_Sidewalk_Straight_02",
+    "source_location": [
+      -4400.0,
+      -2500.0,
+      0.0
+    ],
+    "study_location": [
+      4450.0,
+      500.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.00016733958909753707,
+      "roll": -0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+    ]
+  },
+  {
+    "folder": "B_GasApronCorner",
+    "source_actor": "SM_Env_Sidewalk_Straight_02 (18)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_02.SM_Env_Sidewalk_Straight_02",
+    "source_location": [
+      -4400.0,
+      -2000.0,
+      0.0
+    ],
+    "study_location": [
+      4450.0,
+      1000.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.00016733958909753707,
+      "roll": -0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+    ]
+  },
+  {
+    "folder": "B_GasApronCorner",
+    "source_actor": "SM_Env_Road_Bare_01 (70)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+    "source_location": [
+      -3400.0,
+      -2500.0,
+      0.0
+    ],
+    "study_location": [
+      5450.0,
+      500.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_Road_Mat_01.MI_PolygonApocalypse_Road_Mat_01"
+    ]
+  },
+  {
+    "folder": "B_GasApronCorner",
+    "source_actor": "SM_Env_Road_Bare_01 (69)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+    "source_location": [
+      -3400.0,
+      -2000.0,
+      0.0
+    ],
+    "study_location": [
+      5450.0,
+      1000.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_Road_Mat_01.MI_PolygonApocalypse_Road_Mat_01"
+    ]
+  },
+  {
+    "folder": "B_GasApronCorner",
+    "source_actor": "SM_Env_Sidewalk_02 (284)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+    "source_location": [
+      -4900.0,
+      -3000.0,
+      0.0
+    ],
+    "study_location": [
+      3950.0,
+      0.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+    ]
+  },
+  {
+    "folder": "B_GasApronCorner",
+    "source_actor": "SM_Env_Sidewalk_02 (289)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+    "source_location": [
+      -4900.0,
+      -2500.0,
+      0.0
+    ],
+    "study_location": [
+      3950.0,
+      500.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+    ]
+  },
+  {
+    "folder": "B_GasApronCorner",
+    "source_actor": "SM_Env_Sidewalk_02 (290)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+    "source_location": [
+      -4900.0,
+      -2000.0,
+      0.0
+    ],
+    "study_location": [
+      3950.0,
+      1000.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+    ]
+  },
+  {
+    "folder": "C_Driveway",
+    "source_actor": "SM_Env_Sidewalk_Driveway_Wide_01",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Driveway_Wide_01.SM_Env_Sidewalk_Driveway_Wide_01",
+    "source_location": [
+      -10400.0,
+      500.0,
+      0.0
+    ],
+    "study_location": [
+      8750.0,
+      250.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": -89.99999237060548,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+    ]
+  },
+  {
+    "folder": "C_Driveway",
+    "source_actor": "SM_Env_Road_01 (69)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+    "source_location": [
+      -11400.0,
+      -500.0,
+      0.0
+    ],
+    "study_location": [
+      7750.0,
+      -750.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 180.0,
+      "roll": -0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_Road_Mat_01.MI_PolygonApocalypse_Road_Mat_01"
+    ]
+  },
+  {
+    "folder": "C_Driveway",
+    "source_actor": "SM_Env_Road_01 (70)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+    "source_location": [
+      -10900.0,
+      500.0,
+      0.0
+    ],
+    "study_location": [
+      8250.0,
+      250.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_Road_Mat_01.MI_PolygonApocalypse_Road_Mat_01"
+    ]
+  },
+  {
+    "folder": "C_Driveway",
+    "source_actor": "SM_Env_Road_01 (72)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+    "source_location": [
+      -10400.0,
+      500.0,
+      0.0
+    ],
+    "study_location": [
+      8750.0,
+      250.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_Road_Mat_01.MI_PolygonApocalypse_Road_Mat_01"
+    ]
+  },
+  {
+    "folder": "C_Driveway",
+    "source_actor": "SM_Env_Road_01 (73)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+    "source_location": [
+      -10900.0,
+      -500.0,
+      0.0
+    ],
+    "study_location": [
+      8250.0,
+      -750.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 180.0,
+      "roll": -0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_Road_Mat_01.MI_PolygonApocalypse_Road_Mat_01"
+    ]
+  },
+  {
+    "folder": "C_Driveway",
+    "source_actor": "SM_Env_Road_01 (74)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+    "source_location": [
+      -10400.0,
+      -500.0,
+      0.0
+    ],
+    "study_location": [
+      8750.0,
+      -750.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 180.0,
+      "roll": -0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_Road_Mat_01.MI_PolygonApocalypse_Road_Mat_01"
+    ]
+  },
+  {
+    "folder": "C_Driveway",
+    "source_actor": "SM_Env_Road_01 (75)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+    "source_location": [
+      -9900.0,
+      500.0,
+      0.0
+    ],
+    "study_location": [
+      9250.0,
+      250.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_Road_Mat_01.MI_PolygonApocalypse_Road_Mat_01"
+    ]
+  },
+  {
+    "folder": "C_Driveway",
+    "source_actor": "SM_Env_Sidewalk_Straight_09 (34)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_09.SM_Env_Sidewalk_Straight_09",
+    "source_location": [
+      -10900.0,
+      500.0,
+      0.0
+    ],
+    "study_location": [
+      8250.0,
+      250.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": -89.99999237060548,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+    ]
+  },
+  {
+    "folder": "C_Driveway",
+    "source_actor": "SM_Env_Sidewalk_Straight_10 (2)",
+    "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_10.SM_Env_Sidewalk_Straight_10",
+    "source_location": [
+      -9900.0,
+      500.0,
+      0.0
+    ],
+    "study_location": [
+      9250.0,
+      250.0,
+      0.0
+    ],
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": -90.00000762939455,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "materials": [
+      "/Game/PolygonApocalypse/Materials/Instances/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+    ]
+  }
+]

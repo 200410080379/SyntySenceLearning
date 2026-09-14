@@ -1,0 +1,803 @@
+{
+  "record_kind": "historical_verification",
+  "verified_date": "2026-09-14",
+  "engine_version": "5.8.2",
+  "original_world": "/Game/JSQS/Learning/GroundValidation/L_CityGround_Validation.L_CityGround_Validation",
+  "source_layout_sha256": "decd6d705b7dbe37ee4063a2d7831781807f1a842a744a6edd107309569b19aa",
+  "geometry": {
+    "passed": true,
+    "coverage": {
+      "grid_size": 16,
+      "expected_tile_count": 256,
+      "input_tile_count": 256,
+      "occupied_cell_count": 256,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "errors": []
+    },
+    "summary": {
+      "expected_adjacent_seams": 480,
+      "checked_adjacent_seams": 480,
+      "failed_seam_count": 0,
+      "maximum_height_difference_cm": 9.999999999621423e-06,
+      "maximum_uncovered_span_cm": 0.0,
+      "unique_mesh_yaw_profile_count": 31
+    },
+    "tolerances_cm": {
+      "author_horizontal_vertex_drift": 0.01,
+      "height_difference": 0.1,
+      "uncovered_span": 0.1
+    },
+    "limits": [
+      "Checks adjacent tile seams and declared grid occupancy, not arbitrary holes inside a mesh.",
+      "Includes sculpted cracks, raised curb and gutters in actual triangle Z; no flattening to actor Z.",
+      "Only nonvertical XY-projected triangle surfaces count as floor coverage.",
+      "Does not validate collision, UV continuity, shading, draw order or outer-edge scenery."
+    ]
+  },
+  "before_fix": {
+    "summary": {
+      "expected_adjacent_seams": 480,
+      "checked_adjacent_seams": 480,
+      "failed_seam_count": 11,
+      "maximum_height_difference_cm": 3.92862,
+      "maximum_uncovered_span_cm": 0.0,
+      "unique_mesh_yaw_profile_count": 33
+    },
+    "failures": [
+      {
+        "axis": "X",
+        "constant_coordinate_cm": -2500.0,
+        "along_world_range_cm": [
+          -2000.0,
+          -1500.0
+        ],
+        "first": {
+          "i": 2,
+          "j": 4,
+          "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_02.SM_Env_Sidewalk_Straight_02",
+          "name": "SM_Env_Sidewalk_Straight_02",
+          "yaw": 180,
+          "location": [
+            -3000.0,
+            -2000.0,
+            0
+          ]
+        },
+        "second": {
+          "i": 3,
+          "j": 4,
+          "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Parking_02.SM_Env_Road_Parking_02",
+          "name": "SM_Env_Road_Parking_02",
+          "yaw": 0,
+          "location": [
+            -2000.0,
+            -1500.0,
+            0
+          ]
+        },
+        "first_edge": "east",
+        "second_edge": "west",
+        "passed": false,
+        "max_height_difference_cm": 3.92862,
+        "maximum_uncovered_span_cm": 0.0,
+        "worst_height_sample": {
+          "along_cm": 454.15311,
+          "first_z_cm": 3.92862,
+          "second_z_cm": 0.0,
+          "delta_cm": 3.92862,
+          "interval_cm": [
+            250.0,
+            454.15311
+          ]
+        },
+        "uncovered_spans_cm": {
+          "first": [],
+          "second": []
+        },
+        "height_mismatch_intervals_cm": [
+          [
+            250.0,
+            497.35892
+          ]
+        ],
+        "profile_segment_counts": [
+          6,
+          1
+        ],
+        "comparison_node_count": 7,
+        "height_sample_count": 18,
+        "worst_world_xy_cm": [
+          -2500.0,
+          -1545.84689
+        ]
+      },
+      {
+        "axis": "X",
+        "constant_coordinate_cm": -2500.0,
+        "along_world_range_cm": [
+          1000.0,
+          1500.0
+        ],
+        "first": {
+          "i": 2,
+          "j": 10,
+          "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_02.SM_Env_Sidewalk_Straight_02",
+          "name": "SM_Env_Sidewalk_Straight_02",
+          "yaw": 180,
+          "location": [
+            -3000.0,
+            1000.0,
+            0
+          ]
+        },
+        "second": {
+          "i": 3,
+          "j": 10,
+          "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+          "name": "SM_Env_Sidewalk_02",
+          "yaw": 90,
+          "location": [
+            -2500.0,
+            1500.0,
+            0
+          ]
+        },
+        "first_edge": "east",
+        "second_edge": "west",
+        "passed": false,
+        "max_height_difference_cm": 3.92862,
+        "maximum_uncovered_span_cm": 0.0,
+        "worst_height_sample": {
+          "along_cm": 454.15311,
+          "first_z_cm": 3.92862,
+          "second_z_cm": 0.0,
+          "delta_cm": 3.92862,
+          "interval_cm": [
+            250.0,
+            454.15311
+          ]
+        },
+        "uncovered_spans_cm": {
+          "first": [],
+          "second": []
+        },
+        "height_mismatch_intervals_cm": [
+          [
+            250.0,
+            497.35892
+          ]
+        ],
+        "profile_segment_counts": [
+          6,
+          2
+        ],
+        "comparison_node_count": 8,
+        "height_sample_count": 21,
+        "worst_world_xy_cm": [
+          -2500.0,
+          1454.15311
+        ]
+      },
+      {
+        "axis": "Y",
+        "constant_coordinate_cm": -2500.0,
+        "along_world_range_cm": [
+          -2500.0,
+          -2000.0
+        ],
+        "first": {
+          "i": 3,
+          "j": 2,
+          "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_02.SM_Env_Sidewalk_Straight_02",
+          "name": "SM_Env_Sidewalk_Straight_02",
+          "yaw": 270,
+          "location": [
+            -2000.0,
+            -3000.0,
+            0
+          ]
+        },
+        "second": {
+          "i": 3,
+          "j": 3,
+          "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Parking_01.SM_Env_Road_Parking_01",
+          "name": "SM_Env_Road_Parking_01",
+          "yaw": 0,
+          "location": [
+            -2000.0,
+            -2000.0,
+            0
+          ]
+        },
+        "first_edge": "north",
+        "second_edge": "south",
+        "passed": false,
+        "max_height_difference_cm": 3.92862,
+        "maximum_uncovered_span_cm": 0.0,
+        "worst_height_sample": {
+          "along_cm": 45.84688999999997,
+          "first_z_cm": 3.92862,
+          "second_z_cm": 0.0,
+          "delta_cm": 3.92862,
+          "interval_cm": [
+            2.641079999999988,
+            45.84688999999997
+          ]
+        },
+        "uncovered_spans_cm": {
+          "first": [],
+          "second": []
+        },
+        "height_mismatch_intervals_cm": [
+          [
+            2.641079999999988,
+            250.0
+          ]
+        ],
+        "profile_segment_counts": [
+          6,
+          2
+        ],
+        "comparison_node_count": 8,
+        "height_sample_count": 21,
+        "worst_world_xy_cm": [
+          -2454.15311,
+          -2500.0
+        ]
+      },
+      {
+        "axis": "Y",
+        "constant_coordinate_cm": -1000.0,
+        "along_world_range_cm": [
+          -2000.0,
+          -1500.0
+        ],
+        "first": {
+          "i": 4,
+          "j": 5,
+          "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+          "name": "SM_Env_Road_Bare_01",
+          "yaw": 0,
+          "location": [
+            -1500.0,
+            -1000.0,
+            0
+          ]
+        },
+        "second": {
+          "i": 4,
+          "j": 6,
+          "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_02.SM_Env_Sidewalk_Straight_02",
+          "name": "SM_Env_Sidewalk_Straight_02",
+          "yaw": 90,
+          "location": [
+            -2000.0,
+            -500.0,
+            0
+          ]
+        },
+        "first_edge": "north",
+        "second_edge": "south",
+        "passed": false,
+        "max_height_difference_cm": 3.92862,
+        "maximum_uncovered_span_cm": 0.0,
+        "worst_height_sample": {
+          "along_cm": 454.15311,
+          "first_z_cm": 0.0,
+          "second_z_cm": 3.92862,
+          "delta_cm": 3.92862,
+          "interval_cm": [
+            250.0,
+            454.15311
+          ]
+        },
+        "uncovered_spans_cm": {
+          "first": [],
+          "second": []
+        },
+        "height_mismatch_intervals_cm": [
+          [
+            250.0,
+            497.35892
+          ]
+        ],
+        "profile_segment_counts": [
+          1,
+          6
+        ],
+        "comparison_node_count": 7,
+        "height_sample_count": 18,
+        "worst_world_xy_cm": [
+          -1545.84689,
+          -1000.0
+        ]
+      },
+      {
+        "axis": "Y",
+        "constant_coordinate_cm": 1000.0,
+        "along_world_range_cm": [
+          -2000.0,
+          -1500.0
+        ],
+        "first": {
+          "i": 4,
+          "j": 9,
+          "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_02.SM_Env_Sidewalk_Straight_02",
+          "name": "SM_Env_Sidewalk_Straight_02",
+          "yaw": 270,
+          "location": [
+            -1500.0,
+            500.0,
+            0
+          ]
+        },
+        "second": {
+          "i": 4,
+          "j": 10,
+          "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+          "name": "SM_Env_Sidewalk_02",
+          "yaw": 180,
+          "location": [
+            -2000.0,
+            1000.0,
+            0
+          ]
+        },
+        "first_edge": "north",
+        "second_edge": "south",
+        "passed": false,
+        "max_height_difference_cm": 3.92862,
+        "maximum_uncovered_span_cm": 0.0,
+        "worst_height_sample": {
+          "along_cm": 45.84688999999997,
+          "first_z_cm": 3.92862,
+          "second_z_cm": 0.0,
+          "delta_cm": 3.92862,
+          "interval_cm": [
+            2.641079999999988,
+            45.84688999999997
+          ]
+        },
+        "uncovered_spans_cm": {
+          "first": [],
+          "second": []
+        },
+        "height_mismatch_intervals_cm": [
+          [
+            2.641079999999988,
+            250.0
+          ]
+        ],
+        "profile_segment_counts": [
+          6,
+          2
+        ],
+        "comparison_node_count": 8,
+        "height_sample_count": 21,
+        "worst_world_xy_cm": [
+          -1954.15311,
+          1000.0
+        ]
+      },
+      {
+        "axis": "X",
+        "constant_coordinate_cm": -1000.0,
+        "along_world_range_cm": [
+          1500.0,
+          2000.0
+        ],
+        "first": {
+          "i": 5,
+          "j": 11,
+          "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+          "name": "SM_Env_Sidewalk_02",
+          "yaw": 180,
+          "location": [
+            -1500.0,
+            1500.0,
+            0
+          ]
+        },
+        "second": {
+          "i": 6,
+          "j": 11,
+          "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_02.SM_Env_Sidewalk_Straight_02",
+          "name": "SM_Env_Sidewalk_Straight_02",
+          "yaw": 0,
+          "location": [
+            -500.0,
+            2000.0,
+            0
+          ]
+        },
+        "first_edge": "east",
+        "second_edge": "west",
+        "passed": false,
+        "max_height_difference_cm": 3.92862,
+        "maximum_uncovered_span_cm": 0.0,
+        "worst_height_sample": {
+          "along_cm": 45.84688999999997,
+          "first_z_cm": 0.0,
+          "second_z_cm": 3.92862,
+          "delta_cm": 3.92862,
+          "interval_cm": [
+            2.641079999999988,
+            45.84688999999997
+          ]
+        },
+        "uncovered_spans_cm": {
+          "first": [],
+          "second": []
+        },
+        "height_mismatch_intervals_cm": [
+          [
+            2.641079999999988,
+            250.0
+          ]
+        ],
+        "profile_segment_counts": [
+          2,
+          6
+        ],
+        "comparison_node_count": 8,
+        "height_sample_count": 21,
+        "worst_world_xy_cm": [
+          -1000.0,
+          1545.84689
+        ]
+      },
+      {
+        "axis": "Y",
+        "constant_coordinate_cm": 2500.0,
+        "along_world_range_cm": [
+          -1500.0,
+          -1000.0
+        ],
+        "first": {
+          "i": 5,
+          "j": 12,
+          "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+          "name": "SM_Env_Sidewalk_02",
+          "yaw": 90,
+          "location": [
+            -1500.0,
+            2500.0,
+            0
+          ]
+        },
+        "second": {
+          "i": 5,
+          "j": 13,
+          "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_02.SM_Env_Sidewalk_Straight_02",
+          "name": "SM_Env_Sidewalk_Straight_02",
+          "yaw": 90,
+          "location": [
+            -1500.0,
+            3000.0,
+            0
+          ]
+        },
+        "first_edge": "north",
+        "second_edge": "south",
+        "passed": false,
+        "max_height_difference_cm": 3.92862,
+        "maximum_uncovered_span_cm": 0.0,
+        "worst_height_sample": {
+          "along_cm": 454.15311,
+          "first_z_cm": 0.0,
+          "second_z_cm": 3.92862,
+          "delta_cm": 3.92862,
+          "interval_cm": [
+            250.0,
+            454.15311
+          ]
+        },
+        "uncovered_spans_cm": {
+          "first": [],
+          "second": []
+        },
+        "height_mismatch_intervals_cm": [
+          [
+            250.0,
+            497.35892
+          ]
+        ],
+        "profile_segment_counts": [
+          2,
+          6
+        ],
+        "comparison_node_count": 8,
+        "height_sample_count": 21,
+        "worst_world_xy_cm": [
+          -1045.84689,
+          2500.0
+        ]
+      },
+      {
+        "axis": "Y",
+        "constant_coordinate_cm": 2500.0,
+        "along_world_range_cm": [
+          1500.0,
+          2000.0
+        ],
+        "first": {
+          "i": 11,
+          "j": 12,
+          "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+          "name": "SM_Env_Road_Bare_01",
+          "yaw": 0,
+          "location": [
+            2000.0,
+            2500.0,
+            0
+          ]
+        },
+        "second": {
+          "i": 11,
+          "j": 13,
+          "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_02.SM_Env_Sidewalk_Straight_02",
+          "name": "SM_Env_Sidewalk_Straight_02",
+          "yaw": 90,
+          "location": [
+            1500.0,
+            3000.0,
+            0
+          ]
+        },
+        "first_edge": "north",
+        "second_edge": "south",
+        "passed": false,
+        "max_height_difference_cm": 3.92862,
+        "maximum_uncovered_span_cm": 0.0,
+        "worst_height_sample": {
+          "along_cm": 454.15311,
+          "first_z_cm": 0.0,
+          "second_z_cm": 3.92862,
+          "delta_cm": 3.92862,
+          "interval_cm": [
+            250.0,
+            454.15311
+          ]
+        },
+        "uncovered_spans_cm": {
+          "first": [],
+          "second": []
+        },
+        "height_mismatch_intervals_cm": [
+          [
+            250.0,
+            497.35892
+          ]
+        ],
+        "profile_segment_counts": [
+          1,
+          6
+        ],
+        "comparison_node_count": 7,
+        "height_sample_count": 18,
+        "worst_world_xy_cm": [
+          1954.15311,
+          2500.0
+        ]
+      },
+      {
+        "axis": "Y",
+        "constant_coordinate_cm": -2500.0,
+        "along_world_range_cm": [
+          2000.0,
+          2500.0
+        ],
+        "first": {
+          "i": 12,
+          "j": 2,
+          "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_02.SM_Env_Sidewalk_Straight_02",
+          "name": "SM_Env_Sidewalk_Straight_02",
+          "yaw": 270,
+          "location": [
+            2500.0,
+            -3000.0,
+            0
+          ]
+        },
+        "second": {
+          "i": 12,
+          "j": 3,
+          "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+          "name": "SM_Env_Sidewalk_02",
+          "yaw": 90,
+          "location": [
+            2000.0,
+            -2000.0,
+            0
+          ]
+        },
+        "first_edge": "north",
+        "second_edge": "south",
+        "passed": false,
+        "max_height_difference_cm": 3.92862,
+        "maximum_uncovered_span_cm": 0.0,
+        "worst_height_sample": {
+          "along_cm": 45.84688999999997,
+          "first_z_cm": 3.92862,
+          "second_z_cm": 0.0,
+          "delta_cm": 3.92862,
+          "interval_cm": [
+            2.641079999999988,
+            45.84688999999997
+          ]
+        },
+        "uncovered_spans_cm": {
+          "first": [],
+          "second": []
+        },
+        "height_mismatch_intervals_cm": [
+          [
+            2.641079999999988,
+            250.0
+          ]
+        ],
+        "profile_segment_counts": [
+          6,
+          2
+        ],
+        "comparison_node_count": 8,
+        "height_sample_count": 21,
+        "worst_world_xy_cm": [
+          2045.84689,
+          -2500.0
+        ]
+      },
+      {
+        "axis": "X",
+        "constant_coordinate_cm": 2500.0,
+        "along_world_range_cm": [
+          -2500.0,
+          -2000.0
+        ],
+        "first": {
+          "i": 12,
+          "j": 3,
+          "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+          "name": "SM_Env_Sidewalk_02",
+          "yaw": 90,
+          "location": [
+            2000.0,
+            -2000.0,
+            0
+          ]
+        },
+        "second": {
+          "i": 13,
+          "j": 3,
+          "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_02.SM_Env_Sidewalk_Straight_02",
+          "name": "SM_Env_Sidewalk_Straight_02",
+          "yaw": 0,
+          "location": [
+            3000.0,
+            -2000.0,
+            0
+          ]
+        },
+        "first_edge": "east",
+        "second_edge": "west",
+        "passed": false,
+        "max_height_difference_cm": 3.92862,
+        "maximum_uncovered_span_cm": 0.0,
+        "worst_height_sample": {
+          "along_cm": 45.84688999999997,
+          "first_z_cm": 0.0,
+          "second_z_cm": 3.92862,
+          "delta_cm": 3.92862,
+          "interval_cm": [
+            2.641079999999988,
+            45.84688999999997
+          ]
+        },
+        "uncovered_spans_cm": {
+          "first": [],
+          "second": []
+        },
+        "height_mismatch_intervals_cm": [
+          [
+            2.641079999999988,
+            250.0
+          ]
+        ],
+        "profile_segment_counts": [
+          2,
+          6
+        ],
+        "comparison_node_count": 8,
+        "height_sample_count": 21,
+        "worst_world_xy_cm": [
+          2500.0,
+          -2454.15311
+        ]
+      },
+      {
+        "axis": "X",
+        "constant_coordinate_cm": 2500.0,
+        "along_world_range_cm": [
+          2000.0,
+          2500.0
+        ],
+        "first": {
+          "i": 12,
+          "j": 12,
+          "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+          "name": "SM_Env_Road_Bare_01",
+          "yaw": 0,
+          "location": [
+            2500.0,
+            2500.0,
+            0
+          ]
+        },
+        "second": {
+          "i": 13,
+          "j": 12,
+          "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_02.SM_Env_Sidewalk_Straight_02",
+          "name": "SM_Env_Sidewalk_Straight_02",
+          "yaw": 0,
+          "location": [
+            3000.0,
+            2500.0,
+            0
+          ]
+        },
+        "first_edge": "east",
+        "second_edge": "west",
+        "passed": false,
+        "max_height_difference_cm": 3.92862,
+        "maximum_uncovered_span_cm": 0.0,
+        "worst_height_sample": {
+          "along_cm": 45.84688999999997,
+          "first_z_cm": 0.0,
+          "second_z_cm": 3.92862,
+          "delta_cm": 3.92862,
+          "interval_cm": [
+            2.641079999999988,
+            45.84688999999997
+          ]
+        },
+        "uncovered_spans_cm": {
+          "first": [],
+          "second": []
+        },
+        "height_mismatch_intervals_cm": [
+          [
+            2.641079999999988,
+            250.0
+          ]
+        ],
+        "profile_segment_counts": [
+          1,
+          6
+        ],
+        "comparison_node_count": 7,
+        "height_sample_count": 18,
+        "worst_world_xy_cm": [
+          2500.0,
+          2045.84689
+        ]
+      }
+    ]
+  },
+  "saved_world": {
+    "mesh_instances": 256,
+    "unique_meshes": 11,
+    "read_only": true,
+    "instance_validation_failures": [],
+    "all_scale_one": true
+  },
+  "source_integrity": {
+    "all_identical": true,
+    "files_checked": 15
+  },
+  "material_fix": {
+    "base_texture_mip_bias": -3,
+    "component_slots": 174
+  },
+  "note": "Historical results and screenshots precede repository namespace migration. Current portable Layout uses a new map path; do not compare its file hash to source_layout_sha256."
+}

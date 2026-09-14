@@ -1,0 +1,785 @@
+{
+  "source": "Data/CandidateGeometry.json",
+  "source_sha256": "02a1c26d253cfb5a5da226c59a8cbcd3505d14a92515766e49c5de8decd1fc60",
+  "units": "centimeters",
+  "boundary_plane_tolerance_cm": 0.01,
+  "comparison_method": "Collect vertices within 0.01 cm of authored 500 cm module planes; compare piecewise-linear profiles at the union of both profile node coordinates. This avoids treating extra collinear vertices as mismatches. Quarter-turn comparisons reverse the transverse coordinate as required.",
+  "method_limits": [
+    "The profile representation assumes each boundary is a single-valued height curve. It measures geometric height agreement and is not a collision, shading, UV or material test.",
+    "Vertices within 0.01 cm of the plane are projected to it. Straight10 includes authored Y=-500.003 vertices, which must not be omitted.",
+    "Interior section values include all intersected triangles, not just a walkable top surface."
+  ],
+  "northeast_block_southwest_corner": {
+    "mesh": "SM_Env_Sidewalk_Corner_01",
+    "world_cell_x_cm": [
+      500,
+      1000
+    ],
+    "world_cell_y_cm": [
+      500,
+      1000
+    ],
+    "actor_location_cm": [
+      500,
+      500,
+      0
+    ],
+    "yaw_degrees": 180,
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "road_facing_sides": [
+      "west",
+      "south"
+    ],
+    "road_boundary_max_abs_z_cm": {
+      "west": 0.0,
+      "south": 0.0
+    },
+    "north_to_Straight01_yaw180": {
+      "max_height_difference_cm": 0.000337,
+      "at_edge_coordinate_cm": 26.5434,
+      "first_z_cm": -8.35383,
+      "second_z_cm": -8.35417,
+      "passes_0_01_cm": true
+    },
+    "east_to_Straight01_yaw_minus90": {
+      "max_height_difference_cm": 0.00278,
+      "at_edge_coordinate_cm": 67.3782,
+      "first_z_cm": 6.96687,
+      "second_z_cm": 6.96965,
+      "passes_0_01_cm": true
+    },
+    "Corner02_yaw0_wrong_north_comparison": {
+      "max_height_difference_cm": 23.02948,
+      "at_edge_coordinate_cm": 441.25366,
+      "first_z_cm": -23.02948,
+      "second_z_cm": 0.0,
+      "passes_0_01_cm": false
+    }
+  },
+  "candidate_interfaces": {
+    "SM_Env_Sidewalk_Straight_01": {
+      "transverse_max_abs_z_cm": {
+        "-500": 0.0,
+        "0": 0.0
+      },
+      "end_profile_comparison_to_Straight01_minus500": {
+        "-500": {
+          "max_height_difference_cm": 0.0,
+          "at_edge_coordinate_cm": 0,
+          "first_z_cm": 0.0,
+          "second_z_cm": 0.0,
+          "passes_0_01_cm": true
+        },
+        "0": {
+          "max_height_difference_cm": 0.000261,
+          "at_edge_coordinate_cm": -102.30656,
+          "first_z_cm": 6.96965,
+          "second_z_cm": 6.96939,
+          "passes_0_01_cm": true
+        }
+      },
+      "end_profile_comparison_to_Straight09_minus500": {
+        "-500": {
+          "max_height_difference_cm": 2.9829,
+          "at_edge_coordinate_cm": -439.56299,
+          "first_z_cm": 0.0,
+          "second_z_cm": -2.9829,
+          "passes_0_01_cm": false
+        },
+        "0": {
+          "max_height_difference_cm": 2.9829,
+          "at_edge_coordinate_cm": -439.56299,
+          "first_z_cm": 0.0,
+          "second_z_cm": -2.9829,
+          "passes_0_01_cm": false
+        }
+      }
+    },
+    "SM_Env_Sidewalk_Straight_02": {
+      "transverse_max_abs_z_cm": {
+        "-500": 3.92862,
+        "0": 0.0
+      },
+      "end_profile_comparison_to_Straight01_minus500": {
+        "-500": {
+          "max_height_difference_cm": 0.000299,
+          "at_edge_coordinate_cm": -102.30658,
+          "first_z_cm": 6.96966,
+          "second_z_cm": 6.96936,
+          "passes_0_01_cm": true
+        },
+        "0": {
+          "max_height_difference_cm": 0.000271,
+          "at_edge_coordinate_cm": -102.30656,
+          "first_z_cm": 6.96966,
+          "second_z_cm": 6.96939,
+          "passes_0_01_cm": true
+        }
+      },
+      "end_profile_comparison_to_Straight09_minus500": {
+        "-500": {
+          "max_height_difference_cm": 2.9829,
+          "at_edge_coordinate_cm": -439.56299,
+          "first_z_cm": 0.0,
+          "second_z_cm": -2.9829,
+          "passes_0_01_cm": false
+        },
+        "0": {
+          "max_height_difference_cm": 2.9829,
+          "at_edge_coordinate_cm": -439.56299,
+          "first_z_cm": 0.0,
+          "second_z_cm": -2.9829,
+          "passes_0_01_cm": false
+        }
+      }
+    },
+    "SM_Env_Sidewalk_Panel_01": {
+      "transverse_max_abs_z_cm": {
+        "-500": 0.0,
+        "0": 0.0
+      },
+      "end_profile_comparison_to_Straight01_minus500": {
+        "-500": {
+          "max_height_difference_cm": 0.00027,
+          "at_edge_coordinate_cm": -8.03488,
+          "first_z_cm": -5.41701,
+          "second_z_cm": -5.41728,
+          "passes_0_01_cm": true
+        },
+        "0": {
+          "max_height_difference_cm": 0.00027,
+          "at_edge_coordinate_cm": -8.03488,
+          "first_z_cm": -5.41701,
+          "second_z_cm": -5.41728,
+          "passes_0_01_cm": true
+        }
+      },
+      "end_profile_comparison_to_Straight09_minus500": {
+        "-500": {
+          "max_height_difference_cm": 2.9829,
+          "at_edge_coordinate_cm": -439.56299,
+          "first_z_cm": 0.0,
+          "second_z_cm": -2.9829,
+          "passes_0_01_cm": false
+        },
+        "0": {
+          "max_height_difference_cm": 2.9829,
+          "at_edge_coordinate_cm": -439.56299,
+          "first_z_cm": 0.0,
+          "second_z_cm": -2.9829,
+          "passes_0_01_cm": false
+        }
+      }
+    },
+    "SM_Env_Sidewalk_Dip_01": {
+      "transverse_max_abs_z_cm": {
+        "-500": 0.0,
+        "0": 0.0
+      },
+      "end_profile_comparison_to_Straight01_minus500": {
+        "-500": {
+          "max_height_difference_cm": 0.001044,
+          "at_edge_coordinate_cm": -102.30713,
+          "first_z_cm": 6.96965,
+          "second_z_cm": 6.96861,
+          "passes_0_01_cm": true
+        },
+        "0": {
+          "max_height_difference_cm": 0.001044,
+          "at_edge_coordinate_cm": -102.30713,
+          "first_z_cm": 6.96965,
+          "second_z_cm": 6.96861,
+          "passes_0_01_cm": true
+        }
+      },
+      "end_profile_comparison_to_Straight09_minus500": {
+        "-500": {
+          "max_height_difference_cm": 2.9829,
+          "at_edge_coordinate_cm": -439.56299,
+          "first_z_cm": 0.0,
+          "second_z_cm": -2.9829,
+          "passes_0_01_cm": false
+        },
+        "0": {
+          "max_height_difference_cm": 2.9829,
+          "at_edge_coordinate_cm": -439.56299,
+          "first_z_cm": 0.0,
+          "second_z_cm": -2.9829,
+          "passes_0_01_cm": false
+        }
+      }
+    },
+    "SM_Env_Sidewalk_Driveway_01": {
+      "transverse_max_abs_z_cm": {
+        "-500": 2.9829,
+        "0": 0.0
+      },
+      "end_profile_comparison_to_Straight01_minus500": {
+        "-500": {
+          "max_height_difference_cm": 2.9829,
+          "at_edge_coordinate_cm": -319.32373,
+          "first_z_cm": -2.9829,
+          "second_z_cm": 0.0,
+          "passes_0_01_cm": false
+        },
+        "0": {
+          "max_height_difference_cm": 2.9829,
+          "at_edge_coordinate_cm": -319.32373,
+          "first_z_cm": -2.9829,
+          "second_z_cm": 0.0,
+          "passes_0_01_cm": false
+        }
+      },
+      "end_profile_comparison_to_Straight09_minus500": {
+        "-500": {
+          "max_height_difference_cm": 0.004781,
+          "at_edge_coordinate_cm": -441.38794,
+          "first_z_cm": 0.0,
+          "second_z_cm": -0.00478,
+          "passes_0_01_cm": true
+        },
+        "0": {
+          "max_height_difference_cm": 0.004781,
+          "at_edge_coordinate_cm": -441.38794,
+          "first_z_cm": 0.0,
+          "second_z_cm": -0.00478,
+          "passes_0_01_cm": true
+        }
+      }
+    },
+    "SM_Env_Sidewalk_Driveway_Wide_01": {
+      "transverse_max_abs_z_cm": {
+        "-500": 2.9829,
+        "0": 0.0
+      },
+      "end_profile_comparison_to_Straight01_minus500": {
+        "-500": {
+          "max_height_difference_cm": 2.9829,
+          "at_edge_coordinate_cm": -319.32373,
+          "first_z_cm": -2.9829,
+          "second_z_cm": 0.0,
+          "passes_0_01_cm": false
+        },
+        "0": {
+          "max_height_difference_cm": 2.9829,
+          "at_edge_coordinate_cm": -319.32373,
+          "first_z_cm": -2.9829,
+          "second_z_cm": 0.0,
+          "passes_0_01_cm": false
+        }
+      },
+      "end_profile_comparison_to_Straight09_minus500": {
+        "-500": {
+          "max_height_difference_cm": 0.001003,
+          "at_edge_coordinate_cm": -102.30713,
+          "first_z_cm": 6.96964,
+          "second_z_cm": 6.96864,
+          "passes_0_01_cm": true
+        },
+        "0": {
+          "max_height_difference_cm": 0.004781,
+          "at_edge_coordinate_cm": -441.38794,
+          "first_z_cm": 0.0,
+          "second_z_cm": -0.00478,
+          "passes_0_01_cm": true
+        }
+      }
+    },
+    "SM_Env_Sidewalk_Straight_08": {
+      "transverse_max_abs_z_cm": {
+        "-500": 2.98297,
+        "0": 0.0
+      },
+      "end_profile_comparison_to_Straight01_minus500": {
+        "-500": {
+          "max_height_difference_cm": 2.98297,
+          "at_edge_coordinate_cm": -319.32373,
+          "first_z_cm": -2.98297,
+          "second_z_cm": 0.0,
+          "passes_0_01_cm": false
+        },
+        "0": {
+          "max_height_difference_cm": 2.98297,
+          "at_edge_coordinate_cm": -319.32373,
+          "first_z_cm": -2.98297,
+          "second_z_cm": 0.0,
+          "passes_0_01_cm": false
+        }
+      },
+      "end_profile_comparison_to_Straight09_minus500": {
+        "-500": {
+          "max_height_difference_cm": 0.000208,
+          "at_edge_coordinate_cm": -67.37817,
+          "first_z_cm": 6.96943,
+          "second_z_cm": 6.96964,
+          "passes_0_01_cm": true
+        },
+        "0": {
+          "max_height_difference_cm": 0.000208,
+          "at_edge_coordinate_cm": -67.37817,
+          "first_z_cm": 6.96943,
+          "second_z_cm": 6.96964,
+          "passes_0_01_cm": true
+        }
+      }
+    },
+    "SM_Env_Sidewalk_Straight_09": {
+      "transverse_max_abs_z_cm": {
+        "-500": 0.0,
+        "0": 0.0
+      },
+      "end_profile_comparison_to_Straight01_minus500": {
+        "-500": {
+          "max_height_difference_cm": 2.9829,
+          "at_edge_coordinate_cm": -439.56299,
+          "first_z_cm": -2.9829,
+          "second_z_cm": 0.0,
+          "passes_0_01_cm": false
+        },
+        "0": {
+          "max_height_difference_cm": 2.9829,
+          "at_edge_coordinate_cm": -319.32373,
+          "first_z_cm": -2.9829,
+          "second_z_cm": 0.0,
+          "passes_0_01_cm": false
+        }
+      },
+      "end_profile_comparison_to_Straight09_minus500": {
+        "-500": {
+          "max_height_difference_cm": 0.0,
+          "at_edge_coordinate_cm": 0,
+          "first_z_cm": 0.0,
+          "second_z_cm": 0.0,
+          "passes_0_01_cm": true
+        },
+        "0": {
+          "max_height_difference_cm": 4e-06,
+          "at_edge_coordinate_cm": -169.15137,
+          "first_z_cm": 0.00913,
+          "second_z_cm": 0.00913,
+          "passes_0_01_cm": true
+        }
+      }
+    },
+    "SM_Env_Sidewalk_Straight_10": {
+      "transverse_max_abs_z_cm": {
+        "-500": 0.0,
+        "0": 0.0
+      },
+      "end_profile_comparison_to_Straight01_minus500": {
+        "-500": {
+          "max_height_difference_cm": 2.9829,
+          "at_edge_coordinate_cm": -319.32373,
+          "first_z_cm": -2.9829,
+          "second_z_cm": 0.0,
+          "passes_0_01_cm": false
+        },
+        "0": {
+          "max_height_difference_cm": 2.9829,
+          "at_edge_coordinate_cm": -319.32373,
+          "first_z_cm": -2.9829,
+          "second_z_cm": 0.0,
+          "passes_0_01_cm": false
+        }
+      },
+      "end_profile_comparison_to_Straight09_minus500": {
+        "-500": {
+          "max_height_difference_cm": 0.000351,
+          "at_edge_coordinate_cm": -8.03491,
+          "first_z_cm": -5.41695,
+          "second_z_cm": -5.4173,
+          "passes_0_01_cm": true
+        },
+        "0": {
+          "max_height_difference_cm": 0.001003,
+          "at_edge_coordinate_cm": -107.37842,
+          "first_z_cm": 0.001,
+          "second_z_cm": 0.0,
+          "passes_0_01_cm": true
+        }
+      }
+    },
+    "SM_Env_Sidewalk_Straight_04": {
+      "transverse_max_abs_z_cm": {
+        "-500": 0.0,
+        "0": 0.0
+      },
+      "end_profile_comparison_to_Straight01_minus500": {
+        "-500": {
+          "max_height_difference_cm": 7.85127,
+          "at_edge_coordinate_cm": -480.17578,
+          "first_z_cm": -7.85127,
+          "second_z_cm": 0.0,
+          "passes_0_01_cm": false
+        },
+        "0": {
+          "max_height_difference_cm": 7.85127,
+          "at_edge_coordinate_cm": -480.17578,
+          "first_z_cm": -7.85127,
+          "second_z_cm": 0.0,
+          "passes_0_01_cm": false
+        }
+      },
+      "end_profile_comparison_to_Straight09_minus500": {
+        "-500": {
+          "max_height_difference_cm": 7.85127,
+          "at_edge_coordinate_cm": -480.17578,
+          "first_z_cm": -7.85127,
+          "second_z_cm": 0.0,
+          "passes_0_01_cm": false
+        },
+        "0": {
+          "max_height_difference_cm": 7.85127,
+          "at_edge_coordinate_cm": -480.17578,
+          "first_z_cm": -7.85127,
+          "second_z_cm": 0.0,
+          "passes_0_01_cm": false
+        }
+      }
+    },
+    "SM_Env_Sidewalk_Crossing_01": {
+      "transverse_max_abs_z_cm": {
+        "-500": 0.0,
+        "0": 0.0
+      },
+      "end_profile_comparison_to_Straight01_minus500": {
+        "-500": {
+          "max_height_difference_cm": 2.9829,
+          "at_edge_coordinate_cm": -319.32373,
+          "first_z_cm": -2.9829,
+          "second_z_cm": 0.0,
+          "passes_0_01_cm": false
+        },
+        "0": {
+          "max_height_difference_cm": 2.9829,
+          "at_edge_coordinate_cm": -319.32373,
+          "first_z_cm": -2.9829,
+          "second_z_cm": 0.0,
+          "passes_0_01_cm": false
+        }
+      },
+      "end_profile_comparison_to_Straight09_minus500": {
+        "-500": {
+          "max_height_difference_cm": 0.004781,
+          "at_edge_coordinate_cm": -441.38794,
+          "first_z_cm": 0.0,
+          "second_z_cm": -0.00478,
+          "passes_0_01_cm": true
+        },
+        "0": {
+          "max_height_difference_cm": 0.004732,
+          "at_edge_coordinate_cm": -441.38797,
+          "first_z_cm": 0.0,
+          "second_z_cm": -0.00473,
+          "passes_0_01_cm": true
+        }
+      }
+    },
+    "SM_Env_Sidewalk_Crossing_02": {
+      "transverse_max_abs_z_cm": {
+        "-500": 0.0,
+        "0": 0.0
+      },
+      "end_profile_comparison_to_Straight01_minus500": {
+        "-500": {
+          "max_height_difference_cm": 2.9829,
+          "at_edge_coordinate_cm": -319.3237,
+          "first_z_cm": -2.9829,
+          "second_z_cm": 0.0,
+          "passes_0_01_cm": false
+        },
+        "0": {
+          "max_height_difference_cm": 2.9829,
+          "at_edge_coordinate_cm": -319.32373,
+          "first_z_cm": -2.9829,
+          "second_z_cm": 0.0,
+          "passes_0_01_cm": false
+        }
+      },
+      "end_profile_comparison_to_Straight09_minus500": {
+        "-500": {
+          "max_height_difference_cm": 0.000962,
+          "at_edge_coordinate_cm": -102.3071,
+          "first_z_cm": 6.96964,
+          "second_z_cm": 6.96868,
+          "passes_0_01_cm": true
+        },
+        "0": {
+          "max_height_difference_cm": 0.001003,
+          "at_edge_coordinate_cm": -102.30713,
+          "first_z_cm": 6.96964,
+          "second_z_cm": 6.96864,
+          "passes_0_01_cm": true
+        }
+      }
+    }
+  },
+  "grooved_family_pair_comparisons": [
+    {
+      "first_mesh": "SM_Env_Sidewalk_Straight_09",
+      "first_local_y": -500,
+      "second_mesh": "SM_Env_Sidewalk_Driveway_Wide_01",
+      "second_local_y": -500,
+      "max_height_difference_cm": 0.001003,
+      "at_edge_coordinate_cm": -102.30713,
+      "first_z_cm": 6.96864,
+      "second_z_cm": 6.96964,
+      "passes_0_01_cm": true
+    },
+    {
+      "first_mesh": "SM_Env_Sidewalk_Straight_09",
+      "first_local_y": -500,
+      "second_mesh": "SM_Env_Sidewalk_Driveway_Wide_01",
+      "second_local_y": 0,
+      "max_height_difference_cm": 0.004781,
+      "at_edge_coordinate_cm": -441.38794,
+      "first_z_cm": -0.00478,
+      "second_z_cm": 0.0,
+      "passes_0_01_cm": true
+    },
+    {
+      "first_mesh": "SM_Env_Sidewalk_Straight_09",
+      "first_local_y": 0,
+      "second_mesh": "SM_Env_Sidewalk_Driveway_Wide_01",
+      "second_local_y": -500,
+      "max_height_difference_cm": 0.001003,
+      "at_edge_coordinate_cm": -102.30713,
+      "first_z_cm": 6.96864,
+      "second_z_cm": 6.96964,
+      "passes_0_01_cm": true
+    },
+    {
+      "first_mesh": "SM_Env_Sidewalk_Straight_09",
+      "first_local_y": 0,
+      "second_mesh": "SM_Env_Sidewalk_Driveway_Wide_01",
+      "second_local_y": 0,
+      "max_height_difference_cm": 0.004781,
+      "at_edge_coordinate_cm": -441.38794,
+      "first_z_cm": -0.00478,
+      "second_z_cm": 0.0,
+      "passes_0_01_cm": true
+    },
+    {
+      "first_mesh": "SM_Env_Sidewalk_Driveway_Wide_01",
+      "first_local_y": -500,
+      "second_mesh": "SM_Env_Sidewalk_Straight_10",
+      "second_local_y": -500,
+      "max_height_difference_cm": 0.001086,
+      "at_edge_coordinate_cm": -102.30713,
+      "first_z_cm": 6.96964,
+      "second_z_cm": 6.96855,
+      "passes_0_01_cm": true
+    },
+    {
+      "first_mesh": "SM_Env_Sidewalk_Driveway_Wide_01",
+      "first_local_y": -500,
+      "second_mesh": "SM_Env_Sidewalk_Straight_10",
+      "second_local_y": 0,
+      "max_height_difference_cm": 0.001044,
+      "at_edge_coordinate_cm": -102.30713,
+      "first_z_cm": 6.96964,
+      "second_z_cm": 6.9686,
+      "passes_0_01_cm": true
+    },
+    {
+      "first_mesh": "SM_Env_Sidewalk_Driveway_Wide_01",
+      "first_local_y": 0,
+      "second_mesh": "SM_Env_Sidewalk_Straight_10",
+      "second_local_y": -500,
+      "max_height_difference_cm": 0.004977,
+      "at_edge_coordinate_cm": -441.38794,
+      "first_z_cm": 0.0,
+      "second_z_cm": -0.00498,
+      "passes_0_01_cm": true
+    },
+    {
+      "first_mesh": "SM_Env_Sidewalk_Driveway_Wide_01",
+      "first_local_y": 0,
+      "second_mesh": "SM_Env_Sidewalk_Straight_10",
+      "second_local_y": 0,
+      "max_height_difference_cm": 0.004977,
+      "at_edge_coordinate_cm": -441.38794,
+      "first_z_cm": 0.0,
+      "second_z_cm": -0.00498,
+      "passes_0_01_cm": true
+    },
+    {
+      "first_mesh": "SM_Env_Sidewalk_Driveway_01",
+      "first_local_y": -500,
+      "second_mesh": "SM_Env_Sidewalk_Straight_09",
+      "second_local_y": -500,
+      "max_height_difference_cm": 0.004781,
+      "at_edge_coordinate_cm": -441.38794,
+      "first_z_cm": 0.0,
+      "second_z_cm": -0.00478,
+      "passes_0_01_cm": true
+    },
+    {
+      "first_mesh": "SM_Env_Sidewalk_Driveway_01",
+      "first_local_y": -500,
+      "second_mesh": "SM_Env_Sidewalk_Straight_09",
+      "second_local_y": 0,
+      "max_height_difference_cm": 0.004781,
+      "at_edge_coordinate_cm": -441.38794,
+      "first_z_cm": 0.0,
+      "second_z_cm": -0.00478,
+      "passes_0_01_cm": true
+    },
+    {
+      "first_mesh": "SM_Env_Sidewalk_Driveway_01",
+      "first_local_y": 0,
+      "second_mesh": "SM_Env_Sidewalk_Straight_09",
+      "second_local_y": -500,
+      "max_height_difference_cm": 0.004781,
+      "at_edge_coordinate_cm": -441.38794,
+      "first_z_cm": 0.0,
+      "second_z_cm": -0.00478,
+      "passes_0_01_cm": true
+    },
+    {
+      "first_mesh": "SM_Env_Sidewalk_Driveway_01",
+      "first_local_y": 0,
+      "second_mesh": "SM_Env_Sidewalk_Straight_09",
+      "second_local_y": 0,
+      "max_height_difference_cm": 0.004781,
+      "at_edge_coordinate_cm": -441.38794,
+      "first_z_cm": 0.0,
+      "second_z_cm": -0.00478,
+      "passes_0_01_cm": true
+    }
+  ],
+  "entrance_cross_sections": {
+    "SM_Env_Sidewalk_Dip_01": {
+      "local_y_cm": -250,
+      "all_intersection_heights_by_local_x_cm": {
+        "-500": [
+          -0.0
+        ],
+        "-400": [
+          0.87843
+        ],
+        "-200": [
+          0.32391
+        ],
+        "-110": [
+          -8.04882
+        ],
+        "-100": [
+          -8.80642
+        ],
+        "-90": [
+          -8.92194
+        ],
+        "-80": [
+          -9.03674
+        ],
+        "-60": [
+          -11.32418
+        ],
+        "-40": [
+          -15.54406
+        ],
+        "0": [
+          -1e-05,
+          0.0
+        ]
+      }
+    },
+    "SM_Env_Sidewalk_Driveway_01": {
+      "local_y_cm": -250,
+      "all_intersection_heights_by_local_x_cm": {
+        "-500": [
+          -2.9829
+        ],
+        "-400": [
+          -2.9829
+        ],
+        "-200": [
+          -2.9829
+        ],
+        "-110": [
+          -8.12238
+        ],
+        "-100": [
+          -8.85311
+        ],
+        "-90": [
+          -8.99633
+        ],
+        "-80": [
+          -9.13955
+        ],
+        "-60": [
+          -15.51878
+        ],
+        "-40": [
+          -15.54979
+        ],
+        "0": [
+          0.0
+        ]
+      }
+    },
+    "SM_Env_Sidewalk_Straight_01": {
+      "local_y_cm": -250,
+      "all_intersection_heights_by_local_x_cm": {
+        "-500": [
+          0.0
+        ],
+        "-400": [
+          0.15532
+        ],
+        "-200": [
+          1.16074
+        ],
+        "-110": [
+          -3.79849,
+          3.47687
+        ],
+        "-100": [
+          -6.52277,
+          6.96965
+        ],
+        "-90": [
+          6.96965
+        ],
+        "-80": [
+          6.96965
+        ],
+        "-60": [
+          -9.46282,
+          -6.92393
+        ],
+        "-40": [
+          -11.34196,
+          -5.06913
+        ],
+        "0": [
+          0.0
+        ]
+      }
+    }
+  },
+  "recommendation": {
+    "minimal_regular_set": [
+      "SM_Env_Road_Bare_01",
+      "SM_Env_Sidewalk_01",
+      "SM_Env_Sidewalk_Straight_01",
+      "SM_Env_Sidewalk_Corner_01"
+    ],
+    "compatible_options": [
+      "SM_Env_Sidewalk_Panel_01",
+      "SM_Env_Sidewalk_Dip_01"
+    ],
+    "entrance": "Use Dip01 for a lowered curb with zero-height front/back interfaces and regular Straight01 end profiles.",
+    "avoid_in_zero_seam_baseline": [
+      "Straight02 back border rises to 3.92862 cm despite matching longitudinal curb ends.",
+      "Driveway01, Wide01 and Straight09/10 belong to a different longitudinal groove profile, about 2.9829 cm below the regular family.",
+      "Driveway01/Wide01 also expose the -2.9829 cm groove at the rear opening, so a flat Road_Bare tile behind them does not match."
+    ]
+  }
+}

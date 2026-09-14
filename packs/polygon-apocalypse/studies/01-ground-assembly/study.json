@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "id": "01-ground-assembly",
+  "title": "地面模块接口与原始组合",
+  "date": "2026-09-14",
+  "pack": "polygon-apocalypse",
+  "status": "verified-portable-scripts-ue5.8.2",
+  "map": "/Game/SyntySenceLearning/PolygonApocalypse/GroundAssembly/L_GroundAssembly_Study",
+  "layout": "Data/LearningMapManifest.json",
+  "historical_evidence": "Data/HistoricalValidation.json",
+  "readme": "README.md",
+  "scripts": {
+    "build": "Scripts/build_learning_map.py",
+    "verify": "Scripts/validate_learning_map.py",
+    "source_export": "Scripts/export_source_ground.py",
+    "offline_analysis": "Scripts/analyze_seams.py"
+  },
+  "requires_source_demo_for_build": false,
+  "expected_mesh_instances": 30,
+  "reproduction_evidence": "Data/ReproductionValidation.json"
+}

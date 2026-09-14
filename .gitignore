@@ -1,0 +1,43 @@
+# Licensed source assets and generated Unreal content stay in the local project.
+*.uasset
+*.umap
+*.ubulk
+*.uexp
+*.pak
+*.utoc
+*.ucas
+Content/
+Plugins/
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# Full source geometry, original textures, full demo layouts and session state.
+**/Data/SourceGroundGeometry.json
+**/Data/CandidateGeometry.json
+**/Data/SourceGroundPlacements.json
+**/Data/SourceContext.json
+**/Data/SourceVisibility.json
+**/Data/RoadTexture.*
+**/Data/GeometryValidation.json
+**/Data/Validation.json
+**/Data/BuildValidation.json
+**/Data/MaterialOverride.json
+**/Data/SourceIntegrity.json
+*.log
+*.dmp
+
+# Local configuration, generated evidence and Python caches.
+.local/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store

@@ -1,0 +1,14 @@
+# POLYGON Apocalypse 场景训练
+
+首批学习使用 POLYGON Apocalypse Pack v1.20.0 的 UE 5.3 资源，在 UE 5.8.2 中完成原场景研究和地面验证。资源引用根目录为 `/Game/PolygonApocalypse`，原场景为 `/Game/PolygonApocalypse/Maps/Demo`。
+
+| 训练 | 目标 | 已有证据 |
+| --- | --- | --- |
+| [01 原包地面拼接](studies/01-ground-assembly/README.md) | 认识角枢轴、道路与人行道接口、转角及入口 | 30 个学习实例、7 张截图、截面分析与历史保存重开记录 |
+| [02 城市地面验证](studies/02-city-ground/README.md) | 将接口规律用于独立的 80×80 米城市地面 | 256 块布局、480 条接缝历史实测、6 张截图与问题修正记录 |
+
+建议按顺序学习。第一课的入口配方反映原 Demo 的实际组合；第二课进一步发现它不能直接嵌入所选普通平边网格，因此使用与该网格兼容的 `Dip_01`。原场景摆法和自创布局的接口要求需要分别验证。
+
+后续本资源包训练继续放在此目录的 `studies/` 下；其他 Synty 资源包创建自己的 `packs/<pack-id>`。不同资源包的尺寸、材质和枢轴可能不同，不能把这里的 5 米网格当作全系列通则。
+
+复现前需在本地 UE5 工程中安装已有授权的资源，并启用 Python 与 Editor Scripting Utilities。参见[仓库准备步骤](../../README.md#在自己的-ue-工程复现)和[统一工作流](../../docs/WORKFLOW.md)。原始资产、源 Demo 和完整测量几何不包含在仓库中。

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "replace-study-id",
+  "pack": "replace-pack-id",
+  "title": "待填写训练标题",
+  "status": "planned",
+  "date": null,
+  "map": "/Game/SyntySenceLearning/ReplacePack/ReplaceStudy/L_ReplaceStudy",
+  "layout": null,
+  "historical_evidence": null,
+  "readme": "README.md",
+  "scripts": {},
+  "requires_source_demo_for_build": false,
+  "expected_mesh_instances": null,
+  "screenshots": [],
+  "verification": {
+    "record_kind": "not_run",
+    "verified_date": null,
+    "layout_sha256": null,
+    "report_file": null,
+    "checks": [],
+    "limits": []
+  }
+}

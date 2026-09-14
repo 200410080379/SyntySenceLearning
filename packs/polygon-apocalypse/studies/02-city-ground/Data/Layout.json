@@ -1,0 +1,4628 @@
+{
+  "map": "/Game/SyntySenceLearning/PolygonApocalypse/CityGround/L_CityGround_Validation",
+  "grid_size": 16,
+  "cell_size_cm": 500,
+  "origin_cm": [
+    -4000,
+    -4000
+  ],
+  "surface_size_m": [
+    80,
+    80
+  ],
+  "road_width_m": 10,
+  "tiles": [
+    {
+      "i": 0,
+      "j": 0,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        -3500.0,
+        -3500.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 1,
+      "j": 0,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        -3000.0,
+        -3500.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 2,
+      "j": 0,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        -3000.0,
+        -4000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 3,
+      "j": 0,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        -2500.0,
+        -4000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 4,
+      "j": 0,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        -2000.0,
+        -4000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 5,
+      "j": 0,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        -1500.0,
+        -4000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 6,
+      "j": 0,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        -1000.0,
+        -4000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 7,
+      "j": 0,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        0.0,
+        -3500.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 8,
+      "j": 0,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        500.0,
+        -3500.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 9,
+      "j": 0,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        500.0,
+        -4000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 10,
+      "j": 0,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        1000.0,
+        -4000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 11,
+      "j": 0,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        1500.0,
+        -4000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 12,
+      "j": 0,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        2000.0,
+        -4000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 13,
+      "j": 0,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        2500.0,
+        -4000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 14,
+      "j": 0,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        3500.0,
+        -3500.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 15,
+      "j": 0,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        4000.0,
+        -3500.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 0,
+      "j": 1,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        -3500.0,
+        -3000.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 1,
+      "j": 1,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        -3000.0,
+        -3000.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 2,
+      "j": 1,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        -2500.0,
+        -3000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 3,
+      "j": 1,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        -2000.0,
+        -3000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 4,
+      "j": 1,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        -1500.0,
+        -3000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 5,
+      "j": 1,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        -1000.0,
+        -3000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 6,
+      "j": 1,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        -500.0,
+        -3000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 7,
+      "j": 1,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        0.0,
+        -3000.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 8,
+      "j": 1,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        500.0,
+        -3000.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 9,
+      "j": 1,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        1000.0,
+        -3000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 10,
+      "j": 1,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        1500.0,
+        -3000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 11,
+      "j": 1,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        2000.0,
+        -3000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 12,
+      "j": 1,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        2500.0,
+        -3000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 13,
+      "j": 1,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        3000.0,
+        -3000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 14,
+      "j": 1,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        3500.0,
+        -3000.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 15,
+      "j": 1,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        4000.0,
+        -3000.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        -4000.0,
+        -2500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        -3000.0,
+        -3000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 2,
+      "j": 2,
+      "name": "SM_Env_Sidewalk_Corner_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Corner_01.SM_Env_Sidewalk_Corner_01",
+      "yaw": 180,
+      "location": [
+        -3000.0,
+        -3000.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/Corner",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 3,
+      "j": 2,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 270,
+      "location": [
+        -2000.0,
+        -3000.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 4,
+      "j": 2,
+      "name": "SM_Env_Sidewalk_Panel_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Panel_01.SM_Env_Sidewalk_Panel_01",
+      "yaw": 270,
+      "location": [
+        -1500.0,
+        -3000.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 5,
+      "j": 2,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 270,
+      "location": [
+        -1000.0,
+        -3000.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 6,
+      "j": 2,
+      "name": "SM_Env_Sidewalk_Corner_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Corner_01.SM_Env_Sidewalk_Corner_01",
+      "yaw": 270,
+      "location": [
+        -500.0,
+        -3000.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/Corner",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 7,
+      "j": 2,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        -500.0,
+        -2500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 8,
+      "j": 2,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        500.0,
+        -3000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 9,
+      "j": 2,
+      "name": "SM_Env_Sidewalk_Corner_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Corner_01.SM_Env_Sidewalk_Corner_01",
+      "yaw": 180,
+      "location": [
+        500.0,
+        -3000.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Corner",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 10,
+      "j": 2,
+      "name": "SM_Env_Sidewalk_Panel_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Panel_01.SM_Env_Sidewalk_Panel_01",
+      "yaw": 270,
+      "location": [
+        1500.0,
+        -3000.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 11,
+      "j": 2,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 270,
+      "location": [
+        2000.0,
+        -3000.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 12,
+      "j": 2,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 270,
+      "location": [
+        2500.0,
+        -3000.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 13,
+      "j": 2,
+      "name": "SM_Env_Sidewalk_Corner_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Corner_01.SM_Env_Sidewalk_Corner_01",
+      "yaw": 270,
+      "location": [
+        3000.0,
+        -3000.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Corner",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 14,
+      "j": 2,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        3000.0,
+        -2500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 15,
+      "j": 2,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        4000.0,
+        -3000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        -4000.0,
+        -2000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        -3000.0,
+        -2500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "name": "SM_Env_Sidewalk_Panel_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Panel_01.SM_Env_Sidewalk_Panel_01",
+      "yaw": 180,
+      "location": [
+        -3000.0,
+        -2500.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 3,
+      "j": 3,
+      "name": "SM_Env_Road_Parking_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Parking_01.SM_Env_Road_Parking_01",
+      "yaw": 0,
+      "location": [
+        -2000.0,
+        -2000.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/ParkingBays",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 4,
+      "j": 3,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        -1500.0,
+        -2000.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/Asphalt",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 5,
+      "j": 3,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        -1000.0,
+        -2000.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/Asphalt",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 6,
+      "j": 3,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 0,
+      "location": [
+        -500.0,
+        -2000.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 7,
+      "j": 3,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        -500.0,
+        -2000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 8,
+      "j": 3,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        500.0,
+        -2500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 9,
+      "j": 3,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 180,
+      "location": [
+        500.0,
+        -2500.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 10,
+      "j": 3,
+      "name": "SM_Env_Sidewalk_02",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+      "yaw": 270,
+      "location": [
+        1500.0,
+        -2500.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Paving",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 11,
+      "j": 3,
+      "name": "SM_Env_Sidewalk_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_01.SM_Env_Sidewalk_01",
+      "yaw": 0,
+      "location": [
+        2000.0,
+        -2000.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Paving",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 12,
+      "j": 3,
+      "name": "SM_Env_Sidewalk_02",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+      "yaw": 90,
+      "location": [
+        2000.0,
+        -2000.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Paving",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 13,
+      "j": 3,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 0,
+      "location": [
+        3000.0,
+        -2000.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 14,
+      "j": 3,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        3000.0,
+        -2000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 15,
+      "j": 3,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        4000.0,
+        -2500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 0,
+      "j": 4,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        -4000.0,
+        -1500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 1,
+      "j": 4,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        -3000.0,
+        -2000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 2,
+      "j": 4,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 180,
+      "location": [
+        -3000.0,
+        -2000.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "name": "SM_Env_Road_Parking_02",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Parking_02.SM_Env_Road_Parking_02",
+      "yaw": 0,
+      "location": [
+        -2000.0,
+        -1500.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/ParkingBays",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 4,
+      "j": 4,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        -1500.0,
+        -1500.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/Asphalt",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 5,
+      "j": 4,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        -1000.0,
+        -1500.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/Asphalt",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 6,
+      "j": 4,
+      "name": "SM_Env_Sidewalk_Dip_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Dip_01.SM_Env_Sidewalk_Dip_01",
+      "yaw": 0,
+      "location": [
+        -500.0,
+        -1500.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/VehicleAccess",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 7,
+      "j": 4,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        -500.0,
+        -1500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 8,
+      "j": 4,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        500.0,
+        -2000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 9,
+      "j": 4,
+      "name": "SM_Env_Sidewalk_Panel_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Panel_01.SM_Env_Sidewalk_Panel_01",
+      "yaw": 180,
+      "location": [
+        500.0,
+        -2000.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 10,
+      "j": 4,
+      "name": "SM_Env_Sidewalk_02",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+      "yaw": 180,
+      "location": [
+        1000.0,
+        -2000.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Paving",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 11,
+      "j": 4,
+      "name": "SM_Env_Sidewalk_02",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+      "yaw": 270,
+      "location": [
+        2000.0,
+        -2000.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Paving",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 12,
+      "j": 4,
+      "name": "SM_Env_Sidewalk_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_01.SM_Env_Sidewalk_01",
+      "yaw": 0,
+      "location": [
+        2500.0,
+        -1500.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Paving",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 13,
+      "j": 4,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 0,
+      "location": [
+        3000.0,
+        -1500.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 14,
+      "j": 4,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        3000.0,
+        -1500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 15,
+      "j": 4,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        4000.0,
+        -2000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 0,
+      "j": 5,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        -4000.0,
+        -1000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 1,
+      "j": 5,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        -3000.0,
+        -1500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 2,
+      "j": 5,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 180,
+      "location": [
+        -3000.0,
+        -1500.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 3,
+      "j": 5,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        -2000.0,
+        -1000.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/Asphalt",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 4,
+      "j": 5,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        -1500.0,
+        -1000.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/Asphalt",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 5,
+      "j": 5,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        -1000.0,
+        -1000.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/Asphalt",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 6,
+      "j": 5,
+      "name": "SM_Env_Sidewalk_Dip_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Dip_01.SM_Env_Sidewalk_Dip_01",
+      "yaw": 0,
+      "location": [
+        -500.0,
+        -1000.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/PedestrianAccess",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 7,
+      "j": 5,
+      "name": "SM_Env_Road_Crossing_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Crossing_01.SM_Env_Road_Crossing_01",
+      "yaw": 0,
+      "location": [
+        0.0,
+        -1000.0,
+        0
+      ],
+      "role": "Road/Crosswalk",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 8,
+      "j": 5,
+      "name": "SM_Env_Road_Crossing_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Crossing_01.SM_Env_Road_Crossing_01",
+      "yaw": 0,
+      "location": [
+        500.0,
+        -1000.0,
+        0
+      ],
+      "role": "Road/Crosswalk",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 9,
+      "j": 5,
+      "name": "SM_Env_Sidewalk_Dip_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Dip_01.SM_Env_Sidewalk_Dip_01",
+      "yaw": 180,
+      "location": [
+        500.0,
+        -1500.0,
+        0
+      ],
+      "role": "SE_PavedSquare/PedestrianAccess",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 10,
+      "j": 5,
+      "name": "SM_Env_Sidewalk_02",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+      "yaw": 90,
+      "location": [
+        1000.0,
+        -1000.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Paving",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 11,
+      "j": 5,
+      "name": "SM_Env_Sidewalk_02",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+      "yaw": 180,
+      "location": [
+        1500.0,
+        -1500.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Paving",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 12,
+      "j": 5,
+      "name": "SM_Env_Sidewalk_02",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+      "yaw": 270,
+      "location": [
+        2500.0,
+        -1500.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Paving",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 13,
+      "j": 5,
+      "name": "SM_Env_Sidewalk_Panel_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Panel_01.SM_Env_Sidewalk_Panel_01",
+      "yaw": 0,
+      "location": [
+        3000.0,
+        -1000.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 14,
+      "j": 5,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        3000.0,
+        -1000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 15,
+      "j": 5,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        4000.0,
+        -1500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 0,
+      "j": 6,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        -4000.0,
+        -500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 1,
+      "j": 6,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        -3000.0,
+        -1000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 2,
+      "j": 6,
+      "name": "SM_Env_Sidewalk_Corner_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Corner_01.SM_Env_Sidewalk_Corner_01",
+      "yaw": 90,
+      "location": [
+        -3000.0,
+        -500.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/Corner",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 3,
+      "j": 6,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 90,
+      "location": [
+        -2500.0,
+        -500.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 4,
+      "j": 6,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 90,
+      "location": [
+        -2000.0,
+        -500.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 5,
+      "j": 6,
+      "name": "SM_Env_Sidewalk_Dip_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Dip_01.SM_Env_Sidewalk_Dip_01",
+      "yaw": 90,
+      "location": [
+        -1500.0,
+        -500.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/PedestrianAccess",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 6,
+      "j": 6,
+      "name": "SM_Env_Sidewalk_Corner_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Corner_01.SM_Env_Sidewalk_Corner_01",
+      "yaw": 0,
+      "location": [
+        -500.0,
+        -500.0,
+        0
+      ],
+      "role": "SW_ParkingCourt/Corner",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 7,
+      "j": 6,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        0.0,
+        -500.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 8,
+      "j": 6,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        500.0,
+        -500.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 9,
+      "j": 6,
+      "name": "SM_Env_Sidewalk_Corner_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Corner_01.SM_Env_Sidewalk_Corner_01",
+      "yaw": 90,
+      "location": [
+        500.0,
+        -500.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Corner",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 10,
+      "j": 6,
+      "name": "SM_Env_Sidewalk_Dip_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Dip_01.SM_Env_Sidewalk_Dip_01",
+      "yaw": 90,
+      "location": [
+        1000.0,
+        -500.0,
+        0
+      ],
+      "role": "SE_PavedSquare/PedestrianAccess",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 11,
+      "j": 6,
+      "name": "SM_Env_Sidewalk_Panel_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Panel_01.SM_Env_Sidewalk_Panel_01",
+      "yaw": 90,
+      "location": [
+        1500.0,
+        -500.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 12,
+      "j": 6,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 90,
+      "location": [
+        2000.0,
+        -500.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 13,
+      "j": 6,
+      "name": "SM_Env_Sidewalk_Corner_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Corner_01.SM_Env_Sidewalk_Corner_01",
+      "yaw": 0,
+      "location": [
+        3000.0,
+        -500.0,
+        0
+      ],
+      "role": "SE_PavedSquare/Corner",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 14,
+      "j": 6,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        3000.0,
+        -500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 15,
+      "j": 6,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        4000.0,
+        -1000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 0,
+      "j": 7,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        -3500.0,
+        0.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 1,
+      "j": 7,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        -3000.0,
+        0.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 2,
+      "j": 7,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        -3000.0,
+        -500.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 3,
+      "j": 7,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        -2500.0,
+        -500.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 4,
+      "j": 7,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        -2000.0,
+        -500.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 5,
+      "j": 7,
+      "name": "SM_Env_Road_Crossing_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Crossing_01.SM_Env_Road_Crossing_01",
+      "yaw": 270,
+      "location": [
+        -1000.0,
+        -500.0,
+        0
+      ],
+      "role": "Road/Crosswalk",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 6,
+      "j": 7,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        -500.0,
+        0.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 7,
+      "j": 7,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        0.0,
+        0.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 8,
+      "j": 7,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        500.0,
+        0.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 9,
+      "j": 7,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        1000.0,
+        0.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 10,
+      "j": 7,
+      "name": "SM_Env_Road_Crossing_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Crossing_01.SM_Env_Road_Crossing_01",
+      "yaw": 90,
+      "location": [
+        1000.0,
+        0.0,
+        0
+      ],
+      "role": "Road/Crosswalk",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 11,
+      "j": 7,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        1500.0,
+        -500.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 12,
+      "j": 7,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        2000.0,
+        -500.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 13,
+      "j": 7,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        2500.0,
+        -500.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 14,
+      "j": 7,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        3500.0,
+        0.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 15,
+      "j": 7,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        4000.0,
+        0.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 0,
+      "j": 8,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        -3500.0,
+        500.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 1,
+      "j": 8,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        -3000.0,
+        500.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 2,
+      "j": 8,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        -2500.0,
+        500.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 3,
+      "j": 8,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        -2000.0,
+        500.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 4,
+      "j": 8,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        -1500.0,
+        500.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 5,
+      "j": 8,
+      "name": "SM_Env_Road_Crossing_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Crossing_01.SM_Env_Road_Crossing_01",
+      "yaw": 270,
+      "location": [
+        -1000.0,
+        -0.0,
+        0
+      ],
+      "role": "Road/Crosswalk",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 6,
+      "j": 8,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        -500.0,
+        500.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 7,
+      "j": 8,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        0.0,
+        500.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 8,
+      "j": 8,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        500.0,
+        500.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 9,
+      "j": 8,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        1000.0,
+        500.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 10,
+      "j": 8,
+      "name": "SM_Env_Road_Crossing_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Crossing_01.SM_Env_Road_Crossing_01",
+      "yaw": 90,
+      "location": [
+        1000.0,
+        500.0,
+        0
+      ],
+      "role": "Road/Crosswalk",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 11,
+      "j": 8,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        2000.0,
+        500.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 12,
+      "j": 8,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        2500.0,
+        500.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 13,
+      "j": 8,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        3000.0,
+        500.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 14,
+      "j": 8,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        3500.0,
+        500.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 15,
+      "j": 8,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        4000.0,
+        500.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 0,
+      "j": 9,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        -4000.0,
+        1000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 1,
+      "j": 9,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        -3000.0,
+        500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 2,
+      "j": 9,
+      "name": "SM_Env_Sidewalk_Corner_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Corner_01.SM_Env_Sidewalk_Corner_01",
+      "yaw": 180,
+      "location": [
+        -3000.0,
+        500.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Corner",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 3,
+      "j": 9,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 270,
+      "location": [
+        -2000.0,
+        500.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 4,
+      "j": 9,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 270,
+      "location": [
+        -1500.0,
+        500.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 5,
+      "j": 9,
+      "name": "SM_Env_Sidewalk_Dip_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Dip_01.SM_Env_Sidewalk_Dip_01",
+      "yaw": 270,
+      "location": [
+        -1000.0,
+        500.0,
+        0
+      ],
+      "role": "NW_PavedSquare/PedestrianAccess",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 6,
+      "j": 9,
+      "name": "SM_Env_Sidewalk_Corner_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Corner_01.SM_Env_Sidewalk_Corner_01",
+      "yaw": 270,
+      "location": [
+        -500.0,
+        500.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Corner",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 7,
+      "j": 9,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        0.0,
+        1000.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 8,
+      "j": 9,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        500.0,
+        1000.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 9,
+      "j": 9,
+      "name": "SM_Env_Sidewalk_Corner_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Corner_01.SM_Env_Sidewalk_Corner_01",
+      "yaw": 180,
+      "location": [
+        500.0,
+        500.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/Corner",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 10,
+      "j": 9,
+      "name": "SM_Env_Sidewalk_Dip_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Dip_01.SM_Env_Sidewalk_Dip_01",
+      "yaw": 270,
+      "location": [
+        1500.0,
+        500.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/PedestrianAccess",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 11,
+      "j": 9,
+      "name": "SM_Env_Sidewalk_Panel_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Panel_01.SM_Env_Sidewalk_Panel_01",
+      "yaw": 270,
+      "location": [
+        2000.0,
+        500.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 12,
+      "j": 9,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 270,
+      "location": [
+        2500.0,
+        500.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 13,
+      "j": 9,
+      "name": "SM_Env_Sidewalk_Corner_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Corner_01.SM_Env_Sidewalk_Corner_01",
+      "yaw": 270,
+      "location": [
+        3000.0,
+        500.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/Corner",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 14,
+      "j": 9,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        3000.0,
+        1000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 15,
+      "j": 9,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        4000.0,
+        500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 0,
+      "j": 10,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        -4000.0,
+        1500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 1,
+      "j": 10,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        -3000.0,
+        1000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 2,
+      "j": 10,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 180,
+      "location": [
+        -3000.0,
+        1000.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 3,
+      "j": 10,
+      "name": "SM_Env_Sidewalk_02",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+      "yaw": 90,
+      "location": [
+        -2500.0,
+        1500.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Paving",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 4,
+      "j": 10,
+      "name": "SM_Env_Sidewalk_02",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+      "yaw": 180,
+      "location": [
+        -2000.0,
+        1000.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Paving",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 5,
+      "j": 10,
+      "name": "SM_Env_Sidewalk_02",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+      "yaw": 270,
+      "location": [
+        -1000.0,
+        1000.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Paving",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 6,
+      "j": 10,
+      "name": "SM_Env_Sidewalk_Dip_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Dip_01.SM_Env_Sidewalk_Dip_01",
+      "yaw": 0,
+      "location": [
+        -500.0,
+        1500.0,
+        0
+      ],
+      "role": "NW_PavedSquare/PedestrianAccess",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 7,
+      "j": 10,
+      "name": "SM_Env_Road_Crossing_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Crossing_01.SM_Env_Road_Crossing_01",
+      "yaw": 180,
+      "location": [
+        -500.0,
+        1000.0,
+        0
+      ],
+      "role": "Road/Crosswalk",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 8,
+      "j": 10,
+      "name": "SM_Env_Road_Crossing_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Crossing_01.SM_Env_Road_Crossing_01",
+      "yaw": 180,
+      "location": [
+        -0.0,
+        1000.0,
+        0
+      ],
+      "role": "Road/Crosswalk",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 9,
+      "j": 10,
+      "name": "SM_Env_Sidewalk_Dip_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Dip_01.SM_Env_Sidewalk_Dip_01",
+      "yaw": 180,
+      "location": [
+        500.0,
+        1000.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/PedestrianAccess",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 10,
+      "j": 10,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        1500.0,
+        1500.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/Asphalt",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 11,
+      "j": 10,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        2000.0,
+        1500.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/Asphalt",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 12,
+      "j": 10,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        2500.0,
+        1500.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/Asphalt",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 13,
+      "j": 10,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 0,
+      "location": [
+        3000.0,
+        1500.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 14,
+      "j": 10,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        3000.0,
+        1500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 15,
+      "j": 10,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        4000.0,
+        1000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 0,
+      "j": 11,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        -4000.0,
+        2000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 1,
+      "j": 11,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        -3000.0,
+        1500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 2,
+      "j": 11,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 180,
+      "location": [
+        -3000.0,
+        1500.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 3,
+      "j": 11,
+      "name": "SM_Env_Sidewalk_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_01.SM_Env_Sidewalk_01",
+      "yaw": 0,
+      "location": [
+        -2000.0,
+        2000.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Paving",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 4,
+      "j": 11,
+      "name": "SM_Env_Sidewalk_02",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+      "yaw": 90,
+      "location": [
+        -2000.0,
+        2000.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Paving",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 5,
+      "j": 11,
+      "name": "SM_Env_Sidewalk_02",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+      "yaw": 180,
+      "location": [
+        -1500.0,
+        1500.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Paving",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 6,
+      "j": 11,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 0,
+      "location": [
+        -500.0,
+        2000.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 7,
+      "j": 11,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        -500.0,
+        2000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 8,
+      "j": 11,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        500.0,
+        1500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 9,
+      "j": 11,
+      "name": "SM_Env_Sidewalk_Dip_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Dip_01.SM_Env_Sidewalk_Dip_01",
+      "yaw": 180,
+      "location": [
+        500.0,
+        1500.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/VehicleAccess",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 10,
+      "j": 11,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        1500.0,
+        2000.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/Asphalt",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 11,
+      "j": 11,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        2000.0,
+        2000.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/Asphalt",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 12,
+      "j": 11,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        2500.0,
+        2000.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/Asphalt",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 13,
+      "j": 11,
+      "name": "SM_Env_Sidewalk_Panel_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Panel_01.SM_Env_Sidewalk_Panel_01",
+      "yaw": 0,
+      "location": [
+        3000.0,
+        2000.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 14,
+      "j": 11,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        3000.0,
+        2000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 15,
+      "j": 11,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        4000.0,
+        1500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 0,
+      "j": 12,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        -4000.0,
+        2500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 1,
+      "j": 12,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        -3000.0,
+        2000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 2,
+      "j": 12,
+      "name": "SM_Env_Sidewalk_Panel_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Panel_01.SM_Env_Sidewalk_Panel_01",
+      "yaw": 180,
+      "location": [
+        -3000.0,
+        2000.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 3,
+      "j": 12,
+      "name": "SM_Env_Sidewalk_02",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+      "yaw": 270,
+      "location": [
+        -2000.0,
+        2000.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Paving",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 4,
+      "j": 12,
+      "name": "SM_Env_Sidewalk_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_01.SM_Env_Sidewalk_01",
+      "yaw": 0,
+      "location": [
+        -1500.0,
+        2500.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Paving",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 5,
+      "j": 12,
+      "name": "SM_Env_Sidewalk_02",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_02.SM_Env_Sidewalk_02",
+      "yaw": 90,
+      "location": [
+        -1500.0,
+        2500.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Paving",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 6,
+      "j": 12,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 0,
+      "location": [
+        -500.0,
+        2500.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 7,
+      "j": 12,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        -500.0,
+        2500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 8,
+      "j": 12,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        500.0,
+        2000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 9,
+      "j": 12,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 180,
+      "location": [
+        500.0,
+        2000.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 10,
+      "j": 12,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        1500.0,
+        2500.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/Asphalt",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 11,
+      "j": 12,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        2000.0,
+        2500.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/Asphalt",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 12,
+      "j": 12,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        2500.0,
+        2500.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/Asphalt",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 13,
+      "j": 12,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 0,
+      "location": [
+        3000.0,
+        2500.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 14,
+      "j": 12,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        3000.0,
+        2500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 15,
+      "j": 12,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        4000.0,
+        2000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 0,
+      "j": 13,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        -4000.0,
+        3000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 1,
+      "j": 13,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        -3000.0,
+        2500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 2,
+      "j": 13,
+      "name": "SM_Env_Sidewalk_Corner_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Corner_01.SM_Env_Sidewalk_Corner_01",
+      "yaw": 90,
+      "location": [
+        -3000.0,
+        3000.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Corner",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 3,
+      "j": 13,
+      "name": "SM_Env_Sidewalk_Panel_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Panel_01.SM_Env_Sidewalk_Panel_01",
+      "yaw": 90,
+      "location": [
+        -2500.0,
+        3000.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 4,
+      "j": 13,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 90,
+      "location": [
+        -2000.0,
+        3000.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 5,
+      "j": 13,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 90,
+      "location": [
+        -1500.0,
+        3000.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 6,
+      "j": 13,
+      "name": "SM_Env_Sidewalk_Corner_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Corner_01.SM_Env_Sidewalk_Corner_01",
+      "yaw": 0,
+      "location": [
+        -500.0,
+        3000.0,
+        0
+      ],
+      "role": "NW_PavedSquare/Corner",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 7,
+      "j": 13,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        -500.0,
+        3000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 8,
+      "j": 13,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        500.0,
+        2500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 9,
+      "j": 13,
+      "name": "SM_Env_Sidewalk_Corner_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Corner_01.SM_Env_Sidewalk_Corner_01",
+      "yaw": 90,
+      "location": [
+        500.0,
+        3000.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/Corner",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 10,
+      "j": 13,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 90,
+      "location": [
+        1000.0,
+        3000.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 11,
+      "j": 13,
+      "name": "SM_Env_Sidewalk_Straight_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Straight_01.SM_Env_Sidewalk_Straight_01",
+      "yaw": 90,
+      "location": [
+        1500.0,
+        3000.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 12,
+      "j": 13,
+      "name": "SM_Env_Sidewalk_Panel_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Panel_01.SM_Env_Sidewalk_Panel_01",
+      "yaw": 90,
+      "location": [
+        2000.0,
+        3000.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/Curb",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 13,
+      "j": 13,
+      "name": "SM_Env_Sidewalk_Corner_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Sidewalk_Corner_01.SM_Env_Sidewalk_Corner_01",
+      "yaw": 0,
+      "location": [
+        3000.0,
+        3000.0,
+        0
+      ],
+      "role": "NE_ServiceCourt/Corner",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 14,
+      "j": 13,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 90,
+      "location": [
+        3000.0,
+        3000.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 15,
+      "j": 13,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 270,
+      "location": [
+        4000.0,
+        2500.0,
+        0
+      ],
+      "role": "Road/Longitudinal",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 0,
+      "j": 14,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        -3500.0,
+        3500.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 1,
+      "j": 14,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        -3000.0,
+        3500.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 2,
+      "j": 14,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        -3000.0,
+        3000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 3,
+      "j": 14,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        -2500.0,
+        3000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 4,
+      "j": 14,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        -2000.0,
+        3000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 5,
+      "j": 14,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        -1500.0,
+        3000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 6,
+      "j": 14,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        -1000.0,
+        3000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 7,
+      "j": 14,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        0.0,
+        3500.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 8,
+      "j": 14,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        500.0,
+        3500.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 9,
+      "j": 14,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        500.0,
+        3000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 10,
+      "j": 14,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        1000.0,
+        3000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 11,
+      "j": 14,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        1500.0,
+        3000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 12,
+      "j": 14,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        2000.0,
+        3000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 13,
+      "j": 14,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 180,
+      "location": [
+        2500.0,
+        3000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 14,
+      "j": 14,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        3500.0,
+        3500.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 15,
+      "j": 14,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        4000.0,
+        3500.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 0,
+      "j": 15,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        -3500.0,
+        4000.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 1,
+      "j": 15,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        -3000.0,
+        4000.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 2,
+      "j": 15,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        -2500.0,
+        4000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 3,
+      "j": 15,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        -2000.0,
+        4000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 4,
+      "j": 15,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        -1500.0,
+        4000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 5,
+      "j": 15,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        -1000.0,
+        4000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 6,
+      "j": 15,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        -500.0,
+        4000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 7,
+      "j": 15,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        0.0,
+        4000.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 8,
+      "j": 15,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        500.0,
+        4000.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 9,
+      "j": 15,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        1000.0,
+        4000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 10,
+      "j": 15,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        1500.0,
+        4000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 11,
+      "j": 15,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        2000.0,
+        4000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 12,
+      "j": 15,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        2500.0,
+        4000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 13,
+      "j": 15,
+      "name": "SM_Env_Road_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_01.SM_Env_Road_01",
+      "yaw": 0,
+      "location": [
+        3000.0,
+        4000.0,
+        0
+      ],
+      "role": "Road/Transverse",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 14,
+      "j": 15,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        3500.0,
+        4000.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "i": 15,
+      "j": 15,
+      "name": "SM_Env_Road_Bare_01",
+      "mesh": "/Game/PolygonApocalypse/Meshes/Environments/SM_Env_Road_Bare_01.SM_Env_Road_Bare_01",
+      "yaw": 0,
+      "location": [
+        4000.0,
+        4000.0,
+        0
+      ],
+      "role": "Road/Junction",
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "notes": [
+    "Each grid cell has one source surface module.",
+    "No overlapping base plane, no scaled tiles, original Z datum retained."
+  ]
+}

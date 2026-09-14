@@ -1,0 +1,503 @@
+{
+  "source_file": "Data/SourceGroundGeometry.json",
+  "source_sha256": "03da93a516a1570161700cf42b7034720e7673b82704669356ec9a303c9ba382",
+  "units": "centimeters",
+  "method": "Triangle-plane intersections and source boundary vertices; no bounding-box heights.",
+  "limits": [
+    "All intersected triangles are included; this is not a collision or walkability analysis.",
+    "World placements below are fixed source-demo samples previously read from SourceGroundPlacements.json.",
+    "Panel/Straight transverse X borders return to Z=0; longitudinal Y ends retain the curb profile.",
+    "Nearest boundary-vertex agreement supports matching geometry; it does not test UVs, shading, or materials."
+  ],
+  "world_y_slice": -1750,
+  "source_demo_row": [
+    {
+      "mesh": "SM_Env_Sidewalk_01",
+      "world_location": [
+        -900,
+        -1500,
+        0
+      ],
+      "yaw_degrees": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "world_x_extent_at_slice": [
+        -1400.0,
+        -900.0
+      ],
+      "left_boundary_z": [
+        0.0
+      ],
+      "right_boundary_z": [
+        0.0
+      ],
+      "slice_segment_count": 31,
+      "all_slice_points_z_zero": false
+    },
+    {
+      "mesh": "SM_Env_Sidewalk_Panel_01",
+      "world_location": [
+        -400,
+        -1500,
+        0
+      ],
+      "yaw_degrees": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "world_x_extent_at_slice": [
+        -900.0,
+        -400.0
+      ],
+      "left_boundary_z": [
+        0.0
+      ],
+      "right_boundary_z": [
+        0.0
+      ],
+      "slice_segment_count": 57,
+      "all_slice_points_z_zero": false
+    },
+    {
+      "mesh": "SM_Env_Road_01",
+      "world_location": [
+        -400,
+        -1500,
+        0
+      ],
+      "yaw_degrees": 90,
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "world_x_extent_at_slice": [
+        -400.0,
+        100.0
+      ],
+      "left_boundary_z": [
+        0.0
+      ],
+      "right_boundary_z": [
+        0.0
+      ],
+      "slice_segment_count": 4,
+      "all_slice_points_z_zero": true
+    }
+  ],
+  "seams": [
+    {
+      "world_x": -900,
+      "first": "SM_Env_Sidewalk_01",
+      "second": "SM_Env_Sidewalk_Panel_01",
+      "first_z": [
+        0.0
+      ],
+      "second_z": [
+        0.0
+      ]
+    },
+    {
+      "world_x": -400,
+      "first": "SM_Env_Sidewalk_Panel_01",
+      "second": "SM_Env_Road_01",
+      "first_z": [
+        0.0
+      ],
+      "second_z": [
+        0.0
+      ]
+    }
+  ],
+  "local_cross_sections": {
+    "SM_Env_Sidewalk_01": {
+      "local_y": -250,
+      "local_x_extent": [
+        -500.0,
+        0.0
+      ],
+      "horizontal_positive_runs": [],
+      "lowest_intersection_points_xz": [
+        [
+          -426.37215,
+          -2.49489
+        ]
+      ]
+    },
+    "SM_Env_Sidewalk_Panel_01": {
+      "local_y": -250,
+      "local_x_extent": [
+        -500.0,
+        0.0
+      ],
+      "horizontal_positive_runs": [
+        {
+          "local_x_range": [
+            -97.27904,
+            -72.6588
+          ],
+          "z": 6.96965
+        }
+      ],
+      "lowest_intersection_points_xz": [
+        [
+          -64.02538,
+          -23.02948
+        ]
+      ]
+    },
+    "SM_Env_Sidewalk_Straight_01": {
+      "local_y": -250,
+      "local_x_extent": [
+        -499.99994,
+        0.0
+      ],
+      "horizontal_positive_runs": [
+        {
+          "local_x_range": [
+            -106.26255,
+            -71.33432
+          ],
+          "z": 6.96965
+        }
+      ],
+      "lowest_intersection_points_xz": [
+        [
+          -34.65489,
+          -13.80754
+        ]
+      ]
+    },
+    "SM_Env_Sidewalk_Edge_01": {
+      "local_y": -250,
+      "local_x_extent": [
+        -24.27452,
+        24.27453
+      ],
+      "horizontal_positive_runs": [
+        {
+          "local_x_range": [
+            -14.77514,
+            14.98749
+          ],
+          "z": 8.01244
+        }
+      ],
+      "lowest_intersection_points_xz": [
+        [
+          -24.27452,
+          -23.59763
+        ],
+        [
+          24.27453,
+          -23.59763
+        ]
+      ]
+    }
+  },
+  "boundary_profiles_xz": {
+    "SM_Env_Sidewalk_01": {
+      "-500": [
+        [
+          -500.0,
+          -0.0
+        ],
+        [
+          -246.992,
+          -0.0
+        ],
+        [
+          0.0,
+          -0.0
+        ]
+      ],
+      "0": [
+        [
+          -500.0,
+          0.0
+        ],
+        [
+          -253.604,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "SM_Env_Sidewalk_Panel_01": {
+      "-500": [
+        [
+          -500.0,
+          -0.0
+        ],
+        [
+          -317.329,
+          -0.0
+        ],
+        [
+          -107.378,
+          -0.0
+        ],
+        [
+          -102.306,
+          6.97
+        ],
+        [
+          -67.378,
+          6.97
+        ],
+        [
+          -58.745,
+          -23.029
+        ],
+        [
+          -26.543,
+          -8.354
+        ],
+        [
+          -8.035,
+          -5.417
+        ],
+        [
+          0.0,
+          -0.0
+        ]
+      ],
+      "0": [
+        [
+          -500.0,
+          -0.0
+        ],
+        [
+          -317.329,
+          -0.0
+        ],
+        [
+          -107.378,
+          -0.0
+        ],
+        [
+          -102.306,
+          6.97
+        ],
+        [
+          -67.378,
+          6.97
+        ],
+        [
+          -58.745,
+          -23.029
+        ],
+        [
+          -26.543,
+          -8.354
+        ],
+        [
+          -8.035,
+          -5.417
+        ],
+        [
+          -0.0,
+          0.0
+        ]
+      ]
+    },
+    "SM_Env_Sidewalk_Straight_01": {
+      "-500": [
+        [
+          -500.0,
+          -0.0
+        ],
+        [
+          -317.329,
+          -0.0
+        ],
+        [
+          -107.378,
+          -0.0
+        ],
+        [
+          -102.306,
+          6.97
+        ],
+        [
+          -67.378,
+          6.97
+        ],
+        [
+          -58.745,
+          -23.029
+        ],
+        [
+          -26.543,
+          -8.354
+        ],
+        [
+          -8.035,
+          -5.417
+        ],
+        [
+          0.0,
+          -0.0
+        ]
+      ],
+      "0": [
+        [
+          -500.0,
+          -0.0
+        ],
+        [
+          -317.329,
+          -0.0
+        ],
+        [
+          -107.379,
+          -0.0
+        ],
+        [
+          -102.307,
+          6.97
+        ],
+        [
+          -67.378,
+          6.97
+        ],
+        [
+          -58.745,
+          -23.029
+        ],
+        [
+          -26.543,
+          -8.354
+        ],
+        [
+          -8.035,
+          -5.417
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "SM_Env_Sidewalk_Edge_01": {
+      "-500": [
+        [
+          -17.598,
+          -23.598
+        ],
+        [
+          -13.112,
+          1.185
+        ],
+        [
+          13.112,
+          1.185
+        ],
+        [
+          17.598,
+          -23.598
+        ]
+      ],
+      "0": [
+        [
+          -17.598,
+          -23.598
+        ],
+        [
+          -13.112,
+          1.185
+        ],
+        [
+          13.112,
+          1.185
+        ],
+        [
+          17.598,
+          -23.598
+        ]
+      ]
+    }
+  },
+  "panel_straight_profile_comparisons": [
+    {
+      "first": {
+        "mesh": "SM_Env_Sidewalk_Panel_01",
+        "local_y": -500
+      },
+      "second": {
+        "mesh": "SM_Env_Sidewalk_Panel_01",
+        "local_y": 0
+      },
+      "max_nearest_vertex_delta_cm": 3e-05,
+      "matches_within_0_01_cm": true
+    },
+    {
+      "first": {
+        "mesh": "SM_Env_Sidewalk_Straight_01",
+        "local_y": -500
+      },
+      "second": {
+        "mesh": "SM_Env_Sidewalk_Straight_01",
+        "local_y": 0
+      },
+      "max_nearest_vertex_delta_cm": 0.00037,
+      "matches_within_0_01_cm": true
+    },
+    {
+      "first": {
+        "mesh": "SM_Env_Sidewalk_Panel_01",
+        "local_y": -500
+      },
+      "second": {
+        "mesh": "SM_Env_Sidewalk_Straight_01",
+        "local_y": -500
+      },
+      "max_nearest_vertex_delta_cm": 0.0004,
+      "matches_within_0_01_cm": true
+    },
+    {
+      "first": {
+        "mesh": "SM_Env_Sidewalk_Panel_01",
+        "local_y": 0
+      },
+      "second": {
+        "mesh": "SM_Env_Sidewalk_Straight_01",
+        "local_y": 0
+      },
+      "max_nearest_vertex_delta_cm": 0.0004,
+      "matches_within_0_01_cm": true
+    },
+    {
+      "first": {
+        "mesh": "SM_Env_Sidewalk_Panel_01",
+        "local_y": 0
+      },
+      "second": {
+        "mesh": "SM_Env_Sidewalk_Straight_01",
+        "local_y": -500
+      },
+      "max_nearest_vertex_delta_cm": 0.0004,
+      "matches_within_0_01_cm": true
+    },
+    {
+      "first": {
+        "mesh": "SM_Env_Sidewalk_Straight_01",
+        "local_y": 0
+      },
+      "second": {
+        "mesh": "SM_Env_Sidewalk_Panel_01",
+        "local_y": -500
+      },
+      "max_nearest_vertex_delta_cm": 0.0004,
+      "matches_within_0_01_cm": true
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "record_kind": "repository_script_reproduction",
+  "verified_date": "2026-09-14",
+  "engine_version": "5.8.2",
+  "saved_level_reopened": true,
+  "instance_validation": {
+    "world": "/Game/SyntySenceLearning/PolygonApocalypse/CityGround/L_CityGround_Validation.L_CityGround_Validation",
+    "surface_size_m": [
+      80,
+      80
+    ],
+    "mesh_instances": 256,
+    "unique_meshes": 11,
+    "layout_sha256": "d8e0a1a7dbfdf860e26ea1d0f0a66274509dc00e6bd3ba98ade15200a3e79208",
+    "changed_mesh_instances": 0,
+    "read_only": true,
+    "instance_validation_failures": [],
+    "expected_material_override": {
+      "source_material": "/Game/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_Road_Mat_01.MI_PolygonApocalypse_Road_Mat_01",
+      "instance_material": "/Game/SyntySenceLearning/PolygonApocalypse/CityGround/Materials/MI_Road_AtlasSampling.MI_Road_AtlasSampling",
+      "base_material": "/Game/SyntySenceLearning/PolygonApocalypse/CityGround/Materials/M_Road_AtlasSampling.M_Road_AtlasSampling",
+      "base_texture_mip_bias": -3,
+      "affected_component_slots": 174,
+      "source_assets_modified": false,
+      "reason": "Source road texture includes a bottom palette strip; distant mip filtering bled yellow into asphalt tile edges.",
+      "tradeoff": "Road BaseTexture samples finer mip levels; no global rendering or texture-cache setting is changed."
+    },
+    "all_original_source_meshes": true,
+    "all_scale_one": true
+  },
+  "geometry_validation": {
+    "passed": true,
+    "summary": {
+      "expected_adjacent_seams": 480,
+      "checked_adjacent_seams": 480,
+      "failed_seam_count": 0,
+      "maximum_height_difference_cm": 9.999999999621423e-06,
+      "maximum_uncovered_span_cm": 0.0,
+      "unique_mesh_yaw_profile_count": 31
+    },
+    "tolerances_cm": {
+      "author_horizontal_vertex_drift": 0.01,
+      "height_difference": 0.1,
+      "uncovered_span": 0.1
+    },
+    "coverage": {
+      "grid_size": 16,
+      "expected_tile_count": 256,
+      "input_tile_count": 256,
+      "occupied_cell_count": 256,
+      "missing_cells": [],
+      "duplicate_cells": [],
+      "errors": []
+    },
+    "limits": [
+      "Checks adjacent tile seams and declared grid occupancy, not arbitrary holes inside a mesh.",
+      "Includes sculpted cracks, raised curb and gutters in actual triangle Z; no flattening to actor Z.",
+      "Only nonvertical XY-projected triangle surfaces count as floor coverage.",
+      "Does not validate collision, UV continuity, shading, draw order or outer-edge scenery."
+    ],
+    "layout_sha256": "d8e0a1a7dbfdf860e26ea1d0f0a66274509dc00e6bd3ba98ade15200a3e79208"
+  },
+  "scope": "Executed prepared repository scripts in an existing UE 5.8.2 project with the required local source assets; wrote a new study namespace. Not tested in a clean engine installation."
+}

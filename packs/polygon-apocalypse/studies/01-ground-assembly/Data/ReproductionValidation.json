@@ -1,0 +1,26 @@
+{
+  "record_kind": "repository_script_reproduction",
+  "verified_date": "2026-09-14",
+  "engine_version": "5.8.2",
+  "saved_level_reopened": true,
+  "instance_validation": {
+    "world": "/Game/SyntySenceLearning/PolygonApocalypse/GroundAssembly/L_GroundAssembly_Study.L_GroundAssembly_Study",
+    "read_only": true,
+    "manifest_sha256": "f4ca876e70352deb608b6de45f5dd0e641c2620c30f4938a26a8aa900fd7ece7",
+    "expected_mesh_actors": 30,
+    "actual_mesh_actors": 30,
+    "group_counts": {
+      "A_Street/01_Assembled": 3,
+      "A_Street/02_Separated_200cm": 3,
+      "B_GasApronCorner": 15,
+      "C_Driveway": 9
+    },
+    "tolerances": {
+      "position_cm": 0.01,
+      "angle_degrees": 0.01,
+      "scale": 0.001
+    },
+    "failures": []
+  },
+  "scope": "Executed prepared repository scripts in an existing UE 5.8.2 project with the required local source assets; wrote a new study namespace. Not tested in a clean engine installation."
+}

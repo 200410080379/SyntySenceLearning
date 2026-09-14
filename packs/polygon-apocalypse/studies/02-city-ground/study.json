@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "id": "02-city-ground",
+  "title": "连续城市地面搭建与验证",
+  "date": "2026-09-14",
+  "pack": "polygon-apocalypse",
+  "status": "verified-portable-scripts-ue5.8.2",
+  "map": "/Game/SyntySenceLearning/PolygonApocalypse/CityGround/L_CityGround_Validation",
+  "layout": "Data/Layout.json",
+  "historical_evidence": "Data/HistoricalValidation.json",
+  "readme": "README.md",
+  "scripts": {
+    "plan": "Scripts/plan_city_ground.py",
+    "build": "Scripts/build_city_ground.py",
+    "material_fix": "Scripts/fix_road_atlas_sampling.py",
+    "verify": "Scripts/sync_and_check_city_ground.py",
+    "geometry_export": "Scripts/export_candidate_geometry.py",
+    "offline_analysis": "Scripts/validate_ground_geometry.py",
+    "view": "Scripts/set_view.py"
+  },
+  "requires_source_demo_for_build": false,
+  "expected_mesh_instances": 256,
+  "expected_adjacent_seams": 480,
+  "reproduction_evidence": "Data/ReproductionValidation.json"
+}
