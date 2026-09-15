@@ -1,0 +1,127 @@
+{
+  "date": "2026-09-15",
+  "source_package": "POLYGON_Apocalypse_Unreal_5_3_v1_21_1.zip",
+  "archive_sha256": "39be56465e7885dc7de837827d8433285a29c830106bf837f3a77ddb9e90fe11",
+  "source_engine_format": "5.3",
+  "import_counts": {
+    "new": 1364,
+    "replace": 2213,
+    "identical": 1131,
+    "preserve_shared": 65
+  },
+  "import_policy": "User-supplied package files at original Content/Synty paths. Preserve conflicting shared Generic files, old Apocalypse namespace, Woodland map, authored assets and Alpine dependencies.",
+  "protected_files_count": 3382,
+  "protected_files_hash_unchanged_after_reload": true,
+  "woodland_validation": {
+    "map": "/Game/Synty/PolygonMapsWoodlandApocalypse/Maps/Demo",
+    "engine": "5.8.2-56702186+++UE5+Release-5.8",
+    "actors": 5697,
+    "resolved_mesh_components": 5621,
+    "unique_meshes": 677,
+    "missing_mesh_components": 0,
+    "missing_mesh_material_slots": 0,
+    "decal_components": 51,
+    "missing_decal_materials": 0,
+    "direct_game_dependencies": 791,
+    "missing_direct_dependencies": 0,
+    "visited_game_packages": 1083,
+    "missing_recursive_game_packages": 0,
+    "restored_reference_classes": {
+      "MaterialInstanceConstant": 10,
+      "StaticMesh": 130,
+      "NiagaraSystem": 1
+    },
+    "landscape_material_statistics": {
+      "num_vertex_shader_instructions": 140,
+      "num_pixel_shader_instructions": 245,
+      "num_samplers": 3
+    },
+    "dirty_maps": [],
+    "dirty_content": [],
+    "scope": "Loaded components, resolved references and registered /Game package dependencies. Not a complete rendering, collision, navigation, gameplay or performance certification."
+  },
+  "previous_state": {
+    "resolved_mesh_components": 5412,
+    "empty_mesh_components": 209,
+    "missing_direct_package_paths": 141
+  },
+  "restored_references_loaded": 141,
+  "restored_reference_files_match_incoming": true,
+  "startup_log_counts": {
+    "Failed to compile": 0,
+    "Missing input texture": 0
+  },
+  "diner_material_selection": [
+    {
+      "actor": "SM_Bld_Diner_01 (1)",
+      "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_01.SM_Bld_Diner_01",
+      "mesh_default_materials": [
+        "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+      ],
+      "map_instance_materials": [
+        "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_04_B.MI_PolygonApocalypse_04_B"
+      ]
+    }
+  ],
+  "diner_color_note": "The map instance uses the source alternate MI_PolygonApocalypse_04_B instead of the mesh default MI_PolygonApocalypse_01_A. A pink appearance alone is not evidence of a missing material; no artistic recolor was applied.",
+  "town_validation": {
+    "map": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/L_AftermathTown",
+    "actual": {
+      "mesh_instances": 5053,
+      "decals": 184,
+      "cameras": 11
+    },
+    "errors": [],
+    "layout_sha256": "c7e183197c5c9e4d608170912807f2b4e639abc1a8f78a15419222518900e288",
+    "scope": "Actor identity, mesh/material references, transforms, folders, tags, collision profiles, decal bounds and camera FOV. This is not mesh contact, collision geometry, navigation or target-platform performance certification."
+  },
+  "final_editor_state": {
+    "dirty_maps": [],
+    "dirty_content": []
+  },
+  "screenshots": [
+    {
+      "file": "Woodland_Apocalypse1211_01_Overview.png",
+      "camera_cm": [
+        9800,
+        -14700,
+        13000
+      ],
+      "target_cm": [
+        0,
+        -3000,
+        150
+      ],
+      "fov": 55
+    },
+    {
+      "file": "Woodland_Apocalypse1211_02_Diner.png",
+      "camera_cm": [
+        4350,
+        -2950,
+        1700
+      ],
+      "target_cm": [
+        2550,
+        -650,
+        440
+      ],
+      "fov": 55
+    },
+    {
+      "file": "Woodland_Apocalypse1211_03_RoadGrass.png",
+      "camera_cm": [
+        -2300,
+        -3100,
+        2100
+      ],
+      "target_cm": [
+        -500,
+        -900,
+        25
+      ],
+      "fov": 55
+    }
+  ],
+  "scope_limit": "Validated source-map resource loading and reviewed actual UE viewport screenshots. Not pixel-identical appearance across engines, complete gameplay/collision/navigation coverage, or commercial release certification. Original historical training dependency manifests remain unchanged."
+}
