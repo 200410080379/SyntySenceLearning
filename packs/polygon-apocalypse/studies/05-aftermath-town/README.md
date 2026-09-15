@@ -21,7 +21,7 @@
 
 这些计数属于源场景研究范围，与本课最终使用多少模型无关。完整源地图、Blueprint、节点导出和完整几何留在本地，不随本仓库发布。
 
-2026-09-15 补充：[源地图研究：道路旁的草地不只有 Landscape](Notes/SourceMapStudy.md)。用户指出当前道路与草地接缝仍生硬，本轮停止搭建，重新读取源图草、地被和土块节点、约 500×500 米的 Landscape、22 层材质配置及 12 个位置的实际绘制权重。样本证实泥土与草地混合，当前 Woodland 仍缺失部分 Landscape 纹理，不能把本地棋盘格画面当作已还原的原效果。
+2026-09-15 补充：[源地图研究：道路旁的草地不只有 Landscape](Notes/SourceMapStudy.md)。用户指出当前道路与草地接缝仍生硬，本轮停止搭建，重新读取源图草、地被和土块节点、约 500×500 米的 Landscape、22 层材质配置及 12 个位置的实际绘制权重。用户随后提供 Alpine 1.1.0（UE5.3 格式），已补齐此前 24 个 Landscape 纹理引用并逐字节匹配新包；UE 重启后的棋盘格消失，草土材质恢复显示。209 个空网格组件仍存在，部分建筑颜色是否符合原效果尚未确认，不能称为完整原图还原；升级前截图与记录继续保留。
 
 ### 共枢轴必须由节点关系证实
 
@@ -72,7 +72,11 @@ Woodland 饭店 Blueprint 引用的建筑版本，与当前 Apocalypse 包的主
 | [Routes.json](Data/Routes.json) | 可重复执行的路线与车行入口碰撞采样定义 |
 | [PolishStudy.json](Data/PolishStudy.json) | 两处连续植被带的局部几何、支撑与避让依据 |
 
-研究与运行环境为 UE **5.8.2**。资源依赖包括 Apocalypse **1.20.0**、Woodland **1.0.0** 随附的 PolygonGeneric，以及 Alpine 旧版 **1.0.1** 的 `Content/Biomes`。Apocalypse 保持 `/Game/PolygonApocalypse` 路径；其他挂载路径以依赖清单为准。当前清单的兼容处理涉及 **6 个模型、2 个材质和 3 个贴图的精确路径别名**，不能用模糊同名搜索随意替换，也不能用重命名原包资产解决引用问题。
+此前完成的本课复现使用 UE **5.8.2**，依赖 Apocalypse **1.20.0**、Woodland **1.0.0** 随附的 PolygonGeneric，以及 Alpine 旧版 **1.0.1** 的 `Content/Biomes`。Apocalypse 保持 `/Game/PolygonApocalypse` 路径；其他挂载路径以依赖清单为准。这份历史清单的兼容处理涉及 **6 个模型、2 个材质和 3 个贴图的精确路径别名**，不能用模糊同名搜索随意替换，也不能用重命名原包资产解决引用问题。
+
+2026-09-15 的源地图研究已更新用户提供的 **Alpine 1.1.0 / Unreal 5.3** 依赖：新增 435 个文件、备份并更新 97 个旧文件，1,156 个相同文件保持不动，22 个 PolygonGeneric 冲突保留 Woodland 原版本。列入保护检查的 124 个原 Woodland 与自建学习文件哈希未变；自建小城重开后 5,053 个模型实例、184 个贴花、11 个相机核对零错误。方法、升级后原图及限制见[源图研究笔记](Notes/SourceMapStudy.md#2026-09-15-alpine-110-依赖更新)和 [Alpine110Upgrade.json](Data/Alpine110Upgrade.json)。
+
+该更新不改写本课旧布局、依赖清单或历史复现哈希，也没有重新验收更新模型的几何、碰撞或性能。下面准备脚本的路径约定仍对应上述历史配置，不能把新版包直接当作旧版 `Content/Biomes` 目录替换后宣称已复现。
 
 本课自带最终摆放配方，构建时不需要打开源 Demo 或先重建第三、四课。学习背景可参阅[第三课](../03-expanded-neighborhood/README.md)和[第四课](../04-building-placement/README.md)。原资源必须已在本地合法取得；仓库不包含源二进制资产。
 

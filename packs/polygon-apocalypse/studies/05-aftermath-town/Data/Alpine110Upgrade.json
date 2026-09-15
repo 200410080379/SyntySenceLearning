@@ -1,0 +1,228 @@
+{
+  "date": "2026-09-15",
+  "engine": "5.8.2-56702186+++UE5+Release-5.8",
+  "source_package": "POLYGON_NatureBiomes_AlpineMountain_Unreal_5_3_v1_1_0.zip",
+  "archive_sha256": "de33ffbadc9103c61b9ee530ca20408fa85a965c82a0d51bfa4c6406e428ab9f",
+  "source_engine_format": "5.3",
+  "import_counts": {
+    "new": 435,
+    "replace": 97,
+    "identical": 1156,
+    "preserve_woodland_shared": 22
+  },
+  "import_policy": "Keep original Woodland shared PolygonGeneric conflicts; update prior Alpine/PNB_Core files from official incoming archive with verified backups; no source map edits.",
+  "protected_source_and_authored_files": 124,
+  "protected_files_hash_unchanged": true,
+  "restored_landscape_textures": [
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_Grass_01_Normals",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_IceSheet_01_Normals",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_Ice_01_Normals",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_Ice_02_Normals",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_Moss_Rock_01_Normals",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_Mud_01",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_Mud_01_Normals",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_RiverRocks_01",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_RiverRocks_01_Normals",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_RiverRocks_02",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_RiverRocks_02_Normals",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_RiverRocks_03",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_RiverRocks_04",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_RiverRocks_04_Normals",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_Rock_Rough_Moss_01_Normals",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_Rock_Rough_Moss_Red_01",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_Snowcliff_01",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_Snowcliff_01_Normals_Alt",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_Synty_Alpine_Ground_DirtPine_01_Normals",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_Synty_Alpine_Ground_GrassPine_01_Normals",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_Synty_Alpine_Ground_MossyRockPine_01_Normals",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_Synty_Alpine_Ground_MossyRockPine_02_Normals",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_Synty_Alpine_Ground_Pine_01_Normals",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    },
+    {
+      "package": "/Game/Synty/PolygonNatureBiomes/PNB_Alpine_Mountain/Textures/T_Synty_Alpine_Ground_Pine_Basecolor_01",
+      "exists": true,
+      "matches_incoming_package": true,
+      "loaded_class": "Texture2D"
+    }
+  ],
+  "material": "/Game/Synty/PolygonGeneric/LandscapeMaterial/M_Land_Woods.M_Land_Woods",
+  "material_statistics": {
+    "num_vertex_shader_instructions": 140,
+    "num_pixel_shader_instructions": 245,
+    "num_samplers": 3,
+    "num_vertex_texture_samples": 24,
+    "num_pixel_texture_samples": 21
+  },
+  "current_startup_log_counts": {
+    "Failed to compile": 0,
+    "Missing input texture": 0
+  },
+  "woodland_loaded": {
+    "world": "/Game/Synty/PolygonMapsWoodlandApocalypse/Maps/Demo.Demo",
+    "actors": 5697,
+    "resolved_mesh_components": 5412,
+    "missing_mesh_components": 209,
+    "landscape_actors": 1,
+    "dirty_maps": [],
+    "dirty_content": []
+  },
+  "authored_town_validation": {
+    "map": "/Game/SyntySenceLearning/PolygonApocalypse/AftermathTown/L_AftermathTown",
+    "actual": {
+      "mesh_instances": 5053,
+      "decals": 184,
+      "cameras": 11
+    },
+    "errors": [],
+    "layout_sha256": "c7e183197c5c9e4d608170912807f2b4e639abc1a8f78a15419222518900e288",
+    "scope": "Actor identity, mesh/material references, transforms, folders, tags, collision profiles, decal bounds and camera FOV. This is not mesh contact, collision geometry, navigation or target-platform performance certification."
+  },
+  "visual_observation": "Landscape checkerboard no longer visible in reviewed source overview and road-ground close-up; dirt/grass surfaces and foliage are rendered. 209 empty mesh components remain; this is not complete restoration of all source map dependencies or author color intent.",
+  "dirty_maps": [],
+  "dirty_content": [],
+  "screenshots": [
+    {
+      "file": "Woodland_Alpine110_01_Overview.png",
+      "camera_cm": [
+        9800,
+        -14700,
+        13000
+      ],
+      "target_cm": [
+        0,
+        -3000,
+        150
+      ],
+      "fov": 55
+    },
+    {
+      "file": "Woodland_Alpine110_03_RoadGrass.png",
+      "camera_cm": [
+        -2300,
+        -3100,
+        2100
+      ],
+      "target_cm": [
+        -500,
+        -900,
+        25
+      ],
+      "fov": 55
+    }
+  ],
+  "reproduction_limit": "Existing v1.0.1 dependency manifest and validation remain historical. This selective update preserves conflicting original Woodland PolygonGeneric files; do not apply the old alias manifest to the new archive."
+}
