@@ -1,0 +1,877 @@
+[
+  {
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Splatter_Drag_02.Generic_Decal_Splatter_Drag_02",
+    "size": [
+      128.0,
+      256.0,
+      256.0
+    ],
+    "location": [
+      2393.9077193042212,
+      -932.5957248866505,
+      53.2
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 175.06594671698173,
+      "roll": 0.0
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "id": "STREET_DECAL_001",
+    "folder": "05_Decals/east_auto_repair"
+  },
+  {
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_04.Generic_Decal_Grunge_04",
+    "size": [
+      128.0,
+      256.0,
+      256.0
+    ],
+    "location": [
+      -1304.4924372641574,
+      -92.79719854738636,
+      435.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": -29.190599808676183,
+      "roll": 0.0
+    },
+    "scale": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "id": "STREET_DECAL_002",
+    "folder": "05_Decals/west_diner"
+  },
+  {
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_03.Generic_Decal_Grunge_03",
+    "size": [
+      128.0,
+      256.0,
+      256.0
+    ],
+    "location": [
+      -1273.7983827412224,
+      216.00339247689112,
+      435.0
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 89.06501360850848,
+      "roll": 0.0
+    },
+    "scale": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "id": "STREET_DECAL_003",
+    "folder": "05_Decals/west_diner"
+  },
+  {
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_03.Generic_Decal_Grunge_03",
+    "size": [
+      128.0,
+      256.0,
+      256.0
+    ],
+    "location": [
+      -1272.8038025930655,
+      497.5034116781851,
+      71.4
+    ],
+    "rotation": {
+      "pitch": -90.0,
+      "yaw": 137.74306200827573,
+      "roll": 0.0
+    },
+    "scale": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "id": "STREET_DECAL_004",
+    "folder": "05_Decals/west_diner"
+  },
+  {
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_03.Generic_Decal_Grunge_03",
+    "size": [
+      128.0,
+      256.0,
+      256.0
+    ],
+    "location": [
+      1130.0,
+      1163.2,
+      161.4
+    ],
+    "rotation": {
+      "pitch": -6.916163227051703e-07,
+      "yaw": -179.99999991245832,
+      "roll": 82.78757221431896
+    },
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "id": "STREET_DECAL_005",
+    "folder": "05_Decals/east_small_shop"
+  },
+  {
+    "material": "/Game/Synty/PolygonMapsWoodlandApocalypse/Materials/Decals/MI_Decal_Infected_01.MI_Decal_Infected_01",
+    "size": [
+      45.190217,
+      90.380443,
+      90.380443
+    ],
+    "location": [
+      1089.523471727371,
+      1200.7000000154947,
+      203.49999987755078
+    ],
+    "rotation": {
+      "pitch": -6.916129735810907e-07,
+      "yaw": 8.752479629947629e-08,
+      "roll": 82.7875722143142
+    },
+    "scale": [
+      0.1,
+      1.0,
+      1.0
+    ],
+    "id": "STREET_DECAL_006",
+    "folder": "05_Decals/east_small_shop"
+  },
+  {
+    "id": "STREET_DECAL_007",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_04.Generic_Decal_Grunge_04",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      -193.7772476123883,
+      1787.43431166366,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": 107.10545262252106,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      0.8275188719148394,
+      1.780633091618871
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_008",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_03.Generic_Decal_Grunge_03",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      -193.71803239486536,
+      4559.919834895947,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": 78.82583373406158,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      0.8723175167317468,
+      1.3162006567603366
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_009",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_04.Generic_Decal_Grunge_04",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      -296.97098113804515,
+      2155.3916324558513,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": -54.81230202151181,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      1.0721233459316473,
+      0.9098585635590468
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_010",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_03.Generic_Decal_Grunge_03",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      260.1131013762647,
+      -1437.7763918675678,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": 12.294676492224198,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      0.9648029583740773,
+      1.2108762573295315
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_011",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_04.Generic_Decal_Grunge_04",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      167.13852377123172,
+      -3550.8615243791082,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": -167.4697514236153,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      1.5926978469067565,
+      1.38277736232904
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_012",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_03.Generic_Decal_Grunge_03",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      -202.23051186698578,
+      386.6680110838879,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": 131.69399158456145,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      0.8154819852468138,
+      0.8221962945524556
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_013",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_03.Generic_Decal_Grunge_03",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      -192.66175504847163,
+      -411.65790914632817,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": -136.52985291064257,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      1.4673055328499944,
+      0.8729733388263446
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_014",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_03.Generic_Decal_Grunge_03",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      218.57727564304153,
+      3608.2758179133616,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": 52.6657521914926,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      1.031480884229604,
+      1.6755680587387127
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_015",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_04.Generic_Decal_Grunge_04",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      159.40171288003233,
+      786.5953124057223,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": -168.41735787554745,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      1.4269661168426553,
+      0.8412972623875612
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_016",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_02.Generic_Decal_Grunge_02",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      -196.33295397762836,
+      -1715.4273435570099,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": -142.79737463852098,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      0.9208644748434057,
+      0.8251512066319912
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_017",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_04.Generic_Decal_Grunge_04",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      146.54355780467236,
+      -1371.6483890695554,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": 178.86487047566527,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      1.5964274352983323,
+      0.8049020003332205
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_018",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_04.Generic_Decal_Grunge_04",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      134.41812248972667,
+      2559.5750017285545,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": -61.88558090046092,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      1.4456292052327835,
+      1.0587260402428975
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_019",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_02.Generic_Decal_Grunge_02",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      -249.29932989533978,
+      2952.788947064898,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": 78.30305941534499,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      1.389262757688904,
+      1.6674241602783793
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_020",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_02.Generic_Decal_Grunge_02",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      -194.74284681405334,
+      -983.5228841807038,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": 83.1501596917114,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      1.2592479756460726,
+      1.704912159852825
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_021",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_03.Generic_Decal_Grunge_03",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      207.51950360084987,
+      4532.267234828372,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": -38.74276633899942,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      1.2992681036717868,
+      0.9444405778998236
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_022",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_04.Generic_Decal_Grunge_04",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      1284.7405715825387,
+      -2170.8119809632526,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": 151.94273953561668,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      1.1317640828827158,
+      1.7189657461924335
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_023",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_03.Generic_Decal_Grunge_03",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      917.4424608182142,
+      -2014.7618323086995,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": 55.04596061876268,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      1.0178383119977383,
+      1.0589317524556696
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_024",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_02.Generic_Decal_Grunge_02",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      1438.695743425348,
+      -983.1578548757063,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": 116.56405030432944,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      1.4525723601502087,
+      1.3921314088189258
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_025",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_04.Generic_Decal_Grunge_04",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      1032.8396561914,
+      -1812.1500006378574,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": -66.94076016648629,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      0.878038215170122,
+      1.119173376031462
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_026",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_02.Generic_Decal_Grunge_02",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      1002.8839218140246,
+      -1632.8011525776028,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": 83.47780127097138,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      0.8946016982362507,
+      1.5006829912058368
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_027",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_03.Generic_Decal_Grunge_03",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      1224.4566462187063,
+      -1696.3247475965456,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": 70.60311930047968,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      1.5688588086410062,
+      1.4685363775242082
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_028",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_02.Generic_Decal_Grunge_02",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      867.917091177037,
+      -936.8693338643511,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": -43.71311865724752,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      1.1279584379455292,
+      1.1960858698485546
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_029",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_02.Generic_Decal_Grunge_02",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      -1242.455876571351,
+      -894.3119162623619,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": -29.04554898997762,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      1.6389392246089614,
+      1.3884335020806309
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_030",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_04.Generic_Decal_Grunge_04",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      -1278.50182827153,
+      -805.4617871727942,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": 134.46509479277432,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      1.3541210510122408,
+      1.1502982941983466
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_031",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_03.Generic_Decal_Grunge_03",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      -1832.425595985676,
+      1330.2014885490582,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": -55.62476173321916,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      0.8688120190638826,
+      1.3660707819882345
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_032",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_02.Generic_Decal_Grunge_02",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      -2035.9807606512427,
+      1324.3565749096479,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": 64.10821655406667,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      1.0850479384430622,
+      1.2203935784815325
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_033",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_02.Generic_Decal_Grunge_02",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      -1846.2554315677655,
+      -870.7713188771278,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": 96.82485436615855,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      1.618916615671842,
+      1.2811964654844183
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_034",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_03.Generic_Decal_Grunge_03",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      -2107.7673052093055,
+      1305.2049032559528,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": -109.78210005733924,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      1.5282778552728955,
+      1.7358216569927734
+    ],
+    "folder": "05_Decals/GroundWear"
+  },
+  {
+    "id": "STREET_DECAL_035",
+    "material": "/Game/Synty/PolygonGeneric/Materials/Decals/Generic_Decal_Grunge_02.Generic_Decal_Grunge_02",
+    "size": [
+      24,
+      240,
+      240
+    ],
+    "location": [
+      -2198.106214395562,
+      1262.3846668196215,
+      28
+    ],
+    "rotation": {
+      "pitch": -90,
+      "yaw": -69.10965446739395,
+      "roll": 0
+    },
+    "scale": [
+      1,
+      0.987203533446625,
+      1.3884087537235623
+    ],
+    "folder": "05_Decals/GroundWear"
+  }
+]

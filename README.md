@@ -15,6 +15,7 @@
 | POLYGON Apocalypse | [03 扩大街区](packs/polygon-apocalypse/studies/03-expanded-neighborhood/README.md) | 1,280 块地面、错位 T 字路口，以及加油站、饭店、旅馆等区域预留 |
 | POLYGON Apocalypse | [04 建筑装配与摆放](packs/polygon-apocalypse/studies/04-building-placement/README.md) | 10 套装配配方、13 栋主建筑和 1 组加油棚；在第三课地图中添加 94 个部件 |
 | POLYGON Apocalypse 与 Woodland 参考 | [05 末日小城](packs/polygon-apocalypse/studies/05-aftermath-town/README.md) | 5,053 个模型实例、184 个贴花、11 个机位；主图与独立完整复现副本均保存重开、实例核对零错误 |
+| POLYGON Apocalypse 与 Woodland 参考 | [06 末日街道切片](packs/polygon-apocalypse/studies/06-street-slice/README.md) | 真实 Landscape、1,206 个模型实例和 35 个贴花；保存重开核对零错误，含指定地面射线与胶囊扫掠检查 |
 
 第二课的历史实测结果为 **480 条相邻接缝通过 1 mm 高差阈值检查**，并完成保存重开与近远景观察。该结果针对当时的模型版本、布局和几何算法；新环境需要重新验证，不包含角色碰撞或导航验收。
 
@@ -28,10 +29,10 @@
 
 ## 在自己的 UE 工程复现
 
-需要本地拥有并安装对应资源包。首批训练使用 `/Game/PolygonApocalypse` 下的原始资产，研究版本为 POLYGON Apocalypse v1.20.0（UE 5.3 资源），历史验证环境为 UE 5.8.2。
+需要本地拥有并安装对应资源包。第 1–5 课的 Apocalypse 主资源使用 `/Game/PolygonApocalypse` 下的 v1.20.0（UE 5.3 资源），历史验证环境为 UE 5.8.2。第六课使用 Apocalypse 1.21.1、Woodland 1.0.0 和 Alpine Mountain 1.1.0 的 `/Game/Synty/...` 路径，并需通过原生 Landscape 界面创建真实地形组件；请按[第六课说明](packs/polygon-apocalypse/studies/06-street-slice/README.md)准备其版本与复现前置条件。
 
 1. 在 UE5 工程中启用 **Python Editor Script Plugin** 和 **Editor Scripting Utilities**，按编辑器提示重启。
-2. 将已授权使用的资源包放入工程，保持 `/Game/PolygonApocalypse` 引用路径及原始资产不变。
+2. 将已授权使用的资源包放入工程，保持各课要求的引用路径及原始资产不变；第 1–5 课的 Apocalypse 主资源使用 `/Game/PolygonApocalypse`，第六课使用上述 `/Game/Synty/...` 路径。
 3. 在仓库根目录运行下列命令，将示例路径替换为自己的 `.uproject` 绝对路径。
 
 ```powershell
@@ -40,6 +41,7 @@ python tools/prepare_study.py --project "X:/YourProject/YourProject.uproject" --
 python tools/prepare_study.py --project "X:/YourProject/YourProject.uproject" --study expanded-neighborhood
 python tools/prepare_study.py --project "X:/YourProject/YourProject.uproject" --study building-placement
 python tools/prepare_study.py --project "X:/YourProject/YourProject.uproject" --study aftermath-town
+python tools/prepare_study.py --project "X:/YourProject/YourProject.uproject" --study street-slice
 ```
 
 准备工具将训练文件放入工程的 `Learning/SyntySenceLearning/polygon-apocalypse/<study-id>`，并输出实际执行入口及 MCP 所需的工程相对路径。随后在打开该工程的 UE 中执行对应 Python 文件；已有可用 MCP 时可使用其 Python 执行能力，也可以直接使用 UE 的 Python 文件执行功能。

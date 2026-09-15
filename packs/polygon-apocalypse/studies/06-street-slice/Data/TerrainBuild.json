@@ -1,0 +1,25 @@
+{
+  "height": true,
+  "Base": true,
+  "Dirt": true,
+  "Grass_02": true,
+  "resolution": [
+    127,
+    127
+  ],
+  "components": 4,
+  "location": [
+    -6300,
+    -6300,
+    0
+  ],
+  "scale": [
+    100,
+    100,
+    100
+  ],
+  "height_range": [
+    12.5,
+    284.375
+  ]
+}

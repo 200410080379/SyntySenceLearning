@@ -14,6 +14,7 @@
     {"id": "02-city-ground", "alias": "city-ground", "manifest": "studies/02-city-ground/study.json"},
     {"id": "03-expanded-neighborhood", "alias": "expanded-neighborhood", "manifest": "studies/03-expanded-neighborhood/study.json"},
     {"id": "04-building-placement", "alias": "building-placement", "manifest": "studies/04-building-placement/study.json"},
-    {"id": "05-aftermath-town", "alias": "aftermath-town", "manifest": "studies/05-aftermath-town/study.json"}
+    {"id": "05-aftermath-town", "alias": "aftermath-town", "manifest": "studies/05-aftermath-town/study.json"},
+    {"id": "06-street-slice", "alias": "street-slice", "manifest": "studies/06-street-slice/study.json"}
   ]
 }

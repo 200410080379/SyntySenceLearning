@@ -1,0 +1,3253 @@
+{
+  "schema_version": 1,
+  "source_map": "/Game/Synty/PolygonMapsWoodlandApocalypse/Maps/Demo",
+  "source_versions": {
+    "Woodland": "1.0.0",
+    "Apocalypse": "1.21.1",
+    "AlpineMountain": "1.1.0"
+  },
+  "scope": "Selected local assemblies only. Author-curated groups retain measured source-relative transforms; not a claim that each is a single source Blueprint or actor hierarchy. Layout.json remains the final scene recipe.",
+  "assemblies": [
+    {
+      "id": "east_auto_repair",
+      "members": [
+        {
+          "name": "SM_Bld_AutoRepair_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_AutoRepair_01.SM_Bld_AutoRepair_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_02_B.MI_PolygonApocalypse_02_B"
+          ],
+          "recommended_transform": {
+            "location": [
+              2200.0,
+              -1400.0,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5696",
+          "source_transform": {
+            "location": [
+              2400.0,
+              -4850.0,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.35598022925608,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Bld_AutoRepair_01_Door_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_AutoRepair_01_Door_01.SM_Bld_AutoRepair_01_Door_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              1619.0738595628784,
+              -1247.5657712820712,
+              422.4709
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5697",
+          "source_transform": {
+            "location": [
+              1818.138,
+              -4701.178,
+              422.4709
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.35598022925608,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Bld_AutoRepair_01_Door_02",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_AutoRepair_01_Door_02.SM_Bld_AutoRepair_01_Door_02",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              1996.0957059995887,
+              -1862.7980776204602,
+              436.2
+            ],
+            "rotation": {
+              "pitch": -0.004625893806571832,
+              "yaw": 90.00038355681289,
+              "roll": -90.34490613776804
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5698",
+          "source_transform": {
+            "location": [
+              2198.975,
+              -5314.056,
+              436.2
+            ],
+            "rotation": {
+              "pitch": -0.004625893806571832,
+              "yaw": 90.35636378606898,
+              "roll": -90.34490613776804
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Bld_AutoRepair_01_Glass_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_AutoRepair_01_Glass_01.SM_Bld_AutoRepair_01_Glass_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_01_Glass.MI_PolygonApocalypse_01_Glass"
+          ],
+          "recommended_transform": {
+            "location": [
+              2200.0,
+              -1400.0,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5699",
+          "source_transform": {
+            "location": [
+              2400.0,
+              -4850.0,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.35598022925608,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Bld_Door_02",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_Door_02.SM_Bld_Door_02",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_01_Glass.MI_PolygonApocalypse_01_Glass",
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              2342.6050049093155,
+              -920.8017541509423,
+              43.3
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.88130909158838,
+              "roll": -0.0
+            },
+            "scale": [
+              1.3889,
+              1.3889,
+              1.3889
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5743",
+          "source_transform": {
+            "location": [
+              2539.625,
+              -4369.925,
+              43.3
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 91.23728932084445,
+              "roll": -0.0
+            },
+            "scale": [
+              1.3889,
+              1.3889,
+              1.3889
+            ]
+          }
+        },
+        {
+          "name": "SM_Bld_Door_09",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_Door_09.SM_Bld_Door_09",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              1599.9885596980766,
+              -772.2600207834364,
+              46.5
+            ],
+            "rotation": {
+              "pitch": -1.563799012993342,
+              "yaw": 126.43480521669801,
+              "roll": 93.57338034392079
+            },
+            "scale": [
+              1.2027,
+              1.2027,
+              1.2027
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5748",
+          "source_transform": {
+            "location": [
+              1796.1,
+              -4226.0,
+              46.5
+            ],
+            "rotation": {
+              "pitch": -1.563799012993342,
+              "yaw": 126.79078544595407,
+              "roll": 93.57338034392079
+            },
+            "scale": [
+              1.2027,
+              1.2027,
+              1.2027
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Billboard_Roof_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Billboard_Roof_01.SM_Prop_Billboard_Roof_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              1738.2561938518584,
+              -1357.3303681311002,
+              601.7
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 87.33270003702938,
+              "roll": -0.0
+            },
+            "scale": [
+              1.6945,
+              1.6945,
+              1.6945
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10413",
+          "source_transform": {
+            "location": [
+              1938.0,
+              -4810.2,
+              601.7
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 87.68868026628546,
+              "roll": -0.0
+            },
+            "scale": [
+              1.6945,
+              1.6945,
+              1.6945
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Billboard_Sign_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Billboard_Sign_01.SM_Prop_Billboard_Sign_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              1738.8263316518742,
+              -1357.4709131025268,
+              604.3434
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 87.33270003702938,
+              "roll": -0.0
+            },
+            "scale": [
+              1.6945,
+              1.6945,
+              1.6945
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10417",
+          "source_transform": {
+            "location": [
+              1938.571,
+              -4810.337,
+              604.3434
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 87.68868026628546,
+              "roll": -0.0
+            },
+            "scale": [
+              1.6945,
+              1.6945,
+              1.6945
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Billboard_Sign_07",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Billboard_Sign_07.SM_Prop_Billboard_Sign_07",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Misc/MI_Billboard_01.MI_Billboard_01"
+          ],
+          "recommended_transform": {
+            "location": [
+              1693.241995910734,
+              -1365.913861168161,
+              915.5182
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 87.33270003702938,
+              "roll": -0.0
+            },
+            "scale": [
+              1.6945,
+              1.6945,
+              1.6945
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10419",
+          "source_transform": {
+            "location": [
+              1893.04,
+              -4819.063,
+              915.5182
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 87.68868026628546,
+              "roll": -0.0
+            },
+            "scale": [
+              1.6945,
+              1.6945,
+              1.6945
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Barricade_08",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Barricade_08.SM_Prop_Barricade_08",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              1967.7538789481398,
+              -2195.3724091621266,
+              262.6
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -0.3559802292560903,
+              "roll": -0.0
+            },
+            "scale": [
+              1.6231,
+              1.6231,
+              1.6231
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10315",
+          "source_transform": {
+            "location": [
+              2172.7,
+              -5646.8,
+              262.6
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.6231,
+              1.6231,
+              1.6231
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Barricade_08",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Barricade_08.SM_Prop_Barricade_08",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              2193.7495169694607,
+              -2196.776544246808,
+              262.6
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -0.3559802292560903,
+              "roll": -0.0
+            },
+            "scale": [
+              -1.6231,
+              1.5432,
+              1.6231
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10316",
+          "source_transform": {
+            "location": [
+              2398.7,
+              -5646.8,
+              262.6
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              -1.6231,
+              1.5432,
+              1.6231
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Dumpster_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Dumpster_01.SM_Prop_Dumpster_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              2721.721864340094,
+              -947.4327163067387,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -90.354877086714,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10596",
+          "source_transform": {
+            "location": [
+              2918.9,
+              -4394.2,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -89.99889685745792,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Dumpster_Lid_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Dumpster_Lid_01.SM_Prop_Dumpster_Lid_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              2657.050789506443,
+              -837.4737934588854,
+              205.8781
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -90.354877086714,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10601",
+          "source_transform": {
+            "location": [
+              2853.547,
+              -4284.645,
+              205.8781
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -89.99889685745792,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_TrashBag_03",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_TrashBag_03.SM_Prop_TrashBag_03",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              2791.2598851620974,
+              -1001.2427937101278,
+              25.0001
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -0.3559802292560903,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11113",
+          "source_transform": {
+            "location": [
+              2988.771,
+              -4447.577,
+              25.0001
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_CarBattery_Table",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_CarBattery_Table.SM_Prop_CarBattery_Table",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              1850.259127493382,
+              -1614.73120895275,
+              46.6049
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -33.353485302121555,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10522",
+          "source_transform": {
+            "location": [
+              2051.6,
+              -5066.9,
+              46.6049
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -32.99750507286547,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Generator_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Generator_01.SM_Prop_Generator_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              1770.4738371125384,
+              -1516.5096082182663,
+              46.6049
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -26.209838156196213,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10740",
+          "source_transform": {
+            "location": [
+              1971.206,
+              -4969.176,
+              46.6049
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -25.85385792694013,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ],
+      "source_body_transform": {
+        "location": [
+          2400.0,
+          -4850.0,
+          25.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 90.35598022925608,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recommended_body_transform": {
+        "location": [
+          2200,
+          -1400,
+          25
+        ],
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "west_diner",
+      "members": [
+        {
+          "name": "SM_Bld_Diner_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_01.SM_Bld_Diner_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_04_B.MI_PolygonApocalypse_04_B"
+          ],
+          "recommended_transform": {
+            "location": [
+              -1450.0,
+              300.0,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -89.99999999999999,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5719",
+          "source_transform": {
+            "location": [
+              2550.0,
+              -600.0,
+              75.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 89.99889685745792,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Bld_Diner_Door_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Door_01.SM_Bld_Diner_Door_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              -990.6020448055326,
+              406.2089450241939,
+              178.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.5740418274202739,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5724",
+          "source_transform": {
+            "location": [
+              2090.6,
+              -706.2001,
+              228.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -179.42706131512185,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Bld_Diner_Door_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Door_01.SM_Bld_Diner_Door_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              -990.5979900229354,
+              195.60884506322822,
+              178.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 89.96978462529415,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5725",
+          "source_transform": {
+            "location": [
+              2090.6,
+              -495.6,
+              228.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -90.03131851724794,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Bld_Diner_Door_02",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Door_02.SM_Bld_Diner_Door_02",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              -1587.4877355125323,
+              -337.0027472339864,
+              185.9
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 177.34242234642414,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5726",
+          "source_transform": {
+            "location": [
+              2687.5,
+              37.0001,
+              235.9
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -2.6586807961179497,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Bld_Diner_Door_Glass_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Door_Glass_01.SM_Bld_Diner_Door_Glass_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_01_Glass.MI_PolygonApocalypse_01_Glass"
+          ],
+          "recommended_transform": {
+            "location": [
+              -990.6020448055326,
+              406.2089450241939,
+              178.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.5740418274202739,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5727",
+          "source_transform": {
+            "location": [
+              2090.6,
+              -706.2001,
+              228.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -179.42706131512185,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Bld_Diner_Door_Glass_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Door_Glass_01.SM_Bld_Diner_Door_Glass_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_01_Glass.MI_PolygonApocalypse_01_Glass"
+          ],
+          "recommended_transform": {
+            "location": [
+              -990.5979900229354,
+              195.60884506322822,
+              178.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 89.96978462529415,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5728",
+          "source_transform": {
+            "location": [
+              2090.6,
+              -495.6,
+              228.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -90.03131851724794,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Bld_Diner_Glass_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Glass_01.SM_Bld_Diner_Glass_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_01_Glass.MI_PolygonApocalypse_01_Glass"
+          ],
+          "recommended_transform": {
+            "location": [
+              -1450.0,
+              300.0,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -89.99999999999999,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5729",
+          "source_transform": {
+            "location": [
+              2550.0,
+              -600.0,
+              75.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 89.99889685745792,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Bld_Diner_Interior_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Interior_01.SM_Bld_Diner_Interior_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              -1458.6189999984026,
+              299.9998340543466,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -89.99999999999999,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5730",
+          "source_transform": {
+            "location": [
+              2558.619,
+              -600.0,
+              75.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 89.99889685745792,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Bld_Diner_Text_02",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_Diner_Text_02.SM_Bld_Diner_Text_02",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_02_C.MI_PolygonApocalypse_02_C"
+          ],
+          "recommended_transform": {
+            "location": [
+              -1081.0996477298834,
+              281.70710260828207,
+              437.3
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -89.99609086352145,
+              "roll": -17.06315648143164
+            },
+            "scale": [
+              1.1237,
+              1.1237,
+              1.1237
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5742",
+          "source_transform": {
+            "location": [
+              2181.1,
+              -581.7,
+              487.3
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.00280599393646,
+              "roll": -17.06315648143164
+            },
+            "scale": [
+              1.1237,
+              1.1237,
+              1.1237
+            ]
+          }
+        },
+        {
+          "name": "SM_Bld_Door_03",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_Door_03.SM_Bld_Door_03",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              -1590.3110861217208,
+              875.7972986315089,
+              72.6
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 32.30881358907277,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0972,
+              1.0,
+              1.0225
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5744",
+          "source_transform": {
+            "location": [
+              2690.3,
+              -1175.8,
+              122.6
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -147.69228955346932,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0972,
+              1.0,
+              1.0225
+            ]
+          }
+        },
+        {
+          "name": "SM_Bld_Door_09",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_Door_09.SM_Bld_Door_09",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              -1844.096722984524,
+              129.79231223922525,
+              70.2
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -89.99999999999999,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0383,
+              1.0,
+              0.9528
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5747",
+          "source_transform": {
+            "location": [
+              2944.1,
+              -429.7999,
+              120.2
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 89.99889685745792,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0383,
+              1.0,
+              0.9528
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Barricade_06",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Barricade_06.SM_Prop_Barricade_06",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              -1054.4100272802275,
+              820.8076165759959,
+              242.39999999999998
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -86.51047253648835,
+              "roll": -0.0
+            },
+            "scale": [
+              0.9028,
+              0.9028,
+              0.9028
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10311",
+          "source_transform": {
+            "location": [
+              2154.4,
+              -1120.8,
+              292.4
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 93.48842432096956,
+              "roll": -0.0
+            },
+            "scale": [
+              0.9028,
+              0.9028,
+              0.9028
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Barricade_11",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Barricade_11.SM_Prop_Barricade_11",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              -1058.6044649521168,
+              531.9075357649712,
+              228.39999999999998
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -86.51047253648835,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10320",
+          "source_transform": {
+            "location": [
+              2158.6,
+              -831.9,
+              278.4
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 93.48842432096956,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Barricade_08",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Barricade_08.SM_Prop_Barricade_08",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              -1052.2954543295696,
+              63.90765714857176,
+              226.7
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -86.51047253648835,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10317",
+          "source_transform": {
+            "location": [
+              2152.3,
+              -363.9,
+              276.7
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 93.48842432096956,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Dumpster_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Dumpster_01.SM_Prop_Dumpster_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              -1916.0132655540976,
+              988.9910277555189,
+              17.5
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.60024173235985,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10594",
+          "source_transform": {
+            "location": [
+              3016.0,
+              -1289.0,
+              67.5
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -89.40086141018226,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Dumpster_Lid_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Dumpster_Lid_01.SM_Prop_Dumpster_Lid_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              -1849.5201694797065,
+              880.1243079581363,
+              198.3781
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.60024173235985,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10603",
+          "source_transform": {
+            "location": [
+              2949.509,
+              -1180.132,
+              248.3781
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -89.40086141018226,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Bike_Broken_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Bike_Broken_01.SM_Prop_Bike_Broken_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              -983.0079902763906,
+              715.0089912933264,
+              25.000100000000003
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -116.51486344703272,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10412",
+          "source_transform": {
+            "location": [
+              2083.0,
+              -1015.0,
+              75.0001
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 63.48403341042519,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ],
+      "source_body_transform": {
+        "location": [
+          2550.0,
+          -600.0,
+          75.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 89.99889685745792,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recommended_body_transform": {
+        "location": [
+          -1450,
+          300,
+          25
+        ],
+        "rotation": {
+          "pitch": 0,
+          "yaw": -90,
+          "roll": 0
+        },
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "east_small_shop",
+      "members": [
+        {
+          "name": "SM_Bld_Shop_Small_03",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Small_03.SM_Bld_Shop_Small_03",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_03_B.MI_PolygonApocalypse_03_B"
+          ],
+          "recommended_transform": {
+            "location": [
+              1450.0,
+              900.0,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5805",
+          "source_transform": {
+            "location": [
+              2009.0,
+              -2977.0,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 180.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Bld_Shop_Small_03_Barricades_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Small_03_Barricades_01.SM_Bld_Shop_Small_03_Barricades_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              1450.0,
+              900.0,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5806",
+          "source_transform": {
+            "location": [
+              2009.0,
+              -2977.0,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 180.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Bld_Shop_Small_03_Door_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Small_03_Door_01.SM_Bld_Shop_Small_03_Door_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A",
+            "/Game/Synty/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_01_Glass.MI_PolygonApocalypse_01_Glass"
+          ],
+          "recommended_transform": {
+            "location": [
+              1114.9360000000001,
+              619.366,
+              38.2131
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 103.66855343372151,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5807",
+          "source_transform": {
+            "location": [
+              2289.634,
+              -3312.064,
+              38.2131
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -166.33144656627852,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Bld_Shop_Small_03_Door_02",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Small_03_Door_02.SM_Bld_Shop_Small_03_Door_02",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              1722.893,
+              859.19,
+              38.2131
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5808",
+          "source_transform": {
+            "location": [
+              2049.81,
+              -2704.107,
+              38.2131
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 180.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Bld_Shop_Small_03_Ladder_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Small_03_Ladder_01.SM_Bld_Shop_Small_03_Ladder_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              1450.0,
+              900.0,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5809",
+          "source_transform": {
+            "location": [
+              2009.0,
+              -2977.0,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 180.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Bld_Shop_Small_03_Overgrowth_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Buildings/SM_Bld_Shop_Small_03_Overgrowth_01.SM_Bld_Shop_Small_03_Overgrowth_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A",
+            "/Game/Synty/PolygonApocalypse/Materials/Misc/MI_PolygonApocalypse_Overgrowth_01.MI_PolygonApocalypse_Overgrowth_01"
+          ],
+          "recommended_transform": {
+            "location": [
+              1450.0,
+              900.0,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_5810",
+          "source_transform": {
+            "location": [
+              2009.0,
+              -2977.0,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 180.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Dumpster_02",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Dumpster_02.SM_Prop_Dumpster_02",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A",
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A",
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              1668.4,
+              1455.0,
+              18.3
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -13.979894089798876,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10599",
+          "source_transform": {
+            "location": [
+              1454.0,
+              -2758.6,
+              18.3
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 76.02010591020112,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Dumpster_Rubbish_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Dumpster_Rubbish_01.SM_Prop_Dumpster_Rubbish_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Misc/MI_Rubble_01.MI_Rubble_01"
+          ],
+          "recommended_transform": {
+            "location": [
+              1668.4,
+              1455.0,
+              18.3
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -13.979894089798876,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10607",
+          "source_transform": {
+            "location": [
+              1454.0,
+              -2758.6,
+              18.3
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 76.02010591020112,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Dumpster_Rubbish_TrashBag_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Dumpster_Rubbish_TrashBag_01.SM_Prop_Dumpster_Rubbish_TrashBag_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              1668.4,
+              1455.0,
+              18.3
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -13.979894089798876,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10611",
+          "source_transform": {
+            "location": [
+              1454.0,
+              -2758.6,
+              18.3
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 76.02010591020112,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_VendingMachine_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_VendingMachine_01.SM_Prop_VendingMachine_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              993.1999999999998,
+              1492.7,
+              34.6
+            ],
+            "rotation": {
+              "pitch": 2.5476791923990887,
+              "yaw": -113.8684242943947,
+              "roll": 0.9142084646153937
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11192",
+          "source_transform": {
+            "location": [
+              1416.3,
+              -3433.8,
+              34.6
+            ],
+            "rotation": {
+              "pitch": 2.5476791923990887,
+              "yaw": -23.868424294394703,
+              "roll": 0.9142084646153937
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ],
+      "source_body_transform": {
+        "location": [
+          2009.0,
+          -2977.0,
+          25.0
+        ],
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 180.0,
+          "roll": -0.0
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recommended_body_transform": {
+        "location": [
+          1450,
+          900,
+          25
+        ],
+        "rotation": {
+          "pitch": 0,
+          "yaw": 90,
+          "roll": 0
+        },
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "id": "repair_rear_waste_tires",
+      "members": [
+        {
+          "name": "SM_Prop_Dumpster_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Dumpster_01.SM_Prop_Dumpster_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              3385.1191083209283,
+              -1502.8368979208544,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -89.99889685745792,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10593",
+          "source_transform": {
+            "location": [
+              2919.2,
+              -4151.1,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -89.99889685745792,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Dumpster_Lid_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Dumpster_Lid_01.SM_Prop_Dumpster_Lid_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              3319.7651083209284,
+              -1393.2818979208541,
+              205.8781
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -89.99889685745792,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10604",
+          "source_transform": {
+            "location": [
+              2853.846,
+              -4041.545,
+              205.8781
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": -89.99889685745792,
+              "roll": 0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Tire_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Tire_01.SM_Prop_Tire_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              3414.0731083209284,
+              -1182.229897920854,
+              25.0001
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11050",
+          "source_transform": {
+            "location": [
+              2948.154,
+              -3830.493,
+              25.0001
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Tire_Pile_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Tire_Pile_01.SM_Prop_Tire_Pile_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              3304.4191083209284,
+              -1079.336897920854,
+              25.0
+            ],
+            "rotation": {
+              "pitch": -2.5411408406683904,
+              "yaw": -35.747801522098314,
+              "roll": 13.793224877670918
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11053",
+          "source_transform": {
+            "location": [
+              2838.5,
+              -3727.6,
+              25.0
+            ],
+            "rotation": {
+              "pitch": -2.5411408406683904,
+              "yaw": -35.747801522098314,
+              "roll": 13.793224877670918
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_TrashBag_04",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_TrashBag_04.SM_Prop_TrashBag_04",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              3360.5151083209284,
+              -1227.662897920854,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11115",
+          "source_transform": {
+            "location": [
+              2894.596,
+              -3875.926,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_TrashBag_05",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_TrashBag_05.SM_Prop_TrashBag_05",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              3329.0091083209286,
+              -1171.4078979208539,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11116",
+          "source_transform": {
+            "location": [
+              2863.09,
+              -3819.671,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_TrashBag_07",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_TrashBag_07.SM_Prop_TrashBag_07",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              3363.0351083209284,
+              -1369.017897920854,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11120",
+          "source_transform": {
+            "location": [
+              2897.116,
+              -4017.281,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_TrashBag_09",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_TrashBag_09.SM_Prop_TrashBag_09",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              3455.3171083209286,
+              -1370.4118979208542,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 122.37719553949637,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11130",
+          "source_transform": {
+            "location": [
+              2989.398,
+              -4018.675,
+              25.0
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 122.37719553949637,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ],
+      "source_group_anchor": [
+        2884.0808916790716,
+        -3948.263102079146,
+        25
+      ],
+      "target_group_anchor": [
+        3350,
+        -1300,
+        25
+      ],
+      "yaw_delta_degrees": 0
+    },
+    {
+      "id": "shop_rear_three_waste_piles",
+      "members": [
+        {
+          "name": "SM_Prop_Dumpster_02",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Dumpster_02.SM_Prop_Dumpster_02",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A",
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A",
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              3062.2327888793943,
+              493.06041259765607,
+              23.400000000000006
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10600",
+          "source_transform": {
+            "location": [
+              1694.5,
+              -1989.2,
+              73.4
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Dumpster_Rubbish_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Dumpster_Rubbish_01.SM_Prop_Dumpster_Rubbish_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Misc/MI_Rubble_01.MI_Rubble_01"
+          ],
+          "recommended_transform": {
+            "location": [
+              3062.2327888793943,
+              493.06041259765607,
+              23.400000000000006
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10605",
+          "source_transform": {
+            "location": [
+              1694.5,
+              -1989.2,
+              73.4
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Dumpster_Rubbish_TrashBag_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Dumpster_Rubbish_TrashBag_01.SM_Prop_Dumpster_Rubbish_TrashBag_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              3062.2327888793943,
+              493.06041259765607,
+              23.400000000000006
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10609",
+          "source_transform": {
+            "location": [
+              1694.5,
+              -1989.2,
+              73.4
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_TrashPile_10",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_TrashPile_10.SM_Prop_TrashPile_10",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Misc/MI_Rubble_01.MI_Rubble_01"
+          ],
+          "recommended_transform": {
+            "location": [
+              3137.1327888793944,
+              965.1604125976564,
+              25.000600000000006
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11164",
+          "source_transform": {
+            "location": [
+              2166.6,
+              -2064.1,
+              75.0006
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Trash_10",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Trash_10.SM_Prop_Trash_10",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A",
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A",
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              3137.1327888793944,
+              965.1604125976564,
+              25.000600000000006
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11110",
+          "source_transform": {
+            "location": [
+              2166.6,
+              -2064.1,
+              75.0006
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_Grass_10",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_Grass_10.SM_Prop_Grass_10",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              3137.1327888793944,
+              965.1604125976564,
+              25.000600000000006
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_10751",
+          "source_transform": {
+            "location": [
+              2166.6,
+              -2064.1,
+              75.0006
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Prop_TrashPile_06",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Prop_TrashPile_06.SM_Prop_TrashPile_06",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Misc/MI_Rubble_01.MI_Rubble_01"
+          ],
+          "recommended_transform": {
+            "location": [
+              2604.718788879394,
+              771.9774125976564,
+              24.9996
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11153",
+          "source_transform": {
+            "location": [
+              1973.417,
+              -1531.686,
+              74.9996
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Rubble_Grass_06",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Rubble_Grass_06.SM_Rubble_Grass_06",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              2576.8977888793943,
+              768.4414125976564,
+              62.268299999999996
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11224",
+          "source_transform": {
+            "location": [
+              1969.881,
+              -1503.865,
+              112.2683
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Rubble_Trash_06",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Props/SM_Rubble_Trash_06.SM_Rubble_Trash_06",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A",
+            "/Game/Synty/PolygonApocalypse/Materials/Alt/MI_PolygonApocalypse_01_A.MI_PolygonApocalypse_01_A"
+          ],
+          "recommended_transform": {
+            "location": [
+              2618.410788879394,
+              782.6664125976563,
+              83.61089999999999
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 90.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11226",
+          "source_transform": {
+            "location": [
+              1984.106,
+              -1545.378,
+              133.6109
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ],
+      "source_group_anchor": [
+        2001.4395874023437,
+        -1876.9672111206055,
+        75
+      ],
+      "target_group_anchor": [
+        2950,
+        800,
+        25
+      ],
+      "yaw_delta_degrees": 90
+    },
+    {
+      "id": "road_ute_wreck_one_vehicle",
+      "members": [
+        {
+          "name": "SM_Veh_Ute_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Vehicles/SM_Veh_Ute_01.SM_Veh_Ute_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Vehicles/MI_Vehicle_Standard_01.MI_Vehicle_Standard_01"
+          ],
+          "recommended_transform": {
+            "location": [
+              -250.0,
+              2100.0,
+              26.868157910156256
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11274",
+          "source_transform": {
+            "location": [
+              2074.4,
+              -5254.4,
+              39.5
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 96.93872941336338,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Veh_Ute_Armour_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Vehicles/SM_Veh_Ute_Armour_01.SM_Veh_Ute_Armour_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Vehicles/MI_Vehicle_Standard_01.MI_Vehicle_Standard_01"
+          ],
+          "recommended_transform": {
+            "location": [
+              -250.0,
+              2100.0,
+              26.868157910156256
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11275",
+          "source_transform": {
+            "location": [
+              2074.4,
+              -5254.4,
+              39.5
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 96.93872941336338,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Veh_Ute_Glass_Armour_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Vehicles/SM_Veh_Ute_Glass_Armour_01.SM_Veh_Ute_Glass_Armour_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Vehicles/MI_Vehicle_Standard_01.MI_Vehicle_Standard_01"
+          ],
+          "recommended_transform": {
+            "location": [
+              -250.0,
+              2100.0,
+              26.868157910156256
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11276",
+          "source_transform": {
+            "location": [
+              2074.4,
+              -5254.4,
+              39.5
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 96.93872941336338,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Veh_Ute_Lights_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Vehicles/SM_Veh_Ute_Lights_01.SM_Veh_Ute_Lights_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Vehicles/MI_Vehicle_Standard_01.MI_Vehicle_Standard_01"
+          ],
+          "recommended_transform": {
+            "location": [
+              -250.0,
+              2100.0,
+              26.868157910156256
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11277",
+          "source_transform": {
+            "location": [
+              2074.4,
+              -5254.4,
+              39.5
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 96.93872941336338,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Veh_Ute_Rear_Flap_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Vehicles/SM_Veh_Ute_Rear_Flap_01.SM_Veh_Ute_Rear_Flap_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Vehicles/MI_Vehicle_Standard_01.MI_Vehicle_Standard_01"
+          ],
+          "recommended_transform": {
+            "location": [
+              -250.47163899195874,
+              1845.677294797218,
+              144.57715791015625
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11278",
+          "source_transform": {
+            "location": [
+              2326.917,
+              -5224.144,
+              157.209
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 96.93872941336338,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Veh_Ute_Roof_Props_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Vehicles/SM_Veh_Ute_Roof_Props_01.SM_Veh_Ute_Roof_Props_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Vehicles/MI_Vehicle_Standard_01.MI_Vehicle_Standard_01"
+          ],
+          "recommended_transform": {
+            "location": [
+              -250.0,
+              2100.0,
+              26.868157910156256
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11279",
+          "source_transform": {
+            "location": [
+              2074.4,
+              -5254.4,
+              39.5
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 96.93872941336338,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Veh_Ute_SteeringW_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Vehicles/SM_Veh_Ute_SteeringW_01.SM_Veh_Ute_SteeringW_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Vehicles/MI_Vehicle_Standard_01.MI_Vehicle_Standard_01"
+          ],
+          "recommended_transform": {
+            "location": [
+              -205.8201076758228,
+              2169.095785140804,
+              193.26445791015624
+            ],
+            "rotation": {
+              "pitch": -0.0005909912733833543,
+              "yaw": -0.001718877035443711,
+              "roll": 20.186578839163463
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11280",
+          "source_transform": {
+            "location": [
+              2000.473,
+              -5218.891,
+              205.8963
+            ],
+            "rotation": {
+              "pitch": -0.0005909912733833543,
+              "yaw": 96.93701053632793,
+              "roll": 20.186578839163463
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Veh_Ute_TowHook_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Vehicles/SM_Veh_Ute_TowHook_01.SM_Veh_Ute_TowHook_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Vehicles/MI_Vehicle_Standard_01.MI_Vehicle_Standard_01"
+          ],
+          "recommended_transform": {
+            "location": [
+              -250.0,
+              2100.0,
+              26.868157910156256
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11281",
+          "source_transform": {
+            "location": [
+              2074.4,
+              -5254.4,
+              39.5
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 96.93872941336338,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Veh_Ute_Wheel_fl",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Vehicles/SM_Veh_Ute_Wheel_fl.SM_Veh_Ute_Wheel_fl",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Vehicles/MI_Vehicle_Standard_01.MI_Vehicle_Standard_01"
+          ],
+          "recommended_transform": {
+            "location": [
+              -156.13861128377272,
+              2276.9084995591256,
+              84.09185791015625
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11282",
+          "source_transform": {
+            "location": [
+              1887.448,
+              -5182.598,
+              96.7237
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 96.93872941336338,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Veh_Ute_Wheel_fr",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Vehicles/SM_Veh_Ute_Wheel_fr.SM_Veh_Ute_Wheel_fr",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Vehicles/MI_Vehicle_Standard_01.MI_Vehicle_Standard_01"
+          ],
+          "recommended_transform": {
+            "location": [
+              -343.90677890877043,
+              2276.8841941920746,
+              84.09185791015625
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11283",
+          "source_transform": {
+            "location": [
+              1910.156,
+              -5368.988,
+              96.7237
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 96.93872941336338,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Veh_Ute_Wheel_rl",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Vehicles/SM_Veh_Ute_Wheel_rl.SM_Veh_Ute_Wheel_rl",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Vehicles/MI_Vehicle_Standard_01.MI_Vehicle_Standard_01"
+          ],
+          "recommended_transform": {
+            "location": [
+              -156.0983834202671,
+              1967.8883476762448,
+              84.09185791015625
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11284",
+          "source_transform": {
+            "location": [
+              2194.2,
+              -5145.226,
+              96.7237
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 96.93872941336338,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Veh_Ute_Wheel_rr",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Vehicles/SM_Veh_Ute_Wheel_rr.SM_Veh_Ute_Wheel_rr",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Vehicles/MI_Vehicle_Standard_01.MI_Vehicle_Standard_01"
+          ],
+          "recommended_transform": {
+            "location": [
+              -343.867543721173,
+              1967.8641631170647,
+              84.09185791015625
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11285",
+          "source_transform": {
+            "location": [
+              2216.908,
+              -5331.617,
+              96.7237
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 96.93872941336338,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "name": "SM_Veh_Ute_WireMesh_01",
+          "mesh": "/Game/Synty/PolygonApocalypse/Meshes/Vehicles/SM_Veh_Ute_WireMesh_01.SM_Veh_Ute_WireMesh_01",
+          "materials": [
+            "/Game/Synty/PolygonApocalypse/Materials/Misc/MI_Fence_01.MI_Fence_01"
+          ],
+          "recommended_transform": {
+            "location": [
+              -250.0,
+              2100.0,
+              26.868157910156256
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 0.0,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "source_actor_name": "StaticMeshActor_11286",
+          "source_transform": {
+            "location": [
+              2074.4,
+              -5254.4,
+              39.5
+            ],
+            "rotation": {
+              "pitch": 0.0,
+              "yaw": 96.93872941336338,
+              "roll": -0.0
+            },
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ],
+      "source_group_anchor": [
+        2074.4,
+        -5254.4,
+        39.5
+      ],
+      "target_group_anchor": [
+        -250,
+        2100,
+        26.868157910156256
+      ],
+      "yaw_delta_degrees": -96.93872941336338
+    }
+  ]
+}
