@@ -1,0 +1,2901 @@
+{
+  "source_map": "/Game/Synty/PolygonMapsWoodlandApocalypse/Maps/Demo.Demo",
+  "engine": "5.8.2-56702186+++UE5+Release-5.8",
+  "units": "centimeters",
+  "selected_nodes_checked": 45,
+  "node_issues": [],
+  "geometry_instances_measured": 26,
+  "sample_count": 196,
+  "landscape_misses": 0,
+  "landscape_collision_mips": [
+    {
+      "actor": "Landscape_1",
+      "collision": 0,
+      "simple": 0
+    }
+  ],
+  "method": "Selected current LOD0 world triangles, vertical XY barycentric intersection, maximum Z per actor. Landscape-only complex collision query with all other actors ignored. Paint weights are shader inputs, not final visible percentages.",
+  "limitations": [
+    "Discrete samples are not an exhaustive seam or collision/navigation validation.",
+    "Landscape collision reference is not a direct rendered Landscape vertex export.",
+    "Top triangle intersection does not test foliage opacity, shader displacement, or full-scene occlusion."
+  ],
+  "profiles": {
+    "west_y1000": [
+      {
+        "xy": [
+          -1500,
+          -1000
+        ],
+        "landscape_collision_height": 44.87129250430007,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -1475,
+          -1000
+        ],
+        "landscape_collision_height": 46.27491972565622,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -1450,
+          -1000
+        ],
+        "landscape_collision_height": 47.6786420420176,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -1425,
+          -1000
+        ],
+        "landscape_collision_height": 49.08236435838626,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -1400,
+          -1000
+        ],
+        "landscape_collision_height": 48.12801309274073,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -1375,
+          -1000
+        ],
+        "landscape_collision_height": 46.72436745208688,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -1350,
+          -1000
+        ],
+        "landscape_collision_height": 45.32064513571822,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -1325,
+          -1000
+        ],
+        "landscape_collision_height": 43.916922819349566,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -1300,
+          -1000
+        ],
+        "landscape_collision_height": 40.563628534335294,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.03322552144527435,
+          "Grass_02": 0.9582551121711731,
+          "Pine_Dirt": 0.0059635573998093605,
+          "River_Rock_01": 0.0022718310356140137
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -1275,
+          -1000
+        ],
+        "landscape_collision_height": 38.07644676769269,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.06910623610019684,
+          "Grass_02": 0.9131742119789124,
+          "Pine_Dirt": 0.012403685599565506,
+          "River_Rock_01": 0.004725213162600994
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -1250,
+          -1000
+        ],
+        "landscape_collision_height": 35.9710774710984,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.10498696565628052,
+          "Grass_02": 0.8680933117866516,
+          "Pine_Dirt": 0.018843814730644226,
+          "River_Rock_01": 0.0071785952895879745
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -1225,
+          -1000
+        ],
+        "landscape_collision_height": 33.848863506711496,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.14218196272850037,
+          "Grass_02": 0.821823239326477,
+          "Pine_Dirt": 0.025129374116659164,
+          "River_Rock_01": 0.009668778628110886
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -1200,
+          -1000
+        ],
+        "landscape_collision_height": 30.339771893748548,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.2875882685184479,
+          "Grass_02": 0.6776436567306519,
+          "Pine_Dirt": 0.018689248710870743,
+          "River_Rock_01": 0.01518888771533966
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -1175,
+          -1000
+        ],
+        "landscape_collision_height": 28.544625229071244,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.43299466371536255,
+          "Grass_02": 0.5334640145301819,
+          "Pine_Dirt": 0.012249121442437172,
+          "River_Rock_01": 0.020708996802568436
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -1150,
+          -1000
+        ],
+        "landscape_collision_height": 27.14111709066492,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.5784009695053101,
+          "Grass_02": 0.3892843723297119,
+          "Pine_Dirt": 0.005808995105326176,
+          "River_Rock_01": 0.026229102164506912
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -1125,
+          -1000
+        ],
+        "landscape_collision_height": 25.73760895225132,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.7168296575546265,
+          "Grass_02": 0.25274351239204407,
+          "River_Rock_01": 0.030426837503910065
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -1100,
+          -1000
+        ],
+        "landscape_collision_height": 24.334100813837722,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.7910357117652893,
+          "Grass_02": 0.18651093542575836,
+          "River_Rock_01": 0.022453349083662033
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -1075,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.8652417659759521,
+          "Grass_02": 0.12027835845947266,
+          "River_Rock_01": 0.014479856938123703
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -1050,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.9394478797912598,
+          "Grass_02": 0.05404578149318695,
+          "River_Rock_01": 0.006506367586553097
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -1025,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 1.0
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -1000,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 1.0
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -975,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_10019": -0.04998609967341627
+        }
+      },
+      {
+        "xy": [
+          -950,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_10019": 5.771045683574046
+        }
+      },
+      {
+        "xy": [
+          -925,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_10019": 11.592077466821513
+        }
+      },
+      {
+        "xy": [
+          -900,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_10019": 14.911570632229076
+        }
+      },
+      {
+        "xy": [
+          -875,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_10019": 15.204361586436537
+        }
+      },
+      {
+        "xy": [
+          -850,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_10019": 15.628894494906522
+        }
+      },
+      {
+        "xy": [
+          -825,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.9766544103622437,
+          "Grass_02": 0.004039500840008259,
+          "Pine_Dirt": 0.019306045025587082
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_10019": 16.816654318099413
+        }
+      },
+      {
+        "xy": [
+          -800,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.9110772609710693,
+          "Grass_02": 0.015386372804641724,
+          "Pine_Dirt": 0.07353632897138596
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_10019": 10.873444751319953
+        }
+      },
+      {
+        "xy": [
+          -775,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.8455000519752502,
+          "Grass_02": 0.026733268052339554,
+          "Pine_Dirt": 0.1277666985988617
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -750,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.7799227833747864,
+          "Grass_02": 0.03808015584945679,
+          "Pine_Dirt": 0.18199707567691803
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -725,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.6776618957519531,
+          "Grass_02": 0.13405026495456696,
+          "Pine_Dirt": 0.18828783929347992
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9912": 22.86345235011631
+        }
+      },
+      {
+        "xy": [
+          -700,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.5290899872779846,
+          "Grass_02": 0.3368526101112366,
+          "Pine_Dirt": 0.13405746221542358
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9912": 25.652164887844435
+        }
+      },
+      {
+        "xy": [
+          -675,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.3805180788040161,
+          "Grass_02": 0.5396548509597778,
+          "Pine_Dirt": 0.07982707768678665
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9912": 28.02117627659307
+        }
+      },
+      {
+        "xy": [
+          -650,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.23194631934165955,
+          "Grass_02": 0.7424569129943848,
+          "Pine_Dirt": 0.025596750900149345
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9912": 30.032924033528058
+        }
+      },
+      {
+        "xy": [
+          -625,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.13999071717262268,
+          "Grass_02": 0.8600093126296997
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9912": 31.772108332365224
+        }
+      },
+      {
+        "xy": [
+          -600,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.09864672273397446,
+          "Grass_02": 0.9013532996177673
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9912": 33.02174515969328
+        }
+      },
+      {
+        "xy": [
+          -575,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.05730273574590683,
+          "Grass_02": 0.942697286605835
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9912": 32.633864165708246
+        }
+      },
+      {
+        "xy": [
+          -550,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Dirt": 0.015958787873387337,
+          "Grass_02": 0.9840412139892578
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9912": 32.58825857775008
+        }
+      },
+      {
+        "xy": [
+          -525,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9901": 22.948339411459276,
+          "StaticMeshActor_9912": 32.65813881332265
+        }
+      },
+      {
+        "xy": [
+          -500,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8916": 25.000000007450573,
+          "StaticMeshActor_9901": 23.127816796700493,
+          "StaticMeshActor_9912": 31.352304331024257
+        }
+      },
+      {
+        "xy": [
+          -475,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8916": 25.000000007450573,
+          "StaticMeshActor_9901": 24.0747221488422,
+          "StaticMeshActor_9912": 31.940841974971526
+        }
+      },
+      {
+        "xy": [
+          -450,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8916": 25.000000007450573,
+          "StaticMeshActor_9901": 25.685094535644804,
+          "StaticMeshActor_9912": 32.89238647374112
+        }
+      },
+      {
+        "xy": [
+          -425,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8916": 25.000000007450573,
+          "StaticMeshActor_9901": 25.996032992372673,
+          "StaticMeshActor_9912": 33.4468095867793
+        }
+      },
+      {
+        "xy": [
+          -400,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8916": 25.000000007450573,
+          "StaticMeshActor_9901": 25.858011074351005,
+          "StaticMeshActor_9912": 34.04594464116909
+        }
+      },
+      {
+        "xy": [
+          -375,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8916": 25.000000007450573,
+          "StaticMeshActor_9901": 24.28737291509136,
+          "StaticMeshActor_9912": 33.89066893738117
+        }
+      },
+      {
+        "xy": [
+          -350,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8916": 25.000000007450573,
+          "StaticMeshActor_9901": 25.056733833443687,
+          "StaticMeshActor_9912": 33.73526474119183
+        }
+      },
+      {
+        "xy": [
+          -325,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8916": 25.000000007450573,
+          "StaticMeshActor_9901": 25.51578991537512,
+          "StaticMeshActor_9912": 32.52794703077594,
+          "StaticMeshActor_10020": 4.857746339693476
+        }
+      },
+      {
+        "xy": [
+          -300,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8916": 25.00000000745057,
+          "StaticMeshActor_9901": 24.8632721747141,
+          "StaticMeshActor_9912": 29.034673935583708,
+          "StaticMeshActor_10020": 14.972696200377797
+        }
+      },
+      {
+        "xy": [
+          -275,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8916": 25.000000007450573,
+          "StaticMeshActor_9901": 23.911033322289803,
+          "StaticMeshActor_9912": 24.12570948027301,
+          "StaticMeshActor_10020": 21.322525245483725
+        }
+      },
+      {
+        "xy": [
+          -250,
+          -1000
+        ],
+        "landscape_collision_height": 24.193749999998545,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8916": 25.000000007450573,
+          "StaticMeshActor_9901": 22.549842086385645,
+          "StaticMeshActor_10020": 23.16061712995507
+        }
+      },
+      {
+        "xy": [
+          -225,
+          -1000
+        ],
+        "landscape_collision_height": 15.626082652022887,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8916": 25.000000007450573,
+          "StaticMeshActor_9901": 21.290919268125222,
+          "StaticMeshActor_10020": 23.620211166726342
+        }
+      },
+      {
+        "xy": [
+          -200,
+          -1000
+        ],
+        "landscape_collision_height": 5.80077606029954,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8916": 25.00000000745057,
+          "StaticMeshActor_10020": 23.048784438345184
+        }
+      },
+      {
+        "xy": [
+          -175,
+          -1000
+        ],
+        "landscape_collision_height": -4.024530531423807,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8916": 25.000000007450573,
+          "StaticMeshActor_10020": 22.4413834137705
+        }
+      },
+      {
+        "xy": [
+          -150,
+          -1000
+        ],
+        "landscape_collision_height": -13.849837123147154,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8916": 25.000000007450573,
+          "StaticMeshActor_10020": 21.547577522461008
+        }
+      },
+      {
+        "xy": [
+          -125,
+          -1000
+        ],
+        "landscape_collision_height": -14.934831693921296,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8916": 25.000000007450573,
+          "StaticMeshActor_10020": 19.90070843600967
+        }
+      },
+      {
+        "xy": [
+          -100,
+          -1000
+        ],
+        "landscape_collision_height": -15.63663930761686,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8916": 25.00000000745057,
+          "StaticMeshActor_10020": 18.230626559872224
+        }
+      },
+      {
+        "xy": [
+          -75,
+          -1000
+        ],
+        "landscape_collision_height": -16.338446921312425,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8916": 25.000000007450573,
+          "StaticMeshActor_10020": 14.720608869717298
+        }
+      },
+      {
+        "xy": [
+          -50,
+          -1000
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_7847": 27.26336152922358,
+          "StaticMeshActor_8916": 25.00000000745057
+        }
+      },
+      {
+        "xy": [
+          -25,
+          -1000
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8916": 25.000000007450573
+        }
+      },
+      {
+        "xy": [
+          0,
+          -1000
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8916": 25.000000007450573
+        }
+      },
+      {
+        "xy": [
+          25,
+          -1000
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          50,
+          -1000
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {}
+      }
+    ],
+    "south_gutter_y8225": [
+      {
+        "xy": [
+          -825,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 0.4576808214187622,
+          "Pine_Moss_01": 0.1810193508863449,
+          "Pine_Moss_02": 0.3612998425960541
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -800,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 0.5367417931556702,
+          "Pine_Moss_01": 0.1569729745388031,
+          "Pine_Moss_02": 0.30628523230552673
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -775,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 0.6158030033111572,
+          "Pine_Moss_01": 0.1329265534877777,
+          "Pine_Moss_02": 0.25127047300338745
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9697": 33.0124397277832
+        }
+      },
+      {
+        "xy": [
+          -750,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 0.6948640942573547,
+          "Pine_Moss_01": 0.10888014733791351,
+          "Pine_Moss_02": 0.19625575840473175
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -725,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 0.7684566378593445,
+          "Pine_Moss_01": 0.08468189090490341,
+          "Pine_Moss_02": 0.1468614637851715
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9769": 25.46739890173907
+        }
+      },
+      {
+        "xy": [
+          -700,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 0.8351454138755798,
+          "Pine_Moss_01": 0.060291942209005356,
+          "Pine_Moss_02": 0.10456264764070511
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9769": 25.927092465390956
+        }
+      },
+      {
+        "xy": [
+          -675,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 0.9018341898918152,
+          "Pine_Moss_01": 0.035901989787817,
+          "Pine_Moss_02": 0.06226382777094841
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9769": 26.390632532057325
+        }
+      },
+      {
+        "xy": [
+          -650,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 0.9685229063034058,
+          "Pine_Moss_01": 0.011512062512338161,
+          "Pine_Moss_02": 0.019965052604675293
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9769": 28.18432536644006
+        }
+      },
+      {
+        "xy": [
+          -625,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9769": 25.168965076743923
+        }
+      },
+      {
+        "xy": [
+          -600,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9769": 25.07905723922854
+        }
+      },
+      {
+        "xy": [
+          -575,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9769": 27.351260315645746
+        }
+      },
+      {
+        "xy": [
+          -550,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9769": 29.79551379893067
+        }
+      },
+      {
+        "xy": [
+          -525,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9769": 11.567557236096489
+        }
+      },
+      {
+        "xy": [
+          -500,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8878": 25.00000000745056,
+          "StaticMeshActor_9769": 24.99875309605938
+        }
+      },
+      {
+        "xy": [
+          -475,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8878": 25.000000007450556
+        }
+      },
+      {
+        "xy": [
+          -450,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8878": 25.00000000745056
+        }
+      },
+      {
+        "xy": [
+          -425,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8878": 25.00000000745056,
+          "StaticMeshActor_8968": 21.355988393134975
+        }
+      },
+      {
+        "xy": [
+          -400,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8878": 25.000000007450556,
+          "StaticMeshActor_8968": 32.26748293910382
+        }
+      },
+      {
+        "xy": [
+          -375,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8878": 25.00000000745056,
+          "StaticMeshActor_8968": 26.47128704943272
+        }
+      },
+      {
+        "xy": [
+          -350,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8878": 25.00000000745056,
+          "StaticMeshActor_8968": 27.614511784100287
+        }
+      },
+      {
+        "xy": [
+          -325,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8878": 25.00000000745056,
+          "StaticMeshActor_8968": 36.6266129851339
+        }
+      },
+      {
+        "xy": [
+          -300,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8878": 25.00000000745056,
+          "StaticMeshActor_8968": 26.44286777662063
+        }
+      },
+      {
+        "xy": [
+          -275,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8878": 25.00000000745056,
+          "StaticMeshActor_8968": 19.243011758971306
+        }
+      },
+      {
+        "xy": [
+          -250,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8878": 25.00000000745056,
+          "StaticMeshActor_8968": 12.043155741321986
+        }
+      },
+      {
+        "xy": [
+          -225,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8878": 25.000000007450556
+        }
+      },
+      {
+        "xy": [
+          -200,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8878": 25.000000007450556
+        }
+      },
+      {
+        "xy": [
+          -175,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8878": 25.000000007450552
+        }
+      },
+      {
+        "xy": [
+          -150,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8878": 25.00000000745056
+        }
+      },
+      {
+        "xy": [
+          -125,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8878": 25.00000000745056
+        }
+      },
+      {
+        "xy": [
+          -100,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8878": 25.00000000745056
+        }
+      },
+      {
+        "xy": [
+          -75,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8878": 25.00000000745056
+        }
+      },
+      {
+        "xy": [
+          -50,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8878": 25.00000000745056
+        }
+      },
+      {
+        "xy": [
+          -25,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8878": 25.00000000745056
+        }
+      },
+      {
+        "xy": [
+          0,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8878": 25.00000000745056
+        }
+      },
+      {
+        "xy": [
+          25,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          50,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          75,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          100,
+          -8225
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {}
+      }
+    ],
+    "south_dip_y8475": [
+      {
+        "xy": [
+          -825,
+          -8475
+        ],
+        "landscape_collision_height": -11.778101047522796,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 0.3250204920768738,
+          "Pine_Moss_01": 0.04001924395561218,
+          "Pine_Moss_02": 0.6349602937698364
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_7919": 86.7496806303413
+        }
+      },
+      {
+        "xy": [
+          -800,
+          -8475
+        ],
+        "landscape_collision_height": -13.181716274906648,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 0.4602450132369995,
+          "Pine_Moss_01": 0.04703276976943016,
+          "Pine_Moss_02": 0.4927223026752472
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -775,
+          -8475
+        ],
+        "landscape_collision_height": -14.585331502297777,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 0.5954697132110596,
+          "Pine_Moss_01": 0.054046306759119034,
+          "Pine_Moss_02": 0.3504840135574341
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          -750,
+          -8475
+        ],
+        "landscape_collision_height": -15.988946729688905,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 0.7306944727897644,
+          "Pine_Moss_01": 0.06105984374880791,
+          "Pine_Moss_02": 0.20824572443962097
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_7860": 28.122264502011536
+        }
+      },
+      {
+        "xy": [
+          -725,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 0.8280409574508667,
+          "Pine_Moss_01": 0.057636089622974396,
+          "Pine_Moss_02": 0.1143229529261589
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9598": 25.02083573928269,
+          "StaticMeshActor_7860": 62.45213996681581
+        }
+      },
+      {
+        "xy": [
+          -700,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 0.8775683641433716,
+          "Pine_Moss_01": 0.04103583097457886,
+          "Pine_Moss_02": 0.08139582723379135
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9598": 25.437584405496374,
+          "StaticMeshActor_7860": 64.45103011911438
+        }
+      },
+      {
+        "xy": [
+          -675,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 0.9270957112312317,
+          "Pine_Moss_01": 0.02443557046353817,
+          "Pine_Moss_02": 0.048468705266714096
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9598": 26.411942635934732,
+          "StaticMeshActor_7860": 56.71711225757263
+        }
+      },
+      {
+        "xy": [
+          -650,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 0.9766230583190918,
+          "Pine_Moss_01": 0.007835326716303825,
+          "Pine_Moss_02": 0.015541610307991505
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9598": 28.294917585012254,
+          "StaticMeshActor_7860": 48.62512008933608
+        }
+      },
+      {
+        "xy": [
+          -625,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9598": 24.820160084798143
+        }
+      },
+      {
+        "xy": [
+          -600,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9598": 25.161375805901997
+        }
+      },
+      {
+        "xy": [
+          -575,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9598": 25.708439048782097
+        }
+      },
+      {
+        "xy": [
+          -550,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9598": 20.596817572109888
+        }
+      },
+      {
+        "xy": [
+          -525,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9598": 17.363072719648514
+        }
+      },
+      {
+        "xy": [
+          -500,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450573,
+          "StaticMeshActor_9598": 24.99888348557091
+        }
+      },
+      {
+        "xy": [
+          -475,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450573
+        }
+      },
+      {
+        "xy": [
+          -450,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450573
+        }
+      },
+      {
+        "xy": [
+          -425,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450573
+        }
+      },
+      {
+        "xy": [
+          -400,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450573,
+          "StaticMeshActor_8968": 24.188604933702777
+        }
+      },
+      {
+        "xy": [
+          -375,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450573,
+          "StaticMeshActor_8968": 26.66444658103687
+        }
+      },
+      {
+        "xy": [
+          -350,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450573,
+          "StaticMeshActor_8968": 28.879339963987217
+        }
+      },
+      {
+        "xy": [
+          -325,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450573,
+          "StaticMeshActor_8968": 27.501366593366
+        }
+      },
+      {
+        "xy": [
+          -300,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450573,
+          "StaticMeshActor_8968": 28.703250612947052
+        }
+      },
+      {
+        "xy": [
+          -275,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450573,
+          "StaticMeshActor_8968": 31.424464822830366
+        }
+      },
+      {
+        "xy": [
+          -250,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450573,
+          "StaticMeshActor_8968": 26.554052728246347
+        }
+      },
+      {
+        "xy": [
+          -225,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450573,
+          "StaticMeshActor_8968": 20.140310311335963
+        }
+      },
+      {
+        "xy": [
+          -200,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450573,
+          "StaticMeshActor_8968": 13.554321805031154
+        }
+      },
+      {
+        "xy": [
+          -175,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450573
+        }
+      },
+      {
+        "xy": [
+          -150,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450577
+        }
+      },
+      {
+        "xy": [
+          -125,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450573
+        }
+      },
+      {
+        "xy": [
+          -100,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450573
+        }
+      },
+      {
+        "xy": [
+          -75,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450573
+        }
+      },
+      {
+        "xy": [
+          -50,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.00000000745057
+        }
+      },
+      {
+        "xy": [
+          -25,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450573
+        }
+      },
+      {
+        "xy": [
+          0,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450573
+        }
+      },
+      {
+        "xy": [
+          25,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          50,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          75,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          100,
+          -8475
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {}
+      }
+    ],
+    "south_driveway_y8725": [
+      {
+        "xy": [
+          -825,
+          -8725
+        ],
+        "landscape_collision_height": -7.757211871074105,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Base": 0.3483615219593048,
+          "Grass_02": 0.19479230046272278,
+          "Pine_Moss_01": 0.005498911254107952,
+          "Pine_Moss_02": 0.4160422384738922,
+          "Pine_Moss_03": 0.03759114444255829
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_7860": 86.28999007823813
+        }
+      },
+      {
+        "xy": [
+          -800,
+          -8725
+        ],
+        "landscape_collision_height": -9.862495496490737,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Base": 0.33490073680877686,
+          "Grass_02": 0.2696115970611572,
+          "Pine_Moss_01": 0.005139505490660667,
+          "Pine_Moss_02": 0.358125239610672,
+          "Pine_Moss_03": 0.03386653959751129
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_7860": 77.55829088073435
+        }
+      },
+      {
+        "xy": [
+          -775,
+          -8725
+        ],
+        "landscape_collision_height": -12.635910165008681,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Base": 0.3214398920536041,
+          "Grass_02": 0.3444310426712036,
+          "Pine_Moss_01": 0.004780099727213383,
+          "Pine_Moss_02": 0.30020812153816223,
+          "Pine_Moss_03": 0.03014192543923855
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_7860": 67.62133128230225
+        }
+      },
+      {
+        "xy": [
+          -750,
+          -8725
+        ],
+        "landscape_collision_height": -15.443012113013538,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Base": 0.3079790472984314,
+          "Grass_02": 0.41925048828125,
+          "Pine_Moss_01": 0.004420693963766098,
+          "Pine_Moss_02": 0.24229100346565247,
+          "Pine_Moss_03": 0.026417311280965805
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_7860": 13.707285403940215
+        }
+      },
+      {
+        "xy": [
+          -725,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Base": 0.2665367126464844,
+          "Grass_02": 0.5218679308891296,
+          "Pine_Moss_01": 0.0037435730919241905,
+          "Pine_Moss_02": 0.18626141548156738,
+          "Pine_Moss_03": 0.021590426564216614
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9633": 23.508548736572262,
+          "StaticMeshActor_9893": 16.953019653112364,
+          "StaticMeshActor_7860": 7.214617043865018
+        }
+      },
+      {
+        "xy": [
+          -700,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Base": 0.1897692084312439,
+          "Grass_02": 0.659578800201416,
+          "Pine_Moss_01": 0.002665354870259762,
+          "Pine_Moss_02": 0.13261467218399048,
+          "Pine_Moss_03": 0.015371983870863914
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9633": 22.960256755051784,
+          "StaticMeshActor_9893": 20.97675002393376
+        }
+      },
+      {
+        "xy": [
+          -675,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Base": 0.11300170421600342,
+          "Grass_02": 0.7972896695137024,
+          "Pine_Moss_01": 0.0015871364157646894,
+          "Pine_Moss_02": 0.07896795123815536,
+          "Pine_Moss_03": 0.009153541177511215
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9633": 23.29994314604792,
+          "StaticMeshActor_9893": 24.796561903686936
+        }
+      },
+      {
+        "xy": [
+          -650,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Base": 0.03623427450656891,
+          "Grass_02": 0.9350004196166992,
+          "Pine_Moss_01": 0.0005089192418381572,
+          "Pine_Moss_02": 0.025321269407868385,
+          "Pine_Moss_03": 0.002935105934739113
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9633": 23.508548736572266,
+          "StaticMeshActor_9893": 27.413548694775283
+        }
+      },
+      {
+        "xy": [
+          -625,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9633": 23.508548736572266,
+          "StaticMeshActor_9893": 30.014327401015056
+        }
+      },
+      {
+        "xy": [
+          -600,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9633": 23.385587089357315,
+          "StaticMeshActor_9893": 31.334269222069537
+        }
+      },
+      {
+        "xy": [
+          -575,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9633": 25.675294364683094,
+          "StaticMeshActor_9893": 30.764081066267593
+        }
+      },
+      {
+        "xy": [
+          -550,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9633": 20.567546581390562,
+          "StaticMeshActor_9893": 31.4245624270838
+        }
+      },
+      {
+        "xy": [
+          -525,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9633": 17.20133935999286,
+          "StaticMeshActor_9893": 29.915931717608334
+        }
+      },
+      {
+        "xy": [
+          -500,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.00000000745056,
+          "StaticMeshActor_9633": 24.998377320380182,
+          "StaticMeshActor_9893": 29.238293218774405
+        }
+      },
+      {
+        "xy": [
+          -475,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450556,
+          "StaticMeshActor_9893": 30.628667886474222
+        }
+      },
+      {
+        "xy": [
+          -450,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.00000000745056,
+          "StaticMeshActor_9893": 31.469339980709226
+        }
+      },
+      {
+        "xy": [
+          -425,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.00000000745056,
+          "StaticMeshActor_9893": 32.32434306435843
+        }
+      },
+      {
+        "xy": [
+          -400,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450556,
+          "StaticMeshActor_9893": 31.61887703106143
+        }
+      },
+      {
+        "xy": [
+          -375,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.00000000745056,
+          "StaticMeshActor_9893": 28.49426256178748
+        }
+      },
+      {
+        "xy": [
+          -350,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.00000000745056,
+          "StaticMeshActor_9893": 23.923348277308822
+        }
+      },
+      {
+        "xy": [
+          -325,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.00000000745056,
+          "StaticMeshActor_9893": 18.419240783543113
+        }
+      },
+      {
+        "xy": [
+          -300,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.00000000745056
+        }
+      },
+      {
+        "xy": [
+          -275,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.00000000745056
+        }
+      },
+      {
+        "xy": [
+          -250,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.00000000745056
+        }
+      },
+      {
+        "xy": [
+          -225,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450556
+        }
+      },
+      {
+        "xy": [
+          -200,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450556
+        }
+      },
+      {
+        "xy": [
+          -175,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.000000007450552
+        }
+      },
+      {
+        "xy": [
+          -150,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.00000000745056
+        }
+      },
+      {
+        "xy": [
+          -125,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.00000000745056
+        }
+      },
+      {
+        "xy": [
+          -100,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.00000000745056
+        }
+      },
+      {
+        "xy": [
+          -75,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.00000000745056
+        }
+      },
+      {
+        "xy": [
+          -50,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.00000000745056
+        }
+      },
+      {
+        "xy": [
+          -25,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.00000000745056
+        }
+      },
+      {
+        "xy": [
+          0,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_8881": 25.00000000745056
+        }
+      },
+      {
+        "xy": [
+          25,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          50,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          75,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {}
+      },
+      {
+        "xy": [
+          100,
+          -8725
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {}
+      }
+    ],
+    "south_gutter_seam": [
+      {
+        "xy": [
+          -749,
+          -8350.1
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 0.7083537578582764,
+          "Pine_Moss_01": 0.11489196866750717,
+          "Pine_Moss_02": 0.17675432562828064
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9598": 25.01353187185101
+        }
+      },
+      {
+        "xy": [
+          -749,
+          -8349.9
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 0.70838463306427,
+          "Pine_Moss_01": 0.11485117673873901,
+          "Pine_Moss_02": 0.17676423490047455
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9769": 24.99999904446304
+        }
+      },
+      {
+        "xy": [
+          -725,
+          -8350.1
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 0.7856422662734985,
+          "Pine_Moss_01": 0.09907136112451553,
+          "Pine_Moss_02": 0.11528640240430832
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9598": 25.050377462993694
+        }
+      },
+      {
+        "xy": [
+          -725,
+          -8349.9
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 0.7856565117835999,
+          "Pine_Moss_01": 0.09901446849107742,
+          "Pine_Moss_02": 0.1153290718793869
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9769": 24.99999904446304
+        }
+      },
+      {
+        "xy": [
+          -675,
+          -8350.1
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 0.9091202616691589,
+          "Pine_Moss_01": 0.0420025959610939,
+          "Pine_Moss_02": 0.04887716844677925
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9598": 25.050884393867705
+        }
+      },
+      {
+        "xy": [
+          -675,
+          -8349.9
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 0.9091262817382812,
+          "Pine_Moss_01": 0.04197847470641136,
+          "Pine_Moss_02": 0.04889525845646858
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9769": 24.99999904446304
+        }
+      },
+      {
+        "xy": [
+          -625,
+          -8350.1
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9598": 24.999999880809092
+        }
+      },
+      {
+        "xy": [
+          -625,
+          -8349.9
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9769": 25.014667354305555
+        }
+      },
+      {
+        "xy": [
+          -575,
+          -8350.1
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9598": 24.99999970337436
+        }
+      },
+      {
+        "xy": [
+          -575,
+          -8349.9
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9769": 25.01452942211145
+        }
+      },
+      {
+        "xy": [
+          -525,
+          -8350.1
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9598": 15.469575541697251
+        }
+      },
+      {
+        "xy": [
+          -525,
+          -8349.9
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9769": 15.468331781036238
+        }
+      },
+      {
+        "xy": [
+          -501,
+          -8350.1
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9598": 24.325796807675424
+        }
+      },
+      {
+        "xy": [
+          -501,
+          -8349.9
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9769": 24.322550511351174
+        }
+      }
+    ],
+    "south_gutter_opening": [
+      {
+        "xy": [
+          -530,
+          -8245
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9769": -23.029173343756987
+        }
+      },
+      {
+        "xy": [
+          -530,
+          -8240
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9769": -22.988684554829838
+        }
+      },
+      {
+        "xy": [
+          -530,
+          -8230
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9769": -22.907706976975533
+        }
+      },
+      {
+        "xy": [
+          -525,
+          -8220
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9769": -17.891820669453764
+        }
+      },
+      {
+        "xy": [
+          -525,
+          -8230
+        ],
+        "landscape_collision_height": -17.009375000001455,
+        "landscape_actor": "Landscape_1",
+        "paint_weights": {
+          "Grass_02": 1.0
+        },
+        "lod0_top_heights": {
+          "StaticMeshActor_9769": -16.989431609362406
+        }
+      }
+    ]
+  },
+  "dirty_maps": [],
+  "dirty_content": []
+}
