@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-15",
+  "scope": "Three protected assets only; not a complete content directory hash audit",
+  "checks": [
+    {
+      "relative": "Content/SyntySenceLearning/PolygonApocalypse/AftermathTown/L_AftermathTown.umap",
+      "before_sha256": "c8934a2f0b4c959eccaaf23480c5aa3167bb0950a173efe25dba120ef7b805ab",
+      "after_sha256": "c8934a2f0b4c959eccaaf23480c5aa3167bb0950a173efe25dba120ef7b805ab",
+      "unchanged": true
+    },
+    {
+      "relative": "Content/Synty/PolygonMapsWoodlandApocalypse/Maps/Demo.umap",
+      "before_sha256": "21cbe8c5fe1758e9bb2dd67474580f05d4e185cd480f6743d159c6343f009d0e",
+      "after_sha256": "21cbe8c5fe1758e9bb2dd67474580f05d4e185cd480f6743d159c6343f009d0e",
+      "unchanged": true
+    },
+    {
+      "relative": "Content/Synty/PolygonGeneric/LandscapeMaterial/M_Land_Woods.uasset",
+      "before_sha256": "820a42c68ec25e78d54c6bf0703909ccea035456afedec80406d151fb35026ef",
+      "after_sha256": "820a42c68ec25e78d54c6bf0703909ccea035456afedec80406d151fb35026ef",
+      "unchanged": true
+    }
+  ]
+}
